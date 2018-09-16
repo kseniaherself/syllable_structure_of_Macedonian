@@ -1,5 +1,6 @@
 INITIALS
-VOW
+SYL
+ VOW
  b
  b-d
  b-l

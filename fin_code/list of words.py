@@ -1,6 +1,7 @@
 # macedonian_dict.tsv
 #12
 import re
+import operator
 
 # чтение строк из файла, возвращает строки
 def F_get_lines(f_name):
@@ -112,17 +113,27 @@ def F_number_syllables_by_vowels_plus_schwa(word, syllabic_head):
     n_syllables = 0
 
     for element in word:
-        for i in range(0, 10):
+        for i in range(0, 6):
             if element == syllabic_head[i]:
                 n_syllables += 1
 #['a', 'e', 'i', 'o', 'u', 'è', 'ì', 'L', 'N', 'R']
     n_syllables_s = n_syllables
+    #print(n_syllables)
     for letter in word:
-        if letter == syllabic_head[7] or syllabic_head[8] or syllabic_head[9]:
+        #print(letter, n_syllables_s)
+        if letter == syllabic_head[7]:
             n_syllables_s = n_syllables_s + 1
+
+        elif letter == syllabic_head[8]:
+            n_syllables_s = n_syllables_s + 1
+
+        elif letter == syllabic_head[9]:
+            n_syllables_s = n_syllables_s + 1
+
         else:
             n_syllables_s = n_syllables_s
 
+    #print(n_syllables_s)
     total_n = str(n_syllables) + '\t' + str(n_syllables_s)
     #print(total_n)
 
@@ -131,9 +142,13 @@ def F_number_syllables_by_vowels_plus_schwa(word, syllabic_head):
         #print(word)
 
 # проверка разности слогов: две швы в одном слове было бы подозрительно, (если это не Р)
-    alt_j = n_syllables_s - n_syllables_s
-    if alt_j != 0 and 1:
-        print ('слова с двумя слоговыми: ', total_n)
+    alt_j = n_syllables_s - n_syllables
+    #print(alt_j)
+    if alt_j != 0 and alt_j != 1:
+        print ('слова с двумя слоговыми: ', word, total_n)
+    #может напечатать слова в МФА со слоговыми
+    #if alt_j == 1:
+    #    print(word, total_n)
 
     return total_n
 
@@ -154,8 +169,10 @@ def F_words_initials(word):
     res = re.match('([^aeiouèìLNR]+?)(-)*?[aeiouèìLNR]', word) #('([^aeiouèìə]+?(R)*?)(-)*?[aeiouèìə]', word)
     if res:
         initial = res.group(1)
-    else:
-        initial = 'VOW'
+
+    res_syl = re.match('^[RLM]', word)
+    if res_syl:
+        initial = 'SYL'
 
     #print(initial)
     return initial
@@ -180,9 +197,12 @@ def F_words_finals_wo_sS(word):
 # финали С УЧЁТОМ СЛОГОВЫХ СОНОРНЫХ
 def F_words_finals(word):
     final = 'VOW'
+
+
     res = re.findall('-*?([^aeiouèìLNR]+?|([^aeiouèì([LNR])]+?)$', word) #('-*?([^aeiouèì(.ə)]+?|([Rln]ə[^aeiouèì(.ə)]+?)|[Rln]ə)$', word)    #('^|[aeiouèì]|[Rlmnə]-*?([^aeiouèì]+?$)', word)
     #print(res)
     #if res!= ['']:
+
     if res != []:
         #print(res)
         #final = str(res)#[1]
@@ -191,6 +211,13 @@ def F_words_finals(word):
         if res1:
             #print(res1[0])
             final = final.replace('-', '', 1)
+
+    res_syl1 = re.findall('[LNR]$', word)
+    # print(word)
+
+    if res_syl1 != []:
+        final = 'SYL'
+        #print(final)
 
     #print(final)
     return final
@@ -206,6 +233,15 @@ def F_sort(list_to_sort):
     #print(sorted_c)
     return sorted_c
 
+# запись в словарь
+def F_w_d(my_dict, my_key):
+    if my_key not in my_dict:
+        my_dict[my_key] = 1
+    else:
+        my_dict[my_key] += 1
+
+    return my_dict
+
 # таблица с:
 #   грамматической информацией
 #   словами
@@ -219,9 +255,12 @@ def M_create_table_1():
 
     syllabic_heads = ['a', 'e', 'i', 'o', 'u', 'è', 'ì', 'L', 'N', 'R'] #'ə']
 
-    possible_initials_wo_s = []
+    initials_wo = {}
+    initials = {}
     possible_initials = [] # 'INITIALS'
-    possible_finals_wo_s = []
+
+    finals_wo = {}
+    finals = {}
     possible_finals = [] # 'FINALS'
     all_words = ''
     st = '\t'
@@ -229,8 +268,8 @@ def M_create_table_1():
 
     my_lines = F_get_lines(f_name)
     #asd = my_lines[1:54498]        # все слова: без первой строчки с названиями
-    asd = my_lines[1:]
-    #asd = my_lines[4000:5000]     # тестовая выборка
+    asd = my_lines[1:]            # РАБОЧАЯ ВЕРСИЯ ДЛЯ ВСЕХ СЛОВ
+    #asd = my_lines[41000:45000]     # тестовая выборка
 
     for line in asd:
         #print(line)
@@ -286,19 +325,22 @@ def M_create_table_1():
             words_initials_wo_sR = F_words_initials_wo_sR(ipa_word)
 # получены инициали слов МФА !!! без расчёта слоговых
             full_data = full_data + st + words_initials_wo_sR
+            initials_wo = F_w_d(initials_wo, words_initials_wo_sR)
 
             words_initials = F_words_initials(ipa_word)
 # получены инициали слов МФА
             full_data = full_data + st + words_initials
-            #print(full_data)
+            initials = F_w_d(initials, words_initials)
 
             words_finals_wo_sR = F_words_finals_wo_sS(ipa_word)
 # получены финали слов МФА !!! без расчёта слоговых
             full_data = full_data + st + words_finals_wo_sR
+            finals_wo = F_w_d(finals_wo, words_finals_wo_sR)
 
             words_finals = F_words_finals(ipa_word)
 # получены финали слов МФА
             full_data = full_data + st + words_finals
+            finals = F_w_d(finals, words_finals)
 
             #if words_initials_wo_sR not in possible_initials_wo_s:
             #    possible_initials_wo_s.append(words_initials_wo_sR)     # инициали без слоговых: possible_initials_wo_s
@@ -324,7 +366,7 @@ def M_create_table_1():
     for initial in possible_initials:
         possible_initials_W = possible_initials_W + sn + initial
     #print(possible_initials_W)
-    F_write_in_file(possible_initials_W, 'initials.txt')
+    #F_write_in_file(possible_initials_W, 'initials.txt')
 
 
 # печать всех финалей
@@ -333,12 +375,50 @@ def M_create_table_1():
     for final in possible_finals:
         possible_finals_W = possible_finals_W + sn + final
     #print(possible_finals_W)
-    F_write_in_file(possible_finals_W, 'finals.txt')
+    #F_write_in_file(possible_finals_W, 'finals.txt')
 
     first_line = 'grammar' + st + 'lemma' + st + 'lettering' + st + 'ipa_lettering' + st + 'n_syllables_wo' \
                  + st + 'n_syllables' + st + 'initial_wo' + st + 'initial' + st + 'final_wo' + st + 'final'
 
     data = first_line + all_words
+    #print(data)
+#  таблица создана и записана
+
+    sorted_initials_wo = sorted(initials_wo.items(), key=operator.itemgetter(1), reverse=True)
+    #print (sorted_initials_wo)
+    initials_wo_f = ''
+    for k in sorted_initials_wo:
+        initials_wo_f = initials_wo_f + k[0] + st + str(k[1]) + sn
+    #    print(k[0], k[1])
+    F_write_in_file(initials_wo_f, 'initials_wo_freq.txt')
+
+
+    sorted_initials = sorted(initials.items(), key=operator.itemgetter(1), reverse=True)
+    #print (sorted_initials)
+    initials_f = ''
+    for k in sorted_initials:
+        initials_f = initials_f + k[0] + st + str(k[1]) + sn
+    #    print(k[0], k[1])
+    F_write_in_file(initials_f, 'initials_freq.txt')
+
+    sorted_finals_wo = sorted(finals_wo.items(), key=operator.itemgetter(1), reverse=True)
+    # print (sorted_initials_wo)
+    finals_wo_f = ''
+    for k in sorted_finals_wo:
+        finals_wo_f = finals_wo_f + k[0] + st + str(k[1]) + sn
+        #print(k[0], k[1])
+    F_write_in_file(finals_wo_f, 'finals_wo_freq.txt')
+
+
+    sorted_finals = sorted(finals.items(), key=operator.itemgetter(1), reverse=True)
+    # print (sorted_initials)
+    finals_f = ''
+    for k in sorted_finals:
+        finals_f = finals_f + k[0] + st + str(k[1]) + sn
+    #    print(k[0], k[1])
+    F_write_in_file(finals_f, 'finals_freq.txt')
+
+    #print (finals)
     F_write_in_file(data, 'phon_table.tsv')
 
 M_create_table_1()
