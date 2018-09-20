@@ -1,8 +1,11 @@
 # macedonian_dict.tsv
 #12
 # то что WOS то без учёта слоговости
+# иниц без сл: 6, со: 4; фин без сл: 5, с: 3
 import re
 import operator
+import time
+start_time = time.time()
 
 # чтение строк из файла, возвращает строки
 def F_get_lines(f_name):
@@ -231,6 +234,30 @@ def F_words_finals(word):
     #print(final)
     return final
 
+# сегменты штук
+def F_items_segments(words_items, sta, sto, ste):
+    items_segments = ''
+
+    words_segments = words_items.split('-')
+
+    delta = sto + len(words_segments)*ste
+    if ste == 1:
+        words_segments = words_segments + delta*['']
+    else:
+        words_segments = delta*[''] + words_segments
+
+    for i in range(sta, sto):
+
+        if words_segments[i] != '':
+            #print(words_segments[i])
+            items_segments = items_segments + words_segments[i] + '\t'
+
+        else:
+            items_segments = items_segments + '\t'
+
+    #print(items_segments)
+    return items_segments
+
 # сортировка
 def F_sort_dictionary(list_to_sort):
     sorted_c = str(sorted(list_to_sort))
@@ -259,7 +286,6 @@ def F_sord_wd_items(my_items, items_name):
         items_freq = items_freq + '\n' + k[0] + '\t' + str(k[1])
     f_name = items_name + '_frequency.txt'
     F_write_in_file(items_freq, f_name)
-
 
 # таблица с:
 #   грамматической информацией
@@ -290,7 +316,7 @@ def M_create_table_1():
     my_lines = F_get_lines(f_name)
     #asd = my_lines[1:54498]        # все слова: без первой строчки с названиями
     asd = my_lines[1:]             # РАБОЧАЯ ВЕРСИЯ ДЛЯ ВСЕХ СЛОВ
-    #asd = my_lines[500:12509]       # тестовая выборка
+    #asd = my_lines[1102:2103]       # тестовая выборка
 
     for line in asd:
         #print(line)
@@ -335,45 +361,54 @@ def M_create_table_1():
             full_data = full_data + st + str(number_syllables)
             #print(full_data)
 
-            words_initials_wos = F_words_initials_wos(ipa_word)
+            words_initial_wos = F_words_initials_wos(ipa_word)
 # получены инициали слов МФА !!! без расчёта слоговых
-            full_data = full_data + st + words_initials_wos
-            initials_wos = F_w_d(initials_wos, words_initials_wos)
+            initials_wos = F_w_d(initials_wos, words_initial_wos)
 
-            words_initials = F_words_initials(ipa_word)
+            words_initial = F_words_initials(ipa_word)
 # получены инициали слов МФА
-            full_data = full_data + st + words_initials
-            initials = F_w_d(initials, words_initials)
+            initials = F_w_d(initials, words_initial)
 
-            words_finals_wos = F_words_finals_wos(ipa_word)
+            words_final_wos = F_words_finals_wos(ipa_word)
 # получены финали слов МФА !!! без расчёта слоговых
-            full_data = full_data + st + words_finals_wos
-            finals_wos = F_w_d(finals_wos, words_finals_wos)
+            finals_wos = F_w_d(finals_wos, words_final_wos)
 
-            words_finals = F_words_finals(ipa_word)
+            words_final = F_words_finals(ipa_word)
 # получены финали слов МФА
-            full_data = full_data + st + words_finals
-            finals = F_w_d(finals, words_finals)
+            finals = F_w_d(finals, words_final)
 
-            #if words_initials_wos not in possible_initials_wos:
-            #    possible_initials_wos.append(words_initials_wos)     # инициали без учёта слоговых: possible_initials_wos
-            if words_initials not in possible_initials:
-                possible_initials.append(words_initials)                # инициали со слоговыми: possible_initials
-                #possible_initials = possible_initials + sn + words_initials
+            words_items = words_initial_wos + st + words_initial + st + words_final_wos + st + words_final
+            full_data = full_data + st + words_items
 
-            #if words_finals_wos not in possible_finals_wos:
-            #    possible_finals_wos.append(words_finals_wos)         # финали без учёта слоговых: possible_finals_wos
-            if words_finals not in possible_finals:
-                possible_finals.append(words_finals)                    # финали со слоговыми: possible_finals
-                #possible_finals = possible_finals + sn + words_finals
+# тут нужно разбить на сегменты
+            initials_segments_wos = F_items_segments(words_initial_wos, 0, 6, -1)
+            initials_segments = F_items_segments(words_initial, 0, 4, -1)
+
+            finals_segments_wos = F_items_segments(words_final_wos, 0, 5, 1) #4
+            finals_segments = F_items_segments(words_final, 0, 3, 1) #2
+
+            full_data = full_data + st + initials_segments_wos + initials_segments + finals_segments_wos + finals_segments
+
+
+            #if words_initial_wos not in possible_initials_wos:
+            #    possible_initials_wos.append(words_initial_wos)     # инициали без учёта слоговых: possible_initials_wos
+            if words_initial not in possible_initials:
+                possible_initials.append(words_initial)                # инициали со слоговыми: possible_initials
+                #possible_initials = possible_initials + sn + words_initial
+
+            #if words_final_wos not in possible_finals_wos:
+            #    possible_finals_wos.append(words_final_wos)         # финали без учёта слоговых: possible_finals_wos
+            if words_final not in possible_finals:
+                possible_finals.append(words_final)                    # финали со слоговыми: possible_finals
+                #possible_finals = possible_finals + sn + words_final
 
             #print(full_data)
 
             all_words = all_words + sn + full_data
 
     #print(all_words)
+
 # печать всех инициалей
-#'''
     possible_initials_W = items_i
     possible_initials = F_sort_dictionary(possible_initials)
     for initial in possible_initials:
@@ -392,9 +427,10 @@ def M_create_table_1():
 
     first_line = 'grammar' + st + 'lemma' + st + 'lettering' + st + 'ipa_lettering' + st + 'n_syllables_wos' \
                  + st + 'n_syllables' + st + 'initial_wos' + st + 'initial' + st + 'final_wos' + st + 'final' \
-                 #+ st + 'i_wos_6' + st + 'i_wos_5' + st + 'i_wos_4' + st + 'i_wos_3' + st + 'i_wos_2' + st + 'i_wos_1' \
-                 #+ st + 'f_wos_1' + st + 'f_wos_2' + st + 'f_wos_3' + st + 'f_wos_4'+ st + 'f_wos_5' \
-                 #+ st + 'i_4' + st + 'i_3' + st + 'i_2' + st + 'i_1' + st + 'f_1' + st + 'f_2' + st + 'f_3'
+                 + st + 'i_wos_6' + st + 'i_wos_5' + st + 'i_wos_4' + st + 'i_wos_3' + st + 'i_wos_2' + st + 'i_wos_1' \
+                 + st + 'i_4' + st + 'i_3' + st + 'i_2' + st + 'i_1' \
+                 + st + 'f_wos_1' + st + 'f_wos_2' + st + 'f_wos_3' + st + 'f_wos_4'+ st + 'f_wos_5' \
+                 + st + 'f_1' + st + 'f_2' + st + 'f_3'
 
     data = first_line + all_words
     #print(data)
@@ -409,3 +445,4 @@ def M_create_table_1():
     F_write_in_file(data, 'phon_table.tsv')
 
 M_create_table_1()
+print("--- %s seconds ---" % (time.time() - start_time))
