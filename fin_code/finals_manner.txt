@@ -1,0 +1,34 @@
+FINALS
+F
+ F-P
+ G
+ G-F
+ G-L
+ G-N
+ G-P
+ L
+ L-F
+ L-P
+ L-PF
+ LG
+ N
+ N-F
+ N-P
+ N-P-F
+ N-P-P
+ N-PF
+ NG
+ P
+ P-F
+ P-F-P
+ P-P
+ PF
+ SYL
+ T
+ T-F
+ T-F-P
+ T-N
+ T-P
+ T-P-P
+ T-PF
+ VOW
