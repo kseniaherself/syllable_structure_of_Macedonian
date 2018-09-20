@@ -20,7 +20,7 @@ def F_write_in_file(data , f_name):
     f.close()
 
 # стандартизация грамматического комментария: получает на М, возвращает станд.вариант
-def F_standard_grammar(grammar_inf):
+def F_standardization_grammar(grammar_inf):
     st_grammar_inf = grammar_inf
 
     a1 = st_grammar_inf.replace('Вид збор: ', '')
@@ -109,7 +109,7 @@ def F_ipa_transcriber(word):
     return word
 
 # количество слогов: на выходе количество слогов вообще по гласным и с учётом "слоговых"
-# (+печатает слова "без-гласных"). (+печатает слова с двумя шва).
+# (+печатает слова "без-гласных"). (+печатает слова с двумя шва). (+печатает слова с апострофом). (+печатает слова с Л,Н).
 def F_number_syllables_by_vowels_plus_schwa(word, syllabic_head):
     n_syllables_wos = 0
 
@@ -147,12 +147,19 @@ def F_number_syllables_by_vowels_plus_schwa(word, syllabic_head):
     #print(alt_j)
     if alt_j != 0 and alt_j != 1:
         print ('слова с двумя слоговыми: ', word, total_n)
-    #может напечатать слова в МФА со слоговыми
+# может напечатать слова в МФА со слоговыми
     #if alt_j == 1:
     #    print(word, total_n)
 
+# может напечатать слова с apostrophe
     if '’' in word:
         print('слово с этой ’ штукой: ', word)
+
+# может напечатать слова со слоговым Л или Н
+    #if '-L' in word:
+    #    print('слово со слоговым Л', word)
+    #if '-N' in word:
+    #    print('слово со слоговым Н', word)
 
     return total_n
 
@@ -225,7 +232,7 @@ def F_words_finals(word):
     return final
 
 # сортировка
-def F_sort(list_to_sort):
+def F_sort_dictionary(list_to_sort):
     sorted_c = str(sorted(list_to_sort))
     sorted_c = sorted_c.replace("'", "")
     sorted_c = sorted_c.replace("[", "")
@@ -244,6 +251,16 @@ def F_w_d(my_dict, my_key):
 
     return my_dict
 
+# записывает файл с отсортированными по частотностями штуками
+def F_sord_wd_items(my_items, items_name):
+    sorted_items = sorted(my_items.items(), key=operator.itemgetter(1), reverse=True)
+    items_freq = items_name + '\t' + 'frequency'
+    for k in sorted_items:
+        items_freq = items_freq + '\n' + k[0] + '\t' + str(k[1])
+    f_name = items_name + '_frequency.txt'
+    F_write_in_file(items_freq, f_name)
+
+
 # таблица с:
 #   грамматической информацией
 #   словами
@@ -253,6 +270,8 @@ def F_w_d(my_dict, my_key):
 #   инициалями
 #   финалями
 def M_create_table_1():
+    items_i = 'INITIALS'
+    items_f = 'FINALS'
     f_name = 'macedonian_dict1.tsv'
 
     syllabic_heads = ['a', 'e', 'i', 'o', 'u', 'è', 'ì', 'L', 'N', 'R'] #'ə']
@@ -270,8 +289,8 @@ def M_create_table_1():
 
     my_lines = F_get_lines(f_name)
     #asd = my_lines[1:54498]        # все слова: без первой строчки с названиями
-    asd = my_lines[1:]            # РАБОЧАЯ ВЕРСИЯ ДЛЯ ВСЕХ СЛОВ
-    #asd = my_lines[3500:14509]     # тестовая выборка
+    asd = my_lines[1:]             # РАБОЧАЯ ВЕРСИЯ ДЛЯ ВСЕХ СЛОВ
+    #asd = my_lines[500:12509]       # тестовая выборка
 
     for line in asd:
         #print(line)
@@ -287,16 +306,15 @@ def M_create_table_1():
                 #print(entry)
 
         grammar_info = line_split[2] # для данного слова есть его грамматическая инфорация
-        grammar_info = F_standard_grammar(grammar_info)
+        grammar_info = F_standardization_grammar(grammar_info)
         #print(grammar_inf)
 # получена грамматическая информация
         full_data = grammar_info + st + entry # грам информация и слово через \t
         #print('full_dat: ', full_data)
 
 
-        #if not ('_' in full_data or 'abbr' in full_data or 'affixoid_pref' in full_data or 'affixoid_suf' in full_data or 'compound' in full_data):
-        #if '_' not in full_data or 'abbr' not in full_data or 'affixoid_pref' not in full_data or 'affixoid_suf' not in full_data or 'compound' not in full_data:
-        if '’' not in full_data and '_' not in full_data and 'abbr'not in full_data and 'compound' not in full_data:
+        if '’' not in full_data and '_' not in full_data and 'abbr'not in full_data \
+                and 'compound' not in full_data and 'interjection' not in full_data:
 
             entry = entry.replace('!', '')
             lettering = F_lettering(entry)
@@ -311,15 +329,6 @@ def M_create_table_1():
 # получено разделённое слово в МФА
             full_data = full_data + st + ipa_word
             #print(full_data)
-
-# следующие строчки кода печатают слова со слоговыми л и н [НЕСДВИНУТЫЕ]
-            #res_l = re.findall('-L$', ipa_word)
-            #if res_l:
-            #    print(ipa_word)
-            #res_n = re.findall('-N$', ipa_word)
-            #if res_n:
-            #    print(ipa_word)
-
 
             number_syllables = F_number_syllables_by_vowels_plus_schwa(ipa_word, syllabic_heads)
 # получено количество слогов по гласным + '\t' слоговым
@@ -365,8 +374,8 @@ def M_create_table_1():
     #print(all_words)
 # печать всех инициалей
 #'''
-    possible_initials_W = 'INITIALS'
-    possible_initials = F_sort(possible_initials)
+    possible_initials_W = items_i
+    possible_initials = F_sort_dictionary(possible_initials)
     for initial in possible_initials:
         possible_initials_W = possible_initials_W + sn + initial
     #print(possible_initials_W)
@@ -374,8 +383,8 @@ def M_create_table_1():
 
 
 # печать всех финалей
-    possible_finals_W = 'FINALS'
-    possible_finals = F_sort(possible_finals)
+    possible_finals_W = items_f
+    possible_finals = F_sort_dictionary(possible_finals)
     for final in possible_finals:
         possible_finals_W = possible_finals_W + sn + final
     #print(possible_finals_W)
@@ -383,47 +392,20 @@ def M_create_table_1():
 
     first_line = 'grammar' + st + 'lemma' + st + 'lettering' + st + 'ipa_lettering' + st + 'n_syllables_wos' \
                  + st + 'n_syllables' + st + 'initial_wos' + st + 'initial' + st + 'final_wos' + st + 'final' \
+                 #+ st + 'i_wos_6' + st + 'i_wos_5' + st + 'i_wos_4' + st + 'i_wos_3' + st + 'i_wos_2' + st + 'i_wos_1' \
+                 #+ st + 'f_wos_1' + st + 'f_wos_2' + st + 'f_wos_3' + st + 'f_wos_4'+ st + 'f_wos_5' \
                  #+ st + 'i_4' + st + 'i_3' + st + 'i_2' + st + 'i_1' + st + 'f_1' + st + 'f_2' + st + 'f_3'
 
     data = first_line + all_words
     #print(data)
 #  таблица создана и записана
 
-    sorted_initials_wos = sorted(initials_wos.items(), key=operator.itemgetter(1), reverse=True)
-    #print (sorted_initials_wos)
-    initials_wos_f = 'initial' + st + 'frequency'
-    for k in sorted_initials_wos:
-        initials_wos_f = initials_wos_f + sn + k[0] + st + str(k[1])
-    #    print(k[0], k[1])
-    F_write_in_file(initials_wos_f, 'initials_wos_freq.txt')
-
-
-    sorted_initials = sorted(initials.items(), key=operator.itemgetter(1), reverse=True)
-    #print (sorted_initials)
-    initials_f = 'initial' + st + 'frequency'
-    for k in sorted_initials:
-        initials_f = initials_f + sn  + k[0] + st + str(k[1])
-    #    print(k[0], k[1])
-    F_write_in_file(initials_f, 'initials_freq.txt')
-
-    sorted_finals_wos = sorted(finals_wos.items(), key=operator.itemgetter(1), reverse=True)
-    # print (sorted_initials_wo)
-    finals_wos_f = 'final' + st + 'frequency'
-    for k in sorted_finals_wos:
-        finals_wos_f = finals_wos_f + sn + k[0] + st + str(k[1])
-        #print(k[0], k[1])
-    F_write_in_file(finals_wos_f, 'finals_wos_freq.txt')
-
-
-    sorted_finals = sorted(finals.items(), key=operator.itemgetter(1), reverse=True)
-    # print (sorted_initials)
-    finals_f = 'final' + st + 'frequency'
-    for k in sorted_finals:
-        finals_f = finals_f + sn + k[0] + st + str(k[1])
-    #    print(k[0], k[1])
-    F_write_in_file(finals_f, 'finals_freq.txt')
+    F_sord_wd_items(initials_wos, (items_i + '_wos'))
+    F_sord_wd_items(initials, items_i)
+    F_sord_wd_items(finals_wos, (items_f + '_wos'))
+    F_sord_wd_items(finals, items_f)
 
     #print(data)
     F_write_in_file(data, 'phon_table.tsv')
-#'''
+
 M_create_table_1()

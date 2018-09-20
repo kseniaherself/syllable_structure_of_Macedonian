@@ -24,21 +24,22 @@
       <file leaf-file-name="list of words.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/list of words.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1902">
-              <caret line="381" column="4" selection-start-line="381" selection-start-column="4" selection-end-line="381" selection-end-column="4" />
+            <state relative-caret-position="327">
+              <caret line="292" column="5" selection-start-line="292" selection-start-column="5" selection-end-line="292" selection-end-column="5" />
               <folding>
                 <element signature="e#63#72#0" expanded="true" />
                 <element signature="e#162#267#0" expanded="false" />
                 <element signature="e#325#395#0" expanded="false" />
-                <element signature="e#524#1739#0" expanded="false" />
-                <element signature="e#1841#1995#0" expanded="false" />
-                <element signature="e#2088#4037#0" expanded="false" />
-                <element signature="e#5609#5794#0" expanded="false" />
-                <element signature="e#5860#6148#0" expanded="false" />
-                <element signature="e#6221#6677#0" expanded="false" />
-                <element signature="e#6745#7359#0" expanded="false" />
-                <element signature="e#7404#7640#0" expanded="false" />
-                <element signature="e#7693#7805#0" expanded="false" />
+                <element signature="e#531#1746#0" expanded="false" />
+                <element signature="e#1848#2002#0" expanded="false" />
+                <element signature="e#2095#4044#0" expanded="false" />
+                <element signature="e#4328#5814#0" expanded="false" />
+                <element signature="e#5886#6071#0" expanded="false" />
+                <element signature="e#6137#6425#0" expanded="false" />
+                <element signature="e#6498#6954#0" expanded="false" />
+                <element signature="e#7022#7636#0" expanded="false" />
+                <element signature="e#7692#7928#0" expanded="false" />
+                <element signature="e#7981#8093#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -318,81 +319,47 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>423</line>
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>426</line>
+          <line>408</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>414</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>406</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>397</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>381</line>
+          <line>390</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>372</line>
+          <line>381</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>412</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>410</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>272</line>
+          <line>291</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>383</line>
+          <line>392</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>296</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>388</line>
+          <line>399</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>360</line>
+          <line>369</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>364</line>
+          <line>373</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>298</line>
+          <line>315</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
@@ -409,36 +376,38 @@
             <element signature="e#63#72#0" expanded="true" />
             <element signature="e#162#267#0" expanded="false" />
             <element signature="e#325#395#0" expanded="false" />
-            <element signature="e#524#1739#0" expanded="false" />
-            <element signature="e#1841#1995#0" expanded="false" />
-            <element signature="e#2088#4037#0" expanded="false" />
-            <element signature="e#5609#5794#0" expanded="false" />
-            <element signature="e#5860#6148#0" expanded="false" />
-            <element signature="e#6221#6677#0" expanded="false" />
-            <element signature="e#6745#7359#0" expanded="false" />
-            <element signature="e#7404#7640#0" expanded="false" />
-            <element signature="e#7693#7805#0" expanded="false" />
+            <element signature="e#531#1746#0" expanded="false" />
+            <element signature="e#1848#2002#0" expanded="false" />
+            <element signature="e#2095#4044#0" expanded="false" />
+            <element signature="e#4328#5814#0" expanded="false" />
+            <element signature="e#5886#6071#0" expanded="false" />
+            <element signature="e#6137#6425#0" expanded="false" />
+            <element signature="e#6498#6954#0" expanded="false" />
+            <element signature="e#7022#7636#0" expanded="false" />
+            <element signature="e#7692#7928#0" expanded="false" />
+            <element signature="e#7981#8093#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/list of words.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1902">
-          <caret line="381" column="4" selection-start-line="381" selection-start-column="4" selection-end-line="381" selection-end-column="4" />
+        <state relative-caret-position="327">
+          <caret line="292" column="5" selection-start-line="292" selection-start-column="5" selection-end-line="292" selection-end-column="5" />
           <folding>
             <element signature="e#63#72#0" expanded="true" />
             <element signature="e#162#267#0" expanded="false" />
             <element signature="e#325#395#0" expanded="false" />
-            <element signature="e#524#1739#0" expanded="false" />
-            <element signature="e#1841#1995#0" expanded="false" />
-            <element signature="e#2088#4037#0" expanded="false" />
-            <element signature="e#5609#5794#0" expanded="false" />
-            <element signature="e#5860#6148#0" expanded="false" />
-            <element signature="e#6221#6677#0" expanded="false" />
-            <element signature="e#6745#7359#0" expanded="false" />
-            <element signature="e#7404#7640#0" expanded="false" />
-            <element signature="e#7693#7805#0" expanded="false" />
+            <element signature="e#531#1746#0" expanded="false" />
+            <element signature="e#1848#2002#0" expanded="false" />
+            <element signature="e#2095#4044#0" expanded="false" />
+            <element signature="e#4328#5814#0" expanded="false" />
+            <element signature="e#5886#6071#0" expanded="false" />
+            <element signature="e#6137#6425#0" expanded="false" />
+            <element signature="e#6498#6954#0" expanded="false" />
+            <element signature="e#7022#7636#0" expanded="false" />
+            <element signature="e#7692#7928#0" expanded="false" />
+            <element signature="e#7981#8093#0" expanded="false" />
           </folding>
         </state>
       </provider>

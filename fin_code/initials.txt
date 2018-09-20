@@ -45,7 +45,6 @@ SYL
  n
  nj
  p
- p-f
  p-j
  p-l
  p-lj

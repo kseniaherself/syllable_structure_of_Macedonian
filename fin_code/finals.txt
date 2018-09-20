@@ -23,7 +23,6 @@ SYL
  k-s
  k-s-t
  k-t
- k-ʃ
  l
  l-b
  l-f
@@ -63,7 +62,6 @@ SYL
  nj
  p
  p-s
- p-s-t
  p-t
  p-ʃ-t
  r
@@ -87,7 +85,6 @@ SYL
  r-ʒ
  s
  s-k
- s-s-t
  s-t
  t
  ts
@@ -97,7 +94,6 @@ SYL
  v-t
  v-ʃ
  x
- x-m
  z
  z-d
  ɟ
