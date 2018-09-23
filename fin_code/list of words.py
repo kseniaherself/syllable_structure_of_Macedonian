@@ -2,6 +2,7 @@
 #12
 # то что WOS то без учёта слоговости
 # иниц без сл: 6, со: 4; фин без сл: 5, с: 3
+# Plosive, Fricative, Affricate, Lateral, Nasal, Trill, Glide
 import re
 import operator
 import time
@@ -110,6 +111,31 @@ def F_ipa_transcriber(word):
         word = re.sub(environment_in_right_n, environment_out_right_n, word)
 
     return word
+
+# транспонировани: способ образования
+def F_articulation_manner(word):
+
+    ipa_consonants = ['dz', 'ts', 'tʃ', 'dʒ', 'lj', 'l', 'm', 'nj', 'n', 'R', 'r',
+                      'b', 'p', 'd', 't', 'ɟ', 'c', 'ɡ', 'k',
+                      'v', 'f', 'z', 's', 'ʒ', 'ʃ', 'x', 'j']  # add ['R'], минус ['j',]
+
+    #ipa_manner = ['stop', 'fricative', 'stop', 'stop', 'stop', 'fricative', 'fricative', 'affricate', 'stop',
+    #              'lateral', 'lateral', 'nasal', 'nasal', 'nasal', 'stop', 'trill', 'fricative', 'stop', 'stop',
+    #              'fricative', 'fricative', 'affricate', 'affricate', 'affricate', 'fricative']  # add ['R'], минус ['j',]
+
+    ipa_manner = ['A', 'A', 'A', 'A', 'L', 'L', 'N', 'N', 'N', 'T', 'T',
+                  'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P',
+                  'F', 'F', 'F', 'F', 'F', 'F', 'F', 'G'] #ДОБАВЛЕНО 'R'
+
+    for i in range(0, 27):
+        if ipa_consonants[i] in word:
+            word = word.replace(ipa_consonants[i], ipa_manner[i])
+
+    return word
+
+# транспонирование: место образования
+def F_articulation_place():
+    print('hallo')
 
 # количество слогов: на выходе количество слогов вообще по гласным и с учётом "слоговых"
 # (+печатает слова "без-гласных"). (+печатает слова с двумя шва). (+печатает слова с апострофом). (+печатает слова с Л,Н).
@@ -234,7 +260,7 @@ def F_words_finals(word):
     #print(final)
     return final
 
-# сегменты штук
+# сегменты кластеров
 def F_items_segments(words_items, sta, sto, ste):
     items_segments = ''
 
@@ -304,19 +330,29 @@ def M_create_table_1():
 
     initials_wos = {}
     initials = {}
+    initials_wos_m = {}
+    initials_m = {}
+
     possible_initials = [] # 'INITIALS'
+    possible_initials_M = []
 
     finals_wos = {}
     finals = {}
+    finals_wos_m = {}
+    finals_m = {}
+
     possible_finals = [] # 'FINALS'
+    possible_finals_M = []
+
     all_words = ''
+
     st = '\t'
     sn = '\n'
 
     my_lines = F_get_lines(f_name)
     #asd = my_lines[1:54498]        # все слова: без первой строчки с названиями
     asd = my_lines[1:]             # РАБОЧАЯ ВЕРСИЯ ДЛЯ ВСЕХ СЛОВ
-    #asd = my_lines[1102:2103]       # тестовая выборка
+    #asd = my_lines[15170:52272]       # тестовая выборка
 
     for line in asd:
         #print(line)
@@ -363,18 +399,22 @@ def M_create_table_1():
 
             words_initial_wos = F_words_initials_wos(ipa_word)
 # получены инициали слов МФА !!! без расчёта слоговых
+            initials_wos_m = F_w_d(initials_wos_m, F_articulation_manner(words_initial_wos))
             initials_wos = F_w_d(initials_wos, words_initial_wos)
 
             words_initial = F_words_initials(ipa_word)
 # получены инициали слов МФА
+            initials_m = F_w_d(initials_m, F_articulation_manner(words_initial))
             initials = F_w_d(initials, words_initial)
 
             words_final_wos = F_words_finals_wos(ipa_word)
 # получены финали слов МФА !!! без расчёта слоговых
+            finals_wos_m = F_w_d(finals_wos_m, F_articulation_manner(words_final_wos))
             finals_wos = F_w_d(finals_wos, words_final_wos)
 
             words_final = F_words_finals(ipa_word)
 # получены финали слов МФА
+            finals_m = F_w_d(finals_m, F_articulation_manner(words_final))
             finals = F_w_d(finals, words_final)
 
             words_items = words_initial_wos + st + words_initial + st + words_final_wos + st + words_final
@@ -384,11 +424,20 @@ def M_create_table_1():
             initials_segments_wos = F_items_segments(words_initial_wos, 0, 6, -1)
             initials_segments = F_items_segments(words_initial, 0, 4, -1)
 
-            finals_segments_wos = F_items_segments(words_final_wos, 0, 5, 1) #4
-            finals_segments = F_items_segments(words_final, 0, 3, 1) #2
+            finals_segments_wos = F_items_segments(words_final_wos, 0, 5, 1)
+            finals_segments = F_items_segments(words_final, 0, 3, 1)
+# финали и инициали разбиты на сегменты
 
-            full_data = full_data + st + initials_segments_wos + initials_segments + finals_segments_wos + finals_segments
+            segments = initials_segments_wos + initials_segments + finals_segments_wos + finals_segments
+            full_data = full_data + st + segments
 
+            words_items_manner = F_articulation_manner(words_items)
+# кластеры инициалей и финалей переведены по способу образования
+            full_data = full_data + words_items_manner
+
+            segments_manner = F_articulation_manner(segments)
+# сегменты инициалей и финалей переведены по способу образования
+            full_data = full_data + st + segments_manner
 
             #if words_initial_wos not in possible_initials_wos:
             #    possible_initials_wos.append(words_initial_wos)     # инициали без учёта слоговых: possible_initials_wos
@@ -401,6 +450,14 @@ def M_create_table_1():
             if words_final not in possible_finals:
                 possible_finals.append(words_final)                    # финали со слоговыми: possible_finals
                 #possible_finals = possible_finals + sn + words_final
+
+            words_initial_M = F_articulation_manner(words_initial)
+            if words_initial_M not in possible_initials_M:
+                possible_initials_M.append(words_initial_M)
+
+            words_final_M = F_articulation_manner(words_final)
+            if words_final_M not in possible_finals_M:
+                possible_finals_M.append(words_final_M)
 
             #print(full_data)
 
@@ -416,7 +473,6 @@ def M_create_table_1():
     #print(possible_initials_W)
     F_write_in_file(possible_initials_W, 'initials.txt')
 
-
 # печать всех финалей
     possible_finals_W = items_f
     possible_finals = F_sort_dictionary(possible_finals)
@@ -425,12 +481,36 @@ def M_create_table_1():
     #print(possible_finals_W)
     F_write_in_file(possible_finals_W, 'finals.txt')
 
+# печать всех инициалей _способ образования
+    possible_initials_W_M = items_i
+    possible_initials_M = F_sort_dictionary(possible_initials_M)
+    for initial in possible_initials_M:
+        possible_initials_W_M = possible_initials_W_M + sn + initial
+    # print(possible_initials_W)
+    F_write_in_file(possible_initials_W_M, 'initials_manner.txt')
+
+# печать всех финалей _способ образования
+    possible_finals_W_M = items_f
+    possible_finals_M = F_sort_dictionary(possible_finals_M)
+    for final in possible_finals_M:
+        possible_finals_W_M = possible_finals_W_M + sn + final
+        # print(possible_finals_W)
+    F_write_in_file(possible_finals_W_M, 'finals_manner.txt')
+
+
     first_line = 'grammar' + st + 'lemma' + st + 'lettering' + st + 'ipa_lettering' + st + 'n_syllables_wos' \
                  + st + 'n_syllables' + st + 'initial_wos' + st + 'initial' + st + 'final_wos' + st + 'final' \
                  + st + 'i_wos_6' + st + 'i_wos_5' + st + 'i_wos_4' + st + 'i_wos_3' + st + 'i_wos_2' + st + 'i_wos_1' \
                  + st + 'i_4' + st + 'i_3' + st + 'i_2' + st + 'i_1' \
                  + st + 'f_wos_1' + st + 'f_wos_2' + st + 'f_wos_3' + st + 'f_wos_4'+ st + 'f_wos_5' \
-                 + st + 'f_1' + st + 'f_2' + st + 'f_3'
+                 + st + 'f_1' + st + 'f_2' + st + 'f_3' \
+                 + st + 'i_wos_manner' + st + 'i_manner' + st + 'f_wos_manner' + st + 'f_manner' + st + 'i_wos_6_m' \
+                 + st + 'i_wos_5_m' + st + 'i_wos_4_m' + st + 'i_wos_3_m' + st + 'i_wos_2_m' + st + 'i_wos_1_m' \
+                 + st + 'i_4_m' + st + 'i_3_m' + st + 'i_2_m' + st + 'i_1_m' \
+                 + st + 'f_wos_1_m' + st + 'f_wos_2_m' + st + 'f_wos_3_m' + st + 'f_wos_4_m'+ st + 'f_wos_5_m' \
+                 + st + 'f_1_m' + st + 'f_2_m' + st + 'f_3_m' +st + '10' + st + '11' + st + '12' + st + '13' \
+                 + st + '14' + st + '15' + st + '16' + st + '17' + st + '18' + st + '19' + st + '20'
+
 
     data = first_line + all_words
     #print(data)
@@ -438,8 +518,13 @@ def M_create_table_1():
 
     F_sord_wd_items(initials_wos, (items_i + '_wos'))
     F_sord_wd_items(initials, items_i)
+    F_sord_wd_items(initials_wos_m, (items_i + '_wos_manner'))
+    F_sord_wd_items(initials_m, (items_i + '_manner'))
+
     F_sord_wd_items(finals_wos, (items_f + '_wos'))
     F_sord_wd_items(finals, items_f)
+    F_sord_wd_items(finals_wos_m, (items_f + '_wos_manner'))
+    F_sord_wd_items(finals_m, (items_f + '_manner'))
 
     #print(data)
     F_write_in_file(data, 'phon_table.tsv')

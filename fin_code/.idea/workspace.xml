@@ -24,24 +24,25 @@
       <file leaf-file-name="list of words.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/list of words.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="439" column="29" selection-start-line="439" selection-start-column="29" selection-end-line="439" selection-end-column="29" />
+            <state relative-caret-position="-26">
+              <caret line="115" column="32" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
               <folding>
-                <element signature="e#108#117#0" expanded="true" />
-                <element signature="e#244#349#0" expanded="false" />
-                <element signature="e#407#477#0" expanded="false" />
-                <element signature="e#613#1828#0" expanded="false" />
-                <element signature="e#1930#2084#0" expanded="false" />
-                <element signature="e#2177#4126#0" expanded="false" />
-                <element signature="e#4410#5896#0" expanded="false" />
-                <element signature="e#5968#6153#0" expanded="false" />
-                <element signature="e#6219#6507#0" expanded="false" />
-                <element signature="e#6580#7036#0" expanded="false" />
-                <element signature="e#7104#7718#0" expanded="false" />
-                <element signature="e#7790#8327#0" expanded="false" />
-                <element signature="e#8383#8619#0" expanded="false" />
-                <element signature="e#8672#8784#0" expanded="false" />
-                <element signature="e#8895#9200#0" expanded="false" />
+                <element signature="e#170#179#0" expanded="true" />
+                <element signature="e#306#411#0" expanded="false" />
+                <element signature="e#469#539#0" expanded="false" />
+                <element signature="e#675#1890#0" expanded="false" />
+                <element signature="e#1992#2146#0" expanded="false" />
+                <element signature="e#2239#4188#0" expanded="false" />
+                <element signature="e#5271#5285#0" expanded="false" />
+                <element signature="e#5569#7055#0" expanded="false" />
+                <element signature="e#7127#7312#0" expanded="false" />
+                <element signature="e#7378#7666#0" expanded="false" />
+                <element signature="e#7739#8195#0" expanded="false" />
+                <element signature="e#8263#8877#0" expanded="false" />
+                <element signature="e#8954#9491#0" expanded="false" />
+                <element signature="e#9547#9783#0" expanded="false" />
+                <element signature="e#9836#9948#0" expanded="false" />
+                <element signature="e#10059#10364#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -280,6 +281,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7eca9538-188c-4aba-81e4-47db43b07243" name="Default" comment="" />
@@ -292,14 +296,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="103" y="23" width="1314" height="796" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -313,6 +317,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -321,76 +333,116 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>444</line>
+          <line>529</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>425</line>
+          <line>481</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>416</line>
+          <line>473</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>317</line>
+          <line>353</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>427</line>
+          <line>500</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>435</line>
+          <line>515</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>408</line>
+          <line>465</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>341</line>
+          <line>377</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>438</line>
+          <line>518</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>439</line>
+          <line>519</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>440</line>
+          <line>523</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>441</line>
+          <line>524</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>380</line>
-          <option name="timeStamp" value="43" />
+          <line>433</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/list of words.py</url>
-          <line>379</line>
-          <option name="timeStamp" value="44" />
+          <line>437</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/list of words.py</url>
+          <line>439</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/list of words.py</url>
+          <line>489</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/list of words.py</url>
+          <line>497</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/list of words.py</url>
+          <line>520</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/list of words.py</url>
+          <line>521</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/list of words.py</url>
+          <line>525</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/list of words.py</url>
+          <line>526</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/list of words.py</url>
+          <line>528</line>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="45" />
+      <option name="time" value="59" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -400,45 +452,55 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#108#117#0" expanded="true" />
-            <element signature="e#244#349#0" expanded="false" />
-            <element signature="e#407#477#0" expanded="false" />
-            <element signature="e#613#1828#0" expanded="false" />
-            <element signature="e#1930#2084#0" expanded="false" />
-            <element signature="e#2177#4126#0" expanded="false" />
-            <element signature="e#4410#5896#0" expanded="false" />
-            <element signature="e#5968#6153#0" expanded="false" />
-            <element signature="e#6219#6507#0" expanded="false" />
-            <element signature="e#6580#7036#0" expanded="false" />
-            <element signature="e#7104#7718#0" expanded="false" />
-            <element signature="e#7790#8327#0" expanded="false" />
-            <element signature="e#8383#8619#0" expanded="false" />
-            <element signature="e#8672#8784#0" expanded="false" />
-            <element signature="e#8895#9200#0" expanded="false" />
+            <element signature="e#170#179#0" expanded="true" />
+            <element signature="e#306#411#0" expanded="false" />
+            <element signature="e#469#539#0" expanded="false" />
+            <element signature="e#675#1890#0" expanded="false" />
+            <element signature="e#1992#2146#0" expanded="false" />
+            <element signature="e#2239#4188#0" expanded="false" />
+            <element signature="e#5271#5285#0" expanded="false" />
+            <element signature="e#5569#7055#0" expanded="false" />
+            <element signature="e#7127#7312#0" expanded="false" />
+            <element signature="e#7378#7666#0" expanded="false" />
+            <element signature="e#7739#8195#0" expanded="false" />
+            <element signature="e#8263#8877#0" expanded="false" />
+            <element signature="e#8954#9491#0" expanded="false" />
+            <element signature="e#9547#9783#0" expanded="false" />
+            <element signature="e#9836#9948#0" expanded="false" />
+            <element signature="e#10059#10364#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finals.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="104" column="4" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/list of words.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="439" column="29" selection-start-line="439" selection-start-column="29" selection-end-line="439" selection-end-column="29" />
+        <state relative-caret-position="-26">
+          <caret line="115" column="32" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
           <folding>
-            <element signature="e#108#117#0" expanded="true" />
-            <element signature="e#244#349#0" expanded="false" />
-            <element signature="e#407#477#0" expanded="false" />
-            <element signature="e#613#1828#0" expanded="false" />
-            <element signature="e#1930#2084#0" expanded="false" />
-            <element signature="e#2177#4126#0" expanded="false" />
-            <element signature="e#4410#5896#0" expanded="false" />
-            <element signature="e#5968#6153#0" expanded="false" />
-            <element signature="e#6219#6507#0" expanded="false" />
-            <element signature="e#6580#7036#0" expanded="false" />
-            <element signature="e#7104#7718#0" expanded="false" />
-            <element signature="e#7790#8327#0" expanded="false" />
-            <element signature="e#8383#8619#0" expanded="false" />
-            <element signature="e#8672#8784#0" expanded="false" />
-            <element signature="e#8895#9200#0" expanded="false" />
+            <element signature="e#170#179#0" expanded="true" />
+            <element signature="e#306#411#0" expanded="false" />
+            <element signature="e#469#539#0" expanded="false" />
+            <element signature="e#675#1890#0" expanded="false" />
+            <element signature="e#1992#2146#0" expanded="false" />
+            <element signature="e#2239#4188#0" expanded="false" />
+            <element signature="e#5271#5285#0" expanded="false" />
+            <element signature="e#5569#7055#0" expanded="false" />
+            <element signature="e#7127#7312#0" expanded="false" />
+            <element signature="e#7378#7666#0" expanded="false" />
+            <element signature="e#7739#8195#0" expanded="false" />
+            <element signature="e#8263#8877#0" expanded="false" />
+            <element signature="e#8954#9491#0" expanded="false" />
+            <element signature="e#9547#9783#0" expanded="false" />
+            <element signature="e#9836#9948#0" expanded="false" />
+            <element signature="e#10059#10364#0" expanded="false" />
           </folding>
         </state>
       </provider>
