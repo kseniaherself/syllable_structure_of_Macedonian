@@ -1,5 +1,4 @@
 INITIALS
-<<<<<<< HEAD
 A
  A-F
  A-L
@@ -46,31 +45,4 @@ A
  P-T
  SYL
  T
-=======
-F
- F-F
- F-G
- F-L
- F-N
- F-P
- F-P-L
- F-P-N
- F-P-T
- F-PF
- F-T
- G
- L
- LG
- N
- P
- P-F
- P-F-N
- P-L
- P-LG
- P-N
- P-P
- P-T
- PF
- PF-F
->>>>>>> origin/master
  VOW
