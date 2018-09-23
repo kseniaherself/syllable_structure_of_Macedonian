@@ -1,12 +1,17 @@
 FINALS
+<<<<<<< HEAD
 A
  F
  F-F
+=======
+F
+>>>>>>> origin/master
  F-P
  G
  G-F
  G-L
  G-N
+<<<<<<< HEAD
  G-N-A
  G-P
  L
@@ -16,21 +21,46 @@ A
  L-P
  N
  N-A
+=======
+ G-P
+ L
+ L-F
+ L-P
+ L-PF
+ LG
+ N
+>>>>>>> origin/master
  N-F
  N-P
  N-P-F
  N-P-P
+<<<<<<< HEAD
+=======
+ N-PF
+ NG
+>>>>>>> origin/master
  P
  P-F
  P-F-P
  P-P
+<<<<<<< HEAD
  SYL
  T
  T-A
  T-F
  T-F-A
+=======
+ PF
+ SYL
+ T
+ T-F
+>>>>>>> origin/master
  T-F-P
  T-N
  T-P
  T-P-P
+<<<<<<< HEAD
+=======
+ T-PF
+>>>>>>> origin/master
  VOW

@@ -24,8 +24,13 @@
       <file leaf-file-name="list of words.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/list of words.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-26">
               <caret line="115" column="32" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
+=======
+            <state relative-caret-position="224">
+              <caret line="131" column="69" selection-start-line="131" selection-start-column="69" selection-end-line="131" selection-end-column="69" />
+>>>>>>> origin/master
               <folding>
                 <element signature="e#170#179#0" expanded="true" />
                 <element signature="e#306#411#0" expanded="false" />
@@ -33,6 +38,7 @@
                 <element signature="e#675#1890#0" expanded="false" />
                 <element signature="e#1992#2146#0" expanded="false" />
                 <element signature="e#2239#4188#0" expanded="false" />
+<<<<<<< HEAD
                 <element signature="e#5271#5285#0" expanded="false" />
                 <element signature="e#5569#7055#0" expanded="false" />
                 <element signature="e#7127#7312#0" expanded="false" />
@@ -43,6 +49,17 @@
                 <element signature="e#9547#9783#0" expanded="false" />
                 <element signature="e#9836#9948#0" expanded="false" />
                 <element signature="e#10059#10364#0" expanded="false" />
+=======
+                <element signature="e#5357#5371#0" expanded="false" />
+                <element signature="e#5655#7141#0" expanded="false" />
+                <element signature="e#7213#7398#0" expanded="false" />
+                <element signature="e#7464#7752#0" expanded="false" />
+                <element signature="e#7825#8281#0" expanded="false" />
+                <element signature="e#8349#8963#0" expanded="false" />
+                <element signature="e#9040#9577#0" expanded="false" />
+                <element signature="e#9633#9869#0" expanded="false" />
+                <element signature="e#9922#10034#0" expanded="false" />
+>>>>>>> origin/master
               </folding>
             </state>
           </provider>
@@ -415,6 +432,7 @@
           <url>file://$PROJECT_DIR$/list of words.py</url>
           <line>497</line>
           <option name="timeStamp" value="52" />
+<<<<<<< HEAD
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/list of words.py</url>
@@ -443,6 +461,31 @@
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="59" />
+=======
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/list of words.py</url>
+          <line>520</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/list of words.py</url>
+          <line>521</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/list of words.py</url>
+          <line>525</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/list of words.py</url>
+          <line>526</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="57" />
+>>>>>>> origin/master
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -458,6 +501,7 @@
             <element signature="e#675#1890#0" expanded="false" />
             <element signature="e#1992#2146#0" expanded="false" />
             <element signature="e#2239#4188#0" expanded="false" />
+<<<<<<< HEAD
             <element signature="e#5271#5285#0" expanded="false" />
             <element signature="e#5569#7055#0" expanded="false" />
             <element signature="e#7127#7312#0" expanded="false" />
@@ -468,6 +512,17 @@
             <element signature="e#9547#9783#0" expanded="false" />
             <element signature="e#9836#9948#0" expanded="false" />
             <element signature="e#10059#10364#0" expanded="false" />
+=======
+            <element signature="e#5357#5371#0" expanded="false" />
+            <element signature="e#5655#7141#0" expanded="false" />
+            <element signature="e#7213#7398#0" expanded="false" />
+            <element signature="e#7464#7752#0" expanded="false" />
+            <element signature="e#7825#8281#0" expanded="false" />
+            <element signature="e#8349#8963#0" expanded="false" />
+            <element signature="e#9040#9577#0" expanded="false" />
+            <element signature="e#9633#9869#0" expanded="false" />
+            <element signature="e#9922#10034#0" expanded="false" />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
@@ -482,8 +537,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/list of words.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-26">
           <caret line="115" column="32" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
+=======
+        <state relative-caret-position="224">
+          <caret line="131" column="69" selection-start-line="131" selection-start-column="69" selection-end-line="131" selection-end-column="69" />
+>>>>>>> origin/master
           <folding>
             <element signature="e#170#179#0" expanded="true" />
             <element signature="e#306#411#0" expanded="false" />
@@ -491,6 +551,7 @@
             <element signature="e#675#1890#0" expanded="false" />
             <element signature="e#1992#2146#0" expanded="false" />
             <element signature="e#2239#4188#0" expanded="false" />
+<<<<<<< HEAD
             <element signature="e#5271#5285#0" expanded="false" />
             <element signature="e#5569#7055#0" expanded="false" />
             <element signature="e#7127#7312#0" expanded="false" />
@@ -501,6 +562,17 @@
             <element signature="e#9547#9783#0" expanded="false" />
             <element signature="e#9836#9948#0" expanded="false" />
             <element signature="e#10059#10364#0" expanded="false" />
+=======
+            <element signature="e#5357#5371#0" expanded="false" />
+            <element signature="e#5655#7141#0" expanded="false" />
+            <element signature="e#7213#7398#0" expanded="false" />
+            <element signature="e#7464#7752#0" expanded="false" />
+            <element signature="e#7825#8281#0" expanded="false" />
+            <element signature="e#8349#8963#0" expanded="false" />
+            <element signature="e#9040#9577#0" expanded="false" />
+            <element signature="e#9633#9869#0" expanded="false" />
+            <element signature="e#9922#10034#0" expanded="false" />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>

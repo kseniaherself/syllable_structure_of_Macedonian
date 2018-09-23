@@ -1,4 +1,5 @@
 INITIALS_manner	frequency
+<<<<<<< HEAD
 P	13967
 F	8704
 VOW	7758
@@ -46,3 +47,31 @@ F-F-N	1
 F-P-P	1
 F-A-T	1
 P-G	1
+=======
+P	2741
+VOW	2718
+F	2340
+L	1001
+P-T	384
+G	372
+N	284
+P-L	247
+F-P	217
+F-L	85
+P-F	79
+F-P-T	76
+P-N	51
+F-N	48
+PF-F	44
+LG	30
+PF	27
+F-P-L	20
+F-F	14
+F-T	12
+F-G	6
+F-P-N	5
+P-LG	5
+F-PF	1
+P-P	1
+P-F-N	1
+>>>>>>> origin/master
