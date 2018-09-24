@@ -116,7 +116,7 @@ def F_ipa_transcriber(word):
 # транспонировани: способ образования
 def F_articulation_manner(word):
 
-    ipa_consonants = ['dz', 'ts', 'tʃ', 'dʒ', 'lj', 'l', 'm', 'nj', 'n', 'R', 'r',
+    ipa_consonants = ['R', 'r', 'dz', 'ts', 'tʃ', 'dʒ', 'lj', 'l', 'm', 'nj', 'n',
                       'b', 'p', 'd', 't', 'ɟ', 'c', 'ɡ', 'k',
                       'v', 'f', 'z', 's', 'ʒ', 'ʃ', 'x', 'j']  # add ['R'], минус ['j',]
 
@@ -124,7 +124,7 @@ def F_articulation_manner(word):
     #              'lateral', 'lateral', 'nasal', 'nasal', 'nasal', 'stop', 'trill', 'fricative', 'stop', 'stop',
     #              'fricative', 'fricative', 'affricate', 'affricate', 'affricate', 'fricative']  # add ['R'], минус ['j',]
 
-    ipa_manner = ['A', 'A', 'A', 'A', 'L', 'L', 'N', 'N', 'N', 'T', 'T',
+    ipa_manner = ['T', 'T', 'A', 'A', 'A', 'A', 'L', 'L', 'N', 'N', 'N',
                   'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P',
                   'F', 'F', 'F', 'F', 'F', 'F', 'F', 'G'] #ДОБАВЛЕНО 'R'
 
@@ -137,15 +137,32 @@ def F_articulation_manner(word):
 # транспонирование: место образования
 def F_articulation_place(word):
 
-    ipa_consonants = ['dz', 'ts', 'dʒ', 'tʃ', 'lj', 'nj', 'b', 'p', 'm', 'v', 'f',
-                      'd', 't', 'z', 's', 'l', 'n', 'r', 'R', 'ʒ', 'ʃ', 'ɟ', 'c', 'j', 'ɡ', 'k', 'x']
+    ipa_consonants = ['R', 'r', 'dz', 'ts', 'dʒ', 'tʃ', 'lj', 'nj', 'b', 'p', 'm', 'v', 'f',
+                      'd', 't', 'z', 's', 'l', 'n', 'ʒ', 'ʃ', 'ɟ', 'c', 'j', 'ɡ', 'k', 'x']
 
-    ipa_place = ['D', 'D', 'AP', 'AP', 'A', 'P', 'BL', 'BL', 'BL', 'LD', 'LD',
-                 'D', 'D', 'D', 'D', 'D', 'D', 'A', 'A', 'AP', 'AP', 'P', 'P', 'P', 'V', 'V', 'V']
+    ipa_place = ['AP', 'AP', 'D', 'D', 'AP', 'AP', 'A', 'P', 'BL', 'BL', 'BL', 'LD', 'LD',
+                 'D', 'D', 'D', 'D', 'D', 'D', 'A', 'A', 'P', 'P', 'P', 'V', 'V', 'V']
 
     for i in range(0, 27):
         if ipa_consonants[i] in word:
             word = word.replace(ipa_consonants[i], ipa_place[i])
+
+    return word
+
+# транспонирование: качество звука
+def F_articulation_quality(word):
+
+    ipa_consonants = ['R', 'r', 'ts', 'dz', 'tʃ', 'dʒ', 'lj', 'nj', 'v',
+                      'p', 'b', 't', 'd', 'c', 'ɟ', 'k', 'ɡ', 's', 'z', 'ʃ', 'ʒ', 'f', 'x',
+                      'l', 'm', 'n', 'j']
+
+    ipa_quality = ['S', 'S', 'O', 'O', 'O', 'O', 'S', 'S', 'V',
+                   'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O',
+                   'S', 'S', 'S', 'S']
+
+    for i in range(0, 27):
+        if ipa_consonants[i] in word:
+            word = word.replace(ipa_consonants[i], ipa_quality[i])
 
     return word
 
