@@ -390,8 +390,8 @@ def M_create_table_1():
     finals_m = {}
     finals_wos_p = {}
     finals_p = {}
-    finals_wos_Q = {}
-    finals_Q = {}
+    finals_wos_q = {}
+    finals_q = {}
 
     possible_finals_wos = []
     possible_finals = []            # 'FINALS'
@@ -436,7 +436,7 @@ def M_create_table_1():
         if '’' not in full_data and '_' not in full_data and 'abbr'not in full_data \
                 and 'compound' not in full_data and 'interjection' not in full_data:
 
-            entry = entry.replace('!', '')
+            entry = entry.replace('!', '')              # зачем это?...
             lettering = F_lettering(entry)
             #print(lettering)
 # получена запись слова буква за буквой
@@ -459,24 +459,28 @@ def M_create_table_1():
 # получены инициали слов МФА !!! без расчёта слоговых
             initials_wos_m = F_w_d(initials_wos_m, F_articulation_manner(words_initial_wos))
             initials_wos_p = F_w_d(initials_wos_p, F_articulation_place(words_initial_wos))
+            initials_wos_q = F_w_d(initials_wos_q, F_articulation_quality(words_initial_wos))
             initials_wos = F_w_d(initials_wos, words_initial_wos)
 
             words_initial = F_words_initials(ipa_word)
 # получены инициали слов МФА
             initials_m = F_w_d(initials_m, F_articulation_manner(words_initial))
             initials_p = F_w_d(initials_p, F_articulation_place(words_initial))
+            initials_q = F_w_d(initials_q, F_articulation_quality(words_initial))
             initials = F_w_d(initials, words_initial)
 
             words_final_wos = F_words_finals_wos(ipa_word)
 # получены финали слов МФА !!! без расчёта слоговых
             finals_wos_m = F_w_d(finals_wos_m, F_articulation_manner(words_final_wos))
             finals_wos_p = F_w_d(finals_wos_p, F_articulation_place(words_final_wos))
+            finals_wos_q = F_w_d(finals_wos_q, F_articulation_quality(words_final_wos))
             finals_wos = F_w_d(finals_wos, words_final_wos)
 
             words_final = F_words_finals(ipa_word)
 # получены финали слов МФА
             finals_m = F_w_d(finals_m, F_articulation_manner(words_final))
             finals_p = F_w_d(finals_p, F_articulation_place(words_final))
+            finals_q = F_w_d(finals_q, F_articulation_quality(words_final))
             finals = F_w_d(finals, words_final)
 
             words_items = words_initial_wos + st + words_initial + st + words_final_wos + st + words_final
@@ -495,15 +499,18 @@ def M_create_table_1():
 
             words_items_manner = F_articulation_manner(words_items)
             words_items_place = F_articulation_place(words_items)
+            words_items_quality = F_articulation_quality(words_items)
 # кластеры инициалей и финалей переведены по способу образования
-            full_data = full_data + words_items_manner #+ words_items_place
+            #full_data = full_data + words_items_manner #+ words_items_place
 
             segments_manner = F_articulation_manner(segments)
             segments_place = F_articulation_place(segments)
+            segments_quality = F_articulation_quality(segments)
 # сегменты инициалей и финалей переведены по способу образования
-            full_data = full_data + st + segments_manner
+            full_data = full_data + words_items_manner + st + segments_manner
 
             full_data = full_data + words_items_place + st + segments_place
+            full_data = full_data + words_items_quality + st + segments_quality
 
             if words_initial_wos not in possible_initials_wos:
                 possible_initials_wos.append(words_initial_wos)     # инициали без учёта слоговых: possible_initials_wos
@@ -517,6 +524,7 @@ def M_create_table_1():
                 possible_finals.append(words_final)                    # финали со слоговыми: possible_finals
                 #possible_finals = possible_finals + sn + words_final
 
+# способ образования
 # создаёт массив инициалей способа образования без учёта слоговости
             words_initial_wos_M = F_articulation_manner(words_initial_wos)
             if words_initial_wos_M not in possible_initials_wos_M:
@@ -537,6 +545,7 @@ def M_create_table_1():
             if words_final_M not in possible_finals_M:
                 possible_finals_M.append(words_final_M)
 
+# место образования
 # создаёт массив инициалей места образования без учёта слоговости
             words_initial_wos_P = F_articulation_place(words_initial_wos)
             if words_initial_wos_P not in possible_initials_wos_P:
@@ -557,6 +566,28 @@ def M_create_table_1():
             if words_final_P not in possible_finals_P:
                 possible_finals_P.append(words_final_P)
 
+# качество звуков
+# создаёт массив инициалей качества без учёта слоговости
+            words_initial_wos_Q = F_articulation_quality(words_initial_wos)
+            if words_initial_wos_Q not in possible_initials_wos_Q:
+                possible_initials_wos_Q.append(words_initial_wos_Q)
+
+# создаёт массив инициалей качества
+            words_initial_Q = F_articulation_quality(words_initial)
+            if words_initial_Q not in possible_initials_Q:
+                possible_initials_Q.append(words_initial_Q)
+
+# создаёт массив финалей качества без учёта слоговости
+            words_final_wos_Q = F_articulation_quality(words_final_wos)
+            if words_final_wos_Q not in possible_finals_wos_Q:
+                #print(words_final_wos_Q)
+                possible_finals_wos_Q.append(words_final_wos_Q)
+
+# создаёт массив финалей качества
+            words_final_Q = F_articulation_quality(words_final)
+            if words_final_Q not in possible_finals_Q:
+                possible_finals_Q.append(words_final_Q)
+
             #print(full_data)
 
             all_words = all_words + sn + full_data
@@ -570,6 +601,8 @@ def M_create_table_1():
     F_w_f_b(items_i, possible_initials_M, 'initials_manner.txt')
     F_w_f_b(items_i, possible_initials_wos_P, 'initials_wos_place.txt')
     F_w_f_b(items_i, possible_initials_P, 'initials_place.txt')
+    F_w_f_b(items_i, possible_initials_wos_Q, 'initials_wos_quality.txt')
+    F_w_f_b(items_i, possible_initials_Q, 'initials_quality.txt')
 
     F_w_f_b(items_f, possible_finals_wos, 'finals_wos.txt')
     F_w_f_b(items_f, possible_finals, 'finals.txt')
@@ -577,8 +610,10 @@ def M_create_table_1():
     F_w_f_b(items_f, possible_finals_M, 'finals_manner.txt')
     F_w_f_b(items_f, possible_finals_wos_P, 'finals_wos_place.txt')
     F_w_f_b(items_f, possible_finals_P, 'finals_place.txt')
+    F_w_f_b(items_f, possible_finals_wos_Q, 'finals_wos_quality.txt')
+    F_w_f_b(items_f, possible_finals_Q, 'finals_quality.txt')
 
-
+# названия столбцов таблицы
     first_line = 'grammar' + st + 'lemma' + st + 'lettering' + st + 'ipa_lettering' + st + 'n_syllables_wos' \
                  + st + 'n_syllables' + st + 'initial_wos' + st + 'initial' + st + 'final_wos' + st + 'final' \
                  + st + 'i_wos_6' + st + 'i_wos_5' + st + 'i_wos_4' + st + 'i_wos_3' + st + 'i_wos_2' + st + 'i_wos_1' \
@@ -595,7 +630,12 @@ def M_create_table_1():
                  + st + 'i_4_p' + st + 'i_3_p' + st + 'i_2_p' + st + 'i_1_p' \
                  + st + 'f_wos_1_p' + st + 'f_wos_2_p' + st + 'f_wos_3_p' + st + 'f_wos_4_p' + st + 'f_wos_5_p' \
                  + st + 'f_1_p' + st + 'f_2_p' + st + 'f_3_p' \
-                 #+ st + '22' + st + '23' + st + '24' + st + '25' + st + '26' + st + '27' + st + '28' + st + '29'
+                 + st + 'i_wos_quality' + st + 'i_quality' + st + 'f_wos_quality' + st + 'f_quality' + st + 'i_wos_q_6' \
+                 + st + 'i_wos_5_q' + st + 'i_wos_4_q' + st + 'i_wos_3_q' + st + 'i_wos_2_q' + st + 'i_wos_1_q' \
+                 + st + 'i_4_q' + st + 'i_3_q' + st + 'i_2_q' + st + 'i_1_q' \
+                 + st + 'f_wos_1_q' + st + 'f_wos_2_q' + st + 'f_wos_3_q' + st + 'f_wos_4_q' + st + 'f_wos_5_q' \
+                 + st + 'f_1_q' + st + 'f_2_q' + st + 'f_3_q' \
+                 #+ st + '1' + st + '2' + st + '3' + st + '4' + st + '5' + st + '6' + st + '7' + st + '8' + st + '9' + st + '10' + st + '11' + st + '12'
 
 
     data = first_line + all_words
@@ -608,6 +648,8 @@ def M_create_table_1():
     F_sord_wd_items(initials_m, (items_i + '_manner'))
     F_sord_wd_items(initials_wos_p, (items_i + '_wos_place'))
     F_sord_wd_items(initials_p, (items_i + '_place'))
+    F_sord_wd_items(initials_wos_q, (items_i + '_wos_quality'))
+    F_sord_wd_items(initials_q, (items_i + '_quality'))
 
     F_sord_wd_items(finals_wos, (items_f + '_wos'))
     F_sord_wd_items(finals, items_f)
@@ -615,6 +657,8 @@ def M_create_table_1():
     F_sord_wd_items(finals_m, (items_f + '_manner'))
     F_sord_wd_items(finals_wos_p, (items_f + '_wos_place'))
     F_sord_wd_items(finals_p, (items_f + '_place'))
+    F_sord_wd_items(finals_wos_q, (items_f + '_wos_quality'))
+    F_sord_wd_items(finals_q, (items_f + '_quality'))
 
     #print(data)
     F_write_in_file(data, 'phon_table.tsv')

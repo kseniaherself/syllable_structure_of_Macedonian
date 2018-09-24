@@ -1,61 +1,67 @@
 INITIALS
 A
+ A-A
+ A-AP
+ A-BL
+ A-BL-AP
+ A-D
+ A-D-AP
+ A-LD
+ A-V
+ A-V-AP
  AP
- AP-A
  AP-BL
- AP-BL-A
  AP-D
- AP-D-A
  AP-LD
  AP-V
- AP-V-A
+ AP-V-AP
  BL
  BL-A
  BL-AP
  BL-D
  BL-P
  D
- D-A
  D-AP
  D-BL
- D-BL-A
+ D-BL-AP
  D-BL-D
  D-D
- D-D-A
+ D-D-AP
  D-D-D
  D-D-LD
  D-D-P
  D-LD
- D-LD-A
+ D-LD-AP
  D-LD-D
  D-P
  D-V
- D-V-A
+ D-V-AP
  D-V-BL
  D-V-D
  D-V-LD
  LD
  LD-A
+ LD-A-BL
+ LD-A-BL-AP
  LD-AP
- LD-AP-BL
- LD-AP-BL-A
  LD-BL
- LD-BL-A
+ LD-BL-AP
  LD-BL-D
  LD-D
- LD-D-A
+ LD-D-AP
  LD-D-D
- LD-D-D-A
+ LD-D-D-AP
  LD-D-LD
  LD-D-V
  LD-P
  LD-V
- LD-V-A
+ LD-V-AP
  LD-V-D
  P
  SYL
  V
  V-A
+ V-AP
  V-BL
  V-D
  V-D-BL

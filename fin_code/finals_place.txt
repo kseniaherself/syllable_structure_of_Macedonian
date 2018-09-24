@@ -1,22 +1,24 @@
 FINALS
 A
- A-AP
- A-AP-AP
- A-BL
  A-D
- A-D-D
- A-LD
- A-V
- A-V-D
  AP
+ AP-A
+ AP-A-AP
+ AP-AP
+ AP-BL
  AP-D
+ AP-D-D
+ AP-LD
+ AP-V
+ AP-V-D
  BL
- BL-AP-D
+ BL-A-D
  BL-BL
  BL-D
  BL-LD
  BL-V
  D
+ D-A
  D-AP
  D-BL
  D-D
@@ -25,7 +27,7 @@ A
  D-V
  D-V-D
  LD
- LD-AP
+ LD-A
  LD-D
  P
  P-BL
