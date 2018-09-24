@@ -372,6 +372,8 @@ def M_create_table_1():
     initials_m = {}
     initials_wos_p = {}
     initials_p = {}
+    initials_wos_q = {}
+    initials_q = {}
 
     possible_initials_wos = []
     possible_initials = []          # 'INITIALS'
@@ -379,6 +381,8 @@ def M_create_table_1():
     possible_initials_M = []
     possible_initials_wos_P = []
     possible_initials_P = []
+    possible_initials_wos_Q = []
+    possible_initials_Q = []
 
     finals_wos = {}
     finals = {}
@@ -386,6 +390,8 @@ def M_create_table_1():
     finals_m = {}
     finals_wos_p = {}
     finals_p = {}
+    finals_wos_Q = {}
+    finals_Q = {}
 
     possible_finals_wos = []
     possible_finals = []            # 'FINALS'
@@ -393,6 +399,8 @@ def M_create_table_1():
     possible_finals_M = []
     possible_finals_wos_P = []
     possible_finals_P = []
+    possible_finals_wos_Q = []
+    possible_finals_Q = []
 
     all_words = ''
 
