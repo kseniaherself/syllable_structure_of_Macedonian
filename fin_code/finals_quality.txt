@@ -7,8 +7,5 @@ O
  S-O-O
  S-S
  S-S-O
- S-V
  SYL
- V
- V-O
  VOW

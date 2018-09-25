@@ -1,21 +1,12 @@
 INITIALS
 O
  O-O
+ O-O-O
+ O-O-O-S
  O-O-S
- O-O-V
  O-S
  O-S-S
- O-V
- O-V-S
  S
  S-S
  SYL
- V
- V-O
- V-O-O
- V-O-O-S
- V-O-S
- V-O-V
- V-S
- V-S-S
  VOW

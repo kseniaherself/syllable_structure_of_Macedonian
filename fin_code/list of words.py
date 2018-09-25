@@ -156,7 +156,7 @@ def F_articulation_quality(word):
                       'p', 'b', 't', 'd', 'c', 'ɟ', 'k', 'ɡ', 's', 'z', 'ʃ', 'ʒ', 'f', 'x',
                       'l', 'm', 'n', 'j']
 
-    ipa_quality = ['S', 'S', 'O', 'O', 'O', 'O', 'S', 'S', 'V',
+    ipa_quality = ['S', 'S', 'O', 'O', 'O', 'O', 'S', 'S', 'O',
                    'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O',
                    'S', 'S', 'S', 'S']
 
@@ -641,7 +641,7 @@ def M_create_table_1():
     data = first_line + all_words
     #print(data)
 #  таблица создана и записана
-
+ 
     F_sord_wd_items(initials_wos, (items_i + '_wos'))
     F_sord_wd_items(initials, items_i)
     F_sord_wd_items(initials_wos_m, (items_i + '_wos_manner'))
