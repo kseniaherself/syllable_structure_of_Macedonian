@@ -7,5 +7,5 @@ O
  S-O-O
  S-S
  S-S-O
- SYL
+ SYS
  VOW

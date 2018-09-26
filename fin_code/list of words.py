@@ -137,13 +137,13 @@ def F_articulation_manner(word):
 # транспонирование: место образования
 def F_articulation_place(word):
 
-    ipa_consonants = ['R', 'r', 'dz', 'ts', 'dʒ', 'tʃ', 'lj', 'nj', 'b', 'p', 'm', 'v', 'f',
+    ipa_consonants = ['N', 'L', 'R', 'r', 'dz', 'ts', 'dʒ', 'tʃ', 'lj', 'nj', 'b', 'p', 'm', 'v', 'f',
                       'd', 't', 'z', 's', 'l', 'n', 'ʒ', 'ʃ', 'ɟ', 'c', 'j', 'ɡ', 'k', 'x']
 
-    ipa_place = ['AP', 'AP', 'D', 'D', 'AP', 'AP', 'A', 'P', 'BL', 'BL', 'BL', 'LD', 'LD',
-                 'D', 'D', 'D', 'D', 'D', 'D', 'A', 'A', 'P', 'P', 'P', 'V', 'V', 'V']
+    ipa_place = ['D', 'D', 'A', 'A', 'D', 'D', 'AP', 'AP', 'A', 'P', 'BL', 'BL', 'BL', 'LD', 'LD',
+                 'D', 'D', 'D', 'D', 'D', 'D', 'AP', 'AP', 'P', 'P', 'P', 'V', 'V', 'V']
 
-    for i in range(0, 27):
+    for i in range(0, 29):
         if ipa_consonants[i] in word:
             word = word.replace(ipa_consonants[i], ipa_place[i])
 
@@ -152,15 +152,15 @@ def F_articulation_place(word):
 # транспонирование: качество звука
 def F_articulation_quality(word):
 
-    ipa_consonants = ['R', 'r', 'ts', 'dz', 'tʃ', 'dʒ', 'lj', 'nj', 'v',
+    ipa_consonants = ['N', 'L', 'R', 'r', 'ts', 'dz', 'tʃ', 'dʒ', 'lj', 'nj', 'v',
                       'p', 'b', 't', 'd', 'c', 'ɟ', 'k', 'ɡ', 's', 'z', 'ʃ', 'ʒ', 'f', 'x',
                       'l', 'm', 'n', 'j']
 
-    ipa_quality = ['S', 'S', 'O', 'O', 'O', 'O', 'S', 'S', 'O',
+    ipa_quality = ['S', 'S', 'S', 'S', 'O', 'O', 'O', 'O', 'S', 'S', 'O',
                    'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O',
                    'S', 'S', 'S', 'S']
 
-    for i in range(0, 27):
+    for i in range(0, 29):
         if ipa_consonants[i] in word:
             word = word.replace(ipa_consonants[i], ipa_quality[i])
 
@@ -641,7 +641,7 @@ def M_create_table_1():
     data = first_line + all_words
     #print(data)
 #  таблица создана и записана
- 
+
     F_sord_wd_items(initials_wos, (items_i + '_wos'))
     F_sord_wd_items(initials, items_i)
     F_sord_wd_items(initials_wos_m, (items_i + '_wos_manner'))

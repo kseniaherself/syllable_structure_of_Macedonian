@@ -1,89 +1,76 @@
 FINALS
 A
- A-BL-AP-V
+ A-AP
+ A-AP-AP
+ A-BL
  A-D
- A-D-AP-BL
- A-D-AP-V
- A-N
- A-V-AP-D
+ A-D-D
+ A-LD
+ A-V
+ A-V-D
  AP
- AP-A
- AP-A-AP
- AP-AP
- AP-BL
+ AP-BL-A-V
  AP-D
- AP-D-D
- AP-LD
- AP-N
- AP-V
- AP-V-AP-D
- AP-V-D
- AP-V-L
+ AP-D-A-BL
+ AP-D-A-V
+ AP-V-A-D
  BL
+ BL-A-AP
  BL-A-D
- BL-AP-AP
+ BL-A-D-D
+ BL-A-LD
+ BL-A-V
  BL-AP-D
- BL-AP-D-D
- BL-AP-LD
- BL-AP-V
  BL-BL
- BL-BL-AP
- BL-BL-L
+ BL-BL-A
+ BL-BL-D
  BL-D
- BL-L
  BL-LD
  BL-V
- BL-V-AP-A
+ BL-V-A-AP
  D
  D-A
+ D-A-AP
+ D-A-BL
+ D-A-D
+ D-A-LD
+ D-A-V
  D-AP
- D-AP-A
- D-AP-BL
- D-AP-D
- D-AP-LD
- D-AP-V
  D-BL
- D-BL-AP-D
+ D-BL-A-D
  D-D
- D-D-AP-BL
- D-D-AP-LD
+ D-D-A-BL
+ D-D-A-LD
  D-D-D
- D-L
  D-LD
- D-LD-AP-D
- D-LD-AP-D-D
- D-N
+ D-LD-A-D
+ D-LD-A-D-D
  D-V
- D-V-AP
- D-V-AP-BL
+ D-V-A
+ D-V-A-BL
  D-V-D
- D-V-L
  LD
- LD-A
- LD-AP-AP
- LD-AP-D
- LD-AP-D-D
- LD-AP-LD
- LD-AP-V
+ LD-A-AP
+ LD-A-D
+ LD-A-D-D
+ LD-A-LD
+ LD-A-V
+ LD-AP
  LD-D
- LD-L
- LD-N
- LD-V-AP-D-D
+ LD-V-A-D-D
  P
  P-BL
  P-D
  P-D-D
  P-V
  V
- V-AP
- V-AP-A
- V-AP-AP
- V-AP-BL
- V-AP-D
- V-AP-D-D
- V-AP-LD
- V-AP-V
+ V-A
+ V-A-AP
+ V-A-BL
+ V-A-D
+ V-A-D-D
+ V-A-LD
+ V-A-V
  V-D
  V-D-D
- V-L
  VOW

@@ -1,7 +1,5 @@
 FINALS
 O
- O-L
- O-N
  O-O
  O-O-O
  O-O-S-O
@@ -13,9 +11,7 @@ O
  O-S-S
  O-S-S-O
  S
- S-N
  S-O
- S-O-L
  S-O-O
  S-O-S
  S-S
