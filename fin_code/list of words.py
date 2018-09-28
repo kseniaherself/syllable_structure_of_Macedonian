@@ -360,6 +360,12 @@ def F_sord_wd_items(my_items, items_name):
 #   инициалями
 #   финалями
 def M_create_table_1():
+
+    st = '\t'
+    sn = '\n'
+
+    all_cyr_words = 'word'
+
     items_i = 'INITIALS'
     items_f = 'FINALS'
     f_name = 'macedonian_dict1.tsv'
@@ -404,13 +410,10 @@ def M_create_table_1():
 
     all_words = ''
 
-    st = '\t'
-    sn = '\n'
-
     my_lines = F_get_lines(f_name)
     #asd = my_lines[1:54498]        # все слова: без первой строчки с названиями
     asd = my_lines[1:]             # РАБОЧАЯ ВЕРСИЯ ДЛЯ ВСЕХ СЛОВ
-    #asd = my_lines[15170:22272]       # тестовая выборка
+    #asd = my_lines[170:177]       # тестовая выборка
 
     for line in asd:
         #print(line)
@@ -437,6 +440,11 @@ def M_create_table_1():
                 and 'compound' not in full_data and 'interjection' not in full_data:
 
             entry = entry.replace('!', '')              # зачем это?...
+
+            #print(entry)
+            all_cyr_words = all_cyr_words + sn + entry
+            #print(all_cyr_words)
+
             lettering = F_lettering(entry)
             #print(lettering)
 # получена запись слова буква за буквой
@@ -659,6 +667,8 @@ def M_create_table_1():
     F_sord_wd_items(finals_p, (items_f + '_place'))
     F_sord_wd_items(finals_wos_q, (items_f + '_wos_quality'))
     F_sord_wd_items(finals_q, (items_f + '_quality'))
+
+    F_write_in_file(all_cyr_words, 'words_full_list.tsv')
 
     #print(data)
     F_write_in_file(data, 'phon_table.tsv')
