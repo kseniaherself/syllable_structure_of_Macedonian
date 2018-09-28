@@ -12,8 +12,8 @@ S-S	150
 O-S-O-O	149
 O-S-O-S	121
 O-O-S-O-S	75
-O-S-S-O	57
 S-O	57
+O-S-S-O	57
 S-S-O	46
 O-O-S-O-O	26
 O-S-S-O-S	25

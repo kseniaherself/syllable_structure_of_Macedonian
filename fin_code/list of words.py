@@ -313,6 +313,32 @@ def F_items_segments(words_items, sta, sto, ste):
     #print(items_segments)
     return items_segments
 
+# monosyllabic
+def F_get_monosyllabic(word, number_syllables):
+
+    n_s_split = number_syllables.split('\t')
+
+    no_syllables_wos = ''
+    no_syllables = ''
+    monosyllabic_word_wos = ''
+    monosyllabic_word = ''
+
+    if n_s_split[0] == '0':
+        no_syllables_wos = word
+
+    if n_s_split[1] == '0':
+        no_syllables = word
+
+    if n_s_split[0] == '1':
+        monosyllabic_word_wos = word
+
+    if n_s_split[1] == '1':
+        monosyllabic_word = word
+
+    n_syl = [no_syllables_wos, no_syllables, monosyllabic_word_wos, monosyllabic_word] #.append(no_syllables_wos, no_syllables, monosyllabic_word_wos, monosyllabic_word)
+
+    return n_syl
+
 # сортировка
 def F_sort_dictionary(list_to_sort):
     sorted_c = str(sorted(list_to_sort))
@@ -365,12 +391,18 @@ def M_create_table_1():
     sn = '\n'
 
     all_cyr_words = 'word'
+    f_name_full_list = 'words_full_list.tsv'
 
     items_i = 'INITIALS'
     items_f = 'FINALS'
     f_name = 'macedonian_dict1.tsv'
 
     syllabic_heads = ['a', 'e', 'i', 'o', 'u', 'è', 'ì', 'L', 'N', 'R'] #'ə']
+
+    nosyllablic_words_wos = 'nonsyllabic_wos'
+    nosyllablic_words = 'nonsyllabic'
+    monosyllabic_words_wos = 'monosyllabic_wos'
+    monosyllabic_words = 'monosyllabic'
 
     initials_wos = {}
     initials = {}
@@ -413,7 +445,7 @@ def M_create_table_1():
     my_lines = F_get_lines(f_name)
     #asd = my_lines[1:54498]        # все слова: без первой строчки с названиями
     asd = my_lines[1:]             # РАБОЧАЯ ВЕРСИЯ ДЛЯ ВСЕХ СЛОВ
-    #asd = my_lines[170:177]       # тестовая выборка
+    #asd = my_lines[40325:54330]       # тестовая выборка
 
     for line in asd:
         #print(line)
@@ -462,6 +494,17 @@ def M_create_table_1():
 # получено количество слогов по гласным + '\t' слоговым
             full_data = full_data + st + str(number_syllables)
             #print(full_data)
+
+            n_syllabic_words = F_get_monosyllabic(entry, number_syllables)
+
+            if n_syllabic_words[0] == entry:
+                nosyllablic_words_wos = nosyllablic_words_wos + sn + n_syllabic_words[0]
+            if n_syllabic_words[1] == entry:
+                nosyllablic_words = nosyllablic_words + sn + n_syllabic_words[1]
+            if n_syllabic_words[2] == entry:
+                monosyllabic_words_wos = monosyllabic_words_wos + sn + n_syllabic_words[2]
+            if n_syllabic_words[3] == entry:
+                monosyllabic_words = monosyllabic_words + sn + n_syllabic_words[3]
 
             words_initial_wos = F_words_initials_wos(ipa_word)
 # получены инициали слов МФА !!! без расчёта слоговых
@@ -602,6 +645,12 @@ def M_create_table_1():
 
     #print(all_words)
 
+# запись односложных и бессложных слов
+    F_write_in_file(nosyllablic_words_wos, 'nosyllablic_words_wos.tsv')
+    F_write_in_file(nosyllablic_words, 'nosyllablic_words.tsv')
+    F_write_in_file(monosyllabic_words_wos, 'monosyllabic_words_wos.tsv')
+    F_write_in_file(monosyllabic_words, 'monosyllabic_words.tsv')
+
 # запись в файл инициалей и финалей и всего такого
     F_w_f_b(items_i, possible_initials_wos, 'initials_wos.txt')
     F_w_f_b(items_i, possible_initials, 'initials.txt')
@@ -668,7 +717,7 @@ def M_create_table_1():
     F_sord_wd_items(finals_wos_q, (items_f + '_wos_quality'))
     F_sord_wd_items(finals_q, (items_f + '_quality'))
 
-    F_write_in_file(all_cyr_words, 'words_full_list.tsv')
+    F_write_in_file(all_cyr_words, f_name_full_list)
 
     #print(data)
     F_write_in_file(data, 'phon_table.tsv')
