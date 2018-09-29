@@ -365,7 +365,7 @@ def F_w_f_b(items_name, possible_items, f_name):
     possible_W = items_name
     possible_items = F_sort_dictionary(possible_items)
     for element in possible_items:
-        possible_W = possible_W + '\n' + element
+        possible_W = 'table_1/' + possible_W + '\n' + element
     F_write_in_file(possible_W, f_name)
 
 # записывает файл с отсортированными по частотностями штуками
@@ -374,7 +374,7 @@ def F_sord_wd_items(my_items, items_name):
     items_freq = items_name + '\t' + 'frequency'
     for k in sorted_items:
         items_freq = items_freq + '\n' + k[0] + '\t' + str(k[1])
-    f_name = items_name + '_frequency.txt'
+    f_name = 'table_1/' + items_name + '_frequency.txt'
     F_write_in_file(items_freq, f_name)
 
 # таблица с:
@@ -652,23 +652,23 @@ def M_create_table_1():
     F_write_in_file(monosyllabic_words, 'monosyllabic_words.tsv')
 
 # запись в файл инициалей и финалей и всего такого
-    F_w_f_b(items_i, possible_initials_wos, 'initials_wos.txt')
-    F_w_f_b(items_i, possible_initials, 'initials.txt')
-    F_w_f_b(items_i, possible_initials_wos_M, 'initials_wos_manner.txt')
-    F_w_f_b(items_i, possible_initials_M, 'initials_manner.txt')
-    F_w_f_b(items_i, possible_initials_wos_P, 'initials_wos_place.txt')
-    F_w_f_b(items_i, possible_initials_P, 'initials_place.txt')
-    F_w_f_b(items_i, possible_initials_wos_Q, 'initials_wos_quality.txt')
-    F_w_f_b(items_i, possible_initials_Q, 'initials_quality.txt')
+    F_w_f_b(items_i, possible_initials_wos, 'table_1/initials_wos.txt')
+    F_w_f_b(items_i, possible_initials, 'table_1/initials.txt')
+    F_w_f_b(items_i, possible_initials_wos_M, 'table_1/initials_wos_manner.txt')
+    F_w_f_b(items_i, possible_initials_M, 'table_1/initials_manner.txt')
+    F_w_f_b(items_i, possible_initials_wos_P, 'table_1/initials_wos_place.txt')
+    F_w_f_b(items_i, possible_initials_P, 'table_1/initials_place.txt')
+    F_w_f_b(items_i, possible_initials_wos_Q, 'table_1/initials_wos_quality.txt')
+    F_w_f_b(items_i, possible_initials_Q, 'table_1/initials_quality.txt')
 
-    F_w_f_b(items_f, possible_finals_wos, 'finals_wos.txt')
-    F_w_f_b(items_f, possible_finals, 'finals.txt')
-    F_w_f_b(items_f, possible_finals_wos_M, 'finals_wos_manner.txt')
-    F_w_f_b(items_f, possible_finals_M, 'finals_manner.txt')
-    F_w_f_b(items_f, possible_finals_wos_P, 'finals_wos_place.txt')
-    F_w_f_b(items_f, possible_finals_P, 'finals_place.txt')
-    F_w_f_b(items_f, possible_finals_wos_Q, 'finals_wos_quality.txt')
-    F_w_f_b(items_f, possible_finals_Q, 'finals_quality.txt')
+    F_w_f_b(items_f, possible_finals_wos, 'table_1/finals_wos.txt')
+    F_w_f_b(items_f, possible_finals, 'table_1/finals.txt')
+    F_w_f_b(items_f, possible_finals_wos_M, 'table_1/finals_wos_manner.txt')
+    F_w_f_b(items_f, possible_finals_M, 'table_1/finals_manner.txt')
+    F_w_f_b(items_f, possible_finals_wos_P, 'table_1/finals_wos_place.txt')
+    F_w_f_b(items_f, possible_finals_P, 'table_1/finals_place.txt')
+    F_w_f_b(items_f, possible_finals_wos_Q, 'table_1/finals_wos_quality.txt')
+    F_w_f_b(items_f, possible_finals_Q, 'table_1/finals_quality.txt')
 
 # названия столбцов таблицы
     first_line = 'grammar' + st + 'lemma' + st + 'lettering' + st + 'ipa_lettering' + st + 'n_syllables_wos' \
@@ -722,5 +722,40 @@ def M_create_table_1():
     #print(data)
     F_write_in_file(data, 'phon_table.tsv')
 
+# теблица 2
+def M_create_table_2(f_name_in, f_name_out, syllabic_heads, num):
+
+    my_lines = F_get_lines(f_name_in)
+
+    sdf = my_lines[1:]
+    #sdf = my_lines[432:532]
+
+    all_data = 'word' + '\t' + 'sounds_q'
+
+    for line in sdf:
+        line_split = line.split('\t')
+        f_entry = line_split[0]  # для данного слова есть его словарное вхождение
+        entry = f_entry.strip()
+
+        #entry_l = F_lettering(entry)
+        #entry_l_ipa = F_ipa_transcriber(entry_l)
+        entry_ipa = F_ipa_transcriber(entry)
+        entry_ipa_q = F_articulation_quality(entry_ipa)
+
+        for i in range(0, num):
+            if syllabic_heads[i] in entry_ipa_q:
+                entry_ipa_q = entry_ipa_q.replace(syllabic_heads[i], '<VOW>')
+
+        #print(entry, entry_ipa_q)
+        all_data = all_data + '\n' + entry + '\t' + entry_ipa_q
+
+    F_write_in_file(all_data, f_name_out)
+
 M_create_table_1()
+
+syllabic_heads = ['a', 'e', 'i', 'o', 'u', 'è', 'ì', 'L', 'N', 'R']  # 'ə']
+
+M_create_table_2('monosyllabic_words_wos.tsv', 'table_monosyllabic_words_wos.tsv', syllabic_heads, 7)
+M_create_table_2('monosyllabic_words.tsv', 'table_monosyllabic_words.tsv', syllabic_heads, 10)
+
 print("--- %s seconds ---" % (time.time() - start_time))
