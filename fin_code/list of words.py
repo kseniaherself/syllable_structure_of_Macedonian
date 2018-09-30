@@ -399,10 +399,13 @@ def M_create_table_1():
 
     syllabic_heads = ['a', 'e', 'i', 'o', 'u', 'è', 'ì', 'L', 'N', 'R'] #'ə']
 
-    nosyllablic_words_wos = 'nonsyllabic_wos'
-    nosyllablic_words = 'nonsyllabic'
+    nosyllabic_words_wos = 'nonsyllabic_wos'
+    nosyllabic_words = 'nonsyllabic'
     monosyllabic_words_wos = 'monosyllabic_wos'
     monosyllabic_words = 'monosyllabic'
+
+    t_monosyllabic_words_wos = 'monosyllabic_wos' + st + 'sounds_q'
+    t_monosyllabic_words = 'monosyllabic' + st + 'sounds_q'
 
     initials_wos = {}
     initials = {}
@@ -495,17 +498,6 @@ def M_create_table_1():
             full_data = full_data + st + str(number_syllables)
             #print(full_data)
 
-            n_syllabic_words = F_get_monosyllabic(entry, number_syllables)
-
-            if n_syllabic_words[0] == entry:
-                nosyllablic_words_wos = nosyllablic_words_wos + sn + n_syllabic_words[0]
-            if n_syllabic_words[1] == entry:
-                nosyllablic_words = nosyllablic_words + sn + n_syllabic_words[1]
-            if n_syllabic_words[2] == entry:
-                monosyllabic_words_wos = monosyllabic_words_wos + sn + n_syllabic_words[2]
-            if n_syllabic_words[3] == entry:
-                monosyllabic_words = monosyllabic_words + sn + n_syllabic_words[3]
-
             words_initial_wos = F_words_initials_wos(ipa_word)
 # получены инициали слов МФА !!! без расчёта слоговых
             initials_wos_m = F_w_d(initials_wos_m, F_articulation_manner(words_initial_wos))
@@ -563,6 +555,30 @@ def M_create_table_1():
             full_data = full_data + words_items_place + st + segments_place
             full_data = full_data + words_items_quality + st + segments_quality
 
+# слова без слогов, с одним слогом
+            n_syllabic_words = F_get_monosyllabic(entry, number_syllables)
+
+            if n_syllabic_words[0] == entry:
+                nosyllabic_words_wos = nosyllabic_words_wos + sn + n_syllabic_words[0]
+
+            if n_syllabic_words[1] == entry:
+                nosyllabic_words = nosyllabic_words + sn + n_syllabic_words[1]
+
+            if n_syllabic_words[2] == entry:
+                monosyllabic_words_wos = monosyllabic_words_wos + sn + n_syllabic_words[2]
+
+                segments_wos_q = initials_segments_wos + '<NUCL>' + finals_segments_wos
+                segments_wos_q = F_articulation_quality(segments_wos_q)
+                t_monosyllabic_words_wos = t_monosyllabic_words_wos + sn + n_syllabic_words[2] + st + segments_wos_q
+
+            if n_syllabic_words[3] == entry:
+                monosyllabic_words = monosyllabic_words + sn + n_syllabic_words[3]
+
+                segments_q = initials_segments + '<NUCL>' + finals_segments
+                segments_q = F_articulation_quality(segments_q)
+                t_monosyllabic_words = t_monosyllabic_words + sn + n_syllabic_words[3] + st + segments_q
+
+# собираются массивы с инициалями и финалями разных сортов
             if words_initial_wos not in possible_initials_wos:
                 possible_initials_wos.append(words_initial_wos)     # инициали без учёта слоговых: possible_initials_wos
             if words_initial not in possible_initials:
@@ -646,10 +662,14 @@ def M_create_table_1():
     #print(all_words)
 
 # запись односложных и бессложных слов
-    F_write_in_file(nosyllablic_words_wos, 'nosyllablic_words_wos.tsv')
-    F_write_in_file(nosyllablic_words, 'nosyllablic_words.tsv')
+    F_write_in_file(nosyllabic_words_wos, 'nosyllablic_words_wos.tsv')
+    F_write_in_file(nosyllabic_words, 'nosyllablic_words.tsv')
     F_write_in_file(monosyllabic_words_wos, 'monosyllabic_words_wos.tsv')
     F_write_in_file(monosyllabic_words, 'monosyllabic_words.tsv')
+
+# запись односложных таблиц
+    F_write_in_file(t_monosyllabic_words_wos, 'table_monosyllabic_words_wos.tsv')
+    F_write_in_file(t_monosyllabic_words, 'table_monosyllabic_words.tsv')
 
 # запись в файл инициалей и финалей и всего такого
     F_w_f_b(items_i, possible_initials_wos, 'table_1/initials_wos.txt')
@@ -724,30 +744,40 @@ def M_create_table_1():
 
 # теблица 2
 def M_create_table_2(f_name_in, f_name_out, syllabic_heads, num):
-
     my_lines = F_get_lines(f_name_in)
 
-    sdf = my_lines[1:]
-    #sdf = my_lines[432:532]
+    #sdf = my_lines[1:]
+    sdf = my_lines[432:532]
 
-    all_data = 'word' + '\t' + 'sounds_q'
+    all_data = 'word' + '\t' + 'sounds_q' #+ '\t' + 'ipa_word'
 
     for line in sdf:
         line_split = line.split('\t')
         f_entry = line_split[0]  # для данного слова есть его словарное вхождение
         entry = f_entry.strip()
 
-        #entry_l = F_lettering(entry)
-        #entry_l_ipa = F_ipa_transcriber(entry_l)
-        entry_ipa = F_ipa_transcriber(entry)
-        entry_ipa_q = F_articulation_quality(entry_ipa)
+        entry_l = F_lettering(entry)
+        entry_l_ipa = F_ipa_transcriber(entry_l)
+        #entry_ipa = F_ipa_transcriber(entry)
 
-        for i in range(0, num):
-            if syllabic_heads[i] in entry_ipa_q:
-                entry_ipa_q = entry_ipa_q.replace(syllabic_heads[i], '<VOW>')
+        if num == 10:
+            for element in entry_l_ipa:
+                print(entry_l_ipa, element)
+                for j in range(7, 10):
+                    #print(j)
+                    print(syllabic_heads[j])
+                    if syllabic_heads[j] == element:
+                        print(element)
+                        entry_l_ipa = entry_l_ipa.replace(element, '<SYL>')
+
+        for i in range(0, 8):
+            if syllabic_heads[i] in entry_l_ipa:
+                entry_l_ipa = entry_l_ipa.replace(syllabic_heads[i], '<VOW>')
+
+        entry_l_ipa_q = F_articulation_quality(entry_l_ipa)
 
         #print(entry, entry_ipa_q)
-        all_data = all_data + '\n' + entry + '\t' + entry_ipa_q
+        all_data = all_data + '\n' + entry + '\t' + entry_l_ipa_q
 
     F_write_in_file(all_data, f_name_out)
 
@@ -755,7 +785,7 @@ M_create_table_1()
 
 syllabic_heads = ['a', 'e', 'i', 'o', 'u', 'è', 'ì', 'L', 'N', 'R']  # 'ə']
 
-M_create_table_2('monosyllabic_words_wos.tsv', 'table_monosyllabic_words_wos.tsv', syllabic_heads, 7)
-M_create_table_2('monosyllabic_words.tsv', 'table_monosyllabic_words.tsv', syllabic_heads, 10)
+#M_create_table_2('monosyllabic_words_wos.tsv', 'table_monosyllabic_words_wos.tsv', syllabic_heads, 7)
+#M_create_table_2('monosyllabic_words.tsv', 'table_monosyllabic_words.tsv', syllabic_heads, 10)
 
 print("--- %s seconds ---" % (time.time() - start_time))

@@ -1,1940 +1,1940 @@
-word	sounds_q
-а	<VOW>
-а	<VOW>
-ад	<VOW>O
-ај	<VOW>S
-ајнц	<VOW>SSO
-ак	<VOW>O
-акт	<VOW>OO
-ал	<VOW>S
-ал	<VOW>S
-ал	<VOW>S
-алт	<VOW>SO
-ам	<VOW>S
-ан	<VOW>S
-ап	<VOW>O
-апс	<VOW>OO
-ар	<VOW>S
-арч	<VOW>SO
-ас	<VOW>O
-ат	<VOW>O
-афт	<VOW>OO
-баз	O<VOW>O
-базд	O<VOW>OO
-бај	O<VOW>S
-бај	O<VOW>S
-бајт	O<VOW>SO
-бал	O<VOW>S
-бан	O<VOW>S
-бар	O<VOW>S
-бар	O<VOW>S
-бард	O<VOW>SO
-барз	O<VOW>SO
-бас	O<VOW>O
-бач	O<VOW>O
-баџ	O<VOW>O
-баш	O<VOW>O
-баш	O<VOW>O
-баш	O<VOW>O
-баш	O<VOW>O
-баш	O<VOW>O
-баш	O<VOW>O
-бев	O<VOW>O
-бег	O<VOW>O
-беж	O<VOW>O
-без	O<VOW>O
-беј	O<VOW>S
-бек	O<VOW>O
-бел	O<VOW>S
-бенд	O<VOW>SO
-бес	O<VOW>O
-беџ	O<VOW>O
-би	O<VOW>
-би	O<VOW>
-бивш	O<VOW>OO
-бик	O<VOW>O
-бил	O<VOW>S
-бинт	O<VOW>SO
-бир	O<VOW>S
-бит	O<VOW>O
-бич	O<VOW>O
-благ	OS<VOW>O
-бланш	OS<VOW>SO
-блед	OS<VOW>O
-блен	OS<VOW>S
-блеф	OS<VOW>O
-блех	OS<VOW>O
-блик	OS<VOW>O
-блиц	OS<VOW>O
-блог	OS<VOW>O
-блок	OS<VOW>O
-блуд	OS<VOW>O
-блуз	OS<VOW>O
-бљуд	OS<VOW>O
-боб	O<VOW>O
-бог	O<VOW>O
-бод	O<VOW>O
-боз	O<VOW>O
-бој	O<VOW>S
-бок	O<VOW>O
-бокс	O<VOW>OO
-бон	O<VOW>S
-бор	O<VOW>S
-борд	O<VOW>SO
-борч	O<VOW>SO
-боршч	O<VOW>SOO
-бос	O<VOW>O
-бос	O<VOW>O
-бофл	O<VOW>OS
-бош	O<VOW>O
-брав	OS<VOW>O
-брак	OS<VOW>O
-бран	OS<VOW>S
-брат	OS<VOW>O
-брбла	OSOS<VOW>
-брбла	OSOS<VOW>
-брблив	OSOS<VOW>O
-брбло	OSOS<VOW>
-брбне	OSOS<VOW>
-брбор	OSO<VOW>S
-брго	OSO<VOW>
-бргу	OSO<VOW>
-брдо	OSO<VOW>
-брег	OS<VOW>O
-брез	OS<VOW>O
-брејк	OS<VOW>SO
-бренд	OS<VOW>SO
-брест	OS<VOW>OO
-брза	OSO<VOW>
-брзак	OSO<VOW>O
-брзга	OSOO<VOW>
-брзне	OSOS<VOW>
-брзо	OSO<VOW>
-брис	OS<VOW>O
-брич	OS<VOW>O
-бриџ	OS<VOW>O
-брка	OSO<VOW>
-бркне	OSOS<VOW>
-брле	OSS<VOW>
-брлив	OSS<VOW>O
-брлог	OSS<VOW>O
-брмка	OSSO<VOW>
-брмне	OSSS<VOW>
-брмчи	OSSO<VOW>
-брод	OS<VOW>O
-број	OS<VOW>S
-бром	OS<VOW>S
-броќ	OS<VOW>O
-брош	OS<VOW>O
-брошт	OS<VOW>OO
-брсти	OSOO<VOW>
-брус	OS<VOW>O
-брут	OS<VOW>O
-брца	OSO<VOW>
-брцка	OSOO<VOW>
-брцне	OSOS<VOW>
-брчи	OSO<VOW>
-брчка	OSOO<VOW>
-брчка	OSOO<VOW>
-брчкав	OSOO<VOW>O
-брчне	OSOS<VOW>
-бршлен	OSOS<VOW>S
-був	O<VOW>O
-бум	O<VOW>S
-бунт	O<VOW>SO
-бут	O<VOW>O
-валс	O<VOW>SO
-вам	O<VOW>S
-вар	O<VOW>S
-вас	O<VOW>O
-ват	O<VOW>O
-ваш	O<VOW>O
-вдолж	OO<VOW>SO
-вдрви	OOSO<VOW>
-ве	O<VOW>
-веб	O<VOW>O
-вез	O<VOW>O
-век	O<VOW>O
-вел	O<VOW>S
-вергл	O<VOW>SOS
-верс	O<VOW>SO
-вест	O<VOW>OO
-вет	O<VOW>O
-веш	O<VOW>O
-вешт	O<VOW>OO
-ви	O<VOW>
-вид	O<VOW>O
-виј	O<VOW>S
-вик	O<VOW>O
-винт	O<VOW>SO
-вир	O<VOW>S
-вис	O<VOW>O
-вит	O<VOW>O
-виц	O<VOW>O
-виш	O<VOW>O
-вкрстен	OOSOO<VOW>S
-вкрсти	OOSOO<VOW>
-вкуп	OO<VOW>O
-вкус	OO<VOW>O
-Влав	ВS<VOW>O
-влак	OS<VOW>O
-влас	OS<VOW>O
-власт	OS<VOW>OO
-влез	OS<VOW>O
-влив	OS<VOW>O
-влог	OS<VOW>O
-внук	OS<VOW>O
-во	O<VOW>
-вод	O<VOW>O
-вожд	O<VOW>OO
-воз	O<VOW>O
-воз	O<VOW>O
-вој	O<VOW>S
-вол	O<VOW>S
-волк	O<VOW>SO
-волт	O<VOW>SO
-вон	O<VOW>S
-врав	OS<VOW>O
-враг	OS<VOW>O
-вран	OS<VOW>S
-врат	OS<VOW>O
-врач	OS<VOW>O
-врба	OSO<VOW>
-врбак	OSO<VOW>O
-врбјак	OSOS<VOW>O
-врбов	OSO<VOW>O
-врвеж	OSO<VOW>O
-врвен	OSO<VOW>S
-врви	OSO<VOW>
-врвка	OSOO<VOW>
-врвлест	OSOS<VOW>OO
-врвца	OSOO<VOW>
-врвчи	OSOO<VOW>
-врга	OSO<VOW>
-вргав	OSO<VOW>O
-вргањ	OSO<VOW>S
-врглест	OSOS<VOW>OO
-врглив	OSOS<VOW>O
-вргло	OSOS<VOW>
-вред	OS<VOW>O
-вреж	OS<VOW>O
-врез	OS<VOW>O
-врел	OS<VOW>S
-врен	OS<VOW>S
-врзан	OSO<VOW>S
-врзач	OSO<VOW>O
-врзе	OSO<VOW>
-врзма	OSOS<VOW>
-врзол	OSO<VOW>S
-врзоп	OSO<VOW>O
-врзум	OSO<VOW>S
-врлеж	OSS<VOW>O
-врне	OSS<VOW>
-врнеж	OSS<VOW>O
-врпа	OSO<VOW>
-врпал	OSO<VOW>S
-врска	OSOO<VOW>
-врска	OSOO<VOW>
-врсне	OSOS<VOW>
-врсник	OSOS<VOW>O
-вртеж	OSO<VOW>O
-врти	OSO<VOW>
-вртка	OSOO<VOW>
-вртка	OSOO<VOW>
-вртлив	OSOS<VOW>O
-вртлог	OSOS<VOW>O
-вртне	OSOS<VOW>
-вруќ	OS<VOW>O
-врцка	OSOO<VOW>
-врчва	OSOO<VOW>
-врчка	OSOO<VOW>
-врчкав	OSOO<VOW>O
-врша	OSO<VOW>
-вршач	OSO<VOW>O
-вршен	OSO<VOW>S
-врши	OSO<VOW>
-вршка	OSOO<VOW>
-вршник	OSOS<VOW>O
-втас	OO<VOW>O
-втврдне	OOOSOS<VOW>
-втор	OO<VOW>S
-втрча	OOSO<VOW>
-втрчне	OOSOS<VOW>
-вход	OO<VOW>O
-вцрвен	OOSO<VOW>S
-вцрви	OOSO<VOW>
-вцрпи	OOSO<VOW>
-вчас	OO<VOW>O
-вшир	OO<VOW>S
-гад	O<VOW>O
-газ	O<VOW>O
-ганц	O<VOW>SO
-гард	O<VOW>SO
-гас	O<VOW>O
-гаф	O<VOW>O
-гвинт	OO<VOW>SO
-гег	O<VOW>O
-гел	O<VOW>S
-гем	O<VOW>S
-ген	O<VOW>S
-гест	O<VOW>OO
-ги	O<VOW>
-гипс	O<VOW>OO
-глад	OS<VOW>O
-гланц	OS<VOW>SO
-гланц	OS<VOW>SO
-глас	OS<VOW>O
-глеѓ	OS<VOW>O
-глиб	OS<VOW>O
-глоб	OS<VOW>O
-глог	OS<VOW>O
-глув	OS<VOW>O
-глужд	OS<VOW>OO
-глуп	OS<VOW>O
-гнас	OS<VOW>O
-гнев	OS<VOW>O
-гнет	OS<VOW>O
-гнил	OS<VOW>S
-гној	OS<VOW>S
-го	O<VOW>
-гол	O<VOW>S
-гол	O<VOW>S
-голф	O<VOW>SO
-гонг	O<VOW>SO
-горд	O<VOW>SO
-грав	OS<VOW>O
-град	OS<VOW>O
-грам	OS<VOW>S
-грант	OS<VOW>SO
-граф	OS<VOW>O
-грбав	OSO<VOW>O
-грбач	OSO<VOW>O
-грбен	OSO<VOW>S
-грби	OSO<VOW>
-грбло	OSOS<VOW>
-грбник	OSOS<VOW>O
-грга	OSO<VOW>
-гргне	OSOS<VOW>
-гргор	OSO<VOW>S
-гргот	OSO<VOW>O
-грдел	OSO<VOW>S
-грди	OSO<VOW>
-грдо	OSO<VOW>
-грев	OS<VOW>O
-гриз	OS<VOW>O
-грим	OS<VOW>S
-грип	OS<VOW>O
-грклан	OSOS<VOW>S
-гркне	OSOS<VOW>
-грлат	OSS<VOW>O
-грлен	OSS<VOW>S
-грлест	OSS<VOW>OO
-грли	OSS<VOW>
-грло	OSS<VOW>
-грмеж	OSS<VOW>O
-грми	OSS<VOW>
-грмне	OSSS<VOW>
-грмотрн	OSS<VOW>OSS
-грне	OSS<VOW>
-грнец	OSS<VOW>O
-грнчар	OSSO<VOW>S
-гро	OS<VOW>
-гроб	OS<VOW>O
-грог	OS<VOW>O
-грозд	OS<VOW>OO
-гром	OS<VOW>S
-гроф	OS<VOW>O
-грош	OS<VOW>O
-грпка	OSOO<VOW>
-грсти	OSOO<VOW>
-грстум	OSOO<VOW>S
-груб	OS<VOW>O
-грчав	OSO<VOW>O
-грчи	OSO<VOW>
-грчки	OSOO<VOW>
-гугл	O<VOW>OS
-густ	O<VOW>OO
-да	O<VOW>
-да	O<VOW>
-даб	O<VOW>O
-дал	O<VOW>S
-дар	O<VOW>S
-два	OO<VOW>
-дваж	OO<VOW>O
-дваш	OO<VOW>O
-две	OO<VOW>
-двер	OO<VOW>S
-двогрб	OO<VOW>OSO
-двор	OO<VOW>S
-де	O<VOW>
-де	O<VOW>
-дел	O<VOW>S
-ден	O<VOW>S
-денк	O<VOW>SO
-дерт	O<VOW>SO
-диб	O<VOW>O
-див	O<VOW>O
-дим	O<VOW>S
-дин	O<VOW>S
-дип	O<VOW>O
-дип	O<VOW>O
-диск	O<VOW>OO
-длан	OS<VOW>S
-дно	OS<VOW>
-до	O<VOW>
-до	O<VOW>
-дожд	O<VOW>OO
-док	O<VOW>O
-дол	O<VOW>S
-долг	O<VOW>SO
-долг	O<VOW>SO
-долж	O<VOW>SO
-дом	O<VOW>S
-драг	OS<VOW>O
-драг	OS<VOW>O
-драж	OS<VOW>O
-драм	OS<VOW>S
-драфт	OS<VOW>OO
-драч	OS<VOW>O
-дрвар	OSO<VOW>S
-дрвен	OSO<VOW>S
-дрвник	OSOS<VOW>O
-дрво	OSO<VOW>
-дрвце	OSOO<VOW>
-дрен	OS<VOW>S
-дрес	OS<VOW>O
-држач	OSO<VOW>O
-држи	OSO<VOW>
-дрзне	OSOS<VOW>
-дрзник	OSOS<VOW>O
-дрзок	OSO<VOW>O
-дрка	OSO<VOW>
-дркол	OSO<VOW>S
-дркул	OSO<VOW>S
-дрма	OSS<VOW>
-дрма	OSS<VOW>
-дрмка	OSSO<VOW>
-дрмлив	OSSS<VOW>O
-дрмне	OSSS<VOW>
-дрмон	OSS<VOW>S
-дрнда	OSSO<VOW>
-дрндав	OSSO<VOW>O
-дрндар	OSSO<VOW>S
-дрнка	OSSO<VOW>
-дроб	OS<VOW>O
-дрозд	OS<VOW>OO
-дрон	OS<VOW>S
-дрпа	OSO<VOW>
-дрпав	OSO<VOW>O
-дрпка	OSOO<VOW>
-дрпне	OSOS<VOW>
-дрска	OSOO<VOW>
-дрско	OSOO<VOW>
-дрскост	OSOO<VOW>OO
-дрслив	OSOS<VOW>O
-дрсло	OSOS<VOW>
-дрсне	OSOS<VOW>
-дртла	OSOS<VOW>
-друг	OS<VOW>O
-друм	OS<VOW>S
-дрча	OSO<VOW>
-дрчав	OSO<VOW>O
-дрчен	OSO<VOW>S
-дрчлив	OSOS<VOW>O
-дрчник	OSOS<VOW>O
-дршка	OSOO<VOW>
-дубл	O<VOW>OS
-дуд	O<VOW>O
-дужд	O<VOW>OO
-дур	O<VOW>S
-дур	O<VOW>S
-дух	O<VOW>O
-ѓак	O<VOW>O
-ѓем	O<VOW>S
-ѓок	O<VOW>O
-ѓол	O<VOW>S
-ѓон	O<VOW>S
-ѓул	O<VOW>S
-ѓум	O<VOW>S
-е	<VOW>
-еж	<VOW>O
-ек	<VOW>O
-ем	<VOW>S
-еп	<VOW>O
-ер	<VOW>S
-жад	O<VOW>O
-жал	O<VOW>S
-жанр	O<VOW>SS
-жар	O<VOW>S
-жган	OO<VOW>S
-ждреб	OOS<VOW>O
-ждриг	OOS<VOW>O
-жег	O<VOW>O
-жед	O<VOW>O
-жив	O<VOW>O
-жиг	O<VOW>O
-жир	O<VOW>S
-жлеб	OS<VOW>O
-жмер	OS<VOW>S
-жмрка	OSSO<VOW>
-жолт	O<VOW>SO
-жолч	O<VOW>SO
-жреб	OS<VOW>O
-жрец	OS<VOW>O
-жртва	OSOO<VOW>
-жртвен	OSOO<VOW>S
-жур	O<VOW>S
-за	O<VOW>
-за	O<VOW>
-заб	O<VOW>O
-заврз	O<VOW>OSO
-зад	O<VOW>O
-задрт	O<VOW>OSO
-залп	O<VOW>SO
-замк	O<VOW>SO
-запт	O<VOW>OO
-зар	O<VOW>S
-зар	O<VOW>S
-зар	O<VOW>S
-зарф	O<VOW>SO
-збег	OO<VOW>O
-збир	OO<VOW>S
-збит	OO<VOW>O
-збор	OO<VOW>S
-збрден	OOSO<VOW>S
-збрка	OOSO<VOW>
-збрка	OOSO<VOW>
-збркан	OOSO<VOW>S
-збрмчи	OOSSO<VOW>
-збрца	OOSO<VOW>
-збрчи	OOSO<VOW>
-збрчка	OOSOO<VOW>
-збрчкан	OOSOO<VOW>S
-зван	OO<VOW>S
-звук	OO<VOW>O
-зган	OO<VOW>S
-зглоб	OOS<VOW>O
-згон	OO<VOW>S
-згрби	OOSO<VOW>
-згрди	OOSO<VOW>
-згрли	OOSS<VOW>
-згрми	OOSS<VOW>
-згрне	OOSS<VOW>
-згрсти	OOSOO<VOW>
-згрчен	OOSO<VOW>S
-згрчи	OOSO<VOW>
-здив	OO<VOW>O
-здрав	OOS<VOW>O
-здрач	OOS<VOW>O
-здрвен	OOSO<VOW>S
-здрви	OOSO<VOW>
-здржан	OOSO<VOW>S
-здржи	OOSO<VOW>
-здрув	OOS<VOW>O
-зев	O<VOW>O
-зер	O<VOW>S
-зер	O<VOW>S
-зет	O<VOW>O
-зил	O<VOW>S
-зифт	O<VOW>OO
-зјај	OS<VOW>S
-зла	OS<VOW>
-злат	OS<VOW>O
-зло	OS<VOW>
-зло	OS<VOW>
-злост	OS<VOW>OO
-змев	OS<VOW>O
-змеј	OS<VOW>S
-знак	OS<VOW>O
-зоб	O<VOW>O
-зов	O<VOW>O
-зод	O<VOW>O
-зол	O<VOW>S
-зорт	O<VOW>SO
-зрак	OS<VOW>O
-зрел	OS<VOW>S
-зрнен	OSS<VOW>S
-зрнест	OSS<VOW>OO
-зрно	OSS<VOW>
-зрнце	OSSO<VOW>
-зум	O<VOW>S
-ѕвек	OO<VOW>O
-ѕвер	OO<VOW>S
-ѕвон	OO<VOW>S
-ѕврцне	OOSOS<VOW>
-ѕид	O<VOW>O
-ѕун	O<VOW>S
-и	<VOW>
-и	<VOW>
-из	<VOW>O
-икс	<VOW>OO
-ил	<VOW>S
-им	<VOW>S
-инт	<VOW>SO
-инч	<VOW>SO
-ист	<VOW>OO
-ич	<VOW>O
-ја	S<VOW>
-ја	S<VOW>
-ја	S<VOW>
-јад	S<VOW>O
-јаз	S<VOW>O
-јак	S<VOW>O
-јак	S<VOW>O
-јамб	S<VOW>SO
-јан	S<VOW>S
-јард	S<VOW>SO
-јас	S<VOW>O
-јат	S<VOW>O
-јер	S<VOW>S
-јог	S<VOW>O
-јод	S<VOW>O
-јок	S<VOW>O
-јок	S<VOW>O
-јок	S<VOW>O
-јон	S<VOW>S
-југ	S<VOW>O
-јус	S<VOW>O
-ка	O<VOW>
-кад	O<VOW>O
-кај	O<VOW>S
-кај	O<VOW>S
-кај	O<VOW>S
-кал	O<VOW>S
-калк	O<VOW>SO
-камп	O<VOW>SO
-кан	O<VOW>S
-капс	O<VOW>OO
-карст	O<VOW>SOO
-кас	O<VOW>O
-кат	O<VOW>O
-квант	OO<VOW>SO
-кварк	OO<VOW>SO
-кварт	OO<VOW>SO
-кварц	OO<VOW>SO
-квас	OO<VOW>O
-квиз	OO<VOW>O
-квит	OO<VOW>O
-кеј	O<VOW>S
-кекс	O<VOW>OO
-Келт	К<VOW>SO
-кељ	O<VOW>S
-кец	O<VOW>O
-кеш	O<VOW>O
-кикс	O<VOW>OO
-килт	O<VOW>SO
-ким	O<VOW>S
-кип	O<VOW>O
-кир	O<VOW>S
-кир	O<VOW>S
-кит	O<VOW>O
-кич	O<VOW>O
-кич	O<VOW>O
-клан	OS<VOW>S
-клас	OS<VOW>O
-клед	OS<VOW>O
-клен	OS<VOW>S
-клер	OS<VOW>S
-клет	OS<VOW>O
-клет	OS<VOW>O
-клик	OS<VOW>O
-клин	OS<VOW>S
-клинч	OS<VOW>SO
-клип	OS<VOW>O
-клир	OS<VOW>S
-кловн	OS<VOW>OS
-клон	OS<VOW>S
-клуб	OS<VOW>O
-клун	OS<VOW>S
-клуч	OS<VOW>O
-кмет	OS<VOW>O
-кнез	OS<VOW>O
-ко	O<VOW>
-коб	O<VOW>O
-ков	O<VOW>O
-код	O<VOW>O
-кој	O<VOW>S
-кок	O<VOW>O
-кокс	O<VOW>OO
-кол	O<VOW>S
-колк	O<VOW>SO
-кон	O<VOW>S
-коњ	O<VOW>S
-коп	O<VOW>O
-кор	O<VOW>S
-кос	O<VOW>O
-кос	O<VOW>O
-кот	O<VOW>O
-коч	O<VOW>O
-кош	O<VOW>O
-краг	OS<VOW>O
-крај	OS<VOW>S
-крај	OS<VOW>S
-крак	OS<VOW>O
-крал	OS<VOW>S
-крамп	OS<VOW>SO
-кран	OS<VOW>S
-крап	OS<VOW>O
-крас	OS<VOW>O
-крах	OS<VOW>O
-крбла	OSOS<VOW>
-крбло	OSOS<VOW>
-крвав	OSO<VOW>O
-крвен	OSO<VOW>S
-крви	OSO<VOW>
-крвник	OSOS<VOW>O
-крвно	OSOS<VOW>
-крдак	OSO<VOW>O
-крдар	OSO<VOW>S
-крди	OSO<VOW>
-крем	OS<VOW>S
-креп	OS<VOW>O
-креч	OS<VOW>O
-крже	OSO<VOW>
-крзнар	OSOS<VOW>S
-крзнен	OSOS<VOW>S
-крзно	OSOS<VOW>
-крив	OS<VOW>O
-крик	OS<VOW>O
-крин	OS<VOW>S
-крка	OSO<VOW>
-кркач	OSO<VOW>O
-кркач	OSO<VOW>O
-кркма	OSOS<VOW>
-кркне	OSOS<VOW>
-кркор	OSO<VOW>S
-кркот	OSO<VOW>O
-кркуш	OSO<VOW>O
-кркче	OSOO<VOW>
-крла	OSS<VOW>
-крлеж	OSS<VOW>O
-крлик	OSS<VOW>O
-крлук	OSS<VOW>O
-крма	OSS<VOW>
-крмак	OSS<VOW>O
-крмар	OSS<VOW>S
-крмез	OSS<VOW>O
-крмен	OSS<VOW>S
-крми	OSS<VOW>
-крмнак	OSSS<VOW>O
-крмуз	OSS<VOW>O
-крмуз	OSS<VOW>O
-крндак	OSSO<VOW>O
-крни	OSS<VOW>
-кров	OS<VOW>O
-крој	OS<VOW>S
-крос	OS<VOW>O
-крпа	OSO<VOW>
-крпач	OSO<VOW>O
-крпеж	OSO<VOW>O
-крпи	OSO<VOW>
-крпче	OSOO<VOW>
-крсник	OSOS<VOW>O
-крстат	OSOO<VOW>O
-крстач	OSOO<VOW>O
-крсташ	OSOO<VOW>O
-крстен	OSOO<VOW>S
-крстест	OSOO<VOW>OO
-крстец	OSOO<VOW>O
-крсти	OSOO<VOW>
-крстум	OSOO<VOW>S
-крти	OSO<VOW>
-кртул	OSO<VOW>S
-круг	OS<VOW>O
-круп	OS<VOW>O
-крут	OS<VOW>O
-крца	OSO<VOW>
-крцка	OSOO<VOW>
-крцкав	OSOO<VOW>O
-крцкот	OSOO<VOW>O
-крцлив	OSOS<VOW>O
-крцне	OSOS<VOW>
-крцул	OSO<VOW>S
-крчи	OSO<VOW>
-крчка	OSOO<VOW>
-крчма	OSOS<VOW>
-крчмар	OSOS<VOW>S
-крчми	OSOS<VOW>
-кршен	OSO<VOW>S
-крши	OSO<VOW>
-кршјак	OSOS<VOW>O
-кршка	OSOO<VOW>
-кршкав	OSOO<VOW>O
-кршла	OSOS<VOW>
-кршлив	OSOS<VOW>O
-кршне	OSOS<VOW>
-кршно	OSOS<VOW>
-ксмет	OOS<VOW>O
-куб	O<VOW>O
-култ	O<VOW>SO
-кум	O<VOW>S
-куп	O<VOW>O
-кур	O<VOW>S
-курс	O<VOW>SO
-кус	O<VOW>O
-кус	O<VOW>O
-куц	O<VOW>O
-ла	S<VOW>
-лав	S<VOW>O
-лаг	S<VOW>O
-лад	S<VOW>O
-лаж	S<VOW>O
-лаз	S<VOW>O
-лај	S<VOW>S
-лак	S<VOW>O
-лакт	S<VOW>OO
-лаф	S<VOW>O
-лач	S<VOW>O
-ле	S<VOW>
-леб	S<VOW>O
-лев	S<VOW>O
-лев	S<VOW>O
-лед	S<VOW>O
-лек	S<VOW>O
-лек	S<VOW>O
-лем	S<VOW>S
-лен	S<VOW>S
-лер	S<VOW>S
-лес	S<VOW>O
-лет	S<VOW>O
-леш	S<VOW>O
-ли	S<VOW>
-ли	S<VOW>
-лив	S<VOW>O
-лик	S<VOW>O
-лим	S<VOW>S
-линк	S<VOW>SO
-линч	S<VOW>SO
-лис	S<VOW>O
-лист	S<VOW>OO
-лит	S<VOW>O
-лифт	S<VOW>OO
-лоб	S<VOW>O
-лов	S<VOW>O
-лоз	S<VOW>O
-лој	S<VOW>S
-лом	S<VOW>S
-лон	S<VOW>S
-лорд	S<VOW>SO
-лос	S<VOW>O
-лост	S<VOW>OO
-лош	S<VOW>O
-луб	S<VOW>O
-луд	S<VOW>O
-лук	S<VOW>O
-лут	S<VOW>O
-луфт	S<VOW>OO
-мав	S<VOW>O
-маг	S<VOW>O
-маж	S<VOW>O
-мај	S<VOW>S
-мак	S<VOW>O
-мал	S<VOW>S
-мал	S<VOW>S
-март	S<VOW>SO
-марш	S<VOW>SO
-маст	S<VOW>OO
-мат	S<VOW>O
-мат	S<VOW>O
-ме	S<VOW>
-мев	S<VOW>O
-мед	S<VOW>O
-мејл	S<VOW>SS
-мек	S<VOW>O
-мем	S<VOW>S
-меч	S<VOW>O
-ми	S<VOW>
-ми	S<VOW>
-миг	S<VOW>O
-мил	S<VOW>S
-мил	S<VOW>S
-мир	S<VOW>S
-мис	S<VOW>O
-миск	S<VOW>OO
-мит	S<VOW>O
-млад	SS<VOW>O
-млаз	SS<VOW>O
-млак	SS<VOW>O
-млеч	SS<VOW>O
-млин	SS<VOW>S
-мов	S<VOW>O
-мој	S<VOW>S
-мол	S<VOW>S
-молк	S<VOW>SO
-мор	S<VOW>S
-морж	S<VOW>SO
-мост	S<VOW>OO
-моќ	S<VOW>O
-моч	S<VOW>O
-мошт	S<VOW>OO
-мраз	SS<VOW>O
-мрак	SS<VOW>O
-мрва	SSO<VOW>
-мрва	SSO<VOW>
-мрглав	SSOS<VOW>O
-мрда	SSO<VOW>
-мрдач	SSO<VOW>O
-мрднат	SSOS<VOW>O
-мрдне	SSOS<VOW>
-мрест	SS<VOW>OO
-мрза	SSO<VOW>
-мрзи	SSO<VOW>
-мрзла	SSOS<VOW>
-мрзлив	SSOS<VOW>O
-мрзло	SSOS<VOW>
-мрзне	SSOS<VOW>
-мрка	SSO<VOW>
-мркач	SSO<VOW>O
-мркне	SSOS<VOW>
-мрмка	SSSO<VOW>
-мрмор	SSS<VOW>S
-мрмот	SSS<VOW>O
-мрсен	SSO<VOW>S
-мрси	SSO<VOW>
-мрсник	SSOS<VOW>O
-мрсно	SSOS<VOW>
-мрсул	SSO<VOW>S
-мртвак	SSOO<VOW>O
-мртвен	SSOO<VOW>S
-мртво	SSOO<VOW>
-мртвост	SSOO<VOW>OO
-мртка	SSOO<VOW>
-мртов	SSO<VOW>O
-мрцка	SSOO<VOW>
-мрцкач	SSOO<VOW>O
-мрцлав	SSOS<VOW>O
-мрцне	SSOS<VOW>
-мрчка	SSOO<VOW>
-мрша	SSO<VOW>
-мршав	SSO<VOW>O
-мршти	SSOO<VOW>
-му	S<VOW>
-мук	S<VOW>O
-мулк	S<VOW>SO
-мур	S<VOW>S
-мут	S<VOW>O
-муф	S<VOW>O
-на	S<VOW>
-на	S<VOW>
-над	S<VOW>O
-нај	S<VOW>S
-накрст	S<VOW>OSOO
-нам	S<VOW>S
-нар	S<VOW>S
-нас	S<VOW>O
-нацрт	S<VOW>OSO
-наш	S<VOW>O
-не	S<VOW>
-нѐ	S<VOW>
-нем	S<VOW>S
-нем	S<VOW>S
-нерв	S<VOW>SO
-ни	S<VOW>
-ни	S<VOW>
-ни	S<VOW>
-ни	S<VOW>
-ни	S<VOW>
-ни	S<VOW>
-нив	S<VOW>O
-ниж	S<VOW>O
-низ	S<VOW>O
-ним	S<VOW>S
-но	S<VOW>
-но	S<VOW>
-нов	S<VOW>O
-нож	S<VOW>O
-ној	S<VOW>S
-нор	S<VOW>S
-нос	S<VOW>O
-ноќ	S<VOW>O
-њутн	S<VOW>OS
-о	<VOW>
-обрт	<VOW>OSO
-од	<VOW>O
-од	<VOW>O
-ом	<VOW>S
-он	<VOW>S
-опкрш	<VOW>OOSO
-општ	<VOW>OOO
-осврт	<VOW>OOSO
-оцрт	<VOW>OSO
-па	O<VOW>
-па	O<VOW>
-па	O<VOW>
-паб	O<VOW>O
-пад	O<VOW>O
-паж	O<VOW>O
-пај	O<VOW>S
-пак	O<VOW>O
-пак	O<VOW>O
-пак	O<VOW>O
-пак	O<VOW>O
-пакт	O<VOW>OO
-пан	O<VOW>S
-панк	O<VOW>SO
-пар	O<VOW>S
-парк	O<VOW>SO
-пас	O<VOW>O
-пат	O<VOW>O
-пеј	O<VOW>S
-пек	O<VOW>O
-пелц	O<VOW>SO
-пен	O<VOW>S
-пер	O<VOW>S
-пес	O<VOW>O
-пет	O<VOW>O
-пет	O<VOW>O
-пех	O<VOW>O
-пеш	O<VOW>O
-пеш	O<VOW>O
-пеш	O<VOW>O
-пешт	O<VOW>OO
-пив	O<VOW>O
-пик	O<VOW>O
-пин	O<VOW>S
-пип	O<VOW>O
-пир	O<VOW>S
-пирг	O<VOW>SO
-пис	O<VOW>O
-пис	O<VOW>O
-пјат	OS<VOW>O
-плав	OS<VOW>O
-плаз	OS<VOW>O
-плак	OS<VOW>O
-плам	OS<VOW>S
-план	OS<VOW>S
-пласт	OS<VOW>OO
-плат	OS<VOW>O
-плах	OS<VOW>O
-плац	OS<VOW>O
-плач	OS<VOW>O
-плашт	OS<VOW>OO
-плен	OS<VOW>S
-плет	OS<VOW>O
-плех	OS<VOW>O
-плик	OS<VOW>O
-плин	OS<VOW>S
-плит	OS<VOW>O
-плиш	OS<VOW>O
-плод	OS<VOW>O
-плот	OS<VOW>O
-плот	OS<VOW>O
-плошт	OS<VOW>OO
-плуг	OS<VOW>O
-плус	OS<VOW>O
-плус	OS<VOW>O
-по	O<VOW>
-по	O<VOW>
-под	O<VOW>O
-под	O<VOW>O
-под	O<VOW>O
-под	O<VOW>O
-пој	O<VOW>S
-пол	O<VOW>S
-пол	O<VOW>S
-полв	O<VOW>SO
-полк	O<VOW>SO
-полн	O<VOW>SS
-поп	O<VOW>O
-поп	O<VOW>O
-пор	O<VOW>S
-порт	O<VOW>SO
-пост	O<VOW>OO
-пост	O<VOW>OO
-пот	O<VOW>O
-прав	OS<VOW>O
-прав	OS<VOW>O
-праг	OS<VOW>O
-праз	OS<VOW>O
-прат	OS<VOW>O
-прва	OSO<VOW>
-првак	OSO<VOW>O
-првен	OSO<VOW>S
-првен	OSO<VOW>S
-првин	OSO<VOW>S
-првне	OSOS<VOW>
-прво	OSO<VOW>
-првпат	OSOO<VOW>O
-првут	OSO<VOW>O
-пргав	OSO<VOW>O
-прдеж	OSO<VOW>O
-прди	OSO<VOW>
-прдлив	OSOS<VOW>O
-прдло	OSOS<VOW>
-прдне	OSOS<VOW>
-пребрз	OS<VOW>OSO
-пред	OS<VOW>O
-пред	OS<VOW>O
-през	OS<VOW>O
-прек	OS<VOW>O
-пресврт	OS<VOW>OOSO
-пржел	OSO<VOW>S
-пржен	OSO<VOW>S
-пржи	OSO<VOW>
-при	OS<VOW>
-принц	OS<VOW>SO
-пришт	OS<VOW>OO
-пркне	OSOS<VOW>
-пркос	OSO<VOW>O
-прле	OSS<VOW>
-прли	OSS<VOW>
-прлок	OSS<VOW>O
-прнар	OSS<VOW>S
-прост	OS<VOW>OO
-прпа	OSO<VOW>
-прпне	OSOS<VOW>
-прпот	OSO<VOW>O
-прсен	OSO<VOW>S
-прска	OSOO<VOW>
-прскот	OSOO<VOW>O
-прсне	OSOS<VOW>
-прстен	OSOO<VOW>S
-прстен	OSOO<VOW>S
-прстен	OSOO<VOW>S
-прстен	OSOO<VOW>S
-прти	OSO<VOW>
-прцел	OSO<VOW>S
-прцле	OSOS<VOW>
-прчи	OSO<VOW>
-прчка	OSOO<VOW>
-прчко	OSOO<VOW>
-прчлест	OSOS<VOW>OO
-пршка	OSOO<VOW>
-пршлен	OSOS<VOW>S
-псалм	OO<VOW>SS
-пуд	O<VOW>O
-пул	O<VOW>S
-пулс	O<VOW>SO
-пулт	O<VOW>SO
-пункт	O<VOW>SOO
-пунч	O<VOW>SO
-пуст	O<VOW>OO
-пуч	O<VOW>O
-пцалт	OO<VOW>SO
-пцост	OO<VOW>OO
-раб	S<VOW>O
-рад	S<VOW>O
-рај	S<VOW>S
-рак	S<VOW>O
-рам	S<VOW>S
-ран	S<VOW>S
-ранг	S<VOW>SO
-ранч	S<VOW>SO
-рап	S<VOW>O
-раст	S<VOW>OO
-рат	S<VOW>O
-рафт	S<VOW>OO
-рбел	SO<VOW>S
-рбет	SO<VOW>O
-рблак	SOS<VOW>O
-рбол	SO<VOW>S
-рга	SO<VOW>
-ргач	SO<VOW>O
-ргне	SOS<VOW>
-рѓа	SO<VOW>
-рѓа	SO<VOW>
-ре	S<VOW>
-рев	S<VOW>O
-ред	S<VOW>O
-рез	S<VOW>O
-рејс	S<VOW>SO
-рен	S<VOW>S
-ренк	S<VOW>SO
-реч	S<VOW>O
-реш	S<VOW>O
-ржан	SO<VOW>S
-ржен	SO<VOW>S
-ржи	SO<VOW>
-ржлив	SOS<VOW>O
-ржне	SOS<VOW>
-ржца	SOO<VOW>
-рзак	SO<VOW>O
-рзне	SOS<VOW>
-рид	S<VOW>O
-рик	S<VOW>O
-ринг	S<VOW>SO
-рипс	S<VOW>OO
-рис	S<VOW>O
-риск	S<VOW>OO
-рка	SO<VOW>
-ркач	SO<VOW>O
-ркне	SOS<VOW>
-рмба	SSO<VOW>
-рмбач	SSO<VOW>O
-рмжи	SSO<VOW>
-рнка	SSO<VOW>
-роб	S<VOW>O
-ров	S<VOW>O
-рог	S<VOW>O
-род	S<VOW>O
-рој	S<VOW>S
-рок	S<VOW>O
-ром	S<VOW>S
-ром	S<VOW>S
-Ром	Р<VOW>S
-ромб	S<VOW>SO
-рпа	SO<VOW>
-рпне	SOS<VOW>
-рска	SOO<VOW>
-рскав	SOO<VOW>O
-рскот	SOO<VOW>O
-рслан	SOS<VOW>S
-рсне	SOS<VOW>
-рти	SO<VOW>
-ртлив	SOS<VOW>O
-руд	S<VOW>O
-руж	S<VOW>O
-руј	S<VOW>S
-рум	S<VOW>S
-рус	S<VOW>O
-рчи	SO<VOW>
-рчка	SOO<VOW>
-рчпал	SOO<VOW>S
-ршум	SO<VOW>S
-са	O<VOW>
-сад	O<VOW>O
-саз	O<VOW>O
-сајт	O<VOW>SO
-сак	O<VOW>O
-сал	O<VOW>S
-сал	O<VOW>S
-сам	O<VOW>S
-сам	O<VOW>S
-сам	O<VOW>S
-сан	O<VOW>S
-санс	O<VOW>SO
-сап	O<VOW>O
-сат	O<VOW>O
-сафт	O<VOW>OO
-сач	O<VOW>O
-сват	OO<VOW>O
-свеж	OO<VOW>O
-свест	OO<VOW>OO
-свет	OO<VOW>O
-свет	OO<VOW>O
-свинг	OO<VOW>SO
-свлак	OOS<VOW>O
-свод	OO<VOW>O
-свој	OO<VOW>S
-сврат	OOS<VOW>O
-сврби	OOSO<VOW>
-свргав	OOSO<VOW>O
-сврдел	OOSO<VOW>S
-сврдлар	OOSOS<VOW>S
-сврдле	OOSOS<VOW>
-сврдли	OOSOS<VOW>
-сврдло	OOSOS<VOW>
-свржи	OOSO<VOW>
-сврзан	OOSO<VOW>S
-сврзе	OOSO<VOW>
-сврзлив	OOSOS<VOW>O
-сврзник	OOSOS<VOW>O
-сврска	OOSOO<VOW>
-свртен	OOSO<VOW>S
-сврти	OOSO<VOW>
-свршек	OOSO<VOW>O
-свршен	OOSO<VOW>S
-сврши	OOSO<VOW>
-свршок	OOSO<VOW>O
-се	O<VOW>
-се	O<VOW>
-се	O<VOW>
-се	O<VOW>
-сѐ	O<VOW>
-сѐ	O<VOW>
-сед	O<VOW>O
-сек	O<VOW>O
-секс	O<VOW>OO
-сем	O<VOW>S
-сен	O<VOW>S
-сенс	O<VOW>SO
-сенф	O<VOW>SO
-сер	O<VOW>S
-серж	O<VOW>SO
-серт	O<VOW>SO
-сет	O<VOW>O
-сет	O<VOW>O
-сеф	O<VOW>O
-сеч	O<VOW>O
-си	O<VOW>
-си	O<VOW>
-си	O<VOW>
-си	O<VOW>
-си	O<VOW>
-си	O<VOW>
-сив	O<VOW>O
-сил	O<VOW>S
-симс	O<VOW>SO
-син	O<VOW>S
-син	O<VOW>S
-сингл	O<VOW>SOS
-сињ	O<VOW>S
-сип	O<VOW>O
-сир	O<VOW>S
-сит	O<VOW>O
-сјај	OS<VOW>S
-сказ	OO<VOW>O
-скај	OO<VOW>S
-скајп	OO<VOW>SO
-скалп	OO<VOW>SO
-скап	OO<VOW>O
-сквер	OOO<VOW>S
-скеч	OO<VOW>O
-скиф	OO<VOW>O
-склав	OOS<VOW>O
-склад	OOS<VOW>O
-склон	OOS<VOW>S
-склоп	OOS<VOW>O
-скок	OO<VOW>O
-скор	OO<VOW>S
-скорб	OO<VOW>SO
-скот	OO<VOW>O
-скрбен	OOSO<VOW>S
-скрби	OOSO<VOW>
-скрви	OOSO<VOW>
-скрди	OOSO<VOW>
-скреж	OOS<VOW>O
-скржав	OOSO<VOW>O
-скрже	OOSO<VOW>
-скржец	OOSO<VOW>O
-скржлан	OOSOS<VOW>S
-скржост	OOSO<VOW>OO
-скрит	OOS<VOW>O
-скрка	OOSO<VOW>
-скрна	OOSS<VOW>
-скрнав	OOSS<VOW>O
-скроб	OOS<VOW>O
-скрпи	OOSO<VOW>
-скрстен	OOSOO<VOW>S
-скрсти	OOSOO<VOW>
-скрсти	OOSOO<VOW>
-скрум	OOS<VOW>S
-скрца	OOSO<VOW>
-скрцка	OOSOO<VOW>
-скрцлив	OOSOS<VOW>O
-скрцне	OOSOS<VOW>
-скршен	OOSO<VOW>S
-скрши	OOSO<VOW>
-скршне	OOSOS<VOW>
-скут	OO<VOW>O
-слаб	OS<VOW>O
-слад	OS<VOW>O
-слајд	OS<VOW>SO
-слам	OS<VOW>S
-слан	OS<VOW>S
-слап	OS<VOW>O
-сласт	OS<VOW>OO
-слач	OS<VOW>O
-слез	OS<VOW>O
-сленг	OS<VOW>SO
-слеп	OS<VOW>O
-слет	OS<VOW>O
-слив	OS<VOW>O
-слик	OS<VOW>O
-слог	OS<VOW>O
-слој	OS<VOW>S
-слом	OS<VOW>S
-слон	OS<VOW>S
-слоч	OS<VOW>O
-слуз	OS<VOW>O
-слух	OS<VOW>O
-смад	OS<VOW>O
-сме	OS<VOW>
-смев	OS<VOW>O
-смел	OS<VOW>S
-смес	OS<VOW>O
-смет	OS<VOW>O
-смил	OS<VOW>S
-смог	OS<VOW>O
-смок	OS<VOW>O
-смрда	OSSO<VOW>
-смрда	OSSO<VOW>
-смрдеж	OSSO<VOW>O
-смрден	OSSO<VOW>S
-смрди	OSSO<VOW>
-смрди	OSSO<VOW>
-смрдла	OSSOS<VOW>
-смрдле	OSSOS<VOW>
-смрдлив	OSSOS<VOW>O
-смрдло	OSSOS<VOW>
-смрзнат	OSSOS<VOW>O
-смрзне	OSSOS<VOW>
-смрка	OSSO<VOW>
-смркне	OSSOS<VOW>
-смрсен	OSSO<VOW>S
-смрси	OSSO<VOW>
-смртен	OSSO<VOW>S
-смртник	OSSOS<VOW>O
-смртно	OSSOS<VOW>
-смртност	OSSOS<VOW>OO
-смрчка	OSSOO<VOW>
-смрштен	OSSOO<VOW>S
-смршти	OSSOO<VOW>
-смуѓ	OS<VOW>O
-смут	OS<VOW>O
-снег	OS<VOW>O
-сноб	OS<VOW>O
-сноп	OS<VOW>O
-со	O<VOW>
-сој	O<VOW>S
-сок	O<VOW>O
-сол	O<VOW>S
-сол	O<VOW>S
-сом	O<VOW>S
-сон	O<VOW>S
-сонг	O<VOW>SO
-сор	O<VOW>S
-сос	O<VOW>O
-сот	O<VOW>O
-спас	OO<VOW>O
-спев	OO<VOW>O
-спец	OO<VOW>O
-спир	OO<VOW>S
-спирт	OO<VOW>SO
-спис	OO<VOW>O
-сплав	OOS<VOW>O
-сплет	OOS<VOW>O
-сплит	OOS<VOW>O
-сплот	OOS<VOW>O
-спој	OO<VOW>S
-спор	OO<VOW>S
-спор	OO<VOW>S
-спорт	OO<VOW>SO
-спот	OO<VOW>O
-спрат	OOS<VOW>O
-спреј	OOS<VOW>S
-спржи	OOSO<VOW>
-спринт	OOS<VOW>SO
-спрли	OOSS<VOW>
-спрлна	OOSSS<VOW>
-спрпа	OOSO<VOW>
-спрсне	OOSOS<VOW>
-спуст	OO<VOW>OO
-срак	OS<VOW>O
-срам	OS<VOW>S
-срба	OSO<VOW>
-Србин	СSO<VOW>S
-србне	OSOS<VOW>
-срдба	OSOO<VOW>
-срдеж	OSO<VOW>O
-срди	OSO<VOW>
-срдит	OSO<VOW>O
-срдлив	OSOS<VOW>O
-срдост	OSO<VOW>OO
-сред	OS<VOW>O
-сржи	OSO<VOW>
-срка	OSO<VOW>
-сркне	OSOS<VOW>
-срма	OSS<VOW>
-срмен	OSS<VOW>S
-срна	OSS<VOW>
-срндак	OSSO<VOW>O
-срнче	OSSO<VOW>
-срња	OSS<VOW>
-срок	OS<VOW>O
-српест	OSO<VOW>OO
-српче	OSOO<VOW>
-срска	OSOO<VOW>
-срти	OSO<VOW>
-срце	OSO<VOW>
-срцев	OSO<VOW>O
-срцест	OSO<VOW>OO
-срча	OSO<VOW>
-срчен	OSO<VOW>S
-срчест	OSO<VOW>OO
-срчка	OSOO<VOW>
-срџба	OSOO<VOW>
-став	OO<VOW>O
-стаж	OO<VOW>O
-стан	OO<VOW>S
-стап	OO<VOW>O
-стар	OO<VOW>S
-стар	OO<VOW>S
-старт	OO<VOW>SO
-стас	OO<VOW>O
-ствар	OOO<VOW>S
-створ	OOO<VOW>S
-стврднат	OOOSOS<VOW>O
-стврдне	OOOSOS<VOW>
-сте	OO<VOW>
-стег	OO<VOW>O
-стек	OO<VOW>O
-стен	OO<VOW>S
-стент	OO<VOW>SO
-степ	OO<VOW>O
-степ	OO<VOW>O
-стик	OO<VOW>O
-стил	OO<VOW>S
-стих	OO<VOW>O
-сто	OO<VOW>
-сто	OO<VOW>
-стог	OO<VOW>O
-стол	OO<VOW>S
-столб	OO<VOW>SO
-столп	OO<VOW>SO
-страв	OOS<VOW>O
-страд	OOS<VOW>O
-страж	OOS<VOW>O
-страк	OOS<VOW>O
-страст	OOS<VOW>OO
-страх	OOS<VOW>O
-страч	OOS<VOW>O
-стрвен	OOSO<VOW>S
-стрви	OOSO<VOW>
-стрвла	OOSOS<VOW>
-стрвле	OOSOS<VOW>
-стрвло	OOSOS<VOW>
-стрвник	OOSOS<VOW>O
-стрвно	OOSOS<VOW>
-стрвост	OOSO<VOW>OO
-стрем	OOS<VOW>S
-стрес	OOS<VOW>O
-стреч	OOS<VOW>O
-стреш	OOS<VOW>O
-стриг	OOS<VOW>O
-стрип	OOS<VOW>O
-стрка	OOSO<VOW>
-стрмен	OOSS<VOW>S
-стрмен	OOSS<VOW>S
-стрмец	OOSS<VOW>O
-стрмно	OOSSS<VOW>
-стрмност	OOSSS<VOW>OO
-стрмол	OOSS<VOW>S
-строг	OOS<VOW>O
-строј	OOS<VOW>S
-стрпи	OOSO<VOW>
-стрплив	OOSOS<VOW>O
-стрпне	OOSOS<VOW>
-струг	OOS<VOW>O
-струк	OOS<VOW>O
-струп	OOS<VOW>O
-стрча	OOSO<VOW>
-стрчи	OOSO<VOW>
-стрчне	OOSOS<VOW>
-стршен	OOSO<VOW>S
-студ	OO<VOW>O
-сув	O<VOW>O
-суд	O<VOW>O
-сук	O<VOW>O
-сум	O<VOW>S
-суп	O<VOW>O
-сур	O<VOW>S
-сус	O<VOW>O
-сушт	O<VOW>OO
-сфинкс	OO<VOW>SOO
-сцрви	OOSO<VOW>
-сцрка	OOSO<VOW>
-та	O<VOW>
-так	O<VOW>O
-такс	O<VOW>OO
-такт	O<VOW>OO
-талк	O<VOW>SO
-тан	O<VOW>S
-танц	O<VOW>SO
-тап	O<VOW>O
-тас	O<VOW>O
-тафт	O<VOW>OO
-твар	OO<VOW>S
-твид	OO<VOW>O
-твист	OO<VOW>OO
-твој	OO<VOW>S
-тврди	OOSO<VOW>
-тврдо	OOSO<VOW>
-тврдост	OOSO<VOW>OO
-те	O<VOW>
-тег	O<VOW>O
-тек	O<VOW>O
-тек	O<VOW>O
-текст	O<VOW>OOO
-тел	O<VOW>S
-тељ	O<VOW>S
-тембр	O<VOW>SOS
-тен	O<VOW>S
-тенк	O<VOW>SO
-терк	O<VOW>SO
-тест	O<VOW>OO
-ти	O<VOW>
-ти	O<VOW>
-тик	O<VOW>O
-тил	O<VOW>S
-тим	O<VOW>S
-тип	O<VOW>O
-тих	O<VOW>O
-тло	OS<VOW>
-тој	O<VOW>S
-ток	O<VOW>O
-том	O<VOW>S
-тон	O<VOW>S
-топ	O<VOW>O
-тост	O<VOW>OO
-траг	OS<VOW>O
-тракт	OS<VOW>OO
-транс	OS<VOW>SO
-трап	OS<VOW>O
-трат	OS<VOW>O
-трач	OS<VOW>O
-трбув	OSO<VOW>O
-трга	OSO<VOW>
-тргне	OSOS<VOW>
-трем	OS<VOW>S
-тренд	OS<VOW>SO
-трет	OS<VOW>O
-треќ	OS<VOW>O
-три	OS<VOW>
-триж	OS<VOW>O
-трик	OS<VOW>O
-трка	OSO<VOW>
-трка	OSO<VOW>
-тркач	OSO<VOW>O
-тркне	OSOS<VOW>
-трла	OSS<VOW>
-трлав	OSS<VOW>O
-трло	OSS<VOW>
-трмка	OSSO<VOW>
-трнка	OSSO<VOW>
-трнлив	OSSS<VOW>O
-трнов	OSS<VOW>O
-трнче	OSSO<VOW>
-трњак	OSS<VOW>O
-тром	OS<VOW>S
-тромб	OS<VOW>SO
-трон	OS<VOW>S
-троњ	OS<VOW>S
-трпа	OSO<VOW>
-трпеж	OSO<VOW>O
-трпи	OSO<VOW>
-трпне	OSOS<VOW>
-трпнеж	OSOS<VOW>O
-трска	OSOO<VOW>
-трти	OSO<VOW>
-тртка	OSOO<VOW>
-тртник	OSOS<VOW>O
-труд	OS<VOW>O
-труп	OS<VOW>O
-труст	OS<VOW>OO
-трут	OS<VOW>O
-трча	OSO<VOW>
-трчка	OSOO<VOW>
-трчне	OSOS<VOW>
-ту	O<VOW>
-туѓ	O<VOW>O
-тук	O<VOW>O
-тук	O<VOW>O
-тул	O<VOW>S
-туч	O<VOW>O
-туш	O<VOW>O
-ќај	O<VOW>S
-ќар	O<VOW>S
-ќе	O<VOW>
-ќеф	O<VOW>O
-ќор	O<VOW>S
-ќос	O<VOW>O
-ќош	O<VOW>O
-ќуд	O<VOW>O
-ќунк	O<VOW>SO
-ќуп	O<VOW>O
-ќурк	O<VOW>SO
-у	<VOW>
-уз	<VOW>O
-ук	<VOW>O
-ум	<VOW>S
-ут	<VOW>O
-фајл	O<VOW>SS
-фак	O<VOW>O
-факс	O<VOW>OO
-факт	O<VOW>OO
-фалц	O<VOW>SO
-фалш	O<VOW>SO
-фалш	O<VOW>SO
-фалш	O<VOW>SO
-фан	O<VOW>S
-фар	O<VOW>S
-фат	O<VOW>O
-фах	O<VOW>O
-фен	O<VOW>S
-фер	O<VOW>S
-фес	O<VOW>O
-фил	O<VOW>S
-филм	O<VOW>SS
-филц	O<VOW>SO
-фин	O<VOW>S
-фирц	O<VOW>SO
-фис	O<VOW>O
-фиск	O<VOW>OO
-фит	O<VOW>O
-фит	O<VOW>O
-фјорд	OS<VOW>SO
-фланг	OS<VOW>SO
-флерт	OS<VOW>SO
-флеш	OS<VOW>O
-флирт	OS<VOW>SO
-флор	OS<VOW>S
-фокс	O<VOW>OO
-фол	O<VOW>S
-фолк	O<VOW>SO
-фон	O<VOW>S
-фонд	O<VOW>SO
-фонт	O<VOW>SO
-фор	O<VOW>S
-фрак	OS<VOW>O
-франк	OS<VOW>SO
-фрас	OS<VOW>O
-фрба	OSO<VOW>
-фрга	OSO<VOW>
-френк	OS<VOW>SO
-фриз	OS<VOW>O
-фрик	OS<VOW>O
-фрка	OSO<VOW>
-фркат	OSO<VOW>O
-фркне	OSOS<VOW>
-фрла	OSS<VOW>
-фрлач	OSS<VOW>O
-фрлен	OSS<VOW>S
-фрли	OSS<VOW>
-фронт	OS<VOW>SO
-фрфул	OSO<VOW>S
-фрцка	OSOO<VOW>
-фрцне	OSOS<VOW>
-фрча	OSO<VOW>
-фрчи	OSO<VOW>
-фунд	O<VOW>SO
-ха	O<VOW>
-халф	O<VOW>SO
-хеј	O<VOW>S
-хендс	O<VOW>SOO
-херц	O<VOW>SO
-хир	O<VOW>S
-хит	O<VOW>O
-хлор	OS<VOW>S
-хмељ	OS<VOW>S
-хол	O<VOW>S
-хор	O<VOW>S
-храм	OS<VOW>S
-Хрват	ХSO<VOW>O
-хром	OS<VOW>S
-Хун	Х<VOW>S
-цап	O<VOW>O
-цар	O<VOW>S
-цвет	OO<VOW>O
-цвик	OO<VOW>O
-цврка	OOSO<VOW>
-цвркот	OOSO<VOW>O
-цврсто	OOSOO<VOW>
-цврцка	OOSOO<VOW>
-цврцнат	OOSOS<VOW>O
-цврцне	OOSOS<VOW>
-цврчи	OOSO<VOW>
-цеѓ	O<VOW>O
-цел	O<VOW>S
-цел	O<VOW>S
-ценз	O<VOW>SO
-цент	O<VOW>SO
-цеп	O<VOW>O
-цер	O<VOW>S
-цех	O<VOW>O
-цинк	O<VOW>SO
-циц	O<VOW>O
-цол	O<VOW>S
-црвек	OSO<VOW>O
-црвен	OSO<VOW>S
-црвен	OSO<VOW>S
-црвец	OSO<VOW>O
-црви	OSO<VOW>
-црвлив	OSOS<VOW>O
-црвул	OSO<VOW>S
-црвче	OSOO<VOW>
-црен	OS<VOW>S
-цреп	OS<VOW>O
-црка	OSO<VOW>
-црква	OSOO<VOW>
-црквар	OSOO<VOW>S
-црквен	OSOO<VOW>S
-црквин	OSOO<VOW>S
-цркне	OSOS<VOW>
-црков	OSO<VOW>O
-црнец	OSS<VOW>O
-црни	OSS<VOW>
-црни	OSS<VOW>
-црнка	OSSO<VOW>
-црно	OSS<VOW>
-црно	OSS<VOW>
-црнок	OSS<VOW>O
-црност	OSS<VOW>OO
-црнче	OSSO<VOW>
-црнчи	OSSO<VOW>
-црњак	OSS<VOW>O
-црпи	OSO<VOW>
-црпка	OSOO<VOW>
-црпка	OSOO<VOW>
-црпне	OSOS<VOW>
-црпче	OSOO<VOW>
-црта	OSO<VOW>
-црта	OSO<VOW>
-цртач	OSO<VOW>O
-цртеж	OSO<VOW>O
-црца	OSO<VOW>
-црцне	OSOS<VOW>
-црцор	OSO<VOW>S
-цут	O<VOW>O
-чад	O<VOW>O
-чај	O<VOW>S
-чам	O<VOW>S
-чап	O<VOW>O
-чар	O<VOW>S
-чарк	O<VOW>SO
-час	O<VOW>O
-част	O<VOW>OO
-чвркне	OOSOS<VOW>
-чек	O<VOW>O
-чеп	O<VOW>O
-чест	O<VOW>OO
-чест	O<VOW>OO
-четврт	O<VOW>OOSO
-четврт	O<VOW>OOSO
-чиј	O<VOW>S
-чин	O<VOW>S
-чип	O<VOW>O
-чип	O<VOW>O
-чир	O<VOW>S
-чист	O<VOW>OO
-чифт	O<VOW>OO
-чифт	O<VOW>OO
-чкор	OO<VOW>S
-чкрка	OOSO<VOW>
-чкрта	OOSO<VOW>
-чкртка	OOSOO<VOW>
-чкртне	OOSOS<VOW>
-член	OS<VOW>S
-чмај	OS<VOW>S
-чок	O<VOW>O
-чолн	O<VOW>SS
-чпрнтав	OOSSO<VOW>O
-чпртав	OOSO<VOW>O
-чук	O<VOW>O
-чул	O<VOW>S
-чун	O<VOW>S
-чур	O<VOW>S
-чут	O<VOW>O
-џам	O<VOW>S
-џан	O<VOW>S
-џбун	OO<VOW>S
-џврка	OOSO<VOW>
-џвркло	OOSOS<VOW>
-џвркне	OOSOS<VOW>
-џган	OO<VOW>S
-џеб	O<VOW>O
-џез	O<VOW>O
-џем	O<VOW>S
-џенк	O<VOW>SO
-џет	O<VOW>O
-џин	O<VOW>S
-џинс	O<VOW>SO
-џип	O<VOW>O
-џиш	O<VOW>O
-џрџа	OSO<VOW>
-џрџне	OSOS<VOW>
-џул	O<VOW>S
-џус	O<VOW>O
-шал	O<VOW>S
-шан	O<VOW>S
-шанк	O<VOW>SO
-шанкр	O<VOW>SOS
-шант	O<VOW>SO
-шап	O<VOW>O
-шар	O<VOW>S
-шарм	O<VOW>SS
-шатл	O<VOW>OS
-шах	O<VOW>O
-шверц	OO<VOW>SO
-швргав	OOSO<VOW>O
-шврка	OOSO<VOW>
-швркнат	OOSOS<VOW>O
-швркне	OOSOS<VOW>
-шев	O<VOW>O
-шегрт	O<VOW>OSO
-шеј	O<VOW>S
-шен	O<VOW>S
-шест	O<VOW>OO
-шеф	O<VOW>O
-шех	O<VOW>O
-шик	O<VOW>O
-шик	O<VOW>O
-шип	O<VOW>O
-шир	O<VOW>S
-шиш	O<VOW>O
-шкарт	OO<VOW>SO
-шкаф	OO<VOW>O
-шкрта	OOSO<VOW>
-шкртне	OOSOS<VOW>
-шкрто	OOSO<VOW>
-шлаг	OS<VOW>O
-шлајм	OS<VOW>SS
-шланк	OS<VOW>SO
-шлем	OS<VOW>S
-шлеп	OS<VOW>O
-шлиф	OS<VOW>O
-шлиц	OS<VOW>O
-шлог	OS<VOW>O
-шљам	OS<VOW>S
-шмек	OS<VOW>O
-шмрка	OSSO<VOW>
-шмркне	OSSOS<VOW>
-шнит	OS<VOW>O
-шнур	OS<VOW>S
-шок	O<VOW>O
-шол	O<VOW>S
-шоп	O<VOW>O
-шорц	O<VOW>SO
-шпајз	OO<VOW>SO
-шпил	OO<VOW>S
-шпирт	OO<VOW>SO
-шпиц	OO<VOW>O
-шпиц	OO<VOW>O
-шприц	OOS<VOW>O
-шраф	OS<VOW>O
-шрба	OSO<VOW>
-шрифт	OS<VOW>OO
-штаб	OO<VOW>O
-штанд	OO<VOW>SO
-штеп	OO<VOW>O
-штик	OO<VOW>O
-штим	OO<VOW>S
-штир	OO<VOW>S
-штир	OO<VOW>S
-штит	OO<VOW>O
-што	OO<VOW>
-што	OO<VOW>
-што	OO<VOW>
-што	OO<VOW>
-штом	OO<VOW>S
-штос	OO<VOW>O
-штоф	OO<VOW>O
-штрајк	OOS<VOW>SO
-штрбав	OOSO<VOW>O
-штрбел	OOSO<VOW>S
-штрбла	OOSOS<VOW>
-штрбло	OOSOS<VOW>
-штрбне	OOSOS<VOW>
-штрбол	OOSO<VOW>S
-штрек	OOS<VOW>O
-штрих	OOS<VOW>O
-штркал	OOSO<VOW>S
-штркел	OOSO<VOW>S
-штркле	OOSOS<VOW>
-штрклест	OOSOS<VOW>OO
-штркне	OOSOS<VOW>
-штрков	OOSO<VOW>O
-штркол	OOSO<VOW>S
-штркче	OOSOO<VOW>
-штрпка	OOSOO<VOW>
-штрпка	OOSOO<VOW>
-штрпне	OOSOS<VOW>
-штрцне	OOSOS<VOW>
-штрче	OOSO<VOW>
-штук	OO<VOW>O
-штур	OO<VOW>S
-штурм	OO<VOW>SS
-шум	O<VOW>S
-шунд	O<VOW>SO
-шут	O<VOW>O
-шут	O<VOW>O
+monosyllabic_wos	sounds_q
+а						VOW	<SUCS>VOW					
+а						VOW	<SUCS>VOW					
+ад						VOW	<SUCS>O					
+ај						VOW	<SUCS>S					
+ајнц						VOW	<SUCS>S	S	O			
+ак						VOW	<SUCS>O					
+акт						VOW	<SUCS>O	O				
+ал						VOW	<SUCS>S					
+ал						VOW	<SUCS>S					
+ал						VOW	<SUCS>S					
+алт						VOW	<SUCS>S	O				
+ам						VOW	<SUCS>S					
+ан						VOW	<SUCS>S					
+ап						VOW	<SUCS>O					
+апс						VOW	<SUCS>O	O				
+ар						VOW	<SUCS>S					
+арч						VOW	<SUCS>S	O				
+ас						VOW	<SUCS>O					
+ат						VOW	<SUCS>O					
+афт						VOW	<SUCS>O	O				
+баз						O	<SUCS>O					
+базд						O	<SUCS>O	O				
+бај						O	<SUCS>S					
+бај						O	<SUCS>S					
+бајт						O	<SUCS>S	O				
+бал						O	<SUCS>S					
+бан						O	<SUCS>S					
+бар						O	<SUCS>S					
+бар						O	<SUCS>S					
+бард						O	<SUCS>S	O				
+барз						O	<SUCS>S	O				
+бас						O	<SUCS>O					
+бач						O	<SUCS>O					
+баџ						O	<SUCS>O					
+баш						O	<SUCS>O					
+баш						O	<SUCS>O					
+баш						O	<SUCS>O					
+баш						O	<SUCS>O					
+баш						O	<SUCS>O					
+баш						O	<SUCS>O					
+бев						O	<SUCS>O					
+бег						O	<SUCS>O					
+беж						O	<SUCS>O					
+без						O	<SUCS>O					
+беј						O	<SUCS>S					
+бек						O	<SUCS>O					
+бел						O	<SUCS>S					
+бенд						O	<SUCS>S	O				
+бес						O	<SUCS>O					
+беџ						O	<SUCS>O					
+би						O	<SUCS>VOW					
+би						O	<SUCS>VOW					
+бивш						O	<SUCS>O	O				
+бик						O	<SUCS>O					
+бил						O	<SUCS>S					
+бинт						O	<SUCS>S	O				
+бир						O	<SUCS>S					
+бит						O	<SUCS>O					
+бич						O	<SUCS>O					
+благ					O	S	<SUCS>O					
+бланш					O	S	<SUCS>S	O				
+блед					O	S	<SUCS>O					
+блен					O	S	<SUCS>S					
+блеф					O	S	<SUCS>O					
+блех					O	S	<SUCS>O					
+блик					O	S	<SUCS>O					
+блиц					O	S	<SUCS>O					
+блог					O	S	<SUCS>O					
+блок					O	S	<SUCS>O					
+блуд					O	S	<SUCS>O					
+блуз					O	S	<SUCS>O					
+бљуд					O	S	<SUCS>O					
+боб						O	<SUCS>O					
+бог						O	<SUCS>O					
+бод						O	<SUCS>O					
+боз						O	<SUCS>O					
+бој						O	<SUCS>S					
+бок						O	<SUCS>O					
+бокс						O	<SUCS>O	O				
+бон						O	<SUCS>S					
+бор						O	<SUCS>S					
+борд						O	<SUCS>S	O				
+борч						O	<SUCS>S	O				
+боршч						O	<SUCS>S	O	O			
+бос						O	<SUCS>O					
+бос						O	<SUCS>O					
+бофл						O	<SUCS>O	S				
+бош						O	<SUCS>O					
+брав					O	S	<SUCS>O					
+брак					O	S	<SUCS>O					
+бран					O	S	<SUCS>S					
+брат					O	S	<SUCS>O					
+брбла			O	S	O	S	<SUCS>VOW					
+брбла			O	S	O	S	<SUCS>VOW					
+брблив			O	S	O	S	<SUCS>O					
+брбло			O	S	O	S	<SUCS>VOW					
+брбне			O	S	O	S	<SUCS>VOW					
+брбор				O	S	O	<SUCS>S					
+брго				O	S	O	<SUCS>VOW					
+бргу				O	S	O	<SUCS>VOW					
+брдо				O	S	O	<SUCS>VOW					
+брег					O	S	<SUCS>O					
+брез					O	S	<SUCS>O					
+брејк					O	S	<SUCS>S	O				
+бренд					O	S	<SUCS>S	O				
+брест					O	S	<SUCS>O	O				
+брза				O	S	O	<SUCS>VOW					
+брзак				O	S	O	<SUCS>O					
+брзга			O	S	O	O	<SUCS>VOW					
+брзне			O	S	O	S	<SUCS>VOW					
+брзо				O	S	O	<SUCS>VOW					
+брис					O	S	<SUCS>O					
+брич					O	S	<SUCS>O					
+бриџ					O	S	<SUCS>O					
+брка				O	S	O	<SUCS>VOW					
+бркне			O	S	O	S	<SUCS>VOW					
+брле				O	S	S	<SUCS>VOW					
+брлив				O	S	S	<SUCS>O					
+брлог				O	S	S	<SUCS>O					
+брмка			O	S	S	O	<SUCS>VOW					
+брмне			O	S	S	S	<SUCS>VOW					
+брмчи			O	S	S	O	<SUCS>VOW					
+брод					O	S	<SUCS>O					
+број					O	S	<SUCS>S					
+бром					O	S	<SUCS>S					
+броќ					O	S	<SUCS>O					
+брош					O	S	<SUCS>O					
+брошт					O	S	<SUCS>O	O				
+брсти			O	S	O	O	<SUCS>VOW					
+брус					O	S	<SUCS>O					
+брут					O	S	<SUCS>O					
+брца				O	S	O	<SUCS>VOW					
+брцка			O	S	O	O	<SUCS>VOW					
+брцне			O	S	O	S	<SUCS>VOW					
+брчи				O	S	O	<SUCS>VOW					
+брчка			O	S	O	O	<SUCS>VOW					
+брчка			O	S	O	O	<SUCS>VOW					
+брчкав			O	S	O	O	<SUCS>O					
+брчне			O	S	O	S	<SUCS>VOW					
+бршлен			O	S	O	S	<SUCS>S					
+був						O	<SUCS>O					
+бум						O	<SUCS>S					
+бунт						O	<SUCS>S	O				
+бут						O	<SUCS>O					
+валс						O	<SUCS>S	O				
+вам						O	<SUCS>S					
+вар						O	<SUCS>S					
+вас						O	<SUCS>O					
+ват						O	<SUCS>O					
+ваш						O	<SUCS>O					
+вдолж					O	O	<SUCS>S	O				
+вдрви			O	O	S	O	<SUCS>VOW					
+ве						O	<SUCS>VOW					
+веб						O	<SUCS>O					
+вез						O	<SUCS>O					
+век						O	<SUCS>O					
+вел						O	<SUCS>S					
+вергл						O	<SUCS>S	O	S			
+верс						O	<SUCS>S	O				
+вест						O	<SUCS>O	O				
+вет						O	<SUCS>O					
+веш						O	<SUCS>O					
+вешт						O	<SUCS>O	O				
+ви						O	<SUCS>VOW					
+вид						O	<SUCS>O					
+виј						O	<SUCS>S					
+вик						O	<SUCS>O					
+винт						O	<SUCS>S	O				
+вир						O	<SUCS>S					
+вис						O	<SUCS>O					
+вит						O	<SUCS>O					
+виц						O	<SUCS>O					
+виш						O	<SUCS>O					
+вкрстен		O	O	S	O	O	<SUCS>S					
+вкрсти		O	O	S	O	O	<SUCS>VOW					
+вкуп					O	O	<SUCS>O					
+вкус					O	O	<SUCS>O					
+Влав					O	S	<SUCS>O					
+влак					O	S	<SUCS>O					
+влас					O	S	<SUCS>O					
+власт					O	S	<SUCS>O	O				
+влез					O	S	<SUCS>O					
+влив					O	S	<SUCS>O					
+влог					O	S	<SUCS>O					
+внук					O	S	<SUCS>O					
+во						O	<SUCS>VOW					
+вод						O	<SUCS>O					
+вожд						O	<SUCS>O	O				
+воз						O	<SUCS>O					
+воз						O	<SUCS>O					
+вој						O	<SUCS>S					
+вол						O	<SUCS>S					
+волк						O	<SUCS>S	O				
+волт						O	<SUCS>S	O				
+вон						O	<SUCS>S					
+врав					O	S	<SUCS>O					
+враг					O	S	<SUCS>O					
+вран					O	S	<SUCS>S					
+врат					O	S	<SUCS>O					
+врач					O	S	<SUCS>O					
+врба				O	S	O	<SUCS>VOW					
+врбак				O	S	O	<SUCS>O					
+врбјак			O	S	O	S	<SUCS>O					
+врбов				O	S	O	<SUCS>O					
+врвеж				O	S	O	<SUCS>O					
+врвен				O	S	O	<SUCS>S					
+врви				O	S	O	<SUCS>VOW					
+врвка			O	S	O	O	<SUCS>VOW					
+врвлест			O	S	O	S	<SUCS>O	O				
+врвца			O	S	O	O	<SUCS>VOW					
+врвчи			O	S	O	O	<SUCS>VOW					
+врга				O	S	O	<SUCS>VOW					
+вргав				O	S	O	<SUCS>O					
+вргањ				O	S	O	<SUCS>S					
+врглест			O	S	O	S	<SUCS>O	O				
+врглив			O	S	O	S	<SUCS>O					
+вргло			O	S	O	S	<SUCS>VOW					
+вред					O	S	<SUCS>O					
+вреж					O	S	<SUCS>O					
+врез					O	S	<SUCS>O					
+врел					O	S	<SUCS>S					
+врен					O	S	<SUCS>S					
+врзан				O	S	O	<SUCS>S					
+врзач				O	S	O	<SUCS>O					
+врзе				O	S	O	<SUCS>VOW					
+врзма			O	S	O	S	<SUCS>VOW					
+врзол				O	S	O	<SUCS>S					
+врзоп				O	S	O	<SUCS>O					
+врзум				O	S	O	<SUCS>S					
+врлеж				O	S	S	<SUCS>O					
+врне				O	S	S	<SUCS>VOW					
+врнеж				O	S	S	<SUCS>O					
+врпа				O	S	O	<SUCS>VOW					
+врпал				O	S	O	<SUCS>S					
+врска			O	S	O	O	<SUCS>VOW					
+врска			O	S	O	O	<SUCS>VOW					
+врсне			O	S	O	S	<SUCS>VOW					
+врсник			O	S	O	S	<SUCS>O					
+вртеж				O	S	O	<SUCS>O					
+врти				O	S	O	<SUCS>VOW					
+вртка			O	S	O	O	<SUCS>VOW					
+вртка			O	S	O	O	<SUCS>VOW					
+вртлив			O	S	O	S	<SUCS>O					
+вртлог			O	S	O	S	<SUCS>O					
+вртне			O	S	O	S	<SUCS>VOW					
+вруќ					O	S	<SUCS>O					
+врцка			O	S	O	O	<SUCS>VOW					
+врчва			O	S	O	O	<SUCS>VOW					
+врчка			O	S	O	O	<SUCS>VOW					
+врчкав			O	S	O	O	<SUCS>O					
+врша				O	S	O	<SUCS>VOW					
+вршач				O	S	O	<SUCS>O					
+вршен				O	S	O	<SUCS>S					
+врши				O	S	O	<SUCS>VOW					
+вршка			O	S	O	O	<SUCS>VOW					
+вршник			O	S	O	S	<SUCS>O					
+втас					O	O	<SUCS>O					
+втврдне	O	O	O	S	O	S	<SUCS>VOW					
+втор					O	O	<SUCS>S					
+втрча			O	O	S	O	<SUCS>VOW					
+втрчне		O	O	S	O	S	<SUCS>VOW					
+вход					O	O	<SUCS>O					
+вцрвен			O	O	S	O	<SUCS>S					
+вцрви			O	O	S	O	<SUCS>VOW					
+вцрпи			O	O	S	O	<SUCS>VOW					
+вчас					O	O	<SUCS>O					
+вшир					O	O	<SUCS>S					
+гад						O	<SUCS>O					
+газ						O	<SUCS>O					
+ганц						O	<SUCS>S	O				
+гард						O	<SUCS>S	O				
+гас						O	<SUCS>O					
+гаф						O	<SUCS>O					
+гвинт					O	O	<SUCS>S	O				
+гег						O	<SUCS>O					
+гел						O	<SUCS>S					
+гем						O	<SUCS>S					
+ген						O	<SUCS>S					
+гест						O	<SUCS>O	O				
+ги						O	<SUCS>VOW					
+гипс						O	<SUCS>O	O				
+глад					O	S	<SUCS>O					
+гланц					O	S	<SUCS>S	O				
+гланц					O	S	<SUCS>S	O				
+глас					O	S	<SUCS>O					
+глеѓ					O	S	<SUCS>O					
+глиб					O	S	<SUCS>O					
+глоб					O	S	<SUCS>O					
+глог					O	S	<SUCS>O					
+глув					O	S	<SUCS>O					
+глужд					O	S	<SUCS>O	O				
+глуп					O	S	<SUCS>O					
+гнас					O	S	<SUCS>O					
+гнев					O	S	<SUCS>O					
+гнет					O	S	<SUCS>O					
+гнил					O	S	<SUCS>S					
+гној					O	S	<SUCS>S					
+го						O	<SUCS>VOW					
+гол						O	<SUCS>S					
+гол						O	<SUCS>S					
+голф						O	<SUCS>S	O				
+гонг						O	<SUCS>S	O				
+горд						O	<SUCS>S	O				
+грав					O	S	<SUCS>O					
+град					O	S	<SUCS>O					
+грам					O	S	<SUCS>S					
+грант					O	S	<SUCS>S	O				
+граф					O	S	<SUCS>O					
+грбав				O	S	O	<SUCS>O					
+грбач				O	S	O	<SUCS>O					
+грбен				O	S	O	<SUCS>S					
+грби				O	S	O	<SUCS>VOW					
+грбло			O	S	O	S	<SUCS>VOW					
+грбник			O	S	O	S	<SUCS>O					
+грга				O	S	O	<SUCS>VOW					
+гргне			O	S	O	S	<SUCS>VOW					
+гргор				O	S	O	<SUCS>S					
+гргот				O	S	O	<SUCS>O					
+грдел				O	S	O	<SUCS>S					
+грди				O	S	O	<SUCS>VOW					
+грдо				O	S	O	<SUCS>VOW					
+грев					O	S	<SUCS>O					
+гриз					O	S	<SUCS>O					
+грим					O	S	<SUCS>S					
+грип					O	S	<SUCS>O					
+грклан			O	S	O	S	<SUCS>S					
+гркне			O	S	O	S	<SUCS>VOW					
+грлат				O	S	S	<SUCS>O					
+грлен				O	S	S	<SUCS>S					
+грлест				O	S	S	<SUCS>O	O				
+грли				O	S	S	<SUCS>VOW					
+грло				O	S	S	<SUCS>VOW					
+грмеж				O	S	S	<SUCS>O					
+грми				O	S	S	<SUCS>VOW					
+грмне			O	S	S	S	<SUCS>VOW					
+грмотрн				O	S	S	<SUCS>O	S	S			
+грне				O	S	S	<SUCS>VOW					
+грнец				O	S	S	<SUCS>O					
+грнчар			O	S	S	O	<SUCS>S					
+гро					O	S	<SUCS>VOW					
+гроб					O	S	<SUCS>O					
+грог					O	S	<SUCS>O					
+грозд					O	S	<SUCS>O	O				
+гром					O	S	<SUCS>S					
+гроф					O	S	<SUCS>O					
+грош					O	S	<SUCS>O					
+грпка			O	S	O	O	<SUCS>VOW					
+грсти			O	S	O	O	<SUCS>VOW					
+грстум			O	S	O	O	<SUCS>S					
+груб					O	S	<SUCS>O					
+грчав				O	S	O	<SUCS>O					
+грчи				O	S	O	<SUCS>VOW					
+грчки			O	S	O	O	<SUCS>VOW					
+гугл						O	<SUCS>O	S				
+густ						O	<SUCS>O	O				
+да						O	<SUCS>VOW					
+да						O	<SUCS>VOW					
+даб						O	<SUCS>O					
+дал						O	<SUCS>S					
+дар						O	<SUCS>S					
+два					O	O	<SUCS>VOW					
+дваж					O	O	<SUCS>O					
+дваш					O	O	<SUCS>O					
+две					O	O	<SUCS>VOW					
+двер					O	O	<SUCS>S					
+двогрб					O	O	<SUCS>O	S	O			
+двор					O	O	<SUCS>S					
+де						O	<SUCS>VOW					
+де						O	<SUCS>VOW					
+дел						O	<SUCS>S					
+ден						O	<SUCS>S					
+денк						O	<SUCS>S	O				
+дерт						O	<SUCS>S	O				
+диб						O	<SUCS>O					
+див						O	<SUCS>O					
+дим						O	<SUCS>S					
+дин						O	<SUCS>S					
+дип						O	<SUCS>O					
+дип						O	<SUCS>O					
+диск						O	<SUCS>O	O				
+длан					O	S	<SUCS>S					
+дно					O	S	<SUCS>VOW					
+до						O	<SUCS>VOW					
+до						O	<SUCS>VOW					
+дожд						O	<SUCS>O	O				
+док						O	<SUCS>O					
+дол						O	<SUCS>S					
+долг						O	<SUCS>S	O				
+долг						O	<SUCS>S	O				
+долж						O	<SUCS>S	O				
+дом						O	<SUCS>S					
+драг					O	S	<SUCS>O					
+драг					O	S	<SUCS>O					
+драж					O	S	<SUCS>O					
+драм					O	S	<SUCS>S					
+драфт					O	S	<SUCS>O	O				
+драч					O	S	<SUCS>O					
+дрвар				O	S	O	<SUCS>S					
+дрвен				O	S	O	<SUCS>S					
+дрвник			O	S	O	S	<SUCS>O					
+дрво				O	S	O	<SUCS>VOW					
+дрвце			O	S	O	O	<SUCS>VOW					
+дрен					O	S	<SUCS>S					
+дрес					O	S	<SUCS>O					
+држач				O	S	O	<SUCS>O					
+држи				O	S	O	<SUCS>VOW					
+дрзне			O	S	O	S	<SUCS>VOW					
+дрзник			O	S	O	S	<SUCS>O					
+дрзок				O	S	O	<SUCS>O					
+дрка				O	S	O	<SUCS>VOW					
+дркол				O	S	O	<SUCS>S					
+дркул				O	S	O	<SUCS>S					
+дрма				O	S	S	<SUCS>VOW					
+дрма				O	S	S	<SUCS>VOW					
+дрмка			O	S	S	O	<SUCS>VOW					
+дрмлив			O	S	S	S	<SUCS>O					
+дрмне			O	S	S	S	<SUCS>VOW					
+дрмон				O	S	S	<SUCS>S					
+дрнда			O	S	S	O	<SUCS>VOW					
+дрндав			O	S	S	O	<SUCS>O					
+дрндар			O	S	S	O	<SUCS>S					
+дрнка			O	S	S	O	<SUCS>VOW					
+дроб					O	S	<SUCS>O					
+дрозд					O	S	<SUCS>O	O				
+дрон					O	S	<SUCS>S					
+дрпа				O	S	O	<SUCS>VOW					
+дрпав				O	S	O	<SUCS>O					
+дрпка			O	S	O	O	<SUCS>VOW					
+дрпне			O	S	O	S	<SUCS>VOW					
+дрска			O	S	O	O	<SUCS>VOW					
+дрско			O	S	O	O	<SUCS>VOW					
+дрскост			O	S	O	O	<SUCS>O	O				
+дрслив			O	S	O	S	<SUCS>O					
+дрсло			O	S	O	S	<SUCS>VOW					
+дрсне			O	S	O	S	<SUCS>VOW					
+дртла			O	S	O	S	<SUCS>VOW					
+друг					O	S	<SUCS>O					
+друм					O	S	<SUCS>S					
+дрча				O	S	O	<SUCS>VOW					
+дрчав				O	S	O	<SUCS>O					
+дрчен				O	S	O	<SUCS>S					
+дрчлив			O	S	O	S	<SUCS>O					
+дрчник			O	S	O	S	<SUCS>O					
+дршка			O	S	O	O	<SUCS>VOW					
+дубл						O	<SUCS>O	S				
+дуд						O	<SUCS>O					
+дужд						O	<SUCS>O	O				
+дур						O	<SUCS>S					
+дур						O	<SUCS>S					
+дух						O	<SUCS>O					
+ѓак						O	<SUCS>O					
+ѓем						O	<SUCS>S					
+ѓок						O	<SUCS>O					
+ѓол						O	<SUCS>S					
+ѓон						O	<SUCS>S					
+ѓул						O	<SUCS>S					
+ѓум						O	<SUCS>S					
+е						VOW	<SUCS>VOW					
+еж						VOW	<SUCS>O					
+ек						VOW	<SUCS>O					
+ем						VOW	<SUCS>S					
+еп						VOW	<SUCS>O					
+ер						VOW	<SUCS>S					
+жад						O	<SUCS>O					
+жал						O	<SUCS>S					
+жанр						O	<SUCS>S	S				
+жар						O	<SUCS>S					
+жган					O	O	<SUCS>S					
+ждреб				O	O	S	<SUCS>O					
+ждриг				O	O	S	<SUCS>O					
+жег						O	<SUCS>O					
+жед						O	<SUCS>O					
+жив						O	<SUCS>O					
+жиг						O	<SUCS>O					
+жир						O	<SUCS>S					
+жлеб					O	S	<SUCS>O					
+жмер					O	S	<SUCS>S					
+жмрка			O	S	S	O	<SUCS>VOW					
+жолт						O	<SUCS>S	O				
+жолч						O	<SUCS>S	O				
+жреб					O	S	<SUCS>O					
+жрец					O	S	<SUCS>O					
+жртва			O	S	O	O	<SUCS>VOW					
+жртвен			O	S	O	O	<SUCS>S					
+жур						O	<SUCS>S					
+за						O	<SUCS>VOW					
+за						O	<SUCS>VOW					
+заб						O	<SUCS>O					
+заврз						O	<SUCS>O	S	O			
+зад						O	<SUCS>O					
+задрт						O	<SUCS>O	S	O			
+залп						O	<SUCS>S	O				
+замк						O	<SUCS>S	O				
+запт						O	<SUCS>O	O				
+зар						O	<SUCS>S					
+зар						O	<SUCS>S					
+зар						O	<SUCS>S					
+зарф						O	<SUCS>S	O				
+збег					O	O	<SUCS>O					
+збир					O	O	<SUCS>S					
+збит					O	O	<SUCS>O					
+збор					O	O	<SUCS>S					
+збрден			O	O	S	O	<SUCS>S					
+збрка			O	O	S	O	<SUCS>VOW					
+збрка			O	O	S	O	<SUCS>VOW					
+збркан			O	O	S	O	<SUCS>S					
+збрмчи		O	O	S	S	O	<SUCS>VOW					
+збрца			O	O	S	O	<SUCS>VOW					
+збрчи			O	O	S	O	<SUCS>VOW					
+збрчка		O	O	S	O	O	<SUCS>VOW					
+збрчкан		O	O	S	O	O	<SUCS>S					
+зван					O	O	<SUCS>S					
+звук					O	O	<SUCS>O					
+зган					O	O	<SUCS>S					
+зглоб				O	O	S	<SUCS>O					
+згон					O	O	<SUCS>S					
+згрби			O	O	S	O	<SUCS>VOW					
+згрди			O	O	S	O	<SUCS>VOW					
+згрли			O	O	S	S	<SUCS>VOW					
+згрми			O	O	S	S	<SUCS>VOW					
+згрне			O	O	S	S	<SUCS>VOW					
+згрсти		O	O	S	O	O	<SUCS>VOW					
+згрчен			O	O	S	O	<SUCS>S					
+згрчи			O	O	S	O	<SUCS>VOW					
+здив					O	O	<SUCS>O					
+здрав				O	O	S	<SUCS>O					
+здрач				O	O	S	<SUCS>O					
+здрвен			O	O	S	O	<SUCS>S					
+здрви			O	O	S	O	<SUCS>VOW					
+здржан			O	O	S	O	<SUCS>S					
+здржи			O	O	S	O	<SUCS>VOW					
+здрув				O	O	S	<SUCS>O					
+зев						O	<SUCS>O					
+зер						O	<SUCS>S					
+зер						O	<SUCS>S					
+зет						O	<SUCS>O					
+зил						O	<SUCS>S					
+зифт						O	<SUCS>O	O				
+зјај					O	S	<SUCS>S					
+зла					O	S	<SUCS>VOW					
+злат					O	S	<SUCS>O					
+зло					O	S	<SUCS>VOW					
+зло					O	S	<SUCS>VOW					
+злост					O	S	<SUCS>O	O				
+змев					O	S	<SUCS>O					
+змеј					O	S	<SUCS>S					
+знак					O	S	<SUCS>O					
+зоб						O	<SUCS>O					
+зов						O	<SUCS>O					
+зод						O	<SUCS>O					
+зол						O	<SUCS>S					
+зорт						O	<SUCS>S	O				
+зрак					O	S	<SUCS>O					
+зрел					O	S	<SUCS>S					
+зрнен				O	S	S	<SUCS>S					
+зрнест				O	S	S	<SUCS>O	O				
+зрно				O	S	S	<SUCS>VOW					
+зрнце			O	S	S	O	<SUCS>VOW					
+зум						O	<SUCS>S					
+ѕвек					O	O	<SUCS>O					
+ѕвер					O	O	<SUCS>S					
+ѕвон					O	O	<SUCS>S					
+ѕврцне		O	O	S	O	S	<SUCS>VOW					
+ѕид						O	<SUCS>O					
+ѕун						O	<SUCS>S					
+и						VOW	<SUCS>VOW					
+и						VOW	<SUCS>VOW					
+из						VOW	<SUCS>O					
+икс						VOW	<SUCS>O	O				
+ил						VOW	<SUCS>S					
+им						VOW	<SUCS>S					
+инт						VOW	<SUCS>S	O				
+инч						VOW	<SUCS>S	O				
+ист						VOW	<SUCS>O	O				
+ич						VOW	<SUCS>O					
+ја						S	<SUCS>VOW					
+ја						S	<SUCS>VOW					
+ја						S	<SUCS>VOW					
+јад						S	<SUCS>O					
+јаз						S	<SUCS>O					
+јак						S	<SUCS>O					
+јак						S	<SUCS>O					
+јамб						S	<SUCS>S	O				
+јан						S	<SUCS>S					
+јард						S	<SUCS>S	O				
+јас						S	<SUCS>O					
+јат						S	<SUCS>O					
+јер						S	<SUCS>S					
+јог						S	<SUCS>O					
+јод						S	<SUCS>O					
+јок						S	<SUCS>O					
+јок						S	<SUCS>O					
+јок						S	<SUCS>O					
+јон						S	<SUCS>S					
+југ						S	<SUCS>O					
+јус						S	<SUCS>O					
+ка						O	<SUCS>VOW					
+кад						O	<SUCS>O					
+кај						O	<SUCS>S					
+кај						O	<SUCS>S					
+кај						O	<SUCS>S					
+кал						O	<SUCS>S					
+калк						O	<SUCS>S	O				
+камп						O	<SUCS>S	O				
+кан						O	<SUCS>S					
+капс						O	<SUCS>O	O				
+карст						O	<SUCS>S	O	O			
+кас						O	<SUCS>O					
+кат						O	<SUCS>O					
+квант					O	O	<SUCS>S	O				
+кварк					O	O	<SUCS>S	O				
+кварт					O	O	<SUCS>S	O				
+кварц					O	O	<SUCS>S	O				
+квас					O	O	<SUCS>O					
+квиз					O	O	<SUCS>O					
+квит					O	O	<SUCS>O					
+кеј						O	<SUCS>S					
+кекс						O	<SUCS>O	O				
+Келт						O	<SUCS>S	O				
+кељ						O	<SUCS>S					
+кец						O	<SUCS>O					
+кеш						O	<SUCS>O					
+кикс						O	<SUCS>O	O				
+килт						O	<SUCS>S	O				
+ким						O	<SUCS>S					
+кип						O	<SUCS>O					
+кир						O	<SUCS>S					
+кир						O	<SUCS>S					
+кит						O	<SUCS>O					
+кич						O	<SUCS>O					
+кич						O	<SUCS>O					
+клан					O	S	<SUCS>S					
+клас					O	S	<SUCS>O					
+клед					O	S	<SUCS>O					
+клен					O	S	<SUCS>S					
+клер					O	S	<SUCS>S					
+клет					O	S	<SUCS>O					
+клет					O	S	<SUCS>O					
+клик					O	S	<SUCS>O					
+клин					O	S	<SUCS>S					
+клинч					O	S	<SUCS>S	O				
+клип					O	S	<SUCS>O					
+клир					O	S	<SUCS>S					
+кловн					O	S	<SUCS>O	S				
+клон					O	S	<SUCS>S					
+клуб					O	S	<SUCS>O					
+клун					O	S	<SUCS>S					
+клуч					O	S	<SUCS>O					
+кмет					O	S	<SUCS>O					
+кнез					O	S	<SUCS>O					
+ко						O	<SUCS>VOW					
+коб						O	<SUCS>O					
+ков						O	<SUCS>O					
+код						O	<SUCS>O					
+кој						O	<SUCS>S					
+кок						O	<SUCS>O					
+кокс						O	<SUCS>O	O				
+кол						O	<SUCS>S					
+колк						O	<SUCS>S	O				
+кон						O	<SUCS>S					
+коњ						O	<SUCS>S					
+коп						O	<SUCS>O					
+кор						O	<SUCS>S					
+кос						O	<SUCS>O					
+кос						O	<SUCS>O					
+кот						O	<SUCS>O					
+коч						O	<SUCS>O					
+кош						O	<SUCS>O					
+краг					O	S	<SUCS>O					
+крај					O	S	<SUCS>S					
+крај					O	S	<SUCS>S					
+крак					O	S	<SUCS>O					
+крал					O	S	<SUCS>S					
+крамп					O	S	<SUCS>S	O				
+кран					O	S	<SUCS>S					
+крап					O	S	<SUCS>O					
+крас					O	S	<SUCS>O					
+крах					O	S	<SUCS>O					
+крбла			O	S	O	S	<SUCS>VOW					
+крбло			O	S	O	S	<SUCS>VOW					
+крвав				O	S	O	<SUCS>O					
+крвен				O	S	O	<SUCS>S					
+крви				O	S	O	<SUCS>VOW					
+крвник			O	S	O	S	<SUCS>O					
+крвно			O	S	O	S	<SUCS>VOW					
+крдак				O	S	O	<SUCS>O					
+крдар				O	S	O	<SUCS>S					
+крди				O	S	O	<SUCS>VOW					
+крем					O	S	<SUCS>S					
+креп					O	S	<SUCS>O					
+креч					O	S	<SUCS>O					
+крже				O	S	O	<SUCS>VOW					
+крзнар			O	S	O	S	<SUCS>S					
+крзнен			O	S	O	S	<SUCS>S					
+крзно			O	S	O	S	<SUCS>VOW					
+крив					O	S	<SUCS>O					
+крик					O	S	<SUCS>O					
+крин					O	S	<SUCS>S					
+крка				O	S	O	<SUCS>VOW					
+кркач				O	S	O	<SUCS>O					
+кркач				O	S	O	<SUCS>O					
+кркма			O	S	O	S	<SUCS>VOW					
+кркне			O	S	O	S	<SUCS>VOW					
+кркор				O	S	O	<SUCS>S					
+кркот				O	S	O	<SUCS>O					
+кркуш				O	S	O	<SUCS>O					
+кркче			O	S	O	O	<SUCS>VOW					
+крла				O	S	S	<SUCS>VOW					
+крлеж				O	S	S	<SUCS>O					
+крлик				O	S	S	<SUCS>O					
+крлук				O	S	S	<SUCS>O					
+крма				O	S	S	<SUCS>VOW					
+крмак				O	S	S	<SUCS>O					
+крмар				O	S	S	<SUCS>S					
+крмез				O	S	S	<SUCS>O					
+крмен				O	S	S	<SUCS>S					
+крми				O	S	S	<SUCS>VOW					
+крмнак			O	S	S	S	<SUCS>O					
+крмуз				O	S	S	<SUCS>O					
+крмуз				O	S	S	<SUCS>O					
+крндак			O	S	S	O	<SUCS>O					
+крни				O	S	S	<SUCS>VOW					
+кров					O	S	<SUCS>O					
+крој					O	S	<SUCS>S					
+крос					O	S	<SUCS>O					
+крпа				O	S	O	<SUCS>VOW					
+крпач				O	S	O	<SUCS>O					
+крпеж				O	S	O	<SUCS>O					
+крпи				O	S	O	<SUCS>VOW					
+крпче			O	S	O	O	<SUCS>VOW					
+крсник			O	S	O	S	<SUCS>O					
+крстат			O	S	O	O	<SUCS>O					
+крстач			O	S	O	O	<SUCS>O					
+крсташ			O	S	O	O	<SUCS>O					
+крстен			O	S	O	O	<SUCS>S					
+крстест			O	S	O	O	<SUCS>O	O				
+крстец			O	S	O	O	<SUCS>O					
+крсти			O	S	O	O	<SUCS>VOW					
+крстум			O	S	O	O	<SUCS>S					
+крти				O	S	O	<SUCS>VOW					
+кртул				O	S	O	<SUCS>S					
+круг					O	S	<SUCS>O					
+круп					O	S	<SUCS>O					
+крут					O	S	<SUCS>O					
+крца				O	S	O	<SUCS>VOW					
+крцка			O	S	O	O	<SUCS>VOW					
+крцкав			O	S	O	O	<SUCS>O					
+крцкот			O	S	O	O	<SUCS>O					
+крцлив			O	S	O	S	<SUCS>O					
+крцне			O	S	O	S	<SUCS>VOW					
+крцул				O	S	O	<SUCS>S					
+крчи				O	S	O	<SUCS>VOW					
+крчка			O	S	O	O	<SUCS>VOW					
+крчма			O	S	O	S	<SUCS>VOW					
+крчмар			O	S	O	S	<SUCS>S					
+крчми			O	S	O	S	<SUCS>VOW					
+кршен				O	S	O	<SUCS>S					
+крши				O	S	O	<SUCS>VOW					
+кршјак			O	S	O	S	<SUCS>O					
+кршка			O	S	O	O	<SUCS>VOW					
+кршкав			O	S	O	O	<SUCS>O					
+кршла			O	S	O	S	<SUCS>VOW					
+кршлив			O	S	O	S	<SUCS>O					
+кршне			O	S	O	S	<SUCS>VOW					
+кршно			O	S	O	S	<SUCS>VOW					
+ксмет				O	O	S	<SUCS>O					
+куб						O	<SUCS>O					
+култ						O	<SUCS>S	O				
+кум						O	<SUCS>S					
+куп						O	<SUCS>O					
+кур						O	<SUCS>S					
+курс						O	<SUCS>S	O				
+кус						O	<SUCS>O					
+кус						O	<SUCS>O					
+куц						O	<SUCS>O					
+ла						S	<SUCS>VOW					
+лав						S	<SUCS>O					
+лаг						S	<SUCS>O					
+лад						S	<SUCS>O					
+лаж						S	<SUCS>O					
+лаз						S	<SUCS>O					
+лај						S	<SUCS>S					
+лак						S	<SUCS>O					
+лакт						S	<SUCS>O	O				
+лаф						S	<SUCS>O					
+лач						S	<SUCS>O					
+ле						S	<SUCS>VOW					
+леб						S	<SUCS>O					
+лев						S	<SUCS>O					
+лев						S	<SUCS>O					
+лед						S	<SUCS>O					
+лек						S	<SUCS>O					
+лек						S	<SUCS>O					
+лем						S	<SUCS>S					
+лен						S	<SUCS>S					
+лер						S	<SUCS>S					
+лес						S	<SUCS>O					
+лет						S	<SUCS>O					
+леш						S	<SUCS>O					
+ли						S	<SUCS>VOW					
+ли						S	<SUCS>VOW					
+лив						S	<SUCS>O					
+лик						S	<SUCS>O					
+лим						S	<SUCS>S					
+линк						S	<SUCS>S	O				
+линч						S	<SUCS>S	O				
+лис						S	<SUCS>O					
+лист						S	<SUCS>O	O				
+лит						S	<SUCS>O					
+лифт						S	<SUCS>O	O				
+лоб						S	<SUCS>O					
+лов						S	<SUCS>O					
+лоз						S	<SUCS>O					
+лој						S	<SUCS>S					
+лом						S	<SUCS>S					
+лон						S	<SUCS>S					
+лорд						S	<SUCS>S	O				
+лос						S	<SUCS>O					
+лост						S	<SUCS>O	O				
+лош						S	<SUCS>O					
+луб						S	<SUCS>O					
+луд						S	<SUCS>O					
+лук						S	<SUCS>O					
+лут						S	<SUCS>O					
+луфт						S	<SUCS>O	O				
+мав						S	<SUCS>O					
+маг						S	<SUCS>O					
+маж						S	<SUCS>O					
+мај						S	<SUCS>S					
+мак						S	<SUCS>O					
+мал						S	<SUCS>S					
+мал						S	<SUCS>S					
+март						S	<SUCS>S	O				
+марш						S	<SUCS>S	O				
+маст						S	<SUCS>O	O				
+мат						S	<SUCS>O					
+мат						S	<SUCS>O					
+ме						S	<SUCS>VOW					
+мев						S	<SUCS>O					
+мед						S	<SUCS>O					
+мејл						S	<SUCS>S	S				
+мек						S	<SUCS>O					
+мем						S	<SUCS>S					
+меч						S	<SUCS>O					
+ми						S	<SUCS>VOW					
+ми						S	<SUCS>VOW					
+миг						S	<SUCS>O					
+мил						S	<SUCS>S					
+мил						S	<SUCS>S					
+мир						S	<SUCS>S					
+мис						S	<SUCS>O					
+миск						S	<SUCS>O	O				
+мит						S	<SUCS>O					
+млад					S	S	<SUCS>O					
+млаз					S	S	<SUCS>O					
+млак					S	S	<SUCS>O					
+млеч					S	S	<SUCS>O					
+млин					S	S	<SUCS>S					
+мов						S	<SUCS>O					
+мој						S	<SUCS>S					
+мол						S	<SUCS>S					
+молк						S	<SUCS>S	O				
+мор						S	<SUCS>S					
+морж						S	<SUCS>S	O				
+мост						S	<SUCS>O	O				
+моќ						S	<SUCS>O					
+моч						S	<SUCS>O					
+мошт						S	<SUCS>O	O				
+мраз					S	S	<SUCS>O					
+мрак					S	S	<SUCS>O					
+мрва				S	S	O	<SUCS>VOW					
+мрва				S	S	O	<SUCS>VOW					
+мрглав			S	S	O	S	<SUCS>O					
+мрда				S	S	O	<SUCS>VOW					
+мрдач				S	S	O	<SUCS>O					
+мрднат			S	S	O	S	<SUCS>O					
+мрдне			S	S	O	S	<SUCS>VOW					
+мрест					S	S	<SUCS>O	O				
+мрза				S	S	O	<SUCS>VOW					
+мрзи				S	S	O	<SUCS>VOW					
+мрзла			S	S	O	S	<SUCS>VOW					
+мрзлив			S	S	O	S	<SUCS>O					
+мрзло			S	S	O	S	<SUCS>VOW					
+мрзне			S	S	O	S	<SUCS>VOW					
+мрка				S	S	O	<SUCS>VOW					
+мркач				S	S	O	<SUCS>O					
+мркне			S	S	O	S	<SUCS>VOW					
+мрмка			S	S	S	O	<SUCS>VOW					
+мрмор				S	S	S	<SUCS>S					
+мрмот				S	S	S	<SUCS>O					
+мрсен				S	S	O	<SUCS>S					
+мрси				S	S	O	<SUCS>VOW					
+мрсник			S	S	O	S	<SUCS>O					
+мрсно			S	S	O	S	<SUCS>VOW					
+мрсул				S	S	O	<SUCS>S					
+мртвак			S	S	O	O	<SUCS>O					
+мртвен			S	S	O	O	<SUCS>S					
+мртво			S	S	O	O	<SUCS>VOW					
+мртвост			S	S	O	O	<SUCS>O	O				
+мртка			S	S	O	O	<SUCS>VOW					
+мртов				S	S	O	<SUCS>O					
+мрцка			S	S	O	O	<SUCS>VOW					
+мрцкач			S	S	O	O	<SUCS>O					
+мрцлав			S	S	O	S	<SUCS>O					
+мрцне			S	S	O	S	<SUCS>VOW					
+мрчка			S	S	O	O	<SUCS>VOW					
+мрша				S	S	O	<SUCS>VOW					
+мршав				S	S	O	<SUCS>O					
+мршти			S	S	O	O	<SUCS>VOW					
+му						S	<SUCS>VOW					
+мук						S	<SUCS>O					
+мулк						S	<SUCS>S	O				
+мур						S	<SUCS>S					
+мут						S	<SUCS>O					
+муф						S	<SUCS>O					
+на						S	<SUCS>VOW					
+на						S	<SUCS>VOW					
+над						S	<SUCS>O					
+нај						S	<SUCS>S					
+накрст						S	<SUCS>O	S	O	O		
+нам						S	<SUCS>S					
+нар						S	<SUCS>S					
+нас						S	<SUCS>O					
+нацрт						S	<SUCS>O	S	O			
+наш						S	<SUCS>O					
+не						S	<SUCS>VOW					
+нѐ						S	<SUCS>VOW					
+нем						S	<SUCS>S					
+нем						S	<SUCS>S					
+нерв						S	<SUCS>S	O				
+ни						S	<SUCS>VOW					
+ни						S	<SUCS>VOW					
+ни						S	<SUCS>VOW					
+ни						S	<SUCS>VOW					
+ни						S	<SUCS>VOW					
+ни						S	<SUCS>VOW					
+нив						S	<SUCS>O					
+ниж						S	<SUCS>O					
+низ						S	<SUCS>O					
+ним						S	<SUCS>S					
+но						S	<SUCS>VOW					
+но						S	<SUCS>VOW					
+нов						S	<SUCS>O					
+нож						S	<SUCS>O					
+ној						S	<SUCS>S					
+нор						S	<SUCS>S					
+нос						S	<SUCS>O					
+ноќ						S	<SUCS>O					
+њутн						S	<SUCS>O	S				
+о						VOW	<SUCS>VOW					
+обрт						VOW	<SUCS>O	S	O			
+од						VOW	<SUCS>O					
+од						VOW	<SUCS>O					
+ом						VOW	<SUCS>S					
+он						VOW	<SUCS>S					
+опкрш						VOW	<SUCS>O	O	S	O		
+општ						VOW	<SUCS>O	O	O			
+осврт						VOW	<SUCS>O	O	S	O		
+оцрт						VOW	<SUCS>O	S	O			
+па						O	<SUCS>VOW					
+па						O	<SUCS>VOW					
+па						O	<SUCS>VOW					
+паб						O	<SUCS>O					
+пад						O	<SUCS>O					
+паж						O	<SUCS>O					
+пај						O	<SUCS>S					
+пак						O	<SUCS>O					
+пак						O	<SUCS>O					
+пак						O	<SUCS>O					
+пак						O	<SUCS>O					
+пакт						O	<SUCS>O	O				
+пан						O	<SUCS>S					
+панк						O	<SUCS>S	O				
+пар						O	<SUCS>S					
+парк						O	<SUCS>S	O				
+пас						O	<SUCS>O					
+пат						O	<SUCS>O					
+пеј						O	<SUCS>S					
+пек						O	<SUCS>O					
+пелц						O	<SUCS>S	O				
+пен						O	<SUCS>S					
+пер						O	<SUCS>S					
+пес						O	<SUCS>O					
+пет						O	<SUCS>O					
+пет						O	<SUCS>O					
+пех						O	<SUCS>O					
+пеш						O	<SUCS>O					
+пеш						O	<SUCS>O					
+пеш						O	<SUCS>O					
+пешт						O	<SUCS>O	O				
+пив						O	<SUCS>O					
+пик						O	<SUCS>O					
+пин						O	<SUCS>S					
+пип						O	<SUCS>O					
+пир						O	<SUCS>S					
+пирг						O	<SUCS>S	O				
+пис						O	<SUCS>O					
+пис						O	<SUCS>O					
+пјат					O	S	<SUCS>O					
+плав					O	S	<SUCS>O					
+плаз					O	S	<SUCS>O					
+плак					O	S	<SUCS>O					
+плам					O	S	<SUCS>S					
+план					O	S	<SUCS>S					
+пласт					O	S	<SUCS>O	O				
+плат					O	S	<SUCS>O					
+плах					O	S	<SUCS>O					
+плац					O	S	<SUCS>O					
+плач					O	S	<SUCS>O					
+плашт					O	S	<SUCS>O	O				
+плен					O	S	<SUCS>S					
+плет					O	S	<SUCS>O					
+плех					O	S	<SUCS>O					
+плик					O	S	<SUCS>O					
+плин					O	S	<SUCS>S					
+плит					O	S	<SUCS>O					
+плиш					O	S	<SUCS>O					
+плод					O	S	<SUCS>O					
+плот					O	S	<SUCS>O					
+плот					O	S	<SUCS>O					
+плошт					O	S	<SUCS>O	O				
+плуг					O	S	<SUCS>O					
+плус					O	S	<SUCS>O					
+плус					O	S	<SUCS>O					
+по						O	<SUCS>VOW					
+по						O	<SUCS>VOW					
+под						O	<SUCS>O					
+под						O	<SUCS>O					
+под						O	<SUCS>O					
+под						O	<SUCS>O					
+пој						O	<SUCS>S					
+пол						O	<SUCS>S					
+пол						O	<SUCS>S					
+полв						O	<SUCS>S	O				
+полк						O	<SUCS>S	O				
+полн						O	<SUCS>S	S				
+поп						O	<SUCS>O					
+поп						O	<SUCS>O					
+пор						O	<SUCS>S					
+порт						O	<SUCS>S	O				
+пост						O	<SUCS>O	O				
+пост						O	<SUCS>O	O				
+пот						O	<SUCS>O					
+прав					O	S	<SUCS>O					
+прав					O	S	<SUCS>O					
+праг					O	S	<SUCS>O					
+праз					O	S	<SUCS>O					
+прат					O	S	<SUCS>O					
+прва				O	S	O	<SUCS>VOW					
+првак				O	S	O	<SUCS>O					
+првен				O	S	O	<SUCS>S					
+првен				O	S	O	<SUCS>S					
+првин				O	S	O	<SUCS>S					
+првне			O	S	O	S	<SUCS>VOW					
+прво				O	S	O	<SUCS>VOW					
+првпат			O	S	O	O	<SUCS>O					
+првут				O	S	O	<SUCS>O					
+пргав				O	S	O	<SUCS>O					
+прдеж				O	S	O	<SUCS>O					
+прди				O	S	O	<SUCS>VOW					
+прдлив			O	S	O	S	<SUCS>O					
+прдло			O	S	O	S	<SUCS>VOW					
+прдне			O	S	O	S	<SUCS>VOW					
+пребрз					O	S	<SUCS>O	S	O			
+пред					O	S	<SUCS>O					
+пред					O	S	<SUCS>O					
+през					O	S	<SUCS>O					
+прек					O	S	<SUCS>O					
+пресврт					O	S	<SUCS>O	O	S	O		
+пржел				O	S	O	<SUCS>S					
+пржен				O	S	O	<SUCS>S					
+пржи				O	S	O	<SUCS>VOW					
+при					O	S	<SUCS>VOW					
+принц					O	S	<SUCS>S	O				
+пришт					O	S	<SUCS>O	O				
+пркне			O	S	O	S	<SUCS>VOW					
+пркос				O	S	O	<SUCS>O					
+прле				O	S	S	<SUCS>VOW					
+прли				O	S	S	<SUCS>VOW					
+прлок				O	S	S	<SUCS>O					
+прнар				O	S	S	<SUCS>S					
+прост					O	S	<SUCS>O	O				
+прпа				O	S	O	<SUCS>VOW					
+прпне			O	S	O	S	<SUCS>VOW					
+прпот				O	S	O	<SUCS>O					
+прсен				O	S	O	<SUCS>S					
+прска			O	S	O	O	<SUCS>VOW					
+прскот			O	S	O	O	<SUCS>O					
+прсне			O	S	O	S	<SUCS>VOW					
+прстен			O	S	O	O	<SUCS>S					
+прстен			O	S	O	O	<SUCS>S					
+прстен			O	S	O	O	<SUCS>S					
+прстен			O	S	O	O	<SUCS>S					
+прти				O	S	O	<SUCS>VOW					
+прцел				O	S	O	<SUCS>S					
+прцле			O	S	O	S	<SUCS>VOW					
+прчи				O	S	O	<SUCS>VOW					
+прчка			O	S	O	O	<SUCS>VOW					
+прчко			O	S	O	O	<SUCS>VOW					
+прчлест			O	S	O	S	<SUCS>O	O				
+пршка			O	S	O	O	<SUCS>VOW					
+пршлен			O	S	O	S	<SUCS>S					
+псалм					O	O	<SUCS>S	S				
+пуд						O	<SUCS>O					
+пул						O	<SUCS>S					
+пулс						O	<SUCS>S	O				
+пулт						O	<SUCS>S	O				
+пункт						O	<SUCS>S	O	O			
+пунч						O	<SUCS>S	O				
+пуст						O	<SUCS>O	O				
+пуч						O	<SUCS>O					
+пцалт					O	O	<SUCS>S	O				
+пцост					O	O	<SUCS>O	O				
+раб						S	<SUCS>O					
+рад						S	<SUCS>O					
+рај						S	<SUCS>S					
+рак						S	<SUCS>O					
+рам						S	<SUCS>S					
+ран						S	<SUCS>S					
+ранг						S	<SUCS>S	O				
+ранч						S	<SUCS>S	O				
+рап						S	<SUCS>O					
+раст						S	<SUCS>O	O				
+рат						S	<SUCS>O					
+рафт						S	<SUCS>O	O				
+рбел					S	O	<SUCS>S					
+рбет					S	O	<SUCS>O					
+рблак				S	O	S	<SUCS>O					
+рбол					S	O	<SUCS>S					
+рга					S	O	<SUCS>VOW					
+ргач					S	O	<SUCS>O					
+ргне				S	O	S	<SUCS>VOW					
+рѓа					S	O	<SUCS>VOW					
+рѓа					S	O	<SUCS>VOW					
+ре						S	<SUCS>VOW					
+рев						S	<SUCS>O					
+ред						S	<SUCS>O					
+рез						S	<SUCS>O					
+рејс						S	<SUCS>S	O				
+рен						S	<SUCS>S					
+ренк						S	<SUCS>S	O				
+реч						S	<SUCS>O					
+реш						S	<SUCS>O					
+ржан					S	O	<SUCS>S					
+ржен					S	O	<SUCS>S					
+ржи					S	O	<SUCS>VOW					
+ржлив				S	O	S	<SUCS>O					
+ржне				S	O	S	<SUCS>VOW					
+ржца				S	O	O	<SUCS>VOW					
+рзак					S	O	<SUCS>O					
+рзне				S	O	S	<SUCS>VOW					
+рид						S	<SUCS>O					
+рик						S	<SUCS>O					
+ринг						S	<SUCS>S	O				
+рипс						S	<SUCS>O	O				
+рис						S	<SUCS>O					
+риск						S	<SUCS>O	O				
+рка					S	O	<SUCS>VOW					
+ркач					S	O	<SUCS>O					
+ркне				S	O	S	<SUCS>VOW					
+рмба				S	S	O	<SUCS>VOW					
+рмбач				S	S	O	<SUCS>O					
+рмжи				S	S	O	<SUCS>VOW					
+рнка				S	S	O	<SUCS>VOW					
+роб						S	<SUCS>O					
+ров						S	<SUCS>O					
+рог						S	<SUCS>O					
+род						S	<SUCS>O					
+рој						S	<SUCS>S					
+рок						S	<SUCS>O					
+ром						S	<SUCS>S					
+ром						S	<SUCS>S					
+Ром						S	<SUCS>S					
+ромб						S	<SUCS>S	O				
+рпа					S	O	<SUCS>VOW					
+рпне				S	O	S	<SUCS>VOW					
+рска				S	O	O	<SUCS>VOW					
+рскав				S	O	O	<SUCS>O					
+рскот				S	O	O	<SUCS>O					
+рслан				S	O	S	<SUCS>S					
+рсне				S	O	S	<SUCS>VOW					
+рти					S	O	<SUCS>VOW					
+ртлив				S	O	S	<SUCS>O					
+руд						S	<SUCS>O					
+руж						S	<SUCS>O					
+руј						S	<SUCS>S					
+рум						S	<SUCS>S					
+рус						S	<SUCS>O					
+рчи					S	O	<SUCS>VOW					
+рчка				S	O	O	<SUCS>VOW					
+рчпал				S	O	O	<SUCS>S					
+ршум					S	O	<SUCS>S					
+са						O	<SUCS>VOW					
+сад						O	<SUCS>O					
+саз						O	<SUCS>O					
+сајт						O	<SUCS>S	O				
+сак						O	<SUCS>O					
+сал						O	<SUCS>S					
+сал						O	<SUCS>S					
+сам						O	<SUCS>S					
+сам						O	<SUCS>S					
+сам						O	<SUCS>S					
+сан						O	<SUCS>S					
+санс						O	<SUCS>S	O				
+сап						O	<SUCS>O					
+сат						O	<SUCS>O					
+сафт						O	<SUCS>O	O				
+сач						O	<SUCS>O					
+сват					O	O	<SUCS>O					
+свеж					O	O	<SUCS>O					
+свест					O	O	<SUCS>O	O				
+свет					O	O	<SUCS>O					
+свет					O	O	<SUCS>O					
+свинг					O	O	<SUCS>S	O				
+свлак				O	O	S	<SUCS>O					
+свод					O	O	<SUCS>O					
+свој					O	O	<SUCS>S					
+сврат				O	O	S	<SUCS>O					
+сврби			O	O	S	O	<SUCS>VOW					
+свргав			O	O	S	O	<SUCS>O					
+сврдел			O	O	S	O	<SUCS>S					
+сврдлар		O	O	S	O	S	<SUCS>S					
+сврдле		O	O	S	O	S	<SUCS>VOW					
+сврдли		O	O	S	O	S	<SUCS>VOW					
+сврдло		O	O	S	O	S	<SUCS>VOW					
+свржи			O	O	S	O	<SUCS>VOW					
+сврзан			O	O	S	O	<SUCS>S					
+сврзе			O	O	S	O	<SUCS>VOW					
+сврзлив		O	O	S	O	S	<SUCS>O					
+сврзник		O	O	S	O	S	<SUCS>O					
+сврска		O	O	S	O	O	<SUCS>VOW					
+свртен			O	O	S	O	<SUCS>S					
+сврти			O	O	S	O	<SUCS>VOW					
+свршек			O	O	S	O	<SUCS>O					
+свршен			O	O	S	O	<SUCS>S					
+сврши			O	O	S	O	<SUCS>VOW					
+свршок			O	O	S	O	<SUCS>O					
+се						O	<SUCS>VOW					
+се						O	<SUCS>VOW					
+се						O	<SUCS>VOW					
+се						O	<SUCS>VOW					
+сѐ						O	<SUCS>VOW					
+сѐ						O	<SUCS>VOW					
+сед						O	<SUCS>O					
+сек						O	<SUCS>O					
+секс						O	<SUCS>O	O				
+сем						O	<SUCS>S					
+сен						O	<SUCS>S					
+сенс						O	<SUCS>S	O				
+сенф						O	<SUCS>S	O				
+сер						O	<SUCS>S					
+серж						O	<SUCS>S	O				
+серт						O	<SUCS>S	O				
+сет						O	<SUCS>O					
+сет						O	<SUCS>O					
+сеф						O	<SUCS>O					
+сеч						O	<SUCS>O					
+си						O	<SUCS>VOW					
+си						O	<SUCS>VOW					
+си						O	<SUCS>VOW					
+си						O	<SUCS>VOW					
+си						O	<SUCS>VOW					
+си						O	<SUCS>VOW					
+сив						O	<SUCS>O					
+сил						O	<SUCS>S					
+симс						O	<SUCS>S	O				
+син						O	<SUCS>S					
+син						O	<SUCS>S					
+сингл						O	<SUCS>S	O	S			
+сињ						O	<SUCS>S					
+сип						O	<SUCS>O					
+сир						O	<SUCS>S					
+сит						O	<SUCS>O					
+сјај					O	S	<SUCS>S					
+сказ					O	O	<SUCS>O					
+скај					O	O	<SUCS>S					
+скајп					O	O	<SUCS>S	O				
+скалп					O	O	<SUCS>S	O				
+скап					O	O	<SUCS>O					
+сквер				O	O	O	<SUCS>S					
+скеч					O	O	<SUCS>O					
+скиф					O	O	<SUCS>O					
+склав				O	O	S	<SUCS>O					
+склад				O	O	S	<SUCS>O					
+склон				O	O	S	<SUCS>S					
+склоп				O	O	S	<SUCS>O					
+скок					O	O	<SUCS>O					
+скор					O	O	<SUCS>S					
+скорб					O	O	<SUCS>S	O				
+скот					O	O	<SUCS>O					
+скрбен			O	O	S	O	<SUCS>S					
+скрби			O	O	S	O	<SUCS>VOW					
+скрви			O	O	S	O	<SUCS>VOW					
+скрди			O	O	S	O	<SUCS>VOW					
+скреж				O	O	S	<SUCS>O					
+скржав			O	O	S	O	<SUCS>O					
+скрже			O	O	S	O	<SUCS>VOW					
+скржец			O	O	S	O	<SUCS>O					
+скржлан		O	O	S	O	S	<SUCS>S					
+скржост			O	O	S	O	<SUCS>O	O				
+скрит				O	O	S	<SUCS>O					
+скрка			O	O	S	O	<SUCS>VOW					
+скрна			O	O	S	S	<SUCS>VOW					
+скрнав			O	O	S	S	<SUCS>O					
+скроб				O	O	S	<SUCS>O					
+скрпи			O	O	S	O	<SUCS>VOW					
+скрстен		O	O	S	O	O	<SUCS>S					
+скрсти		O	O	S	O	O	<SUCS>VOW					
+скрсти		O	O	S	O	O	<SUCS>VOW					
+скрум				O	O	S	<SUCS>S					
+скрца			O	O	S	O	<SUCS>VOW					
+скрцка		O	O	S	O	O	<SUCS>VOW					
+скрцлив		O	O	S	O	S	<SUCS>O					
+скрцне		O	O	S	O	S	<SUCS>VOW					
+скршен			O	O	S	O	<SUCS>S					
+скрши			O	O	S	O	<SUCS>VOW					
+скршне		O	O	S	O	S	<SUCS>VOW					
+скут					O	O	<SUCS>O					
+слаб					O	S	<SUCS>O					
+слад					O	S	<SUCS>O					
+слајд					O	S	<SUCS>S	O				
+слам					O	S	<SUCS>S					
+слан					O	S	<SUCS>S					
+слап					O	S	<SUCS>O					
+сласт					O	S	<SUCS>O	O				
+слач					O	S	<SUCS>O					
+слез					O	S	<SUCS>O					
+сленг					O	S	<SUCS>S	O				
+слеп					O	S	<SUCS>O					
+слет					O	S	<SUCS>O					
+слив					O	S	<SUCS>O					
+слик					O	S	<SUCS>O					
+слог					O	S	<SUCS>O					
+слој					O	S	<SUCS>S					
+слом					O	S	<SUCS>S					
+слон					O	S	<SUCS>S					
+слоч					O	S	<SUCS>O					
+слуз					O	S	<SUCS>O					
+слух					O	S	<SUCS>O					
+смад					O	S	<SUCS>O					
+сме					O	S	<SUCS>VOW					
+смев					O	S	<SUCS>O					
+смел					O	S	<SUCS>S					
+смес					O	S	<SUCS>O					
+смет					O	S	<SUCS>O					
+смил					O	S	<SUCS>S					
+смог					O	S	<SUCS>O					
+смок					O	S	<SUCS>O					
+смрда			O	S	S	O	<SUCS>VOW					
+смрда			O	S	S	O	<SUCS>VOW					
+смрдеж			O	S	S	O	<SUCS>O					
+смрден			O	S	S	O	<SUCS>S					
+смрди			O	S	S	O	<SUCS>VOW					
+смрди			O	S	S	O	<SUCS>VOW					
+смрдла		O	S	S	O	S	<SUCS>VOW					
+смрдле		O	S	S	O	S	<SUCS>VOW					
+смрдлив		O	S	S	O	S	<SUCS>O					
+смрдло		O	S	S	O	S	<SUCS>VOW					
+смрзнат		O	S	S	O	S	<SUCS>O					
+смрзне		O	S	S	O	S	<SUCS>VOW					
+смрка			O	S	S	O	<SUCS>VOW					
+смркне		O	S	S	O	S	<SUCS>VOW					
+смрсен			O	S	S	O	<SUCS>S					
+смрси			O	S	S	O	<SUCS>VOW					
+смртен			O	S	S	O	<SUCS>S					
+смртник		O	S	S	O	S	<SUCS>O					
+смртно		O	S	S	O	S	<SUCS>VOW					
+смртност		O	S	S	O	S	<SUCS>O	O				
+смрчка		O	S	S	O	O	<SUCS>VOW					
+смрштен		O	S	S	O	O	<SUCS>S					
+смршти		O	S	S	O	O	<SUCS>VOW					
+смуѓ					O	S	<SUCS>O					
+смут					O	S	<SUCS>O					
+снег					O	S	<SUCS>O					
+сноб					O	S	<SUCS>O					
+сноп					O	S	<SUCS>O					
+со						O	<SUCS>VOW					
+сој						O	<SUCS>S					
+сок						O	<SUCS>O					
+сол						O	<SUCS>S					
+сол						O	<SUCS>S					
+сом						O	<SUCS>S					
+сон						O	<SUCS>S					
+сонг						O	<SUCS>S	O				
+сор						O	<SUCS>S					
+сос						O	<SUCS>O					
+сот						O	<SUCS>O					
+спас					O	O	<SUCS>O					
+спев					O	O	<SUCS>O					
+спец					O	O	<SUCS>O					
+спир					O	O	<SUCS>S					
+спирт					O	O	<SUCS>S	O				
+спис					O	O	<SUCS>O					
+сплав				O	O	S	<SUCS>O					
+сплет				O	O	S	<SUCS>O					
+сплит				O	O	S	<SUCS>O					
+сплот				O	O	S	<SUCS>O					
+спој					O	O	<SUCS>S					
+спор					O	O	<SUCS>S					
+спор					O	O	<SUCS>S					
+спорт					O	O	<SUCS>S	O				
+спот					O	O	<SUCS>O					
+спрат				O	O	S	<SUCS>O					
+спреј				O	O	S	<SUCS>S					
+спржи			O	O	S	O	<SUCS>VOW					
+спринт				O	O	S	<SUCS>S	O				
+спрли			O	O	S	S	<SUCS>VOW					
+спрлна		O	O	S	S	S	<SUCS>VOW					
+спрпа			O	O	S	O	<SUCS>VOW					
+спрсне		O	O	S	O	S	<SUCS>VOW					
+спуст					O	O	<SUCS>O	O				
+срак					O	S	<SUCS>O					
+срам					O	S	<SUCS>S					
+срба				O	S	O	<SUCS>VOW					
+Србин				O	S	O	<SUCS>S					
+србне			O	S	O	S	<SUCS>VOW					
+срдба			O	S	O	O	<SUCS>VOW					
+срдеж				O	S	O	<SUCS>O					
+срди				O	S	O	<SUCS>VOW					
+срдит				O	S	O	<SUCS>O					
+срдлив			O	S	O	S	<SUCS>O					
+срдост				O	S	O	<SUCS>O	O				
+сред					O	S	<SUCS>O					
+сржи				O	S	O	<SUCS>VOW					
+срка				O	S	O	<SUCS>VOW					
+сркне			O	S	O	S	<SUCS>VOW					
+срма				O	S	S	<SUCS>VOW					
+срмен				O	S	S	<SUCS>S					
+срна				O	S	S	<SUCS>VOW					
+срндак			O	S	S	O	<SUCS>O					
+срнче			O	S	S	O	<SUCS>VOW					
+срња				O	S	S	<SUCS>VOW					
+срок					O	S	<SUCS>O					
+српест				O	S	O	<SUCS>O	O				
+српче			O	S	O	O	<SUCS>VOW					
+срска			O	S	O	O	<SUCS>VOW					
+срти				O	S	O	<SUCS>VOW					
+срце				O	S	O	<SUCS>VOW					
+срцев				O	S	O	<SUCS>O					
+срцест				O	S	O	<SUCS>O	O				
+срча				O	S	O	<SUCS>VOW					
+срчен				O	S	O	<SUCS>S					
+срчест				O	S	O	<SUCS>O	O				
+срчка			O	S	O	O	<SUCS>VOW					
+срџба			O	S	O	O	<SUCS>VOW					
+став					O	O	<SUCS>O					
+стаж					O	O	<SUCS>O					
+стан					O	O	<SUCS>S					
+стап					O	O	<SUCS>O					
+стар					O	O	<SUCS>S					
+стар					O	O	<SUCS>S					
+старт					O	O	<SUCS>S	O				
+стас					O	O	<SUCS>O					
+ствар				O	O	O	<SUCS>S					
+створ				O	O	O	<SUCS>S					
+стврднат	O	O	O	S	O	S	<SUCS>O					
+стврдне	O	O	O	S	O	S	<SUCS>VOW					
+сте					O	O	<SUCS>VOW					
+стег					O	O	<SUCS>O					
+стек					O	O	<SUCS>O					
+стен					O	O	<SUCS>S					
+стент					O	O	<SUCS>S	O				
+степ					O	O	<SUCS>O					
+степ					O	O	<SUCS>O					
+стик					O	O	<SUCS>O					
+стил					O	O	<SUCS>S					
+стих					O	O	<SUCS>O					
+сто					O	O	<SUCS>VOW					
+сто					O	O	<SUCS>VOW					
+стог					O	O	<SUCS>O					
+стол					O	O	<SUCS>S					
+столб					O	O	<SUCS>S	O				
+столп					O	O	<SUCS>S	O				
+страв				O	O	S	<SUCS>O					
+страд				O	O	S	<SUCS>O					
+страж				O	O	S	<SUCS>O					
+страк				O	O	S	<SUCS>O					
+страст				O	O	S	<SUCS>O	O				
+страх				O	O	S	<SUCS>O					
+страч				O	O	S	<SUCS>O					
+стрвен			O	O	S	O	<SUCS>S					
+стрви			O	O	S	O	<SUCS>VOW					
+стрвла		O	O	S	O	S	<SUCS>VOW					
+стрвле		O	O	S	O	S	<SUCS>VOW					
+стрвло		O	O	S	O	S	<SUCS>VOW					
+стрвник		O	O	S	O	S	<SUCS>O					
+стрвно		O	O	S	O	S	<SUCS>VOW					
+стрвост			O	O	S	O	<SUCS>O	O				
+стрем				O	O	S	<SUCS>S					
+стрес				O	O	S	<SUCS>O					
+стреч				O	O	S	<SUCS>O					
+стреш				O	O	S	<SUCS>O					
+стриг				O	O	S	<SUCS>O					
+стрип				O	O	S	<SUCS>O					
+стрка			O	O	S	O	<SUCS>VOW					
+стрмен			O	O	S	S	<SUCS>S					
+стрмен			O	O	S	S	<SUCS>S					
+стрмец			O	O	S	S	<SUCS>O					
+стрмно		O	O	S	S	S	<SUCS>VOW					
+стрмност		O	O	S	S	S	<SUCS>O	O				
+стрмол			O	O	S	S	<SUCS>S					
+строг				O	O	S	<SUCS>O					
+строј				O	O	S	<SUCS>S					
+стрпи			O	O	S	O	<SUCS>VOW					
+стрплив		O	O	S	O	S	<SUCS>O					
+стрпне		O	O	S	O	S	<SUCS>VOW					
+струг				O	O	S	<SUCS>O					
+струк				O	O	S	<SUCS>O					
+струп				O	O	S	<SUCS>O					
+стрча			O	O	S	O	<SUCS>VOW					
+стрчи			O	O	S	O	<SUCS>VOW					
+стрчне		O	O	S	O	S	<SUCS>VOW					
+стршен			O	O	S	O	<SUCS>S					
+студ					O	O	<SUCS>O					
+сув						O	<SUCS>O					
+суд						O	<SUCS>O					
+сук						O	<SUCS>O					
+сум						O	<SUCS>S					
+суп						O	<SUCS>O					
+сур						O	<SUCS>S					
+сус						O	<SUCS>O					
+сушт						O	<SUCS>O	O				
+сфинкс					O	O	<SUCS>S	O	O			
+сцрви			O	O	S	O	<SUCS>VOW					
+сцрка			O	O	S	O	<SUCS>VOW					
+та						O	<SUCS>VOW					
+так						O	<SUCS>O					
+такс						O	<SUCS>O	O				
+такт						O	<SUCS>O	O				
+талк						O	<SUCS>S	O				
+тан						O	<SUCS>S					
+танц						O	<SUCS>S	O				
+тап						O	<SUCS>O					
+тас						O	<SUCS>O					
+тафт						O	<SUCS>O	O				
+твар					O	O	<SUCS>S					
+твид					O	O	<SUCS>O					
+твист					O	O	<SUCS>O	O				
+твој					O	O	<SUCS>S					
+тврди			O	O	S	O	<SUCS>VOW					
+тврдо			O	O	S	O	<SUCS>VOW					
+тврдост			O	O	S	O	<SUCS>O	O				
+те						O	<SUCS>VOW					
+тег						O	<SUCS>O					
+тек						O	<SUCS>O					
+тек						O	<SUCS>O					
+текст						O	<SUCS>O	O	O			
+тел						O	<SUCS>S					
+тељ						O	<SUCS>S					
+тембр						O	<SUCS>S	O	S			
+тен						O	<SUCS>S					
+тенк						O	<SUCS>S	O				
+терк						O	<SUCS>S	O				
+тест						O	<SUCS>O	O				
+ти						O	<SUCS>VOW					
+ти						O	<SUCS>VOW					
+тик						O	<SUCS>O					
+тил						O	<SUCS>S					
+тим						O	<SUCS>S					
+тип						O	<SUCS>O					
+тих						O	<SUCS>O					
+тло					O	S	<SUCS>VOW					
+тој						O	<SUCS>S					
+ток						O	<SUCS>O					
+том						O	<SUCS>S					
+тон						O	<SUCS>S					
+топ						O	<SUCS>O					
+тост						O	<SUCS>O	O				
+траг					O	S	<SUCS>O					
+тракт					O	S	<SUCS>O	O				
+транс					O	S	<SUCS>S	O				
+трап					O	S	<SUCS>O					
+трат					O	S	<SUCS>O					
+трач					O	S	<SUCS>O					
+трбув				O	S	O	<SUCS>O					
+трга				O	S	O	<SUCS>VOW					
+тргне			O	S	O	S	<SUCS>VOW					
+трем					O	S	<SUCS>S					
+тренд					O	S	<SUCS>S	O				
+трет					O	S	<SUCS>O					
+треќ					O	S	<SUCS>O					
+три					O	S	<SUCS>VOW					
+триж					O	S	<SUCS>O					
+трик					O	S	<SUCS>O					
+трка				O	S	O	<SUCS>VOW					
+трка				O	S	O	<SUCS>VOW					
+тркач				O	S	O	<SUCS>O					
+тркне			O	S	O	S	<SUCS>VOW					
+трла				O	S	S	<SUCS>VOW					
+трлав				O	S	S	<SUCS>O					
+трло				O	S	S	<SUCS>VOW					
+трмка			O	S	S	O	<SUCS>VOW					
+трнка			O	S	S	O	<SUCS>VOW					
+трнлив			O	S	S	S	<SUCS>O					
+трнов				O	S	S	<SUCS>O					
+трнче			O	S	S	O	<SUCS>VOW					
+трњак				O	S	S	<SUCS>O					
+тром					O	S	<SUCS>S					
+тромб					O	S	<SUCS>S	O				
+трон					O	S	<SUCS>S					
+троњ					O	S	<SUCS>S					
+трпа				O	S	O	<SUCS>VOW					
+трпеж				O	S	O	<SUCS>O					
+трпи				O	S	O	<SUCS>VOW					
+трпне			O	S	O	S	<SUCS>VOW					
+трпнеж			O	S	O	S	<SUCS>O					
+трска			O	S	O	O	<SUCS>VOW					
+трти				O	S	O	<SUCS>VOW					
+тртка			O	S	O	O	<SUCS>VOW					
+тртник			O	S	O	S	<SUCS>O					
+труд					O	S	<SUCS>O					
+труп					O	S	<SUCS>O					
+труст					O	S	<SUCS>O	O				
+трут					O	S	<SUCS>O					
+трча				O	S	O	<SUCS>VOW					
+трчка			O	S	O	O	<SUCS>VOW					
+трчне			O	S	O	S	<SUCS>VOW					
+ту						O	<SUCS>VOW					
+туѓ						O	<SUCS>O					
+тук						O	<SUCS>O					
+тук						O	<SUCS>O					
+тул						O	<SUCS>S					
+туч						O	<SUCS>O					
+туш						O	<SUCS>O					
+ќај						O	<SUCS>S					
+ќар						O	<SUCS>S					
+ќе						O	<SUCS>VOW					
+ќеф						O	<SUCS>O					
+ќор						O	<SUCS>S					
+ќос						O	<SUCS>O					
+ќош						O	<SUCS>O					
+ќуд						O	<SUCS>O					
+ќунк						O	<SUCS>S	O				
+ќуп						O	<SUCS>O					
+ќурк						O	<SUCS>S	O				
+у						VOW	<SUCS>VOW					
+уз						VOW	<SUCS>O					
+ук						VOW	<SUCS>O					
+ум						VOW	<SUCS>S					
+ут						VOW	<SUCS>O					
+фајл						O	<SUCS>S	S				
+фак						O	<SUCS>O					
+факс						O	<SUCS>O	O				
+факт						O	<SUCS>O	O				
+фалц						O	<SUCS>S	O				
+фалш						O	<SUCS>S	O				
+фалш						O	<SUCS>S	O				
+фалш						O	<SUCS>S	O				
+фан						O	<SUCS>S					
+фар						O	<SUCS>S					
+фат						O	<SUCS>O					
+фах						O	<SUCS>O					
+фен						O	<SUCS>S					
+фер						O	<SUCS>S					
+фес						O	<SUCS>O					
+фил						O	<SUCS>S					
+филм						O	<SUCS>S	S				
+филц						O	<SUCS>S	O				
+фин						O	<SUCS>S					
+фирц						O	<SUCS>S	O				
+фис						O	<SUCS>O					
+фиск						O	<SUCS>O	O				
+фит						O	<SUCS>O					
+фит						O	<SUCS>O					
+фјорд					O	S	<SUCS>S	O				
+фланг					O	S	<SUCS>S	O				
+флерт					O	S	<SUCS>S	O				
+флеш					O	S	<SUCS>O					
+флирт					O	S	<SUCS>S	O				
+флор					O	S	<SUCS>S					
+фокс						O	<SUCS>O	O				
+фол						O	<SUCS>S					
+фолк						O	<SUCS>S	O				
+фон						O	<SUCS>S					
+фонд						O	<SUCS>S	O				
+фонт						O	<SUCS>S	O				
+фор						O	<SUCS>S					
+фрак					O	S	<SUCS>O					
+франк					O	S	<SUCS>S	O				
+фрас					O	S	<SUCS>O					
+фрба				O	S	O	<SUCS>VOW					
+фрга				O	S	O	<SUCS>VOW					
+френк					O	S	<SUCS>S	O				
+фриз					O	S	<SUCS>O					
+фрик					O	S	<SUCS>O					
+фрка				O	S	O	<SUCS>VOW					
+фркат				O	S	O	<SUCS>O					
+фркне			O	S	O	S	<SUCS>VOW					
+фрла				O	S	S	<SUCS>VOW					
+фрлач				O	S	S	<SUCS>O					
+фрлен				O	S	S	<SUCS>S					
+фрли				O	S	S	<SUCS>VOW					
+фронт					O	S	<SUCS>S	O				
+фрфул				O	S	O	<SUCS>S					
+фрцка			O	S	O	O	<SUCS>VOW					
+фрцне			O	S	O	S	<SUCS>VOW					
+фрча				O	S	O	<SUCS>VOW					
+фрчи				O	S	O	<SUCS>VOW					
+фунд						O	<SUCS>S	O				
+ха						O	<SUCS>VOW					
+халф						O	<SUCS>S	O				
+хеј						O	<SUCS>S					
+хендс						O	<SUCS>S	O	O			
+херц						O	<SUCS>S	O				
+хир						O	<SUCS>S					
+хит						O	<SUCS>O					
+хлор					O	S	<SUCS>S					
+хмељ					O	S	<SUCS>S					
+хол						O	<SUCS>S					
+хор						O	<SUCS>S					
+храм					O	S	<SUCS>S					
+Хрват				O	S	O	<SUCS>O					
+хром					O	S	<SUCS>S					
+Хун						O	<SUCS>S					
+цап						O	<SUCS>O					
+цар						O	<SUCS>S					
+цвет					O	O	<SUCS>O					
+цвик					O	O	<SUCS>O					
+цврка			O	O	S	O	<SUCS>VOW					
+цвркот			O	O	S	O	<SUCS>O					
+цврсто		O	O	S	O	O	<SUCS>VOW					
+цврцка		O	O	S	O	O	<SUCS>VOW					
+цврцнат		O	O	S	O	S	<SUCS>O					
+цврцне		O	O	S	O	S	<SUCS>VOW					
+цврчи			O	O	S	O	<SUCS>VOW					
+цеѓ						O	<SUCS>O					
+цел						O	<SUCS>S					
+цел						O	<SUCS>S					
+ценз						O	<SUCS>S	O				
+цент						O	<SUCS>S	O				
+цеп						O	<SUCS>O					
+цер						O	<SUCS>S					
+цех						O	<SUCS>O					
+цинк						O	<SUCS>S	O				
+циц						O	<SUCS>O					
+цол						O	<SUCS>S					
+црвек				O	S	O	<SUCS>O					
+црвен				O	S	O	<SUCS>S					
+црвен				O	S	O	<SUCS>S					
+црвец				O	S	O	<SUCS>O					
+црви				O	S	O	<SUCS>VOW					
+црвлив			O	S	O	S	<SUCS>O					
+црвул				O	S	O	<SUCS>S					
+црвче			O	S	O	O	<SUCS>VOW					
+црен					O	S	<SUCS>S					
+цреп					O	S	<SUCS>O					
+црка				O	S	O	<SUCS>VOW					
+црква			O	S	O	O	<SUCS>VOW					
+црквар			O	S	O	O	<SUCS>S					
+црквен			O	S	O	O	<SUCS>S					
+црквин			O	S	O	O	<SUCS>S					
+цркне			O	S	O	S	<SUCS>VOW					
+црков				O	S	O	<SUCS>O					
+црнец				O	S	S	<SUCS>O					
+црни				O	S	S	<SUCS>VOW					
+црни				O	S	S	<SUCS>VOW					
+црнка			O	S	S	O	<SUCS>VOW					
+црно				O	S	S	<SUCS>VOW					
+црно				O	S	S	<SUCS>VOW					
+црнок				O	S	S	<SUCS>O					
+црност				O	S	S	<SUCS>O	O				
+црнче			O	S	S	O	<SUCS>VOW					
+црнчи			O	S	S	O	<SUCS>VOW					
+црњак				O	S	S	<SUCS>O					
+црпи				O	S	O	<SUCS>VOW					
+црпка			O	S	O	O	<SUCS>VOW					
+црпка			O	S	O	O	<SUCS>VOW					
+црпне			O	S	O	S	<SUCS>VOW					
+црпче			O	S	O	O	<SUCS>VOW					
+црта				O	S	O	<SUCS>VOW					
+црта				O	S	O	<SUCS>VOW					
+цртач				O	S	O	<SUCS>O					
+цртеж				O	S	O	<SUCS>O					
+црца				O	S	O	<SUCS>VOW					
+црцне			O	S	O	S	<SUCS>VOW					
+црцор				O	S	O	<SUCS>S					
+цут						O	<SUCS>O					
+чад						O	<SUCS>O					
+чај						O	<SUCS>S					
+чам						O	<SUCS>S					
+чап						O	<SUCS>O					
+чар						O	<SUCS>S					
+чарк						O	<SUCS>S	O				
+час						O	<SUCS>O					
+част						O	<SUCS>O	O				
+чвркне		O	O	S	O	S	<SUCS>VOW					
+чек						O	<SUCS>O					
+чеп						O	<SUCS>O					
+чест						O	<SUCS>O	O				
+чест						O	<SUCS>O	O				
+четврт						O	<SUCS>O	O	S	O		
+четврт						O	<SUCS>O	O	S	O		
+чиј						O	<SUCS>S					
+чин						O	<SUCS>S					
+чип						O	<SUCS>O					
+чип						O	<SUCS>O					
+чир						O	<SUCS>S					
+чист						O	<SUCS>O	O				
+чифт						O	<SUCS>O	O				
+чифт						O	<SUCS>O	O				
+чкор					O	O	<SUCS>S					
+чкрка			O	O	S	O	<SUCS>VOW					
+чкрта			O	O	S	O	<SUCS>VOW					
+чкртка		O	O	S	O	O	<SUCS>VOW					
+чкртне		O	O	S	O	S	<SUCS>VOW					
+член					O	S	<SUCS>S					
+чмај					O	S	<SUCS>S					
+чок						O	<SUCS>O					
+чолн						O	<SUCS>S	S				
+чпрнтав		O	O	S	S	O	<SUCS>O					
+чпртав			O	O	S	O	<SUCS>O					
+чук						O	<SUCS>O					
+чул						O	<SUCS>S					
+чун						O	<SUCS>S					
+чур						O	<SUCS>S					
+чут						O	<SUCS>O					
+џам						O	<SUCS>S					
+џан						O	<SUCS>S					
+џбун					O	O	<SUCS>S					
+џврка			O	O	S	O	<SUCS>VOW					
+џвркло		O	O	S	O	S	<SUCS>VOW					
+џвркне		O	O	S	O	S	<SUCS>VOW					
+џган					O	O	<SUCS>S					
+џеб						O	<SUCS>O					
+џез						O	<SUCS>O					
+џем						O	<SUCS>S					
+џенк						O	<SUCS>S	O				
+џет						O	<SUCS>O					
+џин						O	<SUCS>S					
+џинс						O	<SUCS>S	O				
+џип						O	<SUCS>O					
+џиш						O	<SUCS>O					
+џрџа				O	S	O	<SUCS>VOW					
+џрџне			O	S	O	S	<SUCS>VOW					
+џул						O	<SUCS>S					
+џус						O	<SUCS>O					
+шал						O	<SUCS>S					
+шан						O	<SUCS>S					
+шанк						O	<SUCS>S	O				
+шанкр						O	<SUCS>S	O	S			
+шант						O	<SUCS>S	O				
+шап						O	<SUCS>O					
+шар						O	<SUCS>S					
+шарм						O	<SUCS>S	S				
+шатл						O	<SUCS>O	S				
+шах						O	<SUCS>O					
+шверц					O	O	<SUCS>S	O				
+швргав			O	O	S	O	<SUCS>O					
+шврка			O	O	S	O	<SUCS>VOW					
+швркнат		O	O	S	O	S	<SUCS>O					
+швркне		O	O	S	O	S	<SUCS>VOW					
+шев						O	<SUCS>O					
+шегрт						O	<SUCS>O	S	O			
+шеј						O	<SUCS>S					
+шен						O	<SUCS>S					
+шест						O	<SUCS>O	O				
+шеф						O	<SUCS>O					
+шех						O	<SUCS>O					
+шик						O	<SUCS>O					
+шик						O	<SUCS>O					
+шип						O	<SUCS>O					
+шир						O	<SUCS>S					
+шиш						O	<SUCS>O					
+шкарт					O	O	<SUCS>S	O				
+шкаф					O	O	<SUCS>O					
+шкрта			O	O	S	O	<SUCS>VOW					
+шкртне		O	O	S	O	S	<SUCS>VOW					
+шкрто			O	O	S	O	<SUCS>VOW					
+шлаг					O	S	<SUCS>O					
+шлајм					O	S	<SUCS>S	S				
+шланк					O	S	<SUCS>S	O				
+шлем					O	S	<SUCS>S					
+шлеп					O	S	<SUCS>O					
+шлиф					O	S	<SUCS>O					
+шлиц					O	S	<SUCS>O					
+шлог					O	S	<SUCS>O					
+шљам					O	S	<SUCS>S					
+шмек					O	S	<SUCS>O					
+шмрка			O	S	S	O	<SUCS>VOW					
+шмркне		O	S	S	O	S	<SUCS>VOW					
+шнит					O	S	<SUCS>O					
+шнур					O	S	<SUCS>S					
+шок						O	<SUCS>O					
+шол						O	<SUCS>S					
+шоп						O	<SUCS>O					
+шорц						O	<SUCS>S	O				
+шпајз					O	O	<SUCS>S	O				
+шпил					O	O	<SUCS>S					
+шпирт					O	O	<SUCS>S	O				
+шпиц					O	O	<SUCS>O					
+шпиц					O	O	<SUCS>O					
+шприц				O	O	S	<SUCS>O					
+шраф					O	S	<SUCS>O					
+шрба				O	S	O	<SUCS>VOW					
+шрифт					O	S	<SUCS>O	O				
+штаб					O	O	<SUCS>O					
+штанд					O	O	<SUCS>S	O				
+штеп					O	O	<SUCS>O					
+штик					O	O	<SUCS>O					
+штим					O	O	<SUCS>S					
+штир					O	O	<SUCS>S					
+штир					O	O	<SUCS>S					
+штит					O	O	<SUCS>O					
+што					O	O	<SUCS>VOW					
+што					O	O	<SUCS>VOW					
+што					O	O	<SUCS>VOW					
+што					O	O	<SUCS>VOW					
+штом					O	O	<SUCS>S					
+штос					O	O	<SUCS>O					
+штоф					O	O	<SUCS>O					
+штрајк				O	O	S	<SUCS>S	O				
+штрбав			O	O	S	O	<SUCS>O					
+штрбел			O	O	S	O	<SUCS>S					
+штрбла		O	O	S	O	S	<SUCS>VOW					
+штрбло		O	O	S	O	S	<SUCS>VOW					
+штрбне		O	O	S	O	S	<SUCS>VOW					
+штрбол			O	O	S	O	<SUCS>S					
+штрек				O	O	S	<SUCS>O					
+штрих				O	O	S	<SUCS>O					
+штркал			O	O	S	O	<SUCS>S					
+штркел			O	O	S	O	<SUCS>S					
+штркле		O	O	S	O	S	<SUCS>VOW					
+штрклест		O	O	S	O	S	<SUCS>O	O				
+штркне		O	O	S	O	S	<SUCS>VOW					
+штрков			O	O	S	O	<SUCS>O					
+штркол			O	O	S	O	<SUCS>S					
+штркче		O	O	S	O	O	<SUCS>VOW					
+штрпка		O	O	S	O	O	<SUCS>VOW					
+штрпка		O	O	S	O	O	<SUCS>VOW					
+штрпне		O	O	S	O	S	<SUCS>VOW					
+штрцне		O	O	S	O	S	<SUCS>VOW					
+штрче			O	O	S	O	<SUCS>VOW					
+штук					O	O	<SUCS>O					
+штур					O	O	<SUCS>S					
+штурм					O	O	<SUCS>S	S				
+шум						O	<SUCS>S					
+шунд						O	<SUCS>S	O				
+шут						O	<SUCS>O					
+шут						O	<SUCS>O					
