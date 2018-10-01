@@ -597,10 +597,6 @@ def M_create_table_1():
                 monosyllabic_initials_q = F_w_d(monosyllabic_initials_q, F_articulation_quality(words_initial))
                 monosyllabic_finals_q = F_w_d(monosyllabic_finals_q, F_articulation_quality(words_final))
 
-                #print(entry, F_articulation_quality(words_initial))
-                #if 'SYS' in F_articulation_quality(words_initial):
-                #    print(entry, F_articulation_quality(words_initial), F_articulation_quality(words_final))
-
             # собираются массивы с инициалями и финалями разных сортов
             if words_initial_wos not in possible_initials_wos:
                 possible_initials_wos.append(words_initial_wos)     # инициали без учёта слоговых: possible_initials_wos
@@ -740,7 +736,7 @@ def M_create_table_1():
 
     data = first_line + all_words
     #print(data)
-#  таблица создана и записана
+# таблица создана и записана
 
     F_sord_wd_items(initials_wos, ('table_1/' + items_i + '_wos'))
     F_sord_wd_items(initials, ('table_1/' + items_i))
