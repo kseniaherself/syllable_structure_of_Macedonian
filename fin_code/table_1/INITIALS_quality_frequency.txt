@@ -1,4 +1,4 @@
-INITIALS_quality	frequency
+table_1/INITIALS_quality	frequency
 O	24183
 S	10561
 VOW	7758
