@@ -4,6 +4,7 @@
 # иниц без сл: 6, со: 4; фин без сл: 5, с: 3
 # Plosive, Fricative, Affricate, Lateral, Nasal, Trill, Glide
 # Bilabial, Labio-Dental, Dental, Alveolar, Alveo-Palatal, Palatal, Velar
+# syllabic: SYS
 import re
 import operator
 import time
