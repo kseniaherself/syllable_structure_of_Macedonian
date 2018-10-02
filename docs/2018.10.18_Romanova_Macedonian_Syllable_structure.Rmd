@@ -23,8 +23,8 @@ This is an R Markdown presentation. Markdown is a simple formatting syntax for a
 
 ## Slide with R Output
 
-```{r cars, echo = TRUE}
-summary(cars)
+```{r cars, echo = FALSE}
+DT::datatable(cars)
 ```
 
 ## Slide with Plot
