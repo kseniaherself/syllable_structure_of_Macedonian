@@ -366,7 +366,7 @@ def F_w_f_b(items_name, possible_items, f_name):
     possible_W = items_name
     possible_items = F_sort_dictionary(possible_items)
     for element in possible_items:
-        possible_W = 'table_1/' + possible_W + '\n' + element
+        possible_W = possible_W + '\n' + element
     F_write_in_file(possible_W, f_name)
 
 # записывает файл с отсортированными по частотностями штуками
@@ -691,46 +691,53 @@ def M_create_table_1():
     F_write_in_file(t_monosyllabic_words, 'table_monosyllabic_words.tsv')
 
 # запись в файл инициалей и финалей и всего такого
-    F_w_f_b(items_i, possible_initials_wos, 'table_1/initials_wos.txt')
-    F_w_f_b(items_i, possible_initials, 'table_1/initials.txt')
-    F_w_f_b(items_i, possible_initials_wos_M, 'table_1/initials_wos_manner.txt')
-    F_w_f_b(items_i, possible_initials_M, 'table_1/initials_manner.txt')
-    F_w_f_b(items_i, possible_initials_wos_P, 'table_1/initials_wos_place.txt')
-    F_w_f_b(items_i, possible_initials_P, 'table_1/initials_place.txt')
-    F_w_f_b(items_i, possible_initials_wos_Q, 'table_1/initials_wos_quality.txt')
-    F_w_f_b(items_i, possible_initials_Q, 'table_1/initials_quality.txt')
+    F_w_f_b(items_i, possible_initials_wos, 'initials_wos.txt')
+    F_w_f_b(items_i, possible_initials, 'initials.txt')
+    F_w_f_b(items_i, possible_initials_wos_M, 'initials_wos_manner.txt')
+    F_w_f_b(items_i, possible_initials_M, 'initials_manner.txt')
+    F_w_f_b(items_i, possible_initials_wos_P, 'initials_wos_place.txt')
+    F_w_f_b(items_i, possible_initials_P, 'initials_place.txt')
+    F_w_f_b(items_i, possible_initials_wos_Q, 'initials_wos_quality.txt')
+    F_w_f_b(items_i, possible_initials_Q, 'initials_quality.txt')
 
-    F_w_f_b(items_f, possible_finals_wos, 'table_1/finals_wos.txt')
-    F_w_f_b(items_f, possible_finals, 'table_1/finals.txt')
-    F_w_f_b(items_f, possible_finals_wos_M, 'table_1/finals_wos_manner.txt')
-    F_w_f_b(items_f, possible_finals_M, 'table_1/finals_manner.txt')
-    F_w_f_b(items_f, possible_finals_wos_P, 'table_1/finals_wos_place.txt')
-    F_w_f_b(items_f, possible_finals_P, 'table_1/finals_place.txt')
-    F_w_f_b(items_f, possible_finals_wos_Q, 'table_1/finals_wos_quality.txt')
-    F_w_f_b(items_f, possible_finals_Q, 'table_1/finals_quality.txt')
+    F_w_f_b(items_f, possible_finals_wos, 'finals_wos.txt')
+    F_w_f_b(items_f, possible_finals, 'finals.txt')
+    F_w_f_b(items_f, possible_finals_wos_M, 'finals_wos_manner.txt')
+    F_w_f_b(items_f, possible_finals_M, 'finals_manner.txt')
+    F_w_f_b(items_f, possible_finals_wos_P, 'finals_wos_place.txt')
+    F_w_f_b(items_f, possible_finals_P, 'finals_place.txt')
+    F_w_f_b(items_f, possible_finals_wos_Q, 'finals_wos_quality.txt')
+    F_w_f_b(items_f, possible_finals_Q, 'finals_quality.txt')
 
 # названия столбцов таблицы
     first_line = 'grammar' + st + 'lemma' + st + 'lettering' + st + 'ipa_lettering' + st + 'n_syllables_wos' \
-                 + st + 'n_syllables' + st + 'initial_wos' + st + 'initial' + st + 'final_wos' + st + 'final' \
-                 + st + 'i_wos_6' + st + 'i_wos_5' + st + 'i_wos_4' + st + 'i_wos_3' + st + 'i_wos_2' + st + 'i_wos_1' \
-                 + st + 'i_4' + st + 'i_3' + st + 'i_2' + st + 'i_1' \
-                 + st + 'f_wos_1' + st + 'f_wos_2' + st + 'f_wos_3' + st + 'f_wos_4'+ st + 'f_wos_5' \
-                 + st + 'f_1' + st + 'f_2' + st + 'f_3' \
-                 + st + 'i_wos_manner' + st + 'i_manner' + st + 'f_wos_manner' + st + 'f_manner' + st + 'i_wos_6_m' \
-                 + st + 'i_wos_5_m' + st + 'i_wos_4_m' + st + 'i_wos_3_m' + st + 'i_wos_2_m' + st + 'i_wos_1_m' \
-                 + st + 'i_4_m' + st + 'i_3_m' + st + 'i_2_m' + st + 'i_1_m' \
-                 + st + 'f_wos_1_m' + st + 'f_wos_2_m' + st + 'f_wos_3_m' + st + 'f_wos_4_m'+ st + 'f_wos_5_m' \
-                 + st + 'f_1_m' + st + 'f_2_m' + st + 'f_3_m' \
-                 + st + 'i_wos_place' + st + 'i_place' + st + 'f_wos_place' + st + 'f_place' + st + 'i_wos_6_p' \
-                 + st + 'i_wos_5_p' + st + 'i_wos_4_p' + st + 'i_wos_3_p' + st + 'i_wos_2_p' + st + 'i_wos_1_p' \
-                 + st + 'i_4_p' + st + 'i_3_p' + st + 'i_2_p' + st + 'i_1_p' \
-                 + st + 'f_wos_1_p' + st + 'f_wos_2_p' + st + 'f_wos_3_p' + st + 'f_wos_4_p' + st + 'f_wos_5_p' \
-                 + st + 'f_1_p' + st + 'f_2_p' + st + 'f_3_p' \
-                 + st + 'i_wos_quality' + st + 'i_quality' + st + 'f_wos_quality' + st + 'f_quality' + st + 'i_wos_q_6' \
-                 + st + 'i_wos_5_q' + st + 'i_wos_4_q' + st + 'i_wos_3_q' + st + 'i_wos_2_q' + st + 'i_wos_1_q' \
-                 + st + 'i_4_q' + st + 'i_3_q' + st + 'i_2_q' + st + 'i_1_q' \
-                 + st + 'f_wos_1_q' + st + 'f_wos_2_q' + st + 'f_wos_3_q' + st + 'f_wos_4_q' + st + 'f_wos_5_q' \
-                 + st + 'f_1_q' + st + 'f_2_q' + st + 'f_3_q' \
+                 + st + 'n_syllables' + st + 'initials_wos' + st + 'initials' + st + 'finals_wos' + st + 'finals' \
+                 + st + 'initial_wos_6' + st + 'initial_wos_5' + st + 'initial_wos_4' + st + 'initial_wos_3' \
+                 + st + 'initial_wos_2' + st + 'initial_wos_1' \
+                 + st + 'initial_4' + st + 'initial_3' + st + 'initial_2' + st + 'initial_1' \
+                 + st + 'final_wos_1' + st + 'final_wos_2' + st + 'final_wos_3' + st + 'final_wos_4'+ st + 'final_wos_5' \
+                 + st + 'final_1' + st + 'final_2' + st + 'final_3' \
+                 + st + 'initials_wos_manner' + st + 'initials_manner' + st + 'finals_wos_manner' + st + 'finals_manner' \
+                 + st + 'initial_wos_6_manner' + st + 'initial_wos_5_manner' + st + 'initial_wos_4_manner' \
+                 + st + 'initial_wos_3_manner' + st + 'initial_wos_2_manner' + st + 'initial_wos_1_manner' \
+                 + st + 'initial_4_manner' + st + 'initial_3_manner' + st + 'initial_2_manner' + st + 'initial_1_manner' \
+                 + st + 'final_wos_1_manner' + st + 'final_wos_2_manner' + st + 'final_wos_3_manner' \
+                 + st + 'final_wos_4_manner'+ st + 'final_wos_5_manner' \
+                 + st + 'final_1_manner' + st + 'final_2_manner' + st + 'final_3_manner' \
+                 + st + 'initials_wos_place' + st + 'initials_place' + st + 'finals_wos_place' + st + 'finals_place' \
+                 + st + 'initial_wos_6_place' + st + 'initial_wos_5_place' + st + 'initial_wos_4_place' \
+                 + st + 'initial_wos_3_place' + st + 'initial_wos_2_place' + st + 'initial_wos_1_place' \
+                 + st + 'initial_4_place' + st + 'initial_3_place' + st + 'initial_2_place' + st + 'initial_1_place' \
+                 + st + 'final_wos_1_place' + st + 'final_wos_2_place' + st + 'final_wos_3_place' \
+                 + st + 'final_wos_4_place' + st + 'final_wos_5_place' \
+                 + st + 'final_1_place' + st + 'final_2_place' + st + 'final_3_place' \
+                 + st + 'initials_wos_quality' + st + 'initials_quality' + st + 'finals_wos_quality' + st + 'finals_quality' \
+                 + st + 'initial_wos_6_quality' + st + 'initial_wos_5_quality' + st + 'initial_wos_4_quality' \
+                 + st + 'initial_wos_3_quality' + st + 'initial_wos_2_quality' + st + 'initial_wos_1_quality' \
+                 + st + 'initial_4_quality' + st + 'initial_3_quality' + st + 'initial_2_quality' + st + 'initial_1_quality' \
+                 + st + 'final_wos_1_quality' + st + 'final_wos_2_quality' + st + 'final_wos_3_quality' \
+                 + st + 'final_wos_4_quality' + st + 'final_wos_5_quality' \
+                 + st + 'final_1_quality' + st + 'final_2_quality' + st + 'final_3_quality' \
                  #+ st + '1' + st + '2' + st + '3' + st + '4' + st + '5' + st + '6' + st + '7' + st + '8' + st + '9' + st + '10' + st + '11' + st + '12'
 
 
@@ -738,25 +745,25 @@ def M_create_table_1():
     #print(data)
 # таблица создана и записана
 
-    F_sord_wd_items(initials_wos, ('table_1/' + items_i + '_wos'))
-    F_sord_wd_items(initials, ('table_1/' + items_i))
-    F_sord_wd_items(initials_wos_m, ('table_1/' + items_i + '_wos_manner'))
-    F_sord_wd_items(initials_m, ('table_1/' + items_i + '_manner'))
-    F_sord_wd_items(initials_wos_p, ('table_1/' + items_i + '_wos_place'))
-    F_sord_wd_items(initials_p, ('table_1/' + items_i + '_place'))
-    F_sord_wd_items(initials_wos_q, ('table_1/' + items_i + '_wos_quality'))
-    F_sord_wd_items(initials_q, ('table_1/' + items_i + '_quality'))
+    F_sord_wd_items(initials_wos, (items_i + '_wos'))
+    F_sord_wd_items(initials, (items_i))
+    F_sord_wd_items(initials_wos_m, (items_i + '_wos_manner'))
+    F_sord_wd_items(initials_m, (items_i + '_manner'))
+    F_sord_wd_items(initials_wos_p, (items_i + '_wos_place'))
+    F_sord_wd_items(initials_p, (items_i + '_place'))
+    F_sord_wd_items(initials_wos_q, (items_i + '_wos_quality'))
+    F_sord_wd_items(initials_q, (items_i + '_quality'))
     F_sord_wd_items(monosyllabic_initials_wos_q, ('MONOSTLLABIC_' + items_i + '_wos_quality'))
     F_sord_wd_items(monosyllabic_initials_q, ('MONOSTLLABIC_' + items_i + '_quality'))
 
-    F_sord_wd_items(finals_wos, ('table_1/' + items_f + '_wos'))
-    F_sord_wd_items(finals, ('table_1/' + items_f))
-    F_sord_wd_items(finals_wos_m, ('table_1/' + items_f + '_wos_manner'))
-    F_sord_wd_items(finals_m, ('table_1/' + items_f + '_manner'))
-    F_sord_wd_items(finals_wos_p, ('table_1/' + items_f + '_wos_place'))
-    F_sord_wd_items(finals_p, ('table_1/' + items_f + '_place'))
-    F_sord_wd_items(finals_wos_q, ('table_1/' + items_f + '_wos_quality'))
-    F_sord_wd_items(finals_q, ('table_1/' + items_f + '_quality'))
+    F_sord_wd_items(finals_wos, (items_f + '_wos'))
+    F_sord_wd_items(finals, (items_f))
+    F_sord_wd_items(finals_wos_m, (items_f + '_wos_manner'))
+    F_sord_wd_items(finals_m, (items_f + '_manner'))
+    F_sord_wd_items(finals_wos_p, (items_f + '_wos_place'))
+    F_sord_wd_items(finals_p, (items_f + '_place'))
+    F_sord_wd_items(finals_wos_q, (items_f + '_wos_quality'))
+    F_sord_wd_items(finals_q, (items_f + '_quality'))
     F_sord_wd_items(monosyllabic_finals_wos_q, ('MONOSTLLABIC_' + items_f + '_wos_quality'))
     F_sord_wd_items(monosyllabic_finals_q, ('MONOSTLLABIC_' + items_f + '_quality'))
 
@@ -765,8 +772,32 @@ def M_create_table_1():
     #print(data)
     F_write_in_file(data, 'phon_table.tsv')
 
+
+def M_create_table_2():
+
+    intervocal = ''
+
+    my_lines = F_get_lines('words_full_list.tsv')
+    #sdf = my_lines[1:]             # РАБОЧАЯ ВЕРСИЯ ДЛЯ ВСЕХ СЛОВ
+    sdf = my_lines[145:167]             # ТЕСТОВАЯ ВЫБОРКА
+
+    for line in sdf:
+        line = line.strip()
+        line = re.sub('\n', '', line)
+        line = F_ipa_transcriber(line)
+
+        for i in range(0, 10):
+            res1 = re.search('(.)*[^aeiouèìLNR]*(\w)*[^aeiouèìLNR]*(\w)*[^aeiouèìLNR]*(\w)*[^aeiouèìLNR]*(\w)*[^aeiouèìLNR]*(\w)*[^aeiouèìLNR]*(\w)*[^aeiouèìLNR]*(\w)*[^aeiouèìLNR]*(\w)*[^aeiouèìLNR]*(\w)*[^aeiouèìLNR]*(\w)*', line)
+            if res1.group(i):
+                intervocal = intervocal + '\n' + line + '\t' + (res1.group(i))
+
+    print(intervocal)
+
+
 M_create_table_1()
 
 syllabic_heads = ['a', 'e', 'i', 'o', 'u', 'è', 'ì', 'L', 'N', 'R']  # 'ə']
+
+#M_create_table_2()
 
 print("--- %s seconds ---" % (time.time() - start_time))
