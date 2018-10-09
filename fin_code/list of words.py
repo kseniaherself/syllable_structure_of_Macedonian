@@ -2,7 +2,7 @@
 #12
 # то что WOS то без учёта слоговости
 # иниц без сл: 6, со: 4; фин без сл: 5, с: 3
-# Plosive, Fricative, Affricate, Lateral, Nasal, Trill, Glide
+# Plosive, Fricative, Affricate, [Lateral, Nasal, Trill, Glide] > Sonorants 
 # Bilabial, Labio-Dental, Dental, Alveolar, Alveo-Palatal, Palatal, Velar
 # syllabic: SYS
 import re
@@ -405,8 +405,14 @@ def M_create_table_1():
     monosyllabic_words_wos = 'monosyllabic_wos'
     monosyllabic_words = 'monosyllabic'
 
-    t_monosyllabic_words_wos = 'monosyllabic_wos' + st + 'sounds_q'
-    t_monosyllabic_words = 'monosyllabic' + st + 'sounds_q'
+    t_monosyllabic_words_wos = 'monosyllabic_wos' + st + 'sounds_quality'
+    t_monosyllabic_words = 'monosyllabic' + st + 'sounds_quality'
+
+    t_monosyllabic_words_wos_m = 'monosyllabic_wos' + st + 'sounds_manner'
+    t_monosyllabic_words_m = 'monosyllabic' + st + 'sounds_manner'
+
+    t_monosyllabic_words_wos_p = 'monosyllabic_wos' + st + 'sounds_place'
+    t_monosyllabic_words_p = 'monosyllabic' + st + 'sounds_place'
 
     initials_wos = {}
     initials = {}
@@ -416,8 +422,13 @@ def M_create_table_1():
     initials_p = {}
     initials_wos_q = {}
     initials_q = {}
+
     monosyllabic_initials_wos_q = {}
     monosyllabic_initials_q = {}
+    monosyllabic_initials_wos_m = {}
+    monosyllabic_initials_m = {}
+    monosyllabic_initials_wos_p = {}
+    monosyllabic_initials_p = {}
 
     possible_initials_wos = []
     possible_initials = []          # 'INITIALS'
@@ -436,8 +447,13 @@ def M_create_table_1():
     finals_p = {}
     finals_wos_q = {}
     finals_q = {}
+
     monosyllabic_finals_wos_q = {}
     monosyllabic_finals_q = {}
+    monosyllabic_finals_wos_m = {}
+    monosyllabic_finals_m = {}
+    monosyllabic_finals_wos_p = {}
+    monosyllabic_finals_p = {}
 
     possible_finals_wos = []
     possible_finals = []            # 'FINALS'
@@ -573,6 +589,7 @@ def M_create_table_1():
             if n_syllabic_words[2] == entry:
                 monosyllabic_words_wos = monosyllabic_words_wos + sn + n_syllabic_words[2]
 
+# quality
                 segments_wos_q = F_articulation_quality(initials_segments_wos) + '<NUCL>' + st + F_articulation_quality(finals_segments_wos)
                 segments_wos_q = re.sub('\\tVOW', '\t', segments_wos_q)
                 segments_wos_q = re.sub('\\t$', '', segments_wos_q)
@@ -583,10 +600,31 @@ def M_create_table_1():
                 monosyllabic_initials_wos_q = F_w_d(monosyllabic_initials_wos_q, F_articulation_quality(words_initial_wos))
                 monosyllabic_finals_wos_q = F_w_d(monosyllabic_finals_wos_q, F_articulation_quality(words_final_wos))
 
+# manner
+                segments_wos_m = F_articulation_manner(initials_segments_wos) + '<NUCL>' + st + F_articulation_manner(finals_segments_wos)
+                segments_wos_m = re.sub('\\tVOW', '\t', segments_wos_m)
+                segments_wos_m = re.sub('\\t$', '', segments_wos_m)
+
+                t_monosyllabic_words_wos_m = t_monosyllabic_words_wos_m + sn + n_syllabic_words[2] + st + segments_wos_m
+
+                monosyllabic_initials_wos_m = F_w_d(monosyllabic_initials_wos_m, F_articulation_manner(words_initial_wos))
+                monosyllabic_finals_wos_m = F_w_d(monosyllabic_finals_wos_m, F_articulation_manner(words_final_wos))
+
+# place
+                segments_wos_p = F_articulation_place(initials_segments_wos) + '<NUCL>' + st + F_articulation_place(finals_segments_wos)
+                segments_wos_p = re.sub('\\tVOW', '\t', segments_wos_p)
+                segments_wos_p = re.sub('\\t$', '', segments_wos_p)
+
+                t_monosyllabic_words_wos_p = t_monosyllabic_words_wos_p + sn + n_syllabic_words[2] + st + segments_wos_p
+
+                monosyllabic_initials_wos_p = F_w_d(monosyllabic_initials_wos_p, F_articulation_place(words_initial_wos))
+                monosyllabic_finals_wos_p = F_w_d(monosyllabic_finals_wos_p, F_articulation_place(words_final_wos))
+
 # односложные со слоговыми
             if n_syllabic_words[3] == entry:
                 monosyllabic_words = monosyllabic_words + sn + n_syllabic_words[3]
 
+# quality
                 segments_q = F_articulation_quality(initials_segments) + '<NUCL>' + st + F_articulation_quality(finals_segments)
                 segments_q = re.sub('VOW\\t', '\t', segments_q)
                 segments_q = re.sub('\\t$', '', segments_q)
@@ -597,7 +635,28 @@ def M_create_table_1():
                 monosyllabic_initials_q = F_w_d(monosyllabic_initials_q, F_articulation_quality(words_initial))
                 monosyllabic_finals_q = F_w_d(monosyllabic_finals_q, F_articulation_quality(words_final))
 
-            # собираются массивы с инициалями и финалями разных сортов
+# manner
+                segments_m = F_articulation_manner(initials_segments) + '<NUCL>' + st + F_articulation_manner(finals_segments)
+                segments_m = re.sub('VOW\\t', '\t', segments_m)
+                segments_m = re.sub('\\t$', '', segments_m)
+
+                t_monosyllabic_words_m = t_monosyllabic_words_m + sn + n_syllabic_words[3] + st + segments_m
+
+                monosyllabic_initials_m = F_w_d(monosyllabic_initials_m, F_articulation_manner(words_initial))
+                monosyllabic_finals_m = F_w_d(monosyllabic_finals_m, F_articulation_manner(words_final))
+
+# place
+                segments_p = F_articulation_place(initials_segments) + '<NUCL>' + st + F_articulation_place(finals_segments)
+                segments_p = re.sub('VOW\\t', '\t', segments_p)
+                segments_p = re.sub('\\t$', '', segments_p)
+
+                t_monosyllabic_words_p = t_monosyllabic_words_p + sn + n_syllabic_words[3] + st + segments_p
+
+                monosyllabic_initials_p = F_w_d(monosyllabic_initials_p, F_articulation_place(words_initial))
+                monosyllabic_finals_p = F_w_d(monosyllabic_finals_p, F_articulation_place(words_final))
+
+
+# собираются массивы с инициалями и финалями разных сортов
             if words_initial_wos not in possible_initials_wos:
                 possible_initials_wos.append(words_initial_wos)     # инициали без учёта слоговых: possible_initials_wos
             if words_initial not in possible_initials:
@@ -753,8 +812,13 @@ def M_create_table_1():
     F_sord_wd_items(initials_p, (items_i + '_place'))
     F_sord_wd_items(initials_wos_q, (items_i + '_wos_quality'))
     F_sord_wd_items(initials_q, (items_i + '_quality'))
+
     F_sord_wd_items(monosyllabic_initials_wos_q, ('MONOSTLLABIC_' + items_i + '_wos_quality'))
     F_sord_wd_items(monosyllabic_initials_q, ('MONOSTLLABIC_' + items_i + '_quality'))
+    F_sord_wd_items(monosyllabic_initials_wos_m, ('MONOSTLLABIC_' + items_i + '_wos_manner'))
+    F_sord_wd_items(monosyllabic_initials_m, ('MONOSTLLABIC_' + items_i + '_manner'))
+    F_sord_wd_items(monosyllabic_initials_wos_p, ('MONOSTLLABIC_' + items_i + '_wos_place'))
+    F_sord_wd_items(monosyllabic_initials_p, ('MONOSTLLABIC_' + items_i + '_place'))
 
     F_sord_wd_items(finals_wos, (items_f + '_wos'))
     F_sord_wd_items(finals, (items_f))
@@ -764,8 +828,13 @@ def M_create_table_1():
     F_sord_wd_items(finals_p, (items_f + '_place'))
     F_sord_wd_items(finals_wos_q, (items_f + '_wos_quality'))
     F_sord_wd_items(finals_q, (items_f + '_quality'))
+
     F_sord_wd_items(monosyllabic_finals_wos_q, ('MONOSTLLABIC_' + items_f + '_wos_quality'))
     F_sord_wd_items(monosyllabic_finals_q, ('MONOSTLLABIC_' + items_f + '_quality'))
+    F_sord_wd_items(monosyllabic_finals_wos_m, ('MONOSTLLABIC_' + items_f + '_wos_manner'))
+    F_sord_wd_items(monosyllabic_finals_m, ('MONOSTLLABIC_' + items_f + '_manner'))
+    F_sord_wd_items(monosyllabic_finals_wos_p, ('MONOSTLLABIC_' + items_f + '_wos_place'))
+    F_sord_wd_items(monosyllabic_finals_p, ('MONOSTLLABIC_' + items_f + '_place'))
 
     F_write_in_file(all_cyr_words, f_name_full_list)
 
