@@ -1,4 +1,4 @@
-MONOSTLLABIC_INITIALS_manner	frequency
+monosyllabic_INITIALS_manner	frequency
 P	312
 F	219
 P-T	106
@@ -22,15 +22,15 @@ A-F	6
 N-L	5
 SYL	5
 A-P	4
-F-P-F	3
 N-T	3
+F-P-F	3
 F-G	3
-P-A	2
 A-T	2
+P-A	2
 A-N	1
-P-F-N	1
-F-F-T	1
 F-F-L	1
+F-F-T	1
+A-L	1
 P-G	1
 F-A	1
-A-L	1
+P-F-N	1

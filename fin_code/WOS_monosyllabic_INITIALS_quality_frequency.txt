@@ -1,4 +1,4 @@
-MONOSTLLABIC_INITIALS_wos_quality	frequency
+WOS_monosyllabic_INITIALS_quality	frequency
 O	569
 O-S	294
 S	191
@@ -21,12 +21,12 @@ S-O-S	10
 O-O-S-S	10
 S-S-O-O	9
 S-S	8
-S-O-O	6
 O-S-S-S	6
-O-S-S-O-O	3
-O-O-S-S-S	3
+S-O-O	6
 O-O-O-S-O-S	3
+O-O-S-S-S	3
+O-S-S-O-O	3
 O-O-O	3
-O-O-S-S-O	2
 S-S-S	2
+O-O-S-S-O	2
 S-S-S-O	1

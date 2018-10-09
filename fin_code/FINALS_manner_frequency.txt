@@ -27,10 +27,10 @@ G-N	7
 P-F-P	5
 L-A	4
 N-P-P	4
-G-L	3
 N-P-F	3
+G-L	3
 F-F	2
-G-N-A	1
 T-F-A	1
 T-P-P	1
+G-N-A	1
 T-F-P	1

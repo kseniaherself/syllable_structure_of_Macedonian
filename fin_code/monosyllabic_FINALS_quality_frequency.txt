@@ -1,4 +1,4 @@
-MONOSTLLABIC_FINALS_quality	frequency
+monosyllabic_FINALS_quality	frequency
 O	646
 S	328
 S-O	149

@@ -1,4 +1,4 @@
-FINALS_wos_quality	frequency
+WOS_FINALS_quality	frequency
 VOW	31873
 S	10890
 O	8111

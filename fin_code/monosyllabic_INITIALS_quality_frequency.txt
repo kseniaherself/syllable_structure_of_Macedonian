@@ -1,4 +1,4 @@
-MONOSTLLABIC_INITIALS_quality	frequency
+monosyllabic_INITIALS_quality	frequency
 O	588
 O-S	293
 S	190
