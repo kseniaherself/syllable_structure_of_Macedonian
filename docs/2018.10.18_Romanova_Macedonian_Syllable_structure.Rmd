@@ -11,6 +11,24 @@ knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
 ```
 
+## Македонский язык  
+
+< Macedo-Bulgarian < Eastern South Slavic < South Slavic < Slavic < Balto-Slavic < Indo-European 
+Официальный статус: Республика Македония (государственный язык), ... 
+
+## Фонетика 
+
+| Место образования 
+Способ образования | губные | губно-зубные | зубные | альвеолярные | альвео-палатальные | палатальные | велярные 
+--- | --- | --- | --- | --- | --- | --- | --- 
+взрывные |  | | | | | | 
+фрикативы | | | | | | | 
+аффрикаты | | | | | | | 
+глайды | | | | | | | 
+боковые | | | | | | | 
+носовые | | | | | | | 
+?одноударные | | | | | | | 
+
 ## Intro
 
 This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
