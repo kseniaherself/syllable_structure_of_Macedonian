@@ -1,0 +1,19 @@
+FINALS
+A
+ A-A
+ A-A-A
+ A-D
+ A-D-A
+ A-L
+ D
+ D-A
+ D-A-A
+ D-D
+ D-L
+ L
+ L-A
+ L-A-A
+ L-D
+ L-L
+ SYA
+ VOW

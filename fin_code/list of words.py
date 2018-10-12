@@ -406,12 +406,12 @@ def F_w_f_b(items_name, possible_items, f_name):
     F_write_in_file(possible_W, f_name)
 
 # записывает файл с отсортированными по частотностями штуками
-def F_sord_wd_items(my_items, items_name):
+def F_sort_wd_items(my_items, items_name):
     sorted_items = sorted(my_items.items(), key=operator.itemgetter(1), reverse=True)
     items_freq = items_name + '\t' + 'frequency'
     for k in sorted_items:
         items_freq = items_freq + '\n' + k[0] + '\t' + str(k[1])
-    f_name = items_name + '_frequency.txt'
+    f_name = items_name + '_frequency' + '.txt'
     F_write_in_file(items_freq, f_name)
 
 # таблица с:
@@ -432,6 +432,7 @@ def M_create_table_1():
 
     items_i = 'INITIALS'
     items_f = 'FINALS'
+    ext = '.txt' # разрешение файлов
     f_name = 'macedonian_dict1.tsv'
 
     syllabic_heads = ['a', 'e', 'i', 'o', 'u', 'è', 'ì', 'L', 'N', 'R'] #'ə']
@@ -557,29 +558,29 @@ def M_create_table_1():
 
             WOS_words_initial = F_words_initials_wos(ipa_word)
 # получены инициали слов МФА !!! без расчёта слоговых
-            WOS_initials_m = F_w_d(WOS_initials_m, F_articulation_manner(WOS_words_initial))
-            WOS_initials_p = F_w_d(WOS_initials_p, F_articulation_place(WOS_words_initial))
+            WOS_initials_m = F_w_d(WOS_initials_m, F_articulation_manner_MERGED(WOS_words_initial))
+            WOS_initials_p = F_w_d(WOS_initials_p, F_articulation_place_MERGED(WOS_words_initial))
             WOS_initials_q = F_w_d(WOS_initials_q, F_articulation_quality(WOS_words_initial))
             WOS_initials = F_w_d(WOS_initials, WOS_words_initial)
 
             words_initial = F_words_initials(ipa_word)
 # получены инициали слов МФА
-            initials_m = F_w_d(initials_m, F_articulation_manner(words_initial))
-            initials_p = F_w_d(initials_p, F_articulation_place(words_initial))
+            initials_m = F_w_d(initials_m, F_articulation_manner_MERGED(words_initial))
+            initials_p = F_w_d(initials_p, F_articulation_place_MERGED(words_initial))
             initials_q = F_w_d(initials_q, F_articulation_quality(words_initial))
             initials = F_w_d(initials, words_initial)
 
             WOS_words_final = F_words_finals_wos(ipa_word)
 # получены финали слов МФА !!! без расчёта слоговых
-            WOS_finals_m = F_w_d(WOS_finals_m, F_articulation_manner(WOS_words_final))
-            WOS_finals_p = F_w_d(WOS_finals_p, F_articulation_place(WOS_words_final))
+            WOS_finals_m = F_w_d(WOS_finals_m, F_articulation_manner_MERGED(WOS_words_final))
+            WOS_finals_p = F_w_d(WOS_finals_p, F_articulation_place_MERGED(WOS_words_final))
             WOS_finals_q = F_w_d(WOS_finals_q, F_articulation_quality(WOS_words_final))
             WOS_finals = F_w_d(WOS_finals, WOS_words_final)
 
             words_final = F_words_finals(ipa_word)
 # получены финали слов МФА
-            finals_m = F_w_d(finals_m, F_articulation_manner(words_final))
-            finals_p = F_w_d(finals_p, F_articulation_place(words_final))
+            finals_m = F_w_d(finals_m, F_articulation_manner_MERGED(words_final))
+            finals_p = F_w_d(finals_p, F_articulation_place_MERGED(words_final))
             finals_q = F_w_d(finals_q, F_articulation_quality(words_final))
             finals = F_w_d(finals, words_final)
 
@@ -597,14 +598,14 @@ def M_create_table_1():
             segments = WOS_initials_segments + initials_segments + WOS_finals_segments + finals_segments
             full_data = full_data + st + segments
 
-            words_items_manner = F_articulation_manner(words_items)
-            words_items_place = F_articulation_place(words_items)
+            words_items_manner = F_articulation_manner_MERGED(words_items)
+            words_items_place = F_articulation_place_MERGED(words_items)
             words_items_quality = F_articulation_quality(words_items)
 # кластеры инициалей и финалей переведены по способу образования
             #full_data = full_data + words_items_manner #+ words_items_place
 
-            segments_manner = F_articulation_manner(segments)
-            segments_place = F_articulation_place(segments)
+            segments_manner = F_articulation_manner_MERGED(segments)
+            segments_place = F_articulation_place_MERGED(segments)
             segments_quality = F_articulation_quality(segments)
 # сегменты инициалей и финалей переведены по способу образования
             full_data = full_data + words_items_manner + st + segments_manner
@@ -637,24 +638,24 @@ def M_create_table_1():
                 WOS_monosyllabic_finals_q = F_w_d(WOS_monosyllabic_finals_q, F_articulation_quality(WOS_words_final))
 
 # manner
-                WOS_segments_m = F_articulation_manner(WOS_initials_segments) + '<NUCL>' + st + F_articulation_manner(WOS_finals_segments)
+                WOS_segments_m = F_articulation_manner_MERGED(WOS_initials_segments) + '<NUCL>' + st + F_articulation_manner_MERGED(WOS_finals_segments)
                 WOS_segments_m = re.sub('\\tVOW', '\t', WOS_segments_m)
                 WOS_segments_m = re.sub('\\t$', '', WOS_segments_m)
 
                 WOS_t_monosyllabic_words_m = WOS_t_monosyllabic_words_m + sn + n_syllabic_words[2] + st + WOS_segments_m
 
-                WOS_monosyllabic_initials_m = F_w_d(WOS_monosyllabic_initials_m, F_articulation_manner(WOS_words_initial))
-                WOS_monosyllabic_finals_m = F_w_d(WOS_monosyllabic_finals_m, F_articulation_manner(WOS_words_final))
+                WOS_monosyllabic_initials_m = F_w_d(WOS_monosyllabic_initials_m, F_articulation_manner_MERGED(WOS_words_initial))
+                WOS_monosyllabic_finals_m = F_w_d(WOS_monosyllabic_finals_m, F_articulation_manner_MERGED(WOS_words_final))
 
 # place
-                WOS_segments_p = F_articulation_place(WOS_initials_segments) + '<NUCL>' + st + F_articulation_place(WOS_finals_segments)
+                WOS_segments_p = F_articulation_place_MERGED(WOS_initials_segments) + '<NUCL>' + st + F_articulation_place_MERGED(WOS_finals_segments)
                 WOS_segments_p = re.sub('\\tVOW', '\t', WOS_segments_p)
                 WOS_segments_p = re.sub('\\t$', '', WOS_segments_p)
 
                 WOS_t_monosyllabic_words_p = WOS_t_monosyllabic_words_p + sn + n_syllabic_words[2] + st + WOS_segments_p
 
-                WOS_monosyllabic_initials_p = F_w_d(WOS_monosyllabic_initials_p, F_articulation_place(WOS_words_initial))
-                WOS_monosyllabic_finals_p = F_w_d(WOS_monosyllabic_finals_p, F_articulation_place(WOS_words_final))
+                WOS_monosyllabic_initials_p = F_w_d(WOS_monosyllabic_initials_p, F_articulation_place_MERGED(WOS_words_initial))
+                WOS_monosyllabic_finals_p = F_w_d(WOS_monosyllabic_finals_p, F_articulation_place_MERGED(WOS_words_final))
 
 # односложные со слоговыми
             if n_syllabic_words[3] == entry:
@@ -672,24 +673,24 @@ def M_create_table_1():
                 monosyllabic_finals_q = F_w_d(monosyllabic_finals_q, F_articulation_quality(words_final))
 
 # manner
-                segments_m = F_articulation_manner(initials_segments) + '<NUCL>' + st + F_articulation_manner(finals_segments)
+                segments_m = F_articulation_manner_MERGED(initials_segments) + '<NUCL>' + st + F_articulation_manner_MERGED(finals_segments)
                 segments_m = re.sub('VOW\\t', '\t', segments_m)
                 segments_m = re.sub('\\t$', '', segments_m)
 
                 t_monosyllabic_words_m = t_monosyllabic_words_m + sn + n_syllabic_words[3] + st + segments_m
 
-                monosyllabic_initials_m = F_w_d(monosyllabic_initials_m, F_articulation_manner(words_initial))
-                monosyllabic_finals_m = F_w_d(monosyllabic_finals_m, F_articulation_manner(words_final))
+                monosyllabic_initials_m = F_w_d(monosyllabic_initials_m, F_articulation_manner_MERGED(words_initial))
+                monosyllabic_finals_m = F_w_d(monosyllabic_finals_m, F_articulation_manner_MERGED(words_final))
 
 # place
-                segments_p = F_articulation_place(initials_segments) + '<NUCL>' + st + F_articulation_place(finals_segments)
+                segments_p = F_articulation_place_MERGED(initials_segments) + '<NUCL>' + st + F_articulation_place_MERGED(finals_segments)
                 segments_p = re.sub('VOW\\t', '\t', segments_p)
                 segments_p = re.sub('\\t$', '', segments_p)
 
                 t_monosyllabic_words_p = t_monosyllabic_words_p + sn + n_syllabic_words[3] + st + segments_p
 
-                monosyllabic_initials_p = F_w_d(monosyllabic_initials_p, F_articulation_place(words_initial))
-                monosyllabic_finals_p = F_w_d(monosyllabic_finals_p, F_articulation_place(words_final))
+                monosyllabic_initials_p = F_w_d(monosyllabic_initials_p, F_articulation_place_MERGED(words_initial))
+                monosyllabic_finals_p = F_w_d(monosyllabic_finals_p, F_articulation_place_MERGED(words_final))
 
 
 # собираются массивы с инициалями и финалями разных сортов
@@ -707,43 +708,43 @@ def M_create_table_1():
 
 # способ образования
 # создаёт массив инициалей способа образования без учёта слоговости
-            WOS_words_initial_M = F_articulation_manner(WOS_words_initial)
+            WOS_words_initial_M = F_articulation_manner_MERGED(WOS_words_initial)
             if WOS_words_initial_M not in WOS_possible_initials_M:
                 WOS_possible_initials_M.append(WOS_words_initial_M)
 
 # создаёт массив инициалей способа образования
-            words_initial_M = F_articulation_manner(words_initial)
+            words_initial_M = F_articulation_manner_MERGED(words_initial)
             if words_initial_M not in possible_initials_M:
                 possible_initials_M.append(words_initial_M)
 
 # создаёт массив финалей способа образования без учёта слоговости
-            WOS_words_final_M = F_articulation_manner(WOS_words_final)
+            WOS_words_final_M = F_articulation_manner_MERGED(WOS_words_final)
             if WOS_words_final_M not in WOS_possible_finals_M:
                 WOS_possible_finals_M.append(WOS_words_final_M)
 
 # создаёт массив финалей способа образования
-            words_final_M = F_articulation_manner(words_final)
+            words_final_M = F_articulation_manner_MERGED(words_final)
             if words_final_M not in possible_finals_M:
                 possible_finals_M.append(words_final_M)
 
 # место образования
 # создаёт массив инициалей места образования без учёта слоговости
-            WOS_words_initial_P = F_articulation_place(WOS_words_initial)
+            WOS_words_initial_P = F_articulation_place_MERGED(WOS_words_initial)
             if WOS_words_initial_P not in WOS_possible_initials_P:
                 WOS_possible_initials_P.append(WOS_words_initial_P)
 
 # создаёт массив инициалей места образования
-            words_initial_P = F_articulation_place(words_initial)
+            words_initial_P = F_articulation_place_MERGED(words_initial)
             if words_initial_P not in possible_initials_P:
                 possible_initials_P.append(words_initial_P)
 
 # создаёт массив финалей места образования без учёта слоговости
-            WOS_words_final_P = F_articulation_place(WOS_words_final)
+            WOS_words_final_P = F_articulation_place_MERGED(WOS_words_final)
             if WOS_words_final_P not in WOS_possible_finals_P:
                 WOS_possible_finals_P.append(WOS_words_final_P)
 
 # создаёт массив финалей места образования
-            words_final_P = F_articulation_place(words_final)
+            words_final_P = F_articulation_place_MERGED(words_final)
             if words_final_P not in possible_finals_P:
                 possible_finals_P.append(words_final_P)
 
@@ -776,33 +777,33 @@ def M_create_table_1():
     #print(all_words)
 
 # запись односложных и бессложных слов
-    F_write_in_file(WOS_nosyllabic_words, 'WOS_nosyllabic_words.tsv')
+    #F_write_in_file(WOS_nosyllabic_words, 'WOS_nosyllabic_words.tsv')
     F_write_in_file(nosyllabic_words, 'nosyllabic_words.tsv')
-    F_write_in_file(WOS_monosyllabic_words, 'WOS_monosyllabic_words.tsv')
+    #F_write_in_file(WOS_monosyllabic_words, 'WOS_monosyllabic_words.tsv')
     F_write_in_file(monosyllabic_words, 'monosyllabic_words.tsv')
 
 # запись односложных таблиц
-    F_write_in_file(WOS_t_monosyllabic_words, 'WOS_table_monosyllabic_words.tsv')
+    #F_write_in_file(WOS_t_monosyllabic_words, 'WOS_table_monosyllabic_words.tsv')
     F_write_in_file(t_monosyllabic_words, 'table_monosyllabic_words.tsv')
 
 # запись в файл инициалей и финалей и всего такого
-    F_w_f_b(items_i, WOS_possible_initials, ('WOS_' + items_i + '.txt'))
-    F_w_f_b(items_i, possible_initials, (items_i + '.txt'))
-    F_w_f_b(items_i, WOS_possible_initials_M, 'WOS_' + items_i + '_manner.txt')
-    F_w_f_b(items_i, possible_initials_M, (items_i + '_manner.txt'))
-    F_w_f_b(items_i, WOS_possible_initials_P, ('WOS_' + items_i + '_place.txt'))
-    F_w_f_b(items_i, possible_initials_P, (items_i + '_place.txt'))
-    F_w_f_b(items_i, WOS_possible_initials_Q, ('WOS_' + items_i + '_quality.txt'))
-    F_w_f_b(items_i, possible_initials_Q, (items_i + '_quality.txt'))
+    #F_w_f_b(items_i, WOS_possible_initials, ('WOS_' + items_i + ext))
+    F_w_f_b(items_i, possible_initials, (items_i + ext))
+    #F_w_f_b(items_i, WOS_possible_initials_M, 'WOS_' + 'manner_' + items_i + ext)
+    F_w_f_b(items_i, possible_initials_M, ('manner_' + items_i + ext))
+    #F_w_f_b(items_i, WOS_possible_initials_P, ('WOS_' + 'place_' + items_i + ext))
+    F_w_f_b(items_i, possible_initials_P, ('place_' + items_i + ext))
+    #F_w_f_b(items_i, WOS_possible_initials_Q, ('WOS_' + 'quality_' + items_i + ext))
+    F_w_f_b(items_i, possible_initials_Q, ('quality_' + items_i + ext))
 
-    F_w_f_b(items_f, WOS_possible_finals, ('WOS_' + items_f + '.txt'))
-    F_w_f_b(items_f, possible_finals, (items_f + '.txt'))
-    F_w_f_b(items_f, WOS_possible_finals_M, ('WOS_' + items_f + '_manner.txt'))
-    F_w_f_b(items_f, possible_finals_M, (items_f + '_manner.txt'))
-    F_w_f_b(items_f, WOS_possible_finals_P, ('WOS_' + items_f + '_place.txt'))
-    F_w_f_b(items_f, possible_finals_P, (items_f + '_place.txt'))
-    F_w_f_b(items_f, WOS_possible_finals_Q, ('WOS_' + items_f + '_quality.txt'))
-    F_w_f_b(items_f, possible_finals_Q, (items_f + '_quality.txt'))
+    #F_w_f_b(items_f, WOS_possible_finals, ('WOS_' + items_f + ext))
+    F_w_f_b(items_f, possible_finals, (items_f + ext))
+    #F_w_f_b(items_f, WOS_possible_finals_M, ('WOS_' + 'manner_' + items_f + ext))
+    F_w_f_b(items_f, possible_finals_M, ('manner_' + items_f + ext))
+    #F_w_f_b(items_f, WOS_possible_finals_P, ('WOS_' + 'place_' + items_f + ext))
+    F_w_f_b(items_f, possible_finals_P, ('place_' + items_f + ext))
+    #F_w_f_b(items_f, WOS_possible_finals_Q, ('WOS_' + 'quality_' + items_f + ext))
+    F_w_f_b(items_f, possible_finals_Q, ('quality_' + items_f + ext))
 
 # названия столбцов таблицы
     first_line = 'grammar' + st + 'lemma' + st + 'lettering' + st + 'ipa_lettering' + st + 'n_syllables_wos' \
@@ -840,37 +841,37 @@ def M_create_table_1():
     #print(data)
 # таблица создана и записана
 
-    F_sord_wd_items(WOS_initials, ('WOS_' + items_i))
-    F_sord_wd_items(initials, (items_i))
-    F_sord_wd_items(WOS_initials_m, ('WOS_' + items_i + '_manner'))
-    F_sord_wd_items(initials_m, (items_i + '_manner'))
-    F_sord_wd_items(WOS_initials_p, ('WOS_' + items_i + '_place'))
-    F_sord_wd_items(initials_p, (items_i + '_place'))
-    F_sord_wd_items(WOS_initials_q, ('WOS_' + items_i + '_quality'))
-    F_sord_wd_items(initials_q, (items_i + '_quality'))
+    #F_sort_wd_items(WOS_initials, ('WOS_' + items_i))
+    F_sort_wd_items(initials, (items_i))
+    #F_sort_wd_items(WOS_initials_m, ('WOS_' + 'manner_' + items_i))
+    F_sort_wd_items(initials_m, ('manner_' + items_i))
+    #F_sort_wd_items(WOS_initials_p, ('WOS_' + 'place_' + items_i))
+    F_sort_wd_items(initials_p, ('place_' + items_i))
+    #F_sort_wd_items(WOS_initials_q, ('WOS_' + 'quality_' + items_i))
+    F_sort_wd_items(initials_q, ('quality_' + items_i))
 
-    F_sord_wd_items(WOS_monosyllabic_initials_q, ('WOS_' + 'monosyllabic_' + items_i + '_quality'))
-    F_sord_wd_items(monosyllabic_initials_q, ('monosyllabic_' + items_i + '_quality'))
-    F_sord_wd_items(WOS_monosyllabic_initials_m, ('WOS_' + 'monosyllabic_' + items_i + '_manner'))
-    F_sord_wd_items(monosyllabic_initials_m, ('monosyllabic_' + items_i + '_manner'))
-    F_sord_wd_items(WOS_monosyllabic_initials_p, ('WOS_' + 'monosyllabic_' + items_i + '_place'))
-    F_sord_wd_items(monosyllabic_initials_p, ('monosyllabic_' + items_i + '_place'))
+    #F_sort_wd_items(WOS_monosyllabic_initials_q, ('WOS_' + 'quality' + 'monosyllabic_' + items_i))
+    F_sort_wd_items(monosyllabic_initials_q, ('quality_' + 'monosyllabic_' + items_i))
+    #F_sort_wd_items(WOS_monosyllabic_initials_m, ('WOS_' + 'manner_' + 'monosyllabic_' + items_i))
+    F_sort_wd_items(monosyllabic_initials_m, ('manner_' + 'monosyllabic_' + items_i))
+    #F_sort_wd_items(WOS_monosyllabic_initials_p, ('WOS_' + 'place_' + 'monosyllabic_' + items_i))
+    F_sort_wd_items(monosyllabic_initials_p, ('place_' + 'monosyllabic_' + items_i))
 
-    F_sord_wd_items(WOS_finals, ('WOS_' + items_f))
-    F_sord_wd_items(finals, (items_f))
-    F_sord_wd_items(WOS_finals_m, ('WOS_' + items_f + '_manner'))
-    F_sord_wd_items(finals_m, (items_f + '_manner'))
-    F_sord_wd_items(WOS_finals_p, ('WOS_' + items_f + '_place'))
-    F_sord_wd_items(finals_p, (items_f + '_place'))
-    F_sord_wd_items(WOS_finals_q, ('WOS_' + items_f + '_quality'))
-    F_sord_wd_items(finals_q, (items_f + '_quality'))
+    #F_sort_wd_items(WOS_finals, ('WOS_' + items_f))
+    F_sort_wd_items(finals, (items_f))
+    #F_sort_wd_items(WOS_finals_m, ('WOS_' + 'manner_' + items_f))
+    F_sort_wd_items(finals_m, ('manner_' + items_f))
+    #F_sort_wd_items(WOS_finals_p, ('WOS_' + 'place_' + items_f))
+    F_sort_wd_items(finals_p, ('place_' + items_f))
+    #F_sort_wd_items(WOS_finals_q, ('WOS_' + 'quality_' + items_f))
+    F_sort_wd_items(finals_q, ('quality_' + items_f))
 
-    F_sord_wd_items(WOS_monosyllabic_finals_q, ('WOS_' + 'monosyllabic_' + items_f + '_quality'))
-    F_sord_wd_items(monosyllabic_finals_q, ('monosyllabic_' + items_f + '_quality'))
-    F_sord_wd_items(WOS_monosyllabic_finals_m, ('WOS_' + 'monosyllabic_' + items_f + '_manner'))
-    F_sord_wd_items(monosyllabic_finals_m, ('monosyllabic_' + items_f + '_manner'))
-    F_sord_wd_items(WOS_monosyllabic_finals_p, ('WOS_' + 'monosyllabic_' + items_f + '_place'))
-    F_sord_wd_items(monosyllabic_finals_p, ('monosyllabic_' + items_f + '_place'))
+    #F_sort_wd_items(WOS_monosyllabic_finals_q, ('WOS_' + 'quality' + 'monosyllabic_' + items_f))
+    F_sort_wd_items(monosyllabic_finals_q, ('quality' + 'monosyllabic_' + items_f))
+    #F_sort_wd_items(WOS_monosyllabic_finals_m, ('WOS_' + 'manner_' + 'monosyllabic_' + items_f))
+    F_sort_wd_items(monosyllabic_finals_m, ('manner_' + 'monosyllabic_' + items_f))
+    #F_sort_wd_items(WOS_monosyllabic_finals_p, ('WOS_' + 'place_' + 'monosyllabic_' + items_f))
+    F_sort_wd_items(monosyllabic_finals_p, ('place_' + 'monosyllabic_' + items_f))
 
     F_write_in_file(all_cyr_words, f_name_full_list)
 
@@ -898,8 +899,25 @@ def M_create_table_2():
 
     print(intervocal)
 
+# должна считать частотность звуков в инициалях и финалях соответственно
+def M_3(f_name):
+    abs_freq = {}
 
-M_create_table_1()
+    my_lines = F_get_lines(f_name)
+
+    for line in my_lines:
+        my_line = line.strip()
+        my_line = my_line.split('-')
+        print(my_line)
+
+        for elem in my_line:
+            abs_freq = F_w_d(abs_freq, elem)
+
+    F_sort_wd_items(abs_freq, 'initials_abs_freq.tsv')
+
+#M_create_table_1()
+
+M_3('initials.txt')
 
 syllabic_heads = ['a', 'e', 'i', 'o', 'u', 'è', 'ì', 'L', 'N', 'R']  # 'ə']
 
