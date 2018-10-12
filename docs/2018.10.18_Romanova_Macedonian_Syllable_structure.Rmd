@@ -13,12 +13,12 @@ library(tidyverse)
 
 ## Македонский язык  
 
-< Macedo-Bulgarian < Eastern South Slavic < South Slavic < Slavic < Balto-Slavic < Indo-European 
+< Macedo-Bulgarian < Eastern South Slavic < South Slavic < Slavic < Balto-Slavic < Indo-European  
 Официальный статус: Республика Македония (государственный язык), ... 
 
 ## Фонетика 
 
-<таблица> 
+<таблица>  
 ? таблица с гласными 
 
 ## Описание слоговой структуры 
