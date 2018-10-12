@@ -57,6 +57,7 @@ library(tidyverse)
 
 * инициали всех слов 
 * финали всех слов 
+
 Размечены по месту образования:  
 (Bilabial, Labio-Dental), (Dental, Alveolar, Alveo-Palatal), (Palatal, Velar)  
 
