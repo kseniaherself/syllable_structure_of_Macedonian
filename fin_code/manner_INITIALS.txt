@@ -1,0 +1,28 @@
+INITIALS
+A
+ A-F
+ A-P
+ A-P-S
+ A-S
+ F
+ F-A
+ F-A-S
+ F-F
+ F-F-P-S
+ F-F-S
+ F-P
+ F-P-F
+ F-P-P
+ F-P-S
+ F-S
+ F-S-S
+ P
+ P-A
+ P-F
+ P-F-S
+ P-P
+ P-S
+ S
+ S-S
+ SYS
+ VOW

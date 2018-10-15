@@ -1,0 +1,1322 @@
+monosyllabic	sounds_quality
+а					<NUCL>			
+а					<NUCL>			
+ад					<NUCL>	O		
+ај					<NUCL>	S		
+ајнц					<NUCL>	S	S	O
+ак					<NUCL>	O		
+акт					<NUCL>	O	O	
+ал					<NUCL>	S		
+ал					<NUCL>	S		
+ал					<NUCL>	S		
+алт					<NUCL>	S	O	
+ам					<NUCL>	S		
+ан					<NUCL>	S		
+ап					<NUCL>	O		
+апс					<NUCL>	O	O	
+ар					<NUCL>	S		
+арч					<NUCL>	S	O	
+ас					<NUCL>	O		
+ат					<NUCL>	O		
+афт					<NUCL>	O	O	
+баз				O	<NUCL>	O		
+базд				O	<NUCL>	O	O	
+бај				O	<NUCL>	S		
+бај				O	<NUCL>	S		
+бајт				O	<NUCL>	S	O	
+бал				O	<NUCL>	S		
+бан				O	<NUCL>	S		
+бар				O	<NUCL>	S		
+бар				O	<NUCL>	S		
+бард				O	<NUCL>	S	O	
+барз				O	<NUCL>	S	O	
+бас				O	<NUCL>	O		
+бач				O	<NUCL>	O		
+баџ				O	<NUCL>	O		
+баш				O	<NUCL>	O		
+баш				O	<NUCL>	O		
+баш				O	<NUCL>	O		
+баш				O	<NUCL>	O		
+баш				O	<NUCL>	O		
+баш				O	<NUCL>	O		
+бев				O	<NUCL>	O		
+бег				O	<NUCL>	O		
+беж				O	<NUCL>	O		
+без				O	<NUCL>	O		
+беј				O	<NUCL>	S		
+бек				O	<NUCL>	O		
+бел				O	<NUCL>	S		
+бенд				O	<NUCL>	S	O	
+бес				O	<NUCL>	O		
+беџ				O	<NUCL>	O		
+би				O	<NUCL>			
+би				O	<NUCL>			
+бивш				O	<NUCL>	O	O	
+бик				O	<NUCL>	O		
+бил				O	<NUCL>	S		
+бинт				O	<NUCL>	S	O	
+бир				O	<NUCL>	S		
+бит				O	<NUCL>	O		
+бич				O	<NUCL>	O		
+благ			O	S	<NUCL>	O		
+бланш			O	S	<NUCL>	S	O	
+блед			O	S	<NUCL>	O		
+блен			O	S	<NUCL>	S		
+блеф			O	S	<NUCL>	O		
+блех			O	S	<NUCL>	O		
+блик			O	S	<NUCL>	O		
+блиц			O	S	<NUCL>	O		
+блог			O	S	<NUCL>	O		
+блок			O	S	<NUCL>	O		
+блуд			O	S	<NUCL>	O		
+блуз			O	S	<NUCL>	O		
+бљуд			O	S	<NUCL>	O		
+боб				O	<NUCL>	O		
+бог				O	<NUCL>	O		
+бод				O	<NUCL>	O		
+боз				O	<NUCL>	O		
+бој				O	<NUCL>	S		
+бок				O	<NUCL>	O		
+бокс				O	<NUCL>	O	O	
+бон				O	<NUCL>	S		
+бор				O	<NUCL>	S		
+борд				O	<NUCL>	S	O	
+борч				O	<NUCL>	S	O	
+боршч				O	<NUCL>	S	O	O
+бос				O	<NUCL>	O		
+бос				O	<NUCL>	O		
+бош				O	<NUCL>	O		
+брав			O	S	<NUCL>	O		
+брак			O	S	<NUCL>	O		
+бран			O	S	<NUCL>	S		
+брат			O	S	<NUCL>	O		
+брег			O	S	<NUCL>	O		
+брез			O	S	<NUCL>	O		
+брејк			O	S	<NUCL>	S	O	
+бренд			O	S	<NUCL>	S	O	
+брест			O	S	<NUCL>	O	O	
+брз				O	<NUCL>	O		
+брис			O	S	<NUCL>	O		
+брич			O	S	<NUCL>	O		
+бриџ			O	S	<NUCL>	O		
+брл				O	<NUCL>	S		
+брод			O	S	<NUCL>	O		
+број			O	S	<NUCL>	S		
+бром			O	S	<NUCL>	S		
+броќ			O	S	<NUCL>	O		
+брош			O	S	<NUCL>	O		
+брошт			O	S	<NUCL>	O	O	
+брст				O	<NUCL>	O	O	
+брус			O	S	<NUCL>	O		
+брут			O	S	<NUCL>	O		
+був				O	<NUCL>	O		
+бум				O	<NUCL>	S		
+бунт				O	<NUCL>	S	O	
+бут				O	<NUCL>	O		
+валс				O	<NUCL>	S	O	
+вам				O	<NUCL>	S		
+вар				O	<NUCL>	S		
+вас				O	<NUCL>	O		
+ват				O	<NUCL>	O		
+ваш				O	<NUCL>	O		
+вдолж			O	O	<NUCL>	S	O	
+ве				O	<NUCL>			
+веб				O	<NUCL>	O		
+вез				O	<NUCL>	O		
+век				O	<NUCL>	O		
+вел				O	<NUCL>	S		
+верс				O	<NUCL>	S	O	
+вест				O	<NUCL>	O	O	
+вет				O	<NUCL>	O		
+веш				O	<NUCL>	O		
+вешт				O	<NUCL>	O	O	
+ви				O	<NUCL>			
+вид				O	<NUCL>	O		
+виј				O	<NUCL>	S		
+вик				O	<NUCL>	O		
+винт				O	<NUCL>	S	O	
+вир				O	<NUCL>	S		
+вис				O	<NUCL>	O		
+вит				O	<NUCL>	O		
+виц				O	<NUCL>	O		
+виш				O	<NUCL>	O		
+вкрст			O	O	<NUCL>	O	O	
+вкуп			O	O	<NUCL>	O		
+вкус			O	O	<NUCL>	O		
+Влав			O	S	<NUCL>	O		
+влак			O	S	<NUCL>	O		
+влас			O	S	<NUCL>	O		
+власт			O	S	<NUCL>	O	O	
+влез			O	S	<NUCL>	O		
+влив			O	S	<NUCL>	O		
+влог			O	S	<NUCL>	O		
+внук			O	S	<NUCL>	O		
+во				O	<NUCL>			
+вод				O	<NUCL>	O		
+вожд				O	<NUCL>	O	O	
+воз				O	<NUCL>	O		
+воз				O	<NUCL>	O		
+вој				O	<NUCL>	S		
+вол				O	<NUCL>	S		
+волк				O	<NUCL>	S	O	
+волт				O	<NUCL>	S	O	
+вон				O	<NUCL>	S		
+врав			O	S	<NUCL>	O		
+враг			O	S	<NUCL>	O		
+вран			O	S	<NUCL>	S		
+врат			O	S	<NUCL>	O		
+врач			O	S	<NUCL>	O		
+врв				O	<NUCL>	O		
+вред			O	S	<NUCL>	O		
+вреж			O	S	<NUCL>	O		
+врез			O	S	<NUCL>	O		
+врел			O	S	<NUCL>	S		
+врен			O	S	<NUCL>	S		
+врз				O	<NUCL>	O		
+врз				O	<NUCL>	O		
+врк				O	<NUCL>	O		
+врл				O	<NUCL>	S		
+врст				O	<NUCL>	O	O	
+вруќ			O	S	<NUCL>	O		
+втас			O	O	<NUCL>	O		
+втор			O	O	<NUCL>	S		
+вход			O	O	<NUCL>	O		
+вчас			O	O	<NUCL>	O		
+вшир			O	O	<NUCL>	S		
+гад				O	<NUCL>	O		
+газ				O	<NUCL>	O		
+ганц				O	<NUCL>	S	O	
+гард				O	<NUCL>	S	O	
+гас				O	<NUCL>	O		
+гаф				O	<NUCL>	O		
+гвинт			O	O	<NUCL>	S	O	
+гег				O	<NUCL>	O		
+гел				O	<NUCL>	S		
+гем				O	<NUCL>	S		
+ген				O	<NUCL>	S		
+гест				O	<NUCL>	O	O	
+ги				O	<NUCL>			
+гипс				O	<NUCL>	O	O	
+глад			O	S	<NUCL>	O		
+гланц			O	S	<NUCL>	S	O	
+гланц			O	S	<NUCL>	S	O	
+глас			O	S	<NUCL>	O		
+глеѓ			O	S	<NUCL>	O		
+глиб			O	S	<NUCL>	O		
+глоб			O	S	<NUCL>	O		
+глог			O	S	<NUCL>	O		
+глув			O	S	<NUCL>	O		
+глужд			O	S	<NUCL>	O	O	
+глуп			O	S	<NUCL>	O		
+гнас			O	S	<NUCL>	O		
+гнев			O	S	<NUCL>	O		
+гнет			O	S	<NUCL>	O		
+гнил			O	S	<NUCL>	S		
+гној			O	S	<NUCL>	S		
+го				O	<NUCL>			
+гол				O	<NUCL>	S		
+гол				O	<NUCL>	S		
+голф				O	<NUCL>	S	O	
+гонг				O	<NUCL>	S	O	
+горд				O	<NUCL>	S	O	
+грав			O	S	<NUCL>	O		
+град			O	S	<NUCL>	O		
+грам			O	S	<NUCL>	S		
+грант			O	S	<NUCL>	S	O	
+граф			O	S	<NUCL>	O		
+грб				O	<NUCL>	O		
+грд				O	<NUCL>	O		
+грев			O	S	<NUCL>	O		
+гриз			O	S	<NUCL>	O		
+грим			O	S	<NUCL>	S		
+грип			O	S	<NUCL>	O		
+Грк				O	<NUCL>	O		
+гро			O	S	<NUCL>			
+гроб			O	S	<NUCL>	O		
+грог			O	S	<NUCL>	O		
+грозд			O	S	<NUCL>	O	O	
+гром			O	S	<NUCL>	S		
+гроф			O	S	<NUCL>	O		
+грош			O	S	<NUCL>	O		
+грст				O	<NUCL>	O	O	
+груб			O	S	<NUCL>	O		
+грч				O	<NUCL>	O		
+густ				O	<NUCL>	O	O	
+да				O	<NUCL>			
+да				O	<NUCL>			
+даб				O	<NUCL>	O		
+дал				O	<NUCL>	S		
+дар				O	<NUCL>	S		
+два			O	O	<NUCL>			
+дваж			O	O	<NUCL>	O		
+дваш			O	O	<NUCL>	O		
+две			O	O	<NUCL>			
+двер			O	O	<NUCL>	S		
+двор			O	O	<NUCL>	S		
+де				O	<NUCL>			
+де				O	<NUCL>			
+дел				O	<NUCL>	S		
+ден				O	<NUCL>	S		
+денк				O	<NUCL>	S	O	
+дерт				O	<NUCL>	S	O	
+диб				O	<NUCL>	O		
+див				O	<NUCL>	O		
+дим				O	<NUCL>	S		
+дин				O	<NUCL>	S		
+дип				O	<NUCL>	O		
+дип				O	<NUCL>	O		
+диск				O	<NUCL>	O	O	
+длан			O	S	<NUCL>	S		
+дно			O	S	<NUCL>			
+до				O	<NUCL>			
+до				O	<NUCL>			
+дожд				O	<NUCL>	O	O	
+док				O	<NUCL>	O		
+дол				O	<NUCL>	S		
+долг				O	<NUCL>	S	O	
+долг				O	<NUCL>	S	O	
+долж				O	<NUCL>	S	O	
+дом				O	<NUCL>	S		
+драг			O	S	<NUCL>	O		
+драг			O	S	<NUCL>	O		
+драж			O	S	<NUCL>	O		
+драм			O	S	<NUCL>	S		
+драфт			O	S	<NUCL>	O	O	
+драч			O	S	<NUCL>	O		
+дрен			O	S	<NUCL>	S		
+дрес			O	S	<NUCL>	O		
+дроб			O	S	<NUCL>	O		
+дрозд			O	S	<NUCL>	O	O	
+дрон			O	S	<NUCL>	S		
+дрт				O	<NUCL>	O		
+друг			O	S	<NUCL>	O		
+друм			O	S	<NUCL>	S		
+дуд				O	<NUCL>	O		
+дужд				O	<NUCL>	O	O	
+дур				O	<NUCL>	S		
+дур				O	<NUCL>	S		
+дух				O	<NUCL>	O		
+ѓак				O	<NUCL>	O		
+ѓем				O	<NUCL>	S		
+ѓок				O	<NUCL>	O		
+ѓол				O	<NUCL>	S		
+ѓон				O	<NUCL>	S		
+ѓул				O	<NUCL>	S		
+ѓум				O	<NUCL>	S		
+е					<NUCL>			
+еж					<NUCL>	O		
+ек					<NUCL>	O		
+ем					<NUCL>	S		
+еп					<NUCL>	O		
+ер					<NUCL>	S		
+жад				O	<NUCL>	O		
+жал				O	<NUCL>	S		
+жар				O	<NUCL>	S		
+жган			O	O	<NUCL>	S		
+ждреб		O	O	S	<NUCL>	O		
+ждриг		O	O	S	<NUCL>	O		
+жег				O	<NUCL>	O		
+жед				O	<NUCL>	O		
+жив				O	<NUCL>	O		
+жиг				O	<NUCL>	O		
+жир				O	<NUCL>	S		
+жлеб			O	S	<NUCL>	O		
+жмер			O	S	<NUCL>	S		
+жолт				O	<NUCL>	S	O	
+жолч				O	<NUCL>	S	O	
+жреб			O	S	<NUCL>	O		
+жрец			O	S	<NUCL>	O		
+жур				O	<NUCL>	S		
+за				O	<NUCL>			
+за				O	<NUCL>			
+заб				O	<NUCL>	O		
+зад				O	<NUCL>	O		
+залп				O	<NUCL>	S	O	
+замк				O	<NUCL>	S	O	
+запт				O	<NUCL>	O	O	
+зар				O	<NUCL>	S		
+зар				O	<NUCL>	S		
+зар				O	<NUCL>	S		
+зарф				O	<NUCL>	S	O	
+збег			O	O	<NUCL>	O		
+збир			O	O	<NUCL>	S		
+збит			O	O	<NUCL>	O		
+збор			O	O	<NUCL>	S		
+зван			O	O	<NUCL>	S		
+звук			O	O	<NUCL>	O		
+зган			O	O	<NUCL>	S		
+зглоб		O	O	S	<NUCL>	O		
+згон			O	O	<NUCL>	S		
+здив			O	O	<NUCL>	O		
+здрав		O	O	S	<NUCL>	O		
+здрач		O	O	S	<NUCL>	O		
+здрув		O	O	S	<NUCL>	O		
+зев				O	<NUCL>	O		
+зер				O	<NUCL>	S		
+зер				O	<NUCL>	S		
+зет				O	<NUCL>	O		
+зил				O	<NUCL>	S		
+зифт				O	<NUCL>	O	O	
+зјај			O	S	<NUCL>	S		
+зла			O	S	<NUCL>			
+злат			O	S	<NUCL>	O		
+зло			O	S	<NUCL>			
+зло			O	S	<NUCL>			
+злост			O	S	<NUCL>	O	O	
+змев			O	S	<NUCL>	O		
+змеј			O	S	<NUCL>	S		
+знак			O	S	<NUCL>	O		
+зоб				O	<NUCL>	O		
+зов				O	<NUCL>	O		
+зод				O	<NUCL>	O		
+зол				O	<NUCL>	S		
+зорт				O	<NUCL>	S	O	
+зрак			O	S	<NUCL>	O		
+зрел			O	S	<NUCL>	S		
+зум				O	<NUCL>	S		
+ѕвек			O	O	<NUCL>	O		
+ѕвер			O	O	<NUCL>	S		
+ѕвон			O	O	<NUCL>	S		
+ѕид				O	<NUCL>	O		
+ѕун				O	<NUCL>	S		
+и					<NUCL>			
+и					<NUCL>			
+из					<NUCL>	O		
+икс					<NUCL>	O	O	
+ил					<NUCL>	S		
+им					<NUCL>	S		
+инт					<NUCL>	S	O	
+инч					<NUCL>	S	O	
+ист					<NUCL>	O	O	
+ич					<NUCL>	O		
+ја				S	<NUCL>			
+ја				S	<NUCL>			
+ја				S	<NUCL>			
+јад				S	<NUCL>	O		
+јаз				S	<NUCL>	O		
+јак				S	<NUCL>	O		
+јак				S	<NUCL>	O		
+јамб				S	<NUCL>	S	O	
+јан				S	<NUCL>	S		
+јард				S	<NUCL>	S	O	
+јас				S	<NUCL>	O		
+јат				S	<NUCL>	O		
+јер				S	<NUCL>	S		
+јог				S	<NUCL>	O		
+јод				S	<NUCL>	O		
+јок				S	<NUCL>	O		
+јок				S	<NUCL>	O		
+јок				S	<NUCL>	O		
+јон				S	<NUCL>	S		
+југ				S	<NUCL>	O		
+јус				S	<NUCL>	O		
+ка				O	<NUCL>			
+кад				O	<NUCL>	O		
+кај				O	<NUCL>	S		
+кај				O	<NUCL>	S		
+кај				O	<NUCL>	S		
+кал				O	<NUCL>	S		
+калк				O	<NUCL>	S	O	
+камп				O	<NUCL>	S	O	
+кан				O	<NUCL>	S		
+капс				O	<NUCL>	O	O	
+карст				O	<NUCL>	S	O	O
+кас				O	<NUCL>	O		
+кат				O	<NUCL>	O		
+квант			O	O	<NUCL>	S	O	
+кварк			O	O	<NUCL>	S	O	
+кварт			O	O	<NUCL>	S	O	
+кварц			O	O	<NUCL>	S	O	
+квас			O	O	<NUCL>	O		
+квиз			O	O	<NUCL>	O		
+квит			O	O	<NUCL>	O		
+кеј				O	<NUCL>	S		
+кекс				O	<NUCL>	O	O	
+Келт				O	<NUCL>	S	O	
+кељ				O	<NUCL>	S		
+кец				O	<NUCL>	O		
+кеш				O	<NUCL>	O		
+кикс				O	<NUCL>	O	O	
+килт				O	<NUCL>	S	O	
+ким				O	<NUCL>	S		
+кип				O	<NUCL>	O		
+кир				O	<NUCL>	S		
+кир				O	<NUCL>	S		
+кит				O	<NUCL>	O		
+кич				O	<NUCL>	O		
+кич				O	<NUCL>	O		
+клан			O	S	<NUCL>	S		
+клас			O	S	<NUCL>	O		
+клед			O	S	<NUCL>	O		
+клен			O	S	<NUCL>	S		
+клер			O	S	<NUCL>	S		
+клет			O	S	<NUCL>	O		
+клет			O	S	<NUCL>	O		
+клик			O	S	<NUCL>	O		
+клин			O	S	<NUCL>	S		
+клинч			O	S	<NUCL>	S	O	
+клип			O	S	<NUCL>	O		
+клир			O	S	<NUCL>	S		
+клон			O	S	<NUCL>	S		
+клуб			O	S	<NUCL>	O		
+клун			O	S	<NUCL>	S		
+клуч			O	S	<NUCL>	O		
+кмет			O	S	<NUCL>	O		
+кнез			O	S	<NUCL>	O		
+ко				O	<NUCL>			
+коб				O	<NUCL>	O		
+ков				O	<NUCL>	O		
+код				O	<NUCL>	O		
+кој				O	<NUCL>	S		
+кок				O	<NUCL>	O		
+кокс				O	<NUCL>	O	O	
+кол				O	<NUCL>	S		
+колк				O	<NUCL>	S	O	
+кон				O	<NUCL>	S		
+коњ				O	<NUCL>	S		
+коп				O	<NUCL>	O		
+кор				O	<NUCL>	S		
+кос				O	<NUCL>	O		
+кос				O	<NUCL>	O		
+кот				O	<NUCL>	O		
+коч				O	<NUCL>	O		
+кош				O	<NUCL>	O		
+краг			O	S	<NUCL>	O		
+крај			O	S	<NUCL>	S		
+крај			O	S	<NUCL>	S		
+крак			O	S	<NUCL>	O		
+крал			O	S	<NUCL>	S		
+крамп			O	S	<NUCL>	S	O	
+кран			O	S	<NUCL>	S		
+крап			O	S	<NUCL>	O		
+крас			O	S	<NUCL>	O		
+крах			O	S	<NUCL>	O		
+крв				O	<NUCL>	O		
+крг				O	<NUCL>	O		
+крем			O	S	<NUCL>	S		
+креп			O	S	<NUCL>	O		
+креч			O	S	<NUCL>	O		
+крз				O	<NUCL>	O		
+крив			O	S	<NUCL>	O		
+крик			O	S	<NUCL>	O		
+крин			O	S	<NUCL>	S		
+кров			O	S	<NUCL>	O		
+крој			O	S	<NUCL>	S		
+крос			O	S	<NUCL>	O		
+крст				O	<NUCL>	O	O	
+крт				O	<NUCL>	O		
+крт				O	<NUCL>	O		
+круг			O	S	<NUCL>	O		
+круп			O	S	<NUCL>	O		
+крут			O	S	<NUCL>	O		
+крш				O	<NUCL>	O		
+ксмет		O	O	S	<NUCL>	O		
+куб				O	<NUCL>	O		
+култ				O	<NUCL>	S	O	
+кум				O	<NUCL>	S		
+куп				O	<NUCL>	O		
+кур				O	<NUCL>	S		
+курс				O	<NUCL>	S	O	
+кус				O	<NUCL>	O		
+кус				O	<NUCL>	O		
+куц				O	<NUCL>	O		
+ла				S	<NUCL>			
+лав				S	<NUCL>	O		
+лаг				S	<NUCL>	O		
+лад				S	<NUCL>	O		
+лаж				S	<NUCL>	O		
+лаз				S	<NUCL>	O		
+лај				S	<NUCL>	S		
+лак				S	<NUCL>	O		
+лакт				S	<NUCL>	O	O	
+лаф				S	<NUCL>	O		
+лач				S	<NUCL>	O		
+ле				S	<NUCL>			
+леб				S	<NUCL>	O		
+лев				S	<NUCL>	O		
+лев				S	<NUCL>	O		
+лед				S	<NUCL>	O		
+лек				S	<NUCL>	O		
+лек				S	<NUCL>	O		
+лем				S	<NUCL>	S		
+лен				S	<NUCL>	S		
+лер				S	<NUCL>	S		
+лес				S	<NUCL>	O		
+лет				S	<NUCL>	O		
+леш				S	<NUCL>	O		
+ли				S	<NUCL>			
+ли				S	<NUCL>			
+лив				S	<NUCL>	O		
+лик				S	<NUCL>	O		
+лим				S	<NUCL>	S		
+линк				S	<NUCL>	S	O	
+линч				S	<NUCL>	S	O	
+лис				S	<NUCL>	O		
+лист				S	<NUCL>	O	O	
+лит				S	<NUCL>	O		
+лифт				S	<NUCL>	O	O	
+лоб				S	<NUCL>	O		
+лов				S	<NUCL>	O		
+лоз				S	<NUCL>	O		
+лој				S	<NUCL>	S		
+лом				S	<NUCL>	S		
+лон				S	<NUCL>	S		
+лорд				S	<NUCL>	S	O	
+лос				S	<NUCL>	O		
+лост				S	<NUCL>	O	O	
+лош				S	<NUCL>	O		
+луб				S	<NUCL>	O		
+луд				S	<NUCL>	O		
+лук				S	<NUCL>	O		
+лут				S	<NUCL>	O		
+луфт				S	<NUCL>	O	O	
+мав				S	<NUCL>	O		
+маг				S	<NUCL>	O		
+маж				S	<NUCL>	O		
+мај				S	<NUCL>	S		
+мак				S	<NUCL>	O		
+мал				S	<NUCL>	S		
+мал				S	<NUCL>	S		
+март				S	<NUCL>	S	O	
+марш				S	<NUCL>	S	O	
+маст				S	<NUCL>	O	O	
+мат				S	<NUCL>	O		
+мат				S	<NUCL>	O		
+ме				S	<NUCL>			
+мев				S	<NUCL>	O		
+мед				S	<NUCL>	O		
+мејл				S	<NUCL>	S	S	
+мек				S	<NUCL>	O		
+мем				S	<NUCL>	S		
+меч				S	<NUCL>	O		
+ми				S	<NUCL>			
+ми				S	<NUCL>			
+миг				S	<NUCL>	O		
+мил				S	<NUCL>	S		
+мил				S	<NUCL>	S		
+мир				S	<NUCL>	S		
+мис				S	<NUCL>	O		
+миск				S	<NUCL>	O	O	
+мит				S	<NUCL>	O		
+млад			S	S	<NUCL>	O		
+млаз			S	S	<NUCL>	O		
+млак			S	S	<NUCL>	O		
+млеч			S	S	<NUCL>	O		
+млин			S	S	<NUCL>	S		
+мов				S	<NUCL>	O		
+мој				S	<NUCL>	S		
+мол				S	<NUCL>	S		
+молк				S	<NUCL>	S	O	
+мор				S	<NUCL>	S		
+морж				S	<NUCL>	S	O	
+мост				S	<NUCL>	O	O	
+моќ				S	<NUCL>	O		
+моч				S	<NUCL>	O		
+мошт				S	<NUCL>	O	O	
+мраз			S	S	<NUCL>	O		
+мрак			S	S	<NUCL>	O		
+мрест			S	S	<NUCL>	O	O	
+мрк				S	<NUCL>	O		
+мрс				S	<NUCL>	O		
+му				S	<NUCL>			
+мук				S	<NUCL>	O		
+мулк				S	<NUCL>	S	O	
+мур				S	<NUCL>	S		
+мут				S	<NUCL>	O		
+муф				S	<NUCL>	O		
+на				S	<NUCL>			
+на				S	<NUCL>			
+над				S	<NUCL>	O		
+нај				S	<NUCL>	S		
+нам				S	<NUCL>	S		
+нар				S	<NUCL>	S		
+нас				S	<NUCL>	O		
+наш				S	<NUCL>	O		
+не				S	<NUCL>			
+нѐ				S	<NUCL>			
+нем				S	<NUCL>	S		
+нем				S	<NUCL>	S		
+нерв				S	<NUCL>	S	O	
+ни				S	<NUCL>			
+ни				S	<NUCL>			
+ни				S	<NUCL>			
+ни				S	<NUCL>			
+ни				S	<NUCL>			
+ни				S	<NUCL>			
+нив				S	<NUCL>	O		
+ниж				S	<NUCL>	O		
+низ				S	<NUCL>	O		
+ним				S	<NUCL>	S		
+но				S	<NUCL>			
+но				S	<NUCL>			
+нов				S	<NUCL>	O		
+нож				S	<NUCL>	O		
+ној				S	<NUCL>	S		
+нор				S	<NUCL>	S		
+нос				S	<NUCL>	O		
+ноќ				S	<NUCL>	O		
+о					<NUCL>			
+од					<NUCL>	O		
+од					<NUCL>	O		
+ом					<NUCL>	S		
+он					<NUCL>	S		
+општ					<NUCL>	O	O	O
+па				O	<NUCL>			
+па				O	<NUCL>			
+па				O	<NUCL>			
+паб				O	<NUCL>	O		
+пад				O	<NUCL>	O		
+паж				O	<NUCL>	O		
+пај				O	<NUCL>	S		
+пак				O	<NUCL>	O		
+пак				O	<NUCL>	O		
+пак				O	<NUCL>	O		
+пак				O	<NUCL>	O		
+пакт				O	<NUCL>	O	O	
+пан				O	<NUCL>	S		
+панк				O	<NUCL>	S	O	
+пар				O	<NUCL>	S		
+парк				O	<NUCL>	S	O	
+пас				O	<NUCL>	O		
+пат				O	<NUCL>	O		
+пеј				O	<NUCL>	S		
+пек				O	<NUCL>	O		
+пелц				O	<NUCL>	S	O	
+пен				O	<NUCL>	S		
+пер				O	<NUCL>	S		
+пес				O	<NUCL>	O		
+пет				O	<NUCL>	O		
+пет				O	<NUCL>	O		
+пех				O	<NUCL>	O		
+пеш				O	<NUCL>	O		
+пеш				O	<NUCL>	O		
+пеш				O	<NUCL>	O		
+пешт				O	<NUCL>	O	O	
+пив				O	<NUCL>	O		
+пик				O	<NUCL>	O		
+пин				O	<NUCL>	S		
+пип				O	<NUCL>	O		
+пир				O	<NUCL>	S		
+пирг				O	<NUCL>	S	O	
+пис				O	<NUCL>	O		
+пис				O	<NUCL>	O		
+пјат			O	S	<NUCL>	O		
+плав			O	S	<NUCL>	O		
+плаз			O	S	<NUCL>	O		
+плак			O	S	<NUCL>	O		
+плам			O	S	<NUCL>	S		
+план			O	S	<NUCL>	S		
+пласт			O	S	<NUCL>	O	O	
+плат			O	S	<NUCL>	O		
+плах			O	S	<NUCL>	O		
+плац			O	S	<NUCL>	O		
+плач			O	S	<NUCL>	O		
+плашт			O	S	<NUCL>	O	O	
+плен			O	S	<NUCL>	S		
+плет			O	S	<NUCL>	O		
+плех			O	S	<NUCL>	O		
+плик			O	S	<NUCL>	O		
+плин			O	S	<NUCL>	S		
+плит			O	S	<NUCL>	O		
+плиш			O	S	<NUCL>	O		
+плод			O	S	<NUCL>	O		
+плот			O	S	<NUCL>	O		
+плот			O	S	<NUCL>	O		
+плошт			O	S	<NUCL>	O	O	
+плуг			O	S	<NUCL>	O		
+плус			O	S	<NUCL>	O		
+плус			O	S	<NUCL>	O		
+по				O	<NUCL>			
+по				O	<NUCL>			
+под				O	<NUCL>	O		
+под				O	<NUCL>	O		
+под				O	<NUCL>	O		
+под				O	<NUCL>	O		
+пој				O	<NUCL>	S		
+пол				O	<NUCL>	S		
+пол				O	<NUCL>	S		
+полв				O	<NUCL>	S	O	
+полк				O	<NUCL>	S	O	
+поп				O	<NUCL>	O		
+поп				O	<NUCL>	O		
+пор				O	<NUCL>	S		
+порт				O	<NUCL>	S	O	
+пост				O	<NUCL>	O	O	
+пост				O	<NUCL>	O	O	
+пот				O	<NUCL>	O		
+прав			O	S	<NUCL>	O		
+прав			O	S	<NUCL>	O		
+праг			O	S	<NUCL>	O		
+праз			O	S	<NUCL>	O		
+прат			O	S	<NUCL>	O		
+прв				O	<NUCL>	O		
+пред			O	S	<NUCL>	O		
+пред			O	S	<NUCL>	O		
+през			O	S	<NUCL>	O		
+прек			O	S	<NUCL>	O		
+при			O	S	<NUCL>			
+принц			O	S	<NUCL>	S	O	
+пришт			O	S	<NUCL>	O	O	
+прост			O	S	<NUCL>	O	O	
+прст				O	<NUCL>	O	O	
+прст				O	<NUCL>	O	O	
+прт				O	<NUCL>	O		
+прч				O	<NUCL>	O		
+псалм			O	O	<NUCL>	S	S	
+пуд				O	<NUCL>	O		
+пул				O	<NUCL>	S		
+пулс				O	<NUCL>	S	O	
+пулт				O	<NUCL>	S	O	
+пункт				O	<NUCL>	S	O	O
+пунч				O	<NUCL>	S	O	
+пуст				O	<NUCL>	O	O	
+пуч				O	<NUCL>	O		
+пцалт			O	O	<NUCL>	S	O	
+пцост			O	O	<NUCL>	O	O	
+раб				S	<NUCL>	O		
+рад				S	<NUCL>	O		
+рај				S	<NUCL>	S		
+рак				S	<NUCL>	O		
+рам				S	<NUCL>	S		
+ран				S	<NUCL>	S		
+ранг				S	<NUCL>	S	O	
+ранч				S	<NUCL>	S	O	
+рап				S	<NUCL>	O		
+раст				S	<NUCL>	O	O	
+рат				S	<NUCL>	O		
+рафт				S	<NUCL>	O	O	
+ре				S	<NUCL>			
+рев				S	<NUCL>	O		
+ред				S	<NUCL>	O		
+рез				S	<NUCL>	O		
+рејс				S	<NUCL>	S	O	
+рен				S	<NUCL>	S		
+ренк				S	<NUCL>	S	O	
+реч				S	<NUCL>	O		
+реш				S	<NUCL>	O		
+рж				SYS	<NUCL>	O		
+рз				SYS	<NUCL>	O		
+рид				S	<NUCL>	O		
+рик				S	<NUCL>	O		
+ринг				S	<NUCL>	S	O	
+рипс				S	<NUCL>	O	O	
+рис				S	<NUCL>	O		
+риск				S	<NUCL>	O	O	
+роб				S	<NUCL>	O		
+ров				S	<NUCL>	O		
+рог				S	<NUCL>	O		
+род				S	<NUCL>	O		
+рој				S	<NUCL>	S		
+рок				S	<NUCL>	O		
+ром				S	<NUCL>	S		
+ром				S	<NUCL>	S		
+Ром				S	<NUCL>	S		
+ромб				S	<NUCL>	S	O	
+рп				SYS	<NUCL>	O		
+рс				SYS	<NUCL>	O		
+рт				SYS	<NUCL>	O		
+руд				S	<NUCL>	O		
+руж				S	<NUCL>	O		
+руј				S	<NUCL>	S		
+рум				S	<NUCL>	S		
+рус				S	<NUCL>	O		
+са				O	<NUCL>			
+сад				O	<NUCL>	O		
+саз				O	<NUCL>	O		
+сајт				O	<NUCL>	S	O	
+сак				O	<NUCL>	O		
+сал				O	<NUCL>	S		
+сал				O	<NUCL>	S		
+сам				O	<NUCL>	S		
+сам				O	<NUCL>	S		
+сам				O	<NUCL>	S		
+сан				O	<NUCL>	S		
+санс				O	<NUCL>	S	O	
+сап				O	<NUCL>	O		
+сат				O	<NUCL>	O		
+сафт				O	<NUCL>	O	O	
+сач				O	<NUCL>	O		
+сват			O	O	<NUCL>	O		
+свеж			O	O	<NUCL>	O		
+свест			O	O	<NUCL>	O	O	
+свет			O	O	<NUCL>	O		
+свет			O	O	<NUCL>	O		
+свинг			O	O	<NUCL>	S	O	
+свлак		O	O	S	<NUCL>	O		
+свод			O	O	<NUCL>	O		
+свој			O	O	<NUCL>	S		
+сврат		O	O	S	<NUCL>	O		
+се				O	<NUCL>			
+се				O	<NUCL>			
+се				O	<NUCL>			
+се				O	<NUCL>			
+сѐ				O	<NUCL>			
+сѐ				O	<NUCL>			
+сед				O	<NUCL>	O		
+сек				O	<NUCL>	O		
+секс				O	<NUCL>	O	O	
+сем				O	<NUCL>	S		
+сен				O	<NUCL>	S		
+сенс				O	<NUCL>	S	O	
+сенф				O	<NUCL>	S	O	
+сер				O	<NUCL>	S		
+серж				O	<NUCL>	S	O	
+серт				O	<NUCL>	S	O	
+сет				O	<NUCL>	O		
+сет				O	<NUCL>	O		
+сеф				O	<NUCL>	O		
+сеч				O	<NUCL>	O		
+си				O	<NUCL>			
+си				O	<NUCL>			
+си				O	<NUCL>			
+си				O	<NUCL>			
+си				O	<NUCL>			
+си				O	<NUCL>			
+сив				O	<NUCL>	O		
+сил				O	<NUCL>	S		
+симс				O	<NUCL>	S	O	
+син				O	<NUCL>	S		
+син				O	<NUCL>	S		
+сињ				O	<NUCL>	S		
+сип				O	<NUCL>	O		
+сир				O	<NUCL>	S		
+сит				O	<NUCL>	O		
+сјај			O	S	<NUCL>	S		
+сказ			O	O	<NUCL>	O		
+скај			O	O	<NUCL>	S		
+скајп			O	O	<NUCL>	S	O	
+скалп			O	O	<NUCL>	S	O	
+скап			O	O	<NUCL>	O		
+сквер		O	O	O	<NUCL>	S		
+скеч			O	O	<NUCL>	O		
+скиф			O	O	<NUCL>	O		
+склав		O	O	S	<NUCL>	O		
+склад		O	O	S	<NUCL>	O		
+склон		O	O	S	<NUCL>	S		
+склоп		O	O	S	<NUCL>	O		
+скок			O	O	<NUCL>	O		
+скор			O	O	<NUCL>	S		
+скорб			O	O	<NUCL>	S	O	
+скот			O	O	<NUCL>	O		
+скрб			O	O	<NUCL>	O		
+скреж		O	O	S	<NUCL>	O		
+скрит		O	O	S	<NUCL>	O		
+скроб		O	O	S	<NUCL>	O		
+скрум		O	O	S	<NUCL>	S		
+скут			O	O	<NUCL>	O		
+слаб			O	S	<NUCL>	O		
+слад			O	S	<NUCL>	O		
+слајд			O	S	<NUCL>	S	O	
+слам			O	S	<NUCL>	S		
+слан			O	S	<NUCL>	S		
+слап			O	S	<NUCL>	O		
+сласт			O	S	<NUCL>	O	O	
+слач			O	S	<NUCL>	O		
+слез			O	S	<NUCL>	O		
+сленг			O	S	<NUCL>	S	O	
+слеп			O	S	<NUCL>	O		
+слет			O	S	<NUCL>	O		
+слив			O	S	<NUCL>	O		
+слик			O	S	<NUCL>	O		
+слог			O	S	<NUCL>	O		
+слој			O	S	<NUCL>	S		
+слом			O	S	<NUCL>	S		
+слон			O	S	<NUCL>	S		
+слоч			O	S	<NUCL>	O		
+слуз			O	S	<NUCL>	O		
+слух			O	S	<NUCL>	O		
+смад			O	S	<NUCL>	O		
+сме			O	S	<NUCL>			
+смев			O	S	<NUCL>	O		
+смел			O	S	<NUCL>	S		
+смес			O	S	<NUCL>	O		
+смет			O	S	<NUCL>	O		
+смил			O	S	<NUCL>	S		
+смог			O	S	<NUCL>	O		
+смок			O	S	<NUCL>	O		
+смрт			O	S	<NUCL>	O		
+смуѓ			O	S	<NUCL>	O		
+смут			O	S	<NUCL>	O		
+снег			O	S	<NUCL>	O		
+сноб			O	S	<NUCL>	O		
+сноп			O	S	<NUCL>	O		
+со				O	<NUCL>			
+сој				O	<NUCL>	S		
+сок				O	<NUCL>	O		
+сол				O	<NUCL>	S		
+сол				O	<NUCL>	S		
+сом				O	<NUCL>	S		
+сон				O	<NUCL>	S		
+сонг				O	<NUCL>	S	O	
+сор				O	<NUCL>	S		
+сос				O	<NUCL>	O		
+сот				O	<NUCL>	O		
+спас			O	O	<NUCL>	O		
+спев			O	O	<NUCL>	O		
+спец			O	O	<NUCL>	O		
+спир			O	O	<NUCL>	S		
+спирт			O	O	<NUCL>	S	O	
+спис			O	O	<NUCL>	O		
+сплав		O	O	S	<NUCL>	O		
+сплет		O	O	S	<NUCL>	O		
+сплит		O	O	S	<NUCL>	O		
+сплот		O	O	S	<NUCL>	O		
+спој			O	O	<NUCL>	S		
+спор			O	O	<NUCL>	S		
+спор			O	O	<NUCL>	S		
+спорт			O	O	<NUCL>	S	O	
+спот			O	O	<NUCL>	O		
+спрат		O	O	S	<NUCL>	O		
+спреј		O	O	S	<NUCL>	S		
+спринт		O	O	S	<NUCL>	S	O	
+спуст			O	O	<NUCL>	O	O	
+срак			O	S	<NUCL>	O		
+срам			O	S	<NUCL>	S		
+сред			O	S	<NUCL>	O		
+срж				O	<NUCL>	O		
+срок			O	S	<NUCL>	O		
+срп				O	<NUCL>	O		
+срт				O	<NUCL>	O		
+став			O	O	<NUCL>	O		
+стаж			O	O	<NUCL>	O		
+стан			O	O	<NUCL>	S		
+стап			O	O	<NUCL>	O		
+стар			O	O	<NUCL>	S		
+стар			O	O	<NUCL>	S		
+старт			O	O	<NUCL>	S	O	
+стас			O	O	<NUCL>	O		
+ствар		O	O	O	<NUCL>	S		
+створ		O	O	O	<NUCL>	S		
+сте			O	O	<NUCL>			
+стег			O	O	<NUCL>	O		
+стек			O	O	<NUCL>	O		
+стен			O	O	<NUCL>	S		
+стент			O	O	<NUCL>	S	O	
+степ			O	O	<NUCL>	O		
+степ			O	O	<NUCL>	O		
+стик			O	O	<NUCL>	O		
+стил			O	O	<NUCL>	S		
+стих			O	O	<NUCL>	O		
+сто			O	O	<NUCL>			
+сто			O	O	<NUCL>			
+стог			O	O	<NUCL>	O		
+стол			O	O	<NUCL>	S		
+столб			O	O	<NUCL>	S	O	
+столп			O	O	<NUCL>	S	O	
+страв		O	O	S	<NUCL>	O		
+страд		O	O	S	<NUCL>	O		
+страж		O	O	S	<NUCL>	O		
+страк		O	O	S	<NUCL>	O		
+страст		O	O	S	<NUCL>	O	O	
+страх		O	O	S	<NUCL>	O		
+страч		O	O	S	<NUCL>	O		
+стрв			O	O	<NUCL>	O		
+стрем		O	O	S	<NUCL>	S		
+стрес		O	O	S	<NUCL>	O		
+стреч		O	O	S	<NUCL>	O		
+стреш		O	O	S	<NUCL>	O		
+стриг		O	O	S	<NUCL>	O		
+стрип		O	O	S	<NUCL>	O		
+стрм			O	O	<NUCL>	S		
+строг		O	O	S	<NUCL>	O		
+строј		O	O	S	<NUCL>	S		
+струг		O	O	S	<NUCL>	O		
+струк		O	O	S	<NUCL>	O		
+струп		O	O	S	<NUCL>	O		
+студ			O	O	<NUCL>	O		
+сув				O	<NUCL>	O		
+суд				O	<NUCL>	O		
+сук				O	<NUCL>	O		
+сум				O	<NUCL>	S		
+суп				O	<NUCL>	O		
+сур				O	<NUCL>	S		
+сус				O	<NUCL>	O		
+сушт				O	<NUCL>	O	O	
+сфинкс			O	O	<NUCL>	S	O	O
+та				O	<NUCL>			
+так				O	<NUCL>	O		
+такс				O	<NUCL>	O	O	
+такт				O	<NUCL>	O	O	
+талк				O	<NUCL>	S	O	
+тан				O	<NUCL>	S		
+танц				O	<NUCL>	S	O	
+тап				O	<NUCL>	O		
+тас				O	<NUCL>	O		
+тафт				O	<NUCL>	O	O	
+твар			O	O	<NUCL>	S		
+твид			O	O	<NUCL>	O		
+твист			O	O	<NUCL>	O	O	
+твој			O	O	<NUCL>	S		
+тврд			O	O	<NUCL>	O		
+те				O	<NUCL>			
+тег				O	<NUCL>	O		
+тек				O	<NUCL>	O		
+тек				O	<NUCL>	O		
+текст				O	<NUCL>	O	O	O
+тел				O	<NUCL>	S		
+тељ				O	<NUCL>	S		
+тен				O	<NUCL>	S		
+тенк				O	<NUCL>	S	O	
+терк				O	<NUCL>	S	O	
+тест				O	<NUCL>	O	O	
+ти				O	<NUCL>			
+ти				O	<NUCL>			
+тик				O	<NUCL>	O		
+тил				O	<NUCL>	S		
+тим				O	<NUCL>	S		
+тип				O	<NUCL>	O		
+тих				O	<NUCL>	O		
+тло			O	S	<NUCL>			
+тој				O	<NUCL>	S		
+ток				O	<NUCL>	O		
+том				O	<NUCL>	S		
+тон				O	<NUCL>	S		
+топ				O	<NUCL>	O		
+тост				O	<NUCL>	O	O	
+траг			O	S	<NUCL>	O		
+тракт			O	S	<NUCL>	O	O	
+транс			O	S	<NUCL>	S	O	
+трап			O	S	<NUCL>	O		
+трат			O	S	<NUCL>	O		
+трач			O	S	<NUCL>	O		
+трем			O	S	<NUCL>	S		
+тренд			O	S	<NUCL>	S	O	
+трет			O	S	<NUCL>	O		
+треќ			O	S	<NUCL>	O		
+три			O	S	<NUCL>			
+триж			O	S	<NUCL>	O		
+трик			O	S	<NUCL>	O		
+трк				O	<NUCL>	O		
+трн				O	<NUCL>	S		
+тром			O	S	<NUCL>	S		
+тромб			O	S	<NUCL>	S	O	
+трон			O	S	<NUCL>	S		
+троњ			O	S	<NUCL>	S		
+труд			O	S	<NUCL>	O		
+труп			O	S	<NUCL>	O		
+труст			O	S	<NUCL>	O	O	
+трут			O	S	<NUCL>	O		
+ту				O	<NUCL>			
+туѓ				O	<NUCL>	O		
+тук				O	<NUCL>	O		
+тук				O	<NUCL>	O		
+тул				O	<NUCL>	S		
+туч				O	<NUCL>	O		
+туш				O	<NUCL>	O		
+ќај				O	<NUCL>	S		
+ќар				O	<NUCL>	S		
+ќе				O	<NUCL>			
+ќеф				O	<NUCL>	O		
+ќор				O	<NUCL>	S		
+ќос				O	<NUCL>	O		
+ќош				O	<NUCL>	O		
+ќуд				O	<NUCL>	O		
+ќунк				O	<NUCL>	S	O	
+ќуп				O	<NUCL>	O		
+ќурк				O	<NUCL>	S	O	
+у					<NUCL>			
+уз					<NUCL>	O		
+ук					<NUCL>	O		
+ум					<NUCL>	S		
+ут					<NUCL>	O		
+фајл				O	<NUCL>	S	S	
+фак				O	<NUCL>	O		
+факс				O	<NUCL>	O	O	
+факт				O	<NUCL>	O	O	
+фалц				O	<NUCL>	S	O	
+фалш				O	<NUCL>	S	O	
+фалш				O	<NUCL>	S	O	
+фалш				O	<NUCL>	S	O	
+фан				O	<NUCL>	S		
+фар				O	<NUCL>	S		
+фат				O	<NUCL>	O		
+фах				O	<NUCL>	O		
+фен				O	<NUCL>	S		
+фер				O	<NUCL>	S		
+фес				O	<NUCL>	O		
+фил				O	<NUCL>	S		
+филм				O	<NUCL>	S	S	
+филц				O	<NUCL>	S	O	
+фин				O	<NUCL>	S		
+фирц				O	<NUCL>	S	O	
+фис				O	<NUCL>	O		
+фиск				O	<NUCL>	O	O	
+фит				O	<NUCL>	O		
+фит				O	<NUCL>	O		
+фјорд			O	S	<NUCL>	S	O	
+фланг			O	S	<NUCL>	S	O	
+флерт			O	S	<NUCL>	S	O	
+флеш			O	S	<NUCL>	O		
+флирт			O	S	<NUCL>	S	O	
+флор			O	S	<NUCL>	S		
+фокс				O	<NUCL>	O	O	
+фол				O	<NUCL>	S		
+фолк				O	<NUCL>	S	O	
+фон				O	<NUCL>	S		
+фонд				O	<NUCL>	S	O	
+фонт				O	<NUCL>	S	O	
+фор				O	<NUCL>	S		
+фрак			O	S	<NUCL>	O		
+франк			O	S	<NUCL>	S	O	
+фрас			O	S	<NUCL>	O		
+френк			O	S	<NUCL>	S	O	
+фриз			O	S	<NUCL>	O		
+фрик			O	S	<NUCL>	O		
+фронт			O	S	<NUCL>	S	O	
+фрч				O	<NUCL>	O		
+фунд				O	<NUCL>	S	O	
+ха				O	<NUCL>			
+халф				O	<NUCL>	S	O	
+хеј				O	<NUCL>	S		
+хендс				O	<NUCL>	S	O	O
+херц				O	<NUCL>	S	O	
+хир				O	<NUCL>	S		
+хит				O	<NUCL>	O		
+хлор			O	S	<NUCL>	S		
+хмељ			O	S	<NUCL>	S		
+хол				O	<NUCL>	S		
+хор				O	<NUCL>	S		
+храм			O	S	<NUCL>	S		
+хром			O	S	<NUCL>	S		
+Хун				O	<NUCL>	S		
+цап				O	<NUCL>	O		
+цар				O	<NUCL>	S		
+цвет			O	O	<NUCL>	O		
+цвик			O	O	<NUCL>	O		
+цврст			O	O	<NUCL>	O	O	
+цеѓ				O	<NUCL>	O		
+цел				O	<NUCL>	S		
+цел				O	<NUCL>	S		
+ценз				O	<NUCL>	S	O	
+цент				O	<NUCL>	S	O	
+цеп				O	<NUCL>	O		
+цер				O	<NUCL>	S		
+цех				O	<NUCL>	O		
+цинк				O	<NUCL>	S	O	
+циц				O	<NUCL>	O		
+цол				O	<NUCL>	S		
+црв				O	<NUCL>	O		
+црен			O	S	<NUCL>	S		
+цреп			O	S	<NUCL>	O		
+црн				O	<NUCL>	S		
+цут				O	<NUCL>	O		
+чад				O	<NUCL>	O		
+чај				O	<NUCL>	S		
+чам				O	<NUCL>	S		
+чап				O	<NUCL>	O		
+чар				O	<NUCL>	S		
+чарк				O	<NUCL>	S	O	
+час				O	<NUCL>	O		
+част				O	<NUCL>	O	O	
+чек				O	<NUCL>	O		
+чеп				O	<NUCL>	O		
+чест				O	<NUCL>	O	O	
+чест				O	<NUCL>	O	O	
+чиј				O	<NUCL>	S		
+чин				O	<NUCL>	S		
+чип				O	<NUCL>	O		
+чип				O	<NUCL>	O		
+чир				O	<NUCL>	S		
+чист				O	<NUCL>	O	O	
+чифт				O	<NUCL>	O	O	
+чифт				O	<NUCL>	O	O	
+чкор			O	O	<NUCL>	S		
+чкрт			O	O	<NUCL>	O		
+член			O	S	<NUCL>	S		
+чмај			O	S	<NUCL>	S		
+чок				O	<NUCL>	O		
+чук				O	<NUCL>	O		
+чул				O	<NUCL>	S		
+чун				O	<NUCL>	S		
+чур				O	<NUCL>	S		
+чут				O	<NUCL>	O		
+џам				O	<NUCL>	S		
+џан				O	<NUCL>	S		
+џбун			O	O	<NUCL>	S		
+џган			O	O	<NUCL>	S		
+џеб				O	<NUCL>	O		
+џез				O	<NUCL>	O		
+џем				O	<NUCL>	S		
+џенк				O	<NUCL>	S	O	
+џет				O	<NUCL>	O		
+џин				O	<NUCL>	S		
+џинс				O	<NUCL>	S	O	
+џип				O	<NUCL>	O		
+џиш				O	<NUCL>	O		
+џул				O	<NUCL>	S		
+џус				O	<NUCL>	O		
+шал				O	<NUCL>	S		
+шан				O	<NUCL>	S		
+шанк				O	<NUCL>	S	O	
+шант				O	<NUCL>	S	O	
+шап				O	<NUCL>	O		
+шар				O	<NUCL>	S		
+шарм				O	<NUCL>	S	S	
+шах				O	<NUCL>	O		
+шверц			O	O	<NUCL>	S	O	
+шев				O	<NUCL>	O		
+шеј				O	<NUCL>	S		
+шен				O	<NUCL>	S		
+шест				O	<NUCL>	O	O	
+шеф				O	<NUCL>	O		
+шех				O	<NUCL>	O		
+шик				O	<NUCL>	O		
+шик				O	<NUCL>	O		
+шип				O	<NUCL>	O		
+шир				O	<NUCL>	S		
+шиш				O	<NUCL>	O		
+шкарт			O	O	<NUCL>	S	O	
+шкаф			O	O	<NUCL>	O		
+шкрт			O	O	<NUCL>	O		
+шлаг			O	S	<NUCL>	O		
+шлајм			O	S	<NUCL>	S	S	
+шланк			O	S	<NUCL>	S	O	
+шлем			O	S	<NUCL>	S		
+шлеп			O	S	<NUCL>	O		
+шлиф			O	S	<NUCL>	O		
+шлиц			O	S	<NUCL>	O		
+шлог			O	S	<NUCL>	O		
+шљам			O	S	<NUCL>	S		
+шмек			O	S	<NUCL>	O		
+шмрк			O	S	<NUCL>	O		
+шнит			O	S	<NUCL>	O		
+шнур			O	S	<NUCL>	S		
+шок				O	<NUCL>	O		
+шол				O	<NUCL>	S		
+шоп				O	<NUCL>	O		
+шорц				O	<NUCL>	S	O	
+шпајз			O	O	<NUCL>	S	O	
+шпил			O	O	<NUCL>	S		
+шпирт			O	O	<NUCL>	S	O	
+шпиц			O	O	<NUCL>	O		
+шпиц			O	O	<NUCL>	O		
+шприц		O	O	S	<NUCL>	O		
+шраф			O	S	<NUCL>	O		
+шрифт			O	S	<NUCL>	O	O	
+штаб			O	O	<NUCL>	O		
+штанд			O	O	<NUCL>	S	O	
+штеп			O	O	<NUCL>	O		
+штик			O	O	<NUCL>	O		
+штим			O	O	<NUCL>	S		
+штир			O	O	<NUCL>	S		
+штир			O	O	<NUCL>	S		
+штит			O	O	<NUCL>	O		
+што			O	O	<NUCL>			
+што			O	O	<NUCL>			
+што			O	O	<NUCL>			
+што			O	O	<NUCL>			
+штом			O	O	<NUCL>	S		
+штос			O	O	<NUCL>	O		
+штоф			O	O	<NUCL>	O		
+штрајк		O	O	S	<NUCL>	S	O	
+штрб			O	O	<NUCL>	O		
+штрек		O	O	S	<NUCL>	O		
+штрих		O	O	S	<NUCL>	O		
+штрк			O	O	<NUCL>	O		
+штук			O	O	<NUCL>	O		
+штур			O	O	<NUCL>	S		
+штурм			O	O	<NUCL>	S	S	
+шум				O	<NUCL>	S		
+шунд				O	<NUCL>	S	O	
+шут				O	<NUCL>	O		
+шут				O	<NUCL>	O		

@@ -1,0 +1,21 @@
+FINALS
+A
+ F
+ F-F
+ F-P
+ P
+ P-F
+ P-F-P
+ P-P
+ S
+ S-A
+ S-F
+ S-F-A
+ S-F-P
+ S-P
+ S-P-F
+ S-P-P
+ S-S
+ S-S-A
+ SYS
+ VOW

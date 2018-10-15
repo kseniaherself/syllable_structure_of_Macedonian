@@ -1,0 +1,10 @@
+qualitymonosyllabic_FINALS	frequency
+O	646
+S	328
+S-O	149
+VOW	92
+O-O	91
+S-S	7
+S-O-O	5
+O-O-O	2
+S-S-O	1
