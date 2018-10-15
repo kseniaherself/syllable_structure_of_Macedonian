@@ -1,6 +1,5 @@
 place_fintial_segments	frequency
-VOW	31873
-A	18299
-D	2930
-L	2835
-SYA	38
+V	31873
+A	18467
+D	2965
+L	2878

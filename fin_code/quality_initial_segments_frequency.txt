@@ -1,5 +1,4 @@
 quality_initial_segments	frequency
-O	38902
-S	18448
-VOW	7758
-SYS	97
+O	40550
+S	20587
+V	7757

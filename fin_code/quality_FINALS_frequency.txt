@@ -1,5 +1,5 @@
 quality_FINALS	frequency
-VOW	31873
+V	31873
 S	10898
 O	8168
 O-O	1907
