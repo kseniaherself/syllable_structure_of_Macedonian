@@ -1,7 +1,7 @@
 quality_INITIALS	frequency
 O	24183
 S	10561
-VOW	7758
+V	7758
 O-S	6723
 O-O	3130
 O-O-S	822

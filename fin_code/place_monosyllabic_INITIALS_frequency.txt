@@ -6,11 +6,11 @@ D	136
 L-A	118
 D-A	75
 A-L	69
-VOW	47
+V	47
 A-A-A	26
 A-D	24
-D-L	10
 A-L-A	10
+D-L	10
 A-D-A	9
 L-D	6
 SYA	5

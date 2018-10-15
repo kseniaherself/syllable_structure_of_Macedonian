@@ -1,0 +1,5 @@
+place_initial_segments	frequency
+A	37007
+L	17135
+V	7757
+D	6995

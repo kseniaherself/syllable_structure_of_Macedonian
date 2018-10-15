@@ -1,5 +1,5 @@
 place_FINALS	frequency
-VOW	31873
+V	31873
 A	13629
 L	2752
 D	2685
@@ -12,8 +12,8 @@ A-L	28
 L-L	8
 A-D-A	7
 D-A-A	4
+D-D	3
 D-L	3
 A-A-A	3
-D-D	3
 L-A-A	2
 L-D	1

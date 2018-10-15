@@ -1,0 +1,4 @@
+quality_initial_segments	frequency
+O	40550
+S	20587
+V	7757

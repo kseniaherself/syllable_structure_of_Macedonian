@@ -1,7 +1,7 @@
 place_INITIALS	frequency
 A	19479
 L	10809
-VOW	7758
+V	7758
 D	4456
 L-A	3719
 A-A	2703
@@ -22,8 +22,8 @@ L-L-A	11
 A-D-L	8
 L-A-L	2
 A-A-D	2
-D-D	1
+L-A-L-A	1
 L-A-A-A	1
+D-D	1
 L-A-D	1
 D-A-L	1
-L-A-L-A	1

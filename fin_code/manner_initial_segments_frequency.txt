@@ -1,0 +1,6 @@
+manner_initial_segments	frequency
+P	23012
+S	20587
+F	15514
+V	7757
+A	2024

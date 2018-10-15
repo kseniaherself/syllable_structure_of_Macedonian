@@ -1,0 +1,36 @@
+FINALS
+A
+ A-A
+ A-A-A
+ A-A-A-D
+ A-A-A-L
+ A-A-D
+ A-A-L
+ A-D
+ A-D-A
+ A-D-A-A
+ A-D-A-L
+ A-L
+ A-L-A-A
+ A-L-A-A-A
+ A-L-A-D
+ D
+ D-A
+ D-A-A
+ D-A-A-A
+ D-A-D
+ D-A-L
+ D-D
+ D-L
+ L
+ L-A
+ L-A-A
+ L-A-A-A
+ L-A-D
+ L-A-L
+ L-D
+ L-D-A-A
+ L-D-A-A-A
+ L-L
+ L-L-A
+ V
