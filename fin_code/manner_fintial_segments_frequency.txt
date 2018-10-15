@@ -1,0 +1,7 @@
+manner_fintial_segments	frequency
+VOW	31873
+S	11503
+P	6703
+F	4518
+A	1340
+SYS	38

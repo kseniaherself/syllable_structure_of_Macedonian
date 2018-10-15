@@ -1,0 +1,6 @@
+place_initial_segments	frequency
+A	34076
+L	16625
+VOW	7758
+D	6649
+SYA	97

@@ -1,0 +1,5 @@
+quality_fintial_segments	frequency
+VOW	31873
+O	12561
+S	11503
+SYS	38

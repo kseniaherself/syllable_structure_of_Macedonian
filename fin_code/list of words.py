@@ -900,24 +900,41 @@ def M_create_table_2():
     print(intervocal)
 
 # должна считать частотность звуков в инициалях и финалях соответственно
-def M_3(f_name):
+def M_3(column_n, f_out_name):
+    f_name = 'phon_table.tsv'
     abs_freq = {}
 
     my_lines = F_get_lines(f_name)
+    #print(my_lines[0])
 
-    for line in my_lines:
-        my_line = line.strip()
+    dfg = my_lines[1:]  # РАБОЧАЯ ВЕРСИЯ ДЛЯ ВСЕХ СЛОВ
+    #dfg = my_lines[0:1330]
+
+    for line in dfg:
+        line_split = line.split('\t')
+        #print(line_split)
+        my_line = line_split[column_n] # берётся сущность из соответствующей колонки для подсчёта
+        my_line = my_line.strip()
         my_line = my_line.split('-')
-        print(my_line)
+        #print(my_line)
 
         for elem in my_line:
             abs_freq = F_w_d(abs_freq, elem)
 
-    F_sort_wd_items(abs_freq, 'initials_abs_freq.tsv')
+    #f_out_name = f_out_name + '.tsv'
+    F_sort_wd_items(abs_freq, f_out_name)
+
 
 #M_create_table_1()
 
-M_3('initials.txt')
+M_3(7, 'initial_segments')
+M_3(9, 'final_segments')
+M_3(29, 'manner_initial_segments')
+M_3(31, 'manner_fintial_segments')
+M_3(51, 'place_initial_segments')
+M_3(53, 'place_fintial_segments')
+M_3(73, 'quality_initial_segments')
+M_3(75, 'quality_fintial_segments')
 
 syllabic_heads = ['a', 'e', 'i', 'o', 'u', 'è', 'ì', 'L', 'N', 'R']  # 'ə']
 
