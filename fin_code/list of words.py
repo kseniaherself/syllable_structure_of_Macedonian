@@ -958,30 +958,51 @@ def M_3(column_n, f_out_name):
 def M_4(f_name):
     my_lines = F_get_lines(f_name)
     fgh = my_lines[1:]
-    #fgh = my_lines[1:]
+    #fgh = my_lines[1:654]
 
-    symbols = ['S', 'O']
+    my_segments = []
+    my_dict = {}
 
-    #for line in fgh:
-    #    line_split = line.split('\t')
-    #    # print(line_split)
-    #    my_line = line_split[0]  # берётся сущность из соответствующей колонки для подсчёта
-    #    my_line = my_line.strip()
-    #    # print(my_line)
-    #    if my_line not in symbols:
-    #        symbols = symbols + my_line
+    #symbols = ['S', 'O']
+    symbols = []
 
-    len_symbols = len(symbols)
+    for line in fgh:
+        #line =
+        line_split = line.split('\t')
+        # print(line_split)
+        my_line = line_split[0]  # берётся сущность из соответствующей колонки для подсчёта
+        my_line = my_line.strip()
+        # print(my_line)
+        if my_line not in symbols:
+            symbols = symbols + list(my_line)
+            my_segments = my_segments + [line_split[0], (line_split[1]).strip()]
+
+    print(my_segments)
+    len_symbols = len(symbols) * 2
     #for i in range(0, 4):            # для инициалей с учётом слоговых
-    for j in range(0, len_symbols):
+    for j in range(0, len_symbols, 2):
 
-        for k in range(0, len_symbols):
-            for l in range(0, len_symbols):
-                for m in range(0, len_symbols):
-                    print('f')
+        probability_1 = my_segments[j+1]#[1]
+        k_name_1 = my_segments[j]#[0]]
+        my_dict[k_name_1] = probability_1
+
+        for k in range(0, len_symbols, 2):
+            #print((my_segments[j+1]) * int(my_segments[k+1]))
+
+            probability_2 = int(my_segments[j+1]) * int(my_segments[k+1])
+            # P(A⋅B)=P(A)⋅P(B)
+            k_name_2 = my_segments[j] + my_segments[k]
+            my_dict[k_name_2] = probability_2
+
+            #for l in range(0, len_symbols):
+            #    for m in range(0, len_symbols):
+            #        print('f')
+
+    #print(symbols)
+    print(my_dict)
 
 
-M_create_table_1()
+#M_create_table_1()
 
 #M_3(7, 'initial_segments')
 #M_3(9, 'final_segments')
@@ -992,7 +1013,7 @@ M_create_table_1()
 #M_3(73, 'quality_initial_segments')
 #M_3(75, 'quality_fintial_segments')
 
-#M_4('initial_segments_frequency.txt')
+M_4('quality_initial_segments_frequency.txt')
 
 syllabic_heads = ['a', 'e', 'i', 'o', 'u', 'è', 'ì', 'L', 'N', 'R']  # 'ə']
 
