@@ -1,5 +1,0 @@
-place_fintial_segments	frequency
-V	31873
-A	18467
-D	2965
-L	2878

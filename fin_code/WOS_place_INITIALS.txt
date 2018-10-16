@@ -1,4 +1,4 @@
-INITIALS
+initials
 A
  A-A
  A-A-A

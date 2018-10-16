@@ -1,4 +1,4 @@
-INITIALS
+initials
 SYL
  V
  b

@@ -1,4 +1,4 @@
-INITIALS
+initials
 R-b
  R-b-l
  R-d

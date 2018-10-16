@@ -1,4 +1,4 @@
-FINALS
+finals
 R-p
  R-s
  R-t

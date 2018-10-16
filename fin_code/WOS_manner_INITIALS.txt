@@ -1,4 +1,4 @@
-INITIALS
+initials
 A
  A-F
  A-F-S-A

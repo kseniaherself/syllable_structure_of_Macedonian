@@ -438,7 +438,7 @@ def F_sort_wd_items(my_items, items_name):
     items_freq = items_name + '\t' + 'frequency'
     for k in sorted_items:
         items_freq = items_freq + '\n' + k[0] + '\t' + str(k[1])
-    f_name = items_name + '_frequency' + '.txt'
+    f_name = items_name + '_frequency' + '.tsv'
     F_write_in_file(items_freq, f_name)
 
 # таблица с:
@@ -457,8 +457,8 @@ def M_create_table_1():
     all_cyr_words = 'word'
     f_name_full_list = 'words_full_list.tsv'
 
-    items_i = 'INITIALS'
-    items_f = 'FINALS'
+    items_i = 'initials'
+    items_f = 'finals'
     ext = '.txt' # разрешение файлов
     f_name = 'macedonian_dict1.tsv'
 
@@ -807,33 +807,68 @@ def M_create_table_1():
     #print(all_words)
 
 # запись односложных и бессложных слов
-    #F_write_in_file(WOS_nosyllabic_words, 'WOS_nosyllabic_words.tsv')
-    #F_write_in_file(nosyllabic_words, 'nosyllabic_words.tsv')
-    #F_write_in_file(WOS_monosyllabic_words, 'WOS_monosyllabic_words.tsv')
-    #F_write_in_file(monosyllabic_words, 'monosyllabic_words.tsv')
+    F_write_in_file(WOS_nosyllabic_words, 'WOS_nosyllabic_words.tsv')
+    F_write_in_file(nosyllabic_words, 'nosyllabic_words.tsv')
+    F_write_in_file(WOS_monosyllabic_words, 'WOS_monosyllabic_words.tsv')
+    F_write_in_file(monosyllabic_words, 'monosyllabic_words.tsv')
 
 # запись односложных таблиц
-    #F_write_in_file(WOS_t_monosyllabic_words, 'WOS_table_monosyllabic_words.tsv')
-    #F_write_in_file(t_monosyllabic_words, 'table_monosyllabic_words.tsv')
+    F_write_in_file(WOS_t_monosyllabic_words, 'WOS_table_monosyllabic_words.tsv')
+    F_write_in_file(t_monosyllabic_words, 'table_monosyllabic_words.tsv')
 
 # запись в файл инициалей и финалей и всего такого
-    #F_w_f_b(items_i, WOS_possible_initials, ('WOS_' + items_i + ext))
-    #F_w_f_b(items_i, possible_initials, (items_i + ext))
-    #F_w_f_b(items_i, WOS_possible_initials_M, 'WOS_' + 'manner_' + items_i + ext)
-    #F_w_f_b(items_i, possible_initials_M, ('manner_' + items_i + ext))
-    #F_w_f_b(items_i, WOS_possible_initials_P, ('WOS_' + 'place_' + items_i + ext))
-    #F_w_f_b(items_i, possible_initials_P, ('place_' + items_i + ext))
-    #F_w_f_b(items_i, WOS_possible_initials_Q, ('WOS_' + 'quality_' + items_i + ext))
-    #F_w_f_b(items_i, possible_initials_Q, ('quality_' + items_i + ext))
+    F_w_f_b(items_i, WOS_possible_initials, ('WOS_' + items_i + ext))
+    F_w_f_b(items_i, possible_initials, (items_i + ext))
+    F_w_f_b(items_i, WOS_possible_initials_M, 'WOS_' + 'manner_' + items_i + ext)
+    F_w_f_b(items_i, possible_initials_M, ('manner_' + items_i + ext))
+    F_w_f_b(items_i, WOS_possible_initials_P, ('WOS_' + 'place_' + items_i + ext))
+    F_w_f_b(items_i, possible_initials_P, ('place_' + items_i + ext))
+    F_w_f_b(items_i, WOS_possible_initials_Q, ('WOS_' + 'quality_' + items_i + ext))
+    F_w_f_b(items_i, possible_initials_Q, ('quality_' + items_i + ext))
 
-    #F_w_f_b(items_f, WOS_possible_finals, ('WOS_' + items_f + ext))
-    #F_w_f_b(items_f, possible_finals, (items_f + ext))
-    #F_w_f_b(items_f, WOS_possible_finals_M, ('WOS_' + 'manner_' + items_f + ext))
-    #F_w_f_b(items_f, possible_finals_M, ('manner_' + items_f + ext))
-    #F_w_f_b(items_f, WOS_possible_finals_P, ('WOS_' + 'place_' + items_f + ext))
-    #F_w_f_b(items_f, possible_finals_P, ('place_' + items_f + ext))
-    #F_w_f_b(items_f, WOS_possible_finals_Q, ('WOS_' + 'quality_' + items_f + ext))
-    #F_w_f_b(items_f, possible_finals_Q, ('quality_' + items_f + ext))
+    F_w_f_b(items_f, WOS_possible_finals, ('WOS_' + items_f + ext))
+    F_w_f_b(items_f, possible_finals, (items_f + ext))
+    F_w_f_b(items_f, WOS_possible_finals_M, ('WOS_' + 'manner_' + items_f + ext))
+    F_w_f_b(items_f, possible_finals_M, ('manner_' + items_f + ext))
+    F_w_f_b(items_f, WOS_possible_finals_P, ('WOS_' + 'place_' + items_f + ext))
+    F_w_f_b(items_f, possible_finals_P, ('place_' + items_f + ext))
+    F_w_f_b(items_f, WOS_possible_finals_Q, ('WOS_' + 'quality_' + items_f + ext))
+    F_w_f_b(items_f, possible_finals_Q, ('quality_' + items_f + ext))
+
+
+    F_sort_wd_items(WOS_initials, ('WOS_' + items_i))
+    F_sort_wd_items(initials, (items_i))
+    F_sort_wd_items(WOS_initials_m, ('WOS_' + 'manner_' + items_i))
+    F_sort_wd_items(initials_m, ('manner_' + items_i))
+    F_sort_wd_items(WOS_initials_p, ('WOS_' + 'place_' + items_i))
+    F_sort_wd_items(initials_p, ('place_' + items_i))
+    F_sort_wd_items(WOS_initials_q, ('WOS_' + 'quality_' + items_i))
+    F_sort_wd_items(initials_q, ('quality_' + items_i))
+
+    F_sort_wd_items(WOS_monosyllabic_initials_q, ('WOS_' + 'quality' + 'monosyllabic_' + items_i))
+    F_sort_wd_items(monosyllabic_initials_q, ('quality_' + 'monosyllabic_' + items_i))
+    F_sort_wd_items(WOS_monosyllabic_initials_m, ('WOS_' + 'manner_' + 'monosyllabic_' + items_i))
+    F_sort_wd_items(monosyllabic_initials_m, ('manner_' + 'monosyllabic_' + items_i))
+    F_sort_wd_items(WOS_monosyllabic_initials_p, ('WOS_' + 'place_' + 'monosyllabic_' + items_i))
+    F_sort_wd_items(monosyllabic_initials_p, ('place_' + 'monosyllabic_' + items_i))
+
+    F_sort_wd_items(WOS_finals, ('WOS_' + items_f))
+    F_sort_wd_items(finals, (items_f))
+    F_sort_wd_items(WOS_finals_m, ('WOS_' + 'manner_' + items_f))
+    F_sort_wd_items(finals_m, ('manner_' + items_f))
+    F_sort_wd_items(WOS_finals_p, ('WOS_' + 'place_' + items_f))
+    F_sort_wd_items(finals_p, ('place_' + items_f))
+    F_sort_wd_items(WOS_finals_q, ('WOS_' + 'quality_' + items_f))
+    F_sort_wd_items(finals_q, ('quality_' + items_f))
+
+    F_sort_wd_items(WOS_monosyllabic_finals_q, ('WOS_' + 'quality' + 'monosyllabic_' + items_f))
+    F_sort_wd_items(monosyllabic_finals_q, ('quality_' + 'monosyllabic_' + items_f))
+    F_sort_wd_items(WOS_monosyllabic_finals_m, ('WOS_' + 'manner_' + 'monosyllabic_' + items_f))
+    F_sort_wd_items(monosyllabic_finals_m, ('manner_' + 'monosyllabic_' + items_f))
+    F_sort_wd_items(WOS_monosyllabic_finals_p, ('WOS_' + 'place_' + 'monosyllabic_' + items_f))
+    F_sort_wd_items(monosyllabic_finals_p, ('place_' + 'monosyllabic_' + items_f))
+
+    F_write_in_file(all_cyr_words, f_name_full_list)
 
 # названия столбцов таблицы
     first_line = 'grammar' + st + 'lemma' + st + 'lettering' + st + 'ipa_lettering' + st + 'quality_lettering' + st + 'n_syllables_wos' \
@@ -866,47 +901,10 @@ def M_create_table_1():
                  + st + 'final_1_quality' + st + 'final_2_quality' + st + 'final_3_quality' \
                  #+ st + '1' + st + '2' + st + '3' + st + '4' + st + '5' + st + '6' + st + '7' + st + '8' + st + '9' + st + '10' + st + '11' + st + '12'
 
-
     data = first_line + all_words
     #print(data)
-# таблица создана и записана
-
-    #F_sort_wd_items(WOS_initials, ('WOS_' + items_i))
-    #F_sort_wd_items(initials, (items_i))
-    #F_sort_wd_items(WOS_initials_m, ('WOS_' + 'manner_' + items_i))
-    #F_sort_wd_items(initials_m, ('manner_' + items_i))
-    #F_sort_wd_items(WOS_initials_p, ('WOS_' + 'place_' + items_i))
-    #F_sort_wd_items(initials_p, ('place_' + items_i))
-    #F_sort_wd_items(WOS_initials_q, ('WOS_' + 'quality_' + items_i))
-    #F_sort_wd_items(initials_q, ('quality_' + items_i))
-
-    #F_sort_wd_items(WOS_monosyllabic_initials_q, ('WOS_' + 'quality' + 'monosyllabic_' + items_i))
-    #F_sort_wd_items(monosyllabic_initials_q, ('quality_' + 'monosyllabic_' + items_i))
-    #F_sort_wd_items(WOS_monosyllabic_initials_m, ('WOS_' + 'manner_' + 'monosyllabic_' + items_i))
-    #F_sort_wd_items(monosyllabic_initials_m, ('manner_' + 'monosyllabic_' + items_i))
-    #F_sort_wd_items(WOS_monosyllabic_initials_p, ('WOS_' + 'place_' + 'monosyllabic_' + items_i))
-    #F_sort_wd_items(monosyllabic_initials_p, ('place_' + 'monosyllabic_' + items_i))
-
-    #F_sort_wd_items(WOS_finals, ('WOS_' + items_f))
-    #F_sort_wd_items(finals, (items_f))
-    #F_sort_wd_items(WOS_finals_m, ('WOS_' + 'manner_' + items_f))
-    #F_sort_wd_items(finals_m, ('manner_' + items_f))
-    #F_sort_wd_items(WOS_finals_p, ('WOS_' + 'place_' + items_f))
-    #F_sort_wd_items(finals_p, ('place_' + items_f))
-    #F_sort_wd_items(WOS_finals_q, ('WOS_' + 'quality_' + items_f))
-    #F_sort_wd_items(finals_q, ('quality_' + items_f))
-
-    #F_sort_wd_items(WOS_monosyllabic_finals_q, ('WOS_' + 'quality' + 'monosyllabic_' + items_f))
-    #F_sort_wd_items(monosyllabic_finals_q, ('quality' + 'monosyllabic_' + items_f))
-    #F_sort_wd_items(WOS_monosyllabic_finals_m, ('WOS_' + 'manner_' + 'monosyllabic_' + items_f))
-    #F_sort_wd_items(monosyllabic_finals_m, ('manner_' + 'monosyllabic_' + items_f))
-    #F_sort_wd_items(WOS_monosyllabic_finals_p, ('WOS_' + 'place_' + 'monosyllabic_' + items_f))
-    #F_sort_wd_items(monosyllabic_finals_p, ('place_' + 'monosyllabic_' + items_f))
-
-    #F_write_in_file(all_cyr_words, f_name_full_list)
-
-    #print(data)
     F_write_in_file(data, 'phon_table.tsv')
+# таблица создана и записана
 
 # попытка в интервокальные кластеры
 def M_create_table_2():
@@ -955,65 +953,70 @@ def M_3(column_n, f_out_name):
     F_sort_wd_items(abs_freq, f_out_name)
 
 # должна считать вероятность и сравнивать
-def M_4(f_name):
-    my_lines = F_get_lines(f_name)
+def M_4(f_name_in, f_name_out):
+    my_lines = F_get_lines(f_name_in)
     fgh = my_lines[1:]
-    #fgh = my_lines[1:654]
+    #fgh = my_lines[1:654]          # тестовая выборка
 
     my_segments = []
     my_dict = {}
-
-    #symbols = ['S', 'O']
     symbols = []
+    an = 0                          # absolute sum number
 
     for line in fgh:
-        #line =
         line_split = line.split('\t')
         # print(line_split)
         my_line = line_split[0]  # берётся сущность из соответствующей колонки для подсчёта
         my_line = my_line.strip()
         # print(my_line)
+
         if my_line not in symbols:
             symbols = symbols + list(my_line)
             my_segments = my_segments + [line_split[0], (line_split[1]).strip()]
+            an = an + int((line_split[1]).strip())
 
-    print(my_segments)
+    #print(an)
+    #print(my_segments)
     len_symbols = len(symbols) * 2
-    #for i in range(0, 4):            # для инициалей с учётом слоговых
     for j in range(0, len_symbols, 2):
 
-        probability_1 = my_segments[j+1]#[1]
+        probability_1 = int(my_segments[j+1])/an #[1]
+        probability_1 = round(probability_1, 5)
         k_name_1 = my_segments[j]#[0]]
         my_dict[k_name_1] = probability_1
 
         for k in range(0, len_symbols, 2):
-            #print((my_segments[j+1]) * int(my_segments[k+1]))
 
-            probability_2 = int(my_segments[j+1]) * int(my_segments[k+1])
+            probability_2 = (int(my_segments[j+1])/an) * (int(my_segments[k+1])/an)
+            probability_2 = round(probability_2, 5)
             # P(A⋅B)=P(A)⋅P(B)
             k_name_2 = my_segments[j] + my_segments[k]
             my_dict[k_name_2] = probability_2
 
-            #for l in range(0, len_symbols):
-            #    for m in range(0, len_symbols):
-            #        print('f')
+            for l in range(0, len_symbols, 2):
 
-    #print(symbols)
-    print(my_dict)
+                probability_3 = (int(my_segments[j + 1])/an) * (int(my_segments[k + 1])/an) * (int(my_segments[l + 1])/an)
+                probability_3 = round(probability_3, 5)
+                # P(A⋅B)=P(A)⋅P(B)⋅P(C)
+                k_name_3 = my_segments[j] + my_segments[k] + my_segments[l]
+                my_dict[k_name_3] = probability_3
 
+    F_sort_wd_items(my_dict, f_name_out)
 
-#M_create_table_1()
+# главные функции 
+M_create_table_1()
 
-#M_3(7, 'initial_segments')
-#M_3(9, 'final_segments')
-#M_3(29, 'manner_initial_segments')
-#M_3(31, 'manner_fintial_segments')
-#M_3(51, 'place_initial_segments')
-#M_3(53, 'place_fintial_segments')
-#M_3(73, 'quality_initial_segments')
-#M_3(75, 'quality_fintial_segments')
+M_3(7, 'initial_segments')
+M_3(9, 'final_segments')
+M_3(29, 'manner_initial_segments')
+M_3(31, 'manner_final_segments')
+M_3(51, 'place_initial_segments')
+M_3(53, 'place_final_segments')
+M_3(73, 'quality_initial_segments')
+M_3(75, 'quality_final_segments')
 
-M_4('quality_initial_segments_frequency.txt')
+M_4('quality_initial_segments_frequency.tsv', 'PROBABILITY_quality_initial_segments')
+M_4('quality_final_segments_frequency.tsv', 'PROBABILITY_quality_final_segments')
 
 syllabic_heads = ['a', 'e', 'i', 'o', 'u', 'è', 'ì', 'L', 'N', 'R']  # 'ə']
 

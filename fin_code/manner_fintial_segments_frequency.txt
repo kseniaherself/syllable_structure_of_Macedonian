@@ -1,6 +1,0 @@
-manner_fintial_segments	frequency
-V	31873
-S	11640
-P	6771
-F	4551
-A	1348
