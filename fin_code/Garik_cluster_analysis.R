@@ -9,21 +9,23 @@ df %>%
          cluster = NA,
          id = 1:nrow(df),
          cl_id = NA) %>% 
-  filter(n_sylables>1) ->
+  filter(n_sylables>1) %>% 
+  select(-n_sylables) ->
   df
 
-final <- df[FALSE, ]
+write_csv(df[FALSE, ], "clusters.csv")
 
 sapply(1:nrow(df), function(i){
   result <- data_frame(
-    id = df$id[i],
     lemma = df$lemma[i],
     mac = df$mac[i],
-    cluster = unlist(str_extract_all(df$mac[i], "VS*?O*?S*?V")),
-    cl_id = 1:length(unlist(str_extract_all(df$mac[i], "VS*?O*?S*?V")))
+    cluster = unlist(str_split(df$mac[i], "V")),
+    id = df$id[i],
+    cl_id = 1:length(unlist(str_split(df$mac[i], "V")))
   )
-  final <<- rbind(final, result)
+  write_csv(result, "clusters.csv", append = TRUE)
 })
 
-final %>% 
-  mutate(predicted = str_detect(cluster, "V(SO|SS|OO|S|O)?O?O?(OS|SS|OO|S|O)?V"))
+read_csv("clusters.csv") %>% 
+  mutate(predicted = str_detect(cluster, "(SO|SS|OO|S|O)?O?O?(OS|SS|OO|S|O)?")) %>%
+  count(predicted)
