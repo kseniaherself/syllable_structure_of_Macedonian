@@ -208,6 +208,28 @@ def F_articulation_quality(word):
 
     return word
 
+# транспонирование: качество звука ДЛЯ СЛОГОВЫХ
+def F_articulation_quality_word(word):
+
+    ipa_consonants = ['r', 'ts', 'dz', 'tʃ', 'dʒ', 'lj', 'nj', 'v',
+                      'p', 'b', 't', 'd', 'c', 'ɟ', 'k', 'ɡ', 's', 'z', 'ʃ', 'ʒ', 'f', 'x',
+                      'l', 'm', 'n', 'j']
+
+    ipa_quality = ['S', 'O', 'O', 'O', 'O', 'S', 'S', 'O',
+                   'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O',
+                   'S', 'S', 'S', 'S']
+
+    for i in range(0, 26):
+        if ipa_consonants[i] in word:
+            word = word.replace(ipa_consonants[i], ipa_quality[i])
+
+    ipa_vow = ['a', 'e', 'i', 'o', 'u', 'è', 'ì', 'N', 'L', 'R']
+    for j in range(0, 10):
+        if ipa_vow[j] in word:
+            word = word.replace(ipa_vow[j], 'V')
+
+    return word
+
 # количество слогов: на выходе количество слогов вообще по гласным и с учётом "слоговых"
 # (+печатает слова "без-гласных"). (+печатает слова с двумя шва). (+печатает слова с апострофом). (+печатает слова с Л,Н).
 def F_number_syllables_by_vowels_plus_schwa(word, syllabic_head):
@@ -556,7 +578,7 @@ def M_create_table_1():
             full_data = full_data + st + ipa_word
             #print(full_data)
 
-            quality_word = F_articulation_quality(ipa_word)
+            quality_word = F_articulation_quality_word(ipa_word)
             full_data = full_data + st + quality_word
 
             number_syllables = F_number_syllables_by_vowels_plus_schwa(ipa_word, syllabic_heads)
@@ -785,33 +807,33 @@ def M_create_table_1():
     #print(all_words)
 
 # запись односложных и бессложных слов
-    F_write_in_file(WOS_nosyllabic_words, 'WOS_nosyllabic_words.tsv')
-    F_write_in_file(nosyllabic_words, 'nosyllabic_words.tsv')
-    F_write_in_file(WOS_monosyllabic_words, 'WOS_monosyllabic_words.tsv')
-    F_write_in_file(monosyllabic_words, 'monosyllabic_words.tsv')
+    #F_write_in_file(WOS_nosyllabic_words, 'WOS_nosyllabic_words.tsv')
+    #F_write_in_file(nosyllabic_words, 'nosyllabic_words.tsv')
+    #F_write_in_file(WOS_monosyllabic_words, 'WOS_monosyllabic_words.tsv')
+    #F_write_in_file(monosyllabic_words, 'monosyllabic_words.tsv')
 
 # запись односложных таблиц
-    F_write_in_file(WOS_t_monosyllabic_words, 'WOS_table_monosyllabic_words.tsv')
-    F_write_in_file(t_monosyllabic_words, 'table_monosyllabic_words.tsv')
+    #F_write_in_file(WOS_t_monosyllabic_words, 'WOS_table_monosyllabic_words.tsv')
+    #F_write_in_file(t_monosyllabic_words, 'table_monosyllabic_words.tsv')
 
 # запись в файл инициалей и финалей и всего такого
-    F_w_f_b(items_i, WOS_possible_initials, ('WOS_' + items_i + ext))
-    F_w_f_b(items_i, possible_initials, (items_i + ext))
-    F_w_f_b(items_i, WOS_possible_initials_M, 'WOS_' + 'manner_' + items_i + ext)
-    F_w_f_b(items_i, possible_initials_M, ('manner_' + items_i + ext))
-    F_w_f_b(items_i, WOS_possible_initials_P, ('WOS_' + 'place_' + items_i + ext))
-    F_w_f_b(items_i, possible_initials_P, ('place_' + items_i + ext))
-    F_w_f_b(items_i, WOS_possible_initials_Q, ('WOS_' + 'quality_' + items_i + ext))
-    F_w_f_b(items_i, possible_initials_Q, ('quality_' + items_i + ext))
+    #F_w_f_b(items_i, WOS_possible_initials, ('WOS_' + items_i + ext))
+    #F_w_f_b(items_i, possible_initials, (items_i + ext))
+    #F_w_f_b(items_i, WOS_possible_initials_M, 'WOS_' + 'manner_' + items_i + ext)
+    #F_w_f_b(items_i, possible_initials_M, ('manner_' + items_i + ext))
+    #F_w_f_b(items_i, WOS_possible_initials_P, ('WOS_' + 'place_' + items_i + ext))
+    #F_w_f_b(items_i, possible_initials_P, ('place_' + items_i + ext))
+    #F_w_f_b(items_i, WOS_possible_initials_Q, ('WOS_' + 'quality_' + items_i + ext))
+    #F_w_f_b(items_i, possible_initials_Q, ('quality_' + items_i + ext))
 
-    F_w_f_b(items_f, WOS_possible_finals, ('WOS_' + items_f + ext))
-    F_w_f_b(items_f, possible_finals, (items_f + ext))
-    F_w_f_b(items_f, WOS_possible_finals_M, ('WOS_' + 'manner_' + items_f + ext))
-    F_w_f_b(items_f, possible_finals_M, ('manner_' + items_f + ext))
-    F_w_f_b(items_f, WOS_possible_finals_P, ('WOS_' + 'place_' + items_f + ext))
-    F_w_f_b(items_f, possible_finals_P, ('place_' + items_f + ext))
-    F_w_f_b(items_f, WOS_possible_finals_Q, ('WOS_' + 'quality_' + items_f + ext))
-    F_w_f_b(items_f, possible_finals_Q, ('quality_' + items_f + ext))
+    #F_w_f_b(items_f, WOS_possible_finals, ('WOS_' + items_f + ext))
+    #F_w_f_b(items_f, possible_finals, (items_f + ext))
+    #F_w_f_b(items_f, WOS_possible_finals_M, ('WOS_' + 'manner_' + items_f + ext))
+    #F_w_f_b(items_f, possible_finals_M, ('manner_' + items_f + ext))
+    #F_w_f_b(items_f, WOS_possible_finals_P, ('WOS_' + 'place_' + items_f + ext))
+    #F_w_f_b(items_f, possible_finals_P, ('place_' + items_f + ext))
+    #F_w_f_b(items_f, WOS_possible_finals_Q, ('WOS_' + 'quality_' + items_f + ext))
+    #F_w_f_b(items_f, possible_finals_Q, ('quality_' + items_f + ext))
 
 # названия столбцов таблицы
     first_line = 'grammar' + st + 'lemma' + st + 'lettering' + st + 'ipa_lettering' + st + 'quality_lettering' + st + 'n_syllables_wos' \
@@ -849,44 +871,44 @@ def M_create_table_1():
     #print(data)
 # таблица создана и записана
 
-    F_sort_wd_items(WOS_initials, ('WOS_' + items_i))
-    F_sort_wd_items(initials, (items_i))
-    F_sort_wd_items(WOS_initials_m, ('WOS_' + 'manner_' + items_i))
-    F_sort_wd_items(initials_m, ('manner_' + items_i))
-    F_sort_wd_items(WOS_initials_p, ('WOS_' + 'place_' + items_i))
-    F_sort_wd_items(initials_p, ('place_' + items_i))
-    F_sort_wd_items(WOS_initials_q, ('WOS_' + 'quality_' + items_i))
-    F_sort_wd_items(initials_q, ('quality_' + items_i))
+    #F_sort_wd_items(WOS_initials, ('WOS_' + items_i))
+    #F_sort_wd_items(initials, (items_i))
+    #F_sort_wd_items(WOS_initials_m, ('WOS_' + 'manner_' + items_i))
+    #F_sort_wd_items(initials_m, ('manner_' + items_i))
+    #F_sort_wd_items(WOS_initials_p, ('WOS_' + 'place_' + items_i))
+    #F_sort_wd_items(initials_p, ('place_' + items_i))
+    #F_sort_wd_items(WOS_initials_q, ('WOS_' + 'quality_' + items_i))
+    #F_sort_wd_items(initials_q, ('quality_' + items_i))
 
-    F_sort_wd_items(WOS_monosyllabic_initials_q, ('WOS_' + 'quality' + 'monosyllabic_' + items_i))
-    F_sort_wd_items(monosyllabic_initials_q, ('quality_' + 'monosyllabic_' + items_i))
-    F_sort_wd_items(WOS_monosyllabic_initials_m, ('WOS_' + 'manner_' + 'monosyllabic_' + items_i))
-    F_sort_wd_items(monosyllabic_initials_m, ('manner_' + 'monosyllabic_' + items_i))
-    F_sort_wd_items(WOS_monosyllabic_initials_p, ('WOS_' + 'place_' + 'monosyllabic_' + items_i))
-    F_sort_wd_items(monosyllabic_initials_p, ('place_' + 'monosyllabic_' + items_i))
+    #F_sort_wd_items(WOS_monosyllabic_initials_q, ('WOS_' + 'quality' + 'monosyllabic_' + items_i))
+    #F_sort_wd_items(monosyllabic_initials_q, ('quality_' + 'monosyllabic_' + items_i))
+    #F_sort_wd_items(WOS_monosyllabic_initials_m, ('WOS_' + 'manner_' + 'monosyllabic_' + items_i))
+    #F_sort_wd_items(monosyllabic_initials_m, ('manner_' + 'monosyllabic_' + items_i))
+    #F_sort_wd_items(WOS_monosyllabic_initials_p, ('WOS_' + 'place_' + 'monosyllabic_' + items_i))
+    #F_sort_wd_items(monosyllabic_initials_p, ('place_' + 'monosyllabic_' + items_i))
 
-    F_sort_wd_items(WOS_finals, ('WOS_' + items_f))
-    F_sort_wd_items(finals, (items_f))
-    F_sort_wd_items(WOS_finals_m, ('WOS_' + 'manner_' + items_f))
-    F_sort_wd_items(finals_m, ('manner_' + items_f))
-    F_sort_wd_items(WOS_finals_p, ('WOS_' + 'place_' + items_f))
-    F_sort_wd_items(finals_p, ('place_' + items_f))
-    F_sort_wd_items(WOS_finals_q, ('WOS_' + 'quality_' + items_f))
-    F_sort_wd_items(finals_q, ('quality_' + items_f))
+    #F_sort_wd_items(WOS_finals, ('WOS_' + items_f))
+    #F_sort_wd_items(finals, (items_f))
+    #F_sort_wd_items(WOS_finals_m, ('WOS_' + 'manner_' + items_f))
+    #F_sort_wd_items(finals_m, ('manner_' + items_f))
+    #F_sort_wd_items(WOS_finals_p, ('WOS_' + 'place_' + items_f))
+    #F_sort_wd_items(finals_p, ('place_' + items_f))
+    #F_sort_wd_items(WOS_finals_q, ('WOS_' + 'quality_' + items_f))
+    #F_sort_wd_items(finals_q, ('quality_' + items_f))
 
-    F_sort_wd_items(WOS_monosyllabic_finals_q, ('WOS_' + 'quality' + 'monosyllabic_' + items_f))
-    F_sort_wd_items(monosyllabic_finals_q, ('quality' + 'monosyllabic_' + items_f))
-    F_sort_wd_items(WOS_monosyllabic_finals_m, ('WOS_' + 'manner_' + 'monosyllabic_' + items_f))
-    F_sort_wd_items(monosyllabic_finals_m, ('manner_' + 'monosyllabic_' + items_f))
-    F_sort_wd_items(WOS_monosyllabic_finals_p, ('WOS_' + 'place_' + 'monosyllabic_' + items_f))
-    F_sort_wd_items(monosyllabic_finals_p, ('place_' + 'monosyllabic_' + items_f))
+    #F_sort_wd_items(WOS_monosyllabic_finals_q, ('WOS_' + 'quality' + 'monosyllabic_' + items_f))
+    #F_sort_wd_items(monosyllabic_finals_q, ('quality' + 'monosyllabic_' + items_f))
+    #F_sort_wd_items(WOS_monosyllabic_finals_m, ('WOS_' + 'manner_' + 'monosyllabic_' + items_f))
+    #F_sort_wd_items(monosyllabic_finals_m, ('manner_' + 'monosyllabic_' + items_f))
+    #F_sort_wd_items(WOS_monosyllabic_finals_p, ('WOS_' + 'place_' + 'monosyllabic_' + items_f))
+    #F_sort_wd_items(monosyllabic_finals_p, ('place_' + 'monosyllabic_' + items_f))
 
-    F_write_in_file(all_cyr_words, f_name_full_list)
+    #F_write_in_file(all_cyr_words, f_name_full_list)
 
     #print(data)
     F_write_in_file(data, 'phon_table.tsv')
 
-
+# попытка в интервокальные кластеры
 def M_create_table_2():
 
     intervocal = ''
@@ -932,17 +954,45 @@ def M_3(column_n, f_out_name):
     #f_out_name = f_out_name + '.tsv'
     F_sort_wd_items(abs_freq, f_out_name)
 
+# должна считать вероятность и сравнивать
+def M_4(f_name):
+    my_lines = F_get_lines(f_name)
+    fgh = my_lines[1:]
+    #fgh = my_lines[1:]
+
+    symbols = ['S', 'O']
+
+    #for line in fgh:
+    #    line_split = line.split('\t')
+    #    # print(line_split)
+    #    my_line = line_split[0]  # берётся сущность из соответствующей колонки для подсчёта
+    #    my_line = my_line.strip()
+    #    # print(my_line)
+    #    if my_line not in symbols:
+    #        symbols = symbols + my_line
+
+    len_symbols = len(symbols)
+    #for i in range(0, 4):            # для инициалей с учётом слоговых
+    for j in range(0, len_symbols):
+
+        for k in range(0, len_symbols):
+            for l in range(0, len_symbols):
+                for m in range(0, len_symbols):
+                    print('f')
+
 
 M_create_table_1()
 
-M_3(7, 'initial_segments')
-M_3(9, 'final_segments')
-M_3(29, 'manner_initial_segments')
-M_3(31, 'manner_fintial_segments')
-M_3(51, 'place_initial_segments')
-M_3(53, 'place_fintial_segments')
-M_3(73, 'quality_initial_segments')
-M_3(75, 'quality_fintial_segments')
+#M_3(7, 'initial_segments')
+#M_3(9, 'final_segments')
+#M_3(29, 'manner_initial_segments')
+#M_3(31, 'manner_fintial_segments')
+#M_3(51, 'place_initial_segments')
+#M_3(53, 'place_fintial_segments')
+#M_3(73, 'quality_initial_segments')
+#M_3(75, 'quality_fintial_segments')
+
+#M_4('initial_segments_frequency.txt')
 
 syllabic_heads = ['a', 'e', 'i', 'o', 'u', 'è', 'ì', 'L', 'N', 'R']  # 'ə']
 
