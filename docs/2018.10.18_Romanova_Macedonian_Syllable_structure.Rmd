@@ -117,9 +117,72 @@ library(tidyverse)
 
 ## 
 
-```{r cars, echo = FALSE}
-DT::datatable(syllables_in_words)
-```
+| syllables_in_words | presence |
+|--------------------|----------|
+| SVSOO              | True     |
+| OOSVSO             | True     |
+| OOOVSO             | True     |
+| OOVS               | True     |
+| OSSVO              | True     |
+| OVSO               | True     |
+| SSVSO              | True     |
+| SVO                | True     |
+| OOOVSS             | True     |
+| SVSS               | True     |
+| OSSVS              | True     |
+| OOVO               | True     |
+| OOVOO              | True     |
+| SSVS               | True     |
+| SVOOO              | True     |
+| OOVSOO             | True     |
+| OSVSS              | True     |
+| OOOVS              | True     |
+| OSVOOO             | True     |
+| OOVOOO             | True     |
+| OSVO               | True     |
+| OVSSO              | True     |
+| OOOVOOO            | True     |
+| OSSVSOO            | True     |
+| OVSOO              | True     |
+| OOVSS              | True     |
+| SSVOO              | True     |
+| OOSVOO             | True     |
+| OSVOO              | True     |
+| OOVSO              | True     |
+| OOVSSO             | True     |
+| OSSVSO             | True     |
+| OVOOO              | True     |
+| OSVSO              | True     |
+| OOOVOO             | True     |
+| OOSVO              | True     |
+| OVOO               | True     |
+| OOSVS              | True     |
+| OVSS               | True     |
+| SSVSOO             | True     |
+| OSVSSO             | True     |
+| SVOO               | True     |
+| OSSVSS             | True     |
+| OOSVSOO            | True     |
+| OSVS               | True     |
+| OOOVO              | True     |
+| SSVOOO             | True     |
+| OOSVOOO            | True     |
+| SVS                | True     |
+| OOSVSS             | True     |
+| OOOVSOO            | True     |
+| OVS                | True     |
+| SVSSO              | True     |
+| SSVSS              | True     |
+| SSVO               | True     |
+| OSSVOO             | True     |
+| SVSO               | True     |
+| OVO                | True     |
+| OSVSOO             | True     |
+| SSVSSO             | False    |
+| OSSVOOO            | False    |
+| OOSVSSO            | False    |
+| OOOVSSO            | False    |
+| OSSVSSO            | False    |
 
 
 и может мы (потом) сможем упростить модель (обобщить) 
