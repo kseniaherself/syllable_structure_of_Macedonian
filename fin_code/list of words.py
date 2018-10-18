@@ -1003,20 +1003,52 @@ def M_4(f_name_in, f_name_out):
 
     F_sort_wd_items(my_dict, f_name_out)
 
+def M_5():
+    f_syllables = F_get_lines('all_possible_syllables.csv')
+    f_clusters = F_get_lines('clusters.csv')
+
+    dict_syls = {}
+
+    f_syllables = f_syllables[1:]  # РАБОЧАЯ ВЕРСИЯ ДЛЯ ВСЕХ СЛОВ
+
+    for line in f_syllables:
+        line = line.strip()
+        dict_syls[line] = 'False'
+    #print(dict_syls)
+
+    f_clusters = f_clusters[1:]
+    for line in f_clusters:
+        line_split = line.split(',')
+        #print(line_split)
+        # print(line_split)
+        my_line = line_split[1]  # берётся сущность из соответствующей колонки для подсчёта
+        my_line = my_line.strip()
+        #my_line = my_line.split('-')
+
+        for key in dict_syls:
+            if key in my_line:
+                dict_syls[key] = 'True'
+                #print(key)
+
+    print(dict_syls)
+    F_sort_wd_items(dict_syls, 'syllables_in_words.tsv')
+
 # главные функции 
-M_create_table_1()
+#M_create_table_1()
 
-M_3(7, 'initial_segments')
-M_3(9, 'final_segments')
-M_3(29, 'manner_initial_segments')
-M_3(31, 'manner_final_segments')
-M_3(51, 'place_initial_segments')
-M_3(53, 'place_final_segments')
-M_3(73, 'quality_initial_segments')
-M_3(75, 'quality_final_segments')
+#M_3(7, 'initial_segments')
+#M_3(9, 'final_segments')
+#M_3(29, 'manner_initial_segments')
+#M_3(31, 'manner_final_segments')
+#M_3(51, 'place_initial_segments')
+#M_3(53, 'place_final_segments')
+#M_3(73, 'quality_initial_segments')
+#M_3(75, 'quality_final_segments')
 
-M_4('quality_initial_segments_frequency.tsv', 'PROBABILITY_quality_initial_segments')
-M_4('quality_final_segments_frequency.tsv', 'PROBABILITY_quality_final_segments')
+#M_4('quality_initial_segments_frequency.tsv', 'PROBABILITY_quality_initial_segments')
+#M_4('quality_final_segments_frequency.tsv', 'PROBABILITY_quality_final_segments')
+
+M_5()
 
 syllabic_heads = ['a', 'e', 'i', 'o', 'u', 'è', 'ì', 'L', 'N', 'R']  # 'ə']
 
