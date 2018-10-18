@@ -16,7 +16,6 @@ date: |
   | **Международная конференция «Балканские языки и диалекты:
   корпусные и квантитативные исследования»**
 output:
-  ioslides_presentation: default
   slidy_presentation: default
 bibliography: bibliography.bib
 ---
@@ -121,7 +120,6 @@ DT::datatable(q_initials_f)
   - **встр**ана 
   
   - **вшпр**ица 
-<<<<<<< HEAD
 
 ## Финали 
 
@@ -141,44 +139,6 @@ DT::datatable(q_finals_f)
 4. Тестирование полученной модель на всём материале: 
 
 + проверка на интервокальных кластерах 
-=======
-
-## Финали 
-
-```{r q_finals_f, echo = FALSE}
-q_finals_f <- read_tsv("quality_finals_frequency.tsv", col_names = TRUE)
-DT::datatable(q_finals_f)
-```
-
-## Методология (3)
-
-3. На основе полученных данных составлена общая модель слога 
-
-![*Рис.1. Модель слога. S — сонорные, O — шумные, nucl — ядро слога.*](model_q.png)
-
-## Методология (4) 
-
-4. Тестирование полученной модель на всём материале: 
-
-+ проверка на интервокальных кластерах 
-
-**Если** обнаруживаются слова, в которых интервокальные кластеры нельзя объяснить полученной моделью 
-
-  => уточнение модели с учётом "исключений" 
-
-## Анализ кластеров согласных  
-
-модель описывает все слова: 
-
-```{r predictions, echo = FALSE}
-predictions <- read_tsv("preds.tsv", col_names = TRUE)
-DT::datatable(predictions)
-```
-
-## Методология (5) 
-
-5. Составлен список всех возможных комбинаций выделенных инициалей и финалей 
->>>>>>> origin/master
 
 **Если** обнаруживаются слова, в которых интервокальные кластеры нельзя объяснить полученной моделью 
 
@@ -270,15 +230,6 @@ OOO V SSO
 =======
 не все из этих комбинаций представлены в словах ВСТРЕЧАЮТСЯ НЕ ВСЕ КОМБИНАЦИИ 
 
-
-## что не встречается 
-
-```{r syllables_pr, echo = FALSE}
-syllables_pr <- read_tsv("syllables_in_words.tsv", col_names = TRUE)
-DT::datatable(syllables_pr)
-```
-
-
 ## про интервокальные кластеры: мы на них не смотрим потому 
 
 мы не можем определить точную границу слога для македонского языка 
@@ -314,7 +265,6 @@ DT::datatable(syllables_pr)
 7. (Факультативно) проверить распределение разных типов слогов в разных позициях слова, выяснить, не наблюдается ли тяготение некоторых типов слогов к позиции в конце, в начале или в середине слова.
 [@moroz2019] 
 
->>>>>>> origin/master
 ## Данные (лексический материал) 
 
 * было размечено 53468 слов  
@@ -343,7 +293,6 @@ kable(read_csv("../all_possible_clusters.csv")) %>%
 
 This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
->>>>>>> origin/master
 
 ## Slide with R Output
 
